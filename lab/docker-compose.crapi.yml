@@ -19,6 +19,7 @@ services:
       - COMMUNITY_SERVICE=crapi-community:8087
       - IDENTITY_SERVICE=crapi-identity:8080
       - WORKSHOP_SERVICE=crapi-workshop:8000
+      - CHATBOT_SERVICE=crapi-workshop:8000
       - MAILHOG_WEB_SERVICE=mailhog:8025
       - TLS_ENABLED=false
     depends_on:
@@ -42,10 +43,19 @@ services:
       - DB_HOST=postgresdb
       - DB_PORT=5432
       - SERVER_PORT=8080
+      - ENABLE_SHELL_INJECTION=false
+      - ENABLE_LOG4J=false
       - JWT_SECRET=crapi
       - MAILHOG_HOST=mailhog
       - MAILHOG_PORT=1025
       - MAILHOG_DOMAIN=example.com
+      - SMTP_HOST=smtp.example.com
+      - SMTP_PORT=587
+      - SMTP_EMAIL=user@example.com
+      - SMTP_PASS=xxxxxxxxxxxxxx
+      - SMTP_FROM=no-reply@example.com
+      - SMTP_AUTH=true
+      - SMTP_STARTTLS=true
       - JWT_EXPIRATION=604800000
       - API_GATEWAY_URL=http://127.0.0.1:8888
       - TLS_ENABLED=false
@@ -105,6 +115,7 @@ services:
       - MONGO_DB_PASSWORD=crapisecretpassword
       - MONGO_DB_NAME=crapi
       - SECRET_KEY=crapi
+      - API_GATEWAY_URL=http://127.0.0.1:8888
       - TLS_ENABLED=false
     depends_on:
       - postgresdb
@@ -117,7 +128,7 @@ services:
   # 5. Dedicated PostgreSQL (Strictly Internal - Zero Host Port Publishing)
   postgresdb:
     container_name: bounty-crapi-postgres
-    image: postgres:14
+    image: postgres:14-alpine
     restart: unless-stopped
     command: ["postgres", "-c", "max_connections=200"]
     environment:
