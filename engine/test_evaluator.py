@@ -211,6 +211,158 @@ def test_firewall_and_scope_hardening():
 
     print("[+] Test Firewall & Scope Hardening (D1, S1, S2, Operator Attestation Gate): PASS")
 
+def test_stage2_generalized_neutralized_sqli():
+    """
+    Stage 2 Reality Check generalization:
+    Verifies that non-lab, real-world target phrasing (JSON APIs, enterprise error strings,
+    type mismatch defenses, zero-match phrasing) correctly triggers Stage 2 KILL.
+    """
+    e = TriageEvaluator()
+
+    # Case A: Enterprise REST API returning JSON empty results array
+    f_json = CandidateFinding(
+        title="SQL Injection Probe in Product Catalog API",
+        program="local_lab",
+        target_host="127.0.0.1",
+        request_method="GET",
+        request_url="http://127.0.0.1:3000/api/v2/products?filter=%27+OR+1%3D1--",
+        response_status=200,
+        response_body='{"status": "ok", "total_count": 0, "results": []}',
+        attacker_controlled_proof="Query payload echoed with empty JSON dataset",
+        is_lab=True
+    )
+    res_a = e.evaluate(f_json)
+    assert res_a["verdict"] == "KILL", f"Empty JSON results must trigger Stage 2 KILL, got {res_a['verdict']}"
+    assert res_a["stage_reached"] == 2
+    assert "Stage 2 reality check" in res_a["blocking_gap"]
+
+    # Case B: Enterprise parameterized defense / type enforcement
+    f_type = CandidateFinding(
+        title="Union SQL Injection Probe in Billing Search",
+        program="local_lab",
+        target_host="127.0.0.1",
+        request_method="GET",
+        request_url="http://127.0.0.1:3000/v1/invoices?account_id=123+UNION+SELECT+null,null",
+        response_status=400,
+        response_body='{"error": "Validation failed: invalid input syntax for type integer: malformed parameter"}',
+        attacker_controlled_proof="Server returned validation error without data leakage",
+        is_lab=True
+    )
+    res_b = e.evaluate(f_type)
+    assert res_b["verdict"] == "KILL", f"Type enforcement must trigger Stage 2 KILL, got {res_b['verdict']}"
+    assert res_b["stage_reached"] == 2
+    assert "Stage 2 reality check" in res_b["blocking_gap"]
+
+    # Case C: Diverse natural language zero-row phrasing in HTML portal
+    f_html = CandidateFinding(
+        title="Blind SQL Injection Probe in Medical Portal",
+        program="local_lab",
+        target_host="127.0.0.1",
+        request_method="GET",
+        request_url="http://127.0.0.1:3000/portal/records?patient_id=%27+or+%271%27=%271",
+        response_status=200,
+        response_body='<div class="results-box"><p>No matching records found for criteria.</p></div>',
+        attacker_controlled_proof="Zero records returned by database search",
+        is_lab=True
+    )
+    res_c = e.evaluate(f_html)
+    assert res_c["verdict"] == "KILL", f"Zero matching records must trigger Stage 2 KILL, got {res_c['verdict']}"
+    assert res_c["stage_reached"] == 2
+    assert "Stage 2 reality check" in res_c["blocking_gap"]
+
+    print("[+] Test Stage 2 Generalized Neutralized Injections: PASS")
+
+def test_single_account_auth_bypass():
+    """
+    Q4 Authentication / Session Hijack:
+    Verifies that a genuine single-account authentication bypass (no secondary account /
+    no victim_marker involved) satisfies Q4 and reaches VALID-PAYABLE when unauthenticated
+    baseline check was rejected (401/403) and the bypass obtains valid admin session tokens.
+    """
+    e = TriageEvaluator()
+
+    f_bypass = CandidateFinding(
+        title="Single-Account Authentication Bypass on Administrative Login",
+        program="local_lab",
+        target_host="127.0.0.1",
+        request_method="POST",
+        request_url="http://127.0.0.1:3000/api/v1/admin/login",
+        request_headers={"Content-Type": "application/json"},
+        request_body='{"username": "admin\'--", "password": "x"}',
+        response_status=200,
+        response_headers={"Content-Type": "application/json"},
+        response_body='{"status": "authenticated", "role": "admin", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwicm9sZSI6ImFkbWluIn0.signature", "is_admin": true}',
+        baseline_status=401,
+        baseline_body='{"error": "Unauthorized: invalid credentials"}',
+        second_account_tested=False,
+        victim_marker="",
+        attacker_controlled_proof="Unauthenticated login bypass established active administrative session token; baseline 401 rejected",
+        is_lab=True
+    )
+
+    res = e.evaluate(f_bypass)
+    assert res["verdict"] == "VALID-PAYABLE", f"Genuine single-account auth bypass must be VALID-PAYABLE, got {res['verdict']}"
+    assert res["stage_reached"] == 5
+    assert "yes" in res["seven_answers"]["Q4"]
+    assert "authentication bypass" in res["seven_answers"]["Q4"]
+    assert "CVSS:3.1" in res["cvss"]
+    print("[+] Test Single-Account Auth Bypass (Q4): PASS")
+
+def test_reporter_verdict_guard():
+    """
+    ReportGenerator Guard:
+    Verifies that ReportGenerator.generate_report() refuses and returns an explanatory
+    string unless the triage verdict is explicitly 'VALID-PAYABLE'.
+    """
+    from core.reporter import ReportGenerator
+
+    finding = CandidateFinding(
+        title="Informational Server Banner",
+        program="local_lab",
+        target_host="127.0.0.1",
+        request_method="GET",
+        request_url="http://127.0.0.1:3000/",
+        response_status=200,
+        response_body="<html>Home</html>",
+        is_lab=True
+    )
+
+    # 1. Refusal on KILL
+    kill_triage = {
+        "verdict": "KILL",
+        "stage_reached": 1,
+        "blocking_gap": "No cross-tenant data read or mutation observed.",
+        "cvss": "n/a"
+    }
+    report_kill = ReportGenerator.generate_report(finding, kill_triage)
+    assert report_kill.startswith("[REPORT_GENERATION_REFUSED]"), f"Must refuse report for KILL, got: {report_kill}"
+    assert "KILL" in report_kill
+
+    # 2. Refusal on LEAD
+    lead_triage = {
+        "verdict": "LEAD",
+        "stage_reached": 0,
+        "blocking_gap": "Missing attacker controlled proof.",
+        "cvss": "n/a"
+    }
+    report_lead = ReportGenerator.generate_report(finding, lead_triage)
+    assert report_lead.startswith("[REPORT_GENERATION_REFUSED]"), f"Must refuse report for LEAD, got: {report_lead}"
+    assert "LEAD" in report_lead
+
+    # 3. Accepted on VALID-PAYABLE
+    payable_triage = {
+        "verdict": "VALID-PAYABLE",
+        "stage_reached": 5,
+        "blocking_gap": "none",
+        "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+    report_payable = ReportGenerator.generate_report(finding, payable_triage)
+    assert not report_payable.startswith("[REPORT_GENERATION_REFUSED]")
+    assert "# [Vulnerability Report]" in report_payable
+    assert "curl -i -s -k" in report_payable
+
+    print("[+] Test ReportGenerator Verdict Guard: PASS")
+
 if __name__ == "__main__":
     test_scope_refusal()
     test_deny_list_refusal()
@@ -218,4 +370,7 @@ if __name__ == "__main__":
     test_asserted_cross_account_without_evidence_is_not_payable()
     test_missing_header_informational()
     test_firewall_and_scope_hardening()
+    test_stage2_generalized_neutralized_sqli()
+    test_single_account_auth_bypass()
+    test_reporter_verdict_guard()
     print("\n[+] All TriageEvaluator unit tests PASSED successfully!")

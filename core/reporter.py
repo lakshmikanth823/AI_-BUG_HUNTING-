@@ -14,8 +14,15 @@ class ReportGenerator:
     @staticmethod
     def generate_report(finding: CandidateFinding, triage_result: Dict[str, Any]) -> str:
         """Emits a complete, triage-ready markdown vulnerability report."""
-        cvss = triage_result.get("cvss", "n/a")
         verdict = triage_result.get("verdict", "LEAD")
+        if verdict != "VALID-PAYABLE":
+            blocking_gap = triage_result.get("blocking_gap", "Criteria not met")
+            return (
+                f"[REPORT_GENERATION_REFUSED] Cannot generate formal disclosure report for verdict '{verdict}'. "
+                f"Reports are strictly reserved for 'VALID-PAYABLE' findings. Blocking gap: {blocking_gap}"
+            )
+
+        cvss = triage_result.get("cvss", "n/a")
         stage = triage_result.get("stage_reached", 0)
 
         # Build clean minimal curl reproduction

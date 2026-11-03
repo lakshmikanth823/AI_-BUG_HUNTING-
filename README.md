@@ -302,6 +302,12 @@ python engine/content_indexer.py --query "ssrf cloud metadata" --limit 3
 - Git
 *(No mandatory third-party pip dependencies required: the core CLI, ScopeGuard, KnowledgeEngine, ReconEngine, and TriageEvaluator run strictly on the Python Standard Library).*
 
+#### Optional External Binaries (for Active Fuzzing & Egress Testing)
+If running active fuzzing via `engine/scanner_bridge.py` or running `engine/test_egress_and_budget.py`:
+- **ffuf** (Fast web fuzzer): Download precompiled binary from [ffuf releases](https://github.com/ffuf/ffuf/releases) or via `go install github.com/ffuf/ffuf/v2@latest`. Ensure `ffuf` is in your system `PATH` or at `tools/bin/ffuf` (`tools/bin/ffuf.exe` on Windows).
+- **nuclei** (Fast vulnerability scanner): Download precompiled binary from [nuclei releases](https://github.com/projectdiscovery/nuclei/releases) or via `go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest`. Ensure `nuclei` is in your system `PATH` or at `tools/bin/nuclei` (`tools/bin/nuclei.exe` on Windows).
+- **Docker & Docker Compose** (for running local lab containers in `LAB-SETUP.md`).
+
 ### Installation
 ```bash
 # Clone the repository

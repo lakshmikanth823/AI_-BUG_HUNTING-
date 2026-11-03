@@ -1,6 +1,24 @@
 # Python Standard Library only:
 # The core hunting CLI, ScopeGuard, TriageEvaluator, ReconEngine, and lab test harness
-# run strictly on the Python 3.10+ Standard Library (zero mandatory third-party dependencies).
+# run strictly on the Python 3.10+ Standard Library (zero mandatory third-party Python packages).
 
 # Optional development & maintenance scripts (e.g., workspace document auditing):
 pyyaml>=6.0
+
+# ----------------------------------------------------------------------
+# External Binary Dependencies (for active scanning & fuzzing tools):
+# ----------------------------------------------------------------------
+# 1. ffuf (Fast web fuzzer written in Go)
+#    Required by: engine/scanner_bridge.py, engine/test_egress_and_budget.py
+#    Installation:
+#      - Precompiled binaries: https://github.com/ffuf/ffuf/releases
+#      - Go: go install github.com/ffuf/ffuf/v2@latest
+#      - Place in system PATH or at tools/bin/ffuf (tools/bin/ffuf.exe on Windows)
+#
+# 2. nuclei (Fast and customizable vulnerability scanner)
+#    Required by: engine/scanner_bridge.py
+#    Installation:
+#      - Precompiled binaries: https://github.com/projectdiscovery/nuclei/releases
+#      - Go: go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+#      - Place in system PATH or at tools/bin/nuclei (tools/bin/nuclei.exe on Windows)
+

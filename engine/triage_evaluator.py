@@ -300,10 +300,59 @@ class TriageEvaluator:
                 "next_action": f"Capture missing evidence ({', '.join(missing_evidence)}) before proceeding."
             }
 
-        # Stage 2 Reality Check (derived from evidence: payload echoed, zero records returned)
-        has_injection_payload = any(p in (url_lower + " " + f.request_body.lower()) for p in ("' or", "'--", "1=1", "union select", "; whoami", "; id", "<script"))
-        is_sqli_neutralized = ("vulnerabilities/sqli" in url_lower or "sqli" in url_lower) and ("first name: admin" not in body_lower and "surname:" not in body_lower) and ("<pre>" not in f.response_body or "missing database records" in body_lower or "0 records" in body_lower)
-        is_neutralized = (("missing database records" in body_lower or "0 records" in body_lower or "0 rows" in body_lower or "no results found" in body_lower) and not any(k in body_lower for k in ("first name: admin", "uid=", "www-data", "root:"))) or is_sqli_neutralized
+        # Stage 2 Reality Check (derived from structural evidence: payload present, neutralized defenses / zero records, zero leakage)
+        has_injection_payload = any(p in (url_lower + " " + f.request_body.lower()) for p in (
+            "' or", "'--", "1=1", "union select", "select null", "order by", "sleep(", "waitfor delay", "pg_sleep",
+            "; whoami", "; id", "| whoami", "| id", "<script", "onerror="
+        ))
+
+        # Structural zero-row phrases across diverse enterprise web & API stacks
+        ZERO_ROW_PHRASES = (
+            "0 records", "0 results", "0 rows", "0 items", "0 matches",
+            "zero records", "zero results", "zero rows", "zero items",
+            "no records found", "no results found", "no matching records",
+            "no records match", "no results match", "no data found", "no items found",
+            "empty result", "empty dataset", "empty set",
+            "record not found", "user not found", "item not found", "account not found",
+            "query returned no results", "missing database records"
+        )
+
+        # Structural empty-set JSON patterns for modern REST/GraphQL APIs
+        ZERO_ROW_JSON_PATTERNS = (
+            '"results":[]', '"results": []',
+            '"data":[]', '"data": []',
+            '"items":[]', '"items": []',
+            '"records":[]', '"records": []',
+            '"rows":[]', '"rows": []',
+            '"users":[]', '"users": []',
+            '"count":0', '"count": 0',
+            '"total":0', '"total": 0',
+            '"total_count":0', '"total_count": 0'
+        )
+
+        # Defensive control / parameterization / type enforcement indicators
+        DEFENSE_PHRASES = (
+            "parameterized", "prepared statement",
+            "invalid integer", "invalid number", "expected numeric",
+            "type mismatch", "conversion failed when converting",
+            "invalid input syntax for type", "syntax error: invalid input syntax",
+            "validation failed", "malformed parameter", "input rejected by filter",
+            "unrecognized input format", "data type mismatch", "sanitized input"
+        )
+
+        # Data leakage markers indicating that execution or dumped records actually occurred
+        DATA_LEAKAGE_TOKENS = (
+            "uid=", "www-data", "root:x:", "/bin/bash", "/bin/sh", "[boot loader]",
+            "password_hash", "$2y$", "$2a$", "$2b$", "first name: admin", "admin@"
+        )
+        has_data_leakage = any(tok in body_lower for tok in DATA_LEAKAGE_TOKENS) or (bool(f.victim_marker) and f.victim_marker in f.response_body)
+
+        has_zero_records = any(phrase in body_lower for phrase in ZERO_ROW_PHRASES) or any(pat in body_lower for pat in ZERO_ROW_JSON_PATTERNS)
+        has_defense_signal = any(phrase in body_lower for phrase in DEFENSE_PHRASES)
+        # Form reflection where no data table or output record container was generated
+        has_empty_form_reflection = ("<form" in body_lower and "</form>" in body_lower) and not any(tag in body_lower for tag in ("<pre>", "<table", "<tbody", "user_id:", "account_id:"))
+
+        is_neutralized = not has_data_leakage and (has_zero_records or has_defense_signal or has_empty_form_reflection)
         if has_injection_payload and is_neutralized:
             return {
                 "verdict": "KILL",
@@ -394,14 +443,38 @@ class TriageEvaluator:
             if is_q3 else f"no, no code execution or server request reflection on {endpoint_clean}"
         )
 
-        # Q4: Authentication / Session Hijack — the issued identity must belong to another tenant
+        # Q4: Authentication / Session Hijack
+        # Supports both:
+        # Path A: Cross-tenant account takeover where victim's token/session is exfiltrated
+        # Path B: Single-account authentication bypass where an unauthenticated or unprivileged
+        #         attacker establishes valid session/administrative credentials without valid auth
         is_token_compromise = f.response_status in (200, 201) and any(tok in body_lower for tok in ("\"token\":", "\"authentication\"", "\"access_token\"", "bearer ey", "\"token\"")) and ("admin" in body_lower or "userid" in body_lower or "email" in body_lower)
-        is_auth_endpoint = any(tok in endpoint_clean for tok in ("login", "oauth", "reset", "auth"))
-        is_q4 = is_token_compromise and is_auth_endpoint and cross_tenant_read_proven(f)
-        q4_clause = (
-            f"yes, session tokens or authentication credentials compromised on {endpoint_clean}"
-            if is_q4 else f"no, session credentials not extractable from {endpoint_clean}"
+        is_auth_endpoint = any(tok in endpoint_clean for tok in ("login", "oauth", "reset", "auth", "session", "admin", "token"))
+        is_cross_tenant_ato = is_token_compromise and is_auth_endpoint and cross_tenant_read_proven(f)
+
+        # Single-account auth bypass criteria:
+        # 1. Successful HTTP status (200, 201, 302)
+        # 2. Reached auth/login/admin endpoint
+        # 3. Established session credential or admin role
+        # 4. Proved lack of prior authorization (baseline rejected 401/403/400/404, or explicit bypass proof/payload)
+        has_session_marker = (
+            any(tok in body_lower for tok in ('"token":', '"access_token"', '"jwt"', '"auth_token"', '"session_id"', '"sessionid"', 'bearer ey', '"role": "admin"', '"role":"admin"', '"is_admin": true', '"is_admin":true'))
+            or any(tok in str(f.response_headers).lower() for tok in ('set-cookie', 'authorization'))
         )
+        has_auth_bypass_proof = (
+            (f.baseline_status is not None and f.baseline_status in (401, 403, 400, 404) and f.response_status in (200, 201, 302))
+            or any(sig in f.attacker_controlled_proof.lower() for sig in ("auth bypass", "authentication bypass", "login bypass", "credential-free", "unauthenticated admin", "bypassed authentication"))
+            or any(p in (url_lower + " " + (f.request_body or "").lower()) for p in ("' or", "'--", "admin'--", "1=1", "none", "bearer null"))
+        )
+        is_single_account_auth_bypass = f.response_status in (200, 201, 302) and is_auth_endpoint and has_session_marker and has_auth_bypass_proof
+
+        is_q4 = is_cross_tenant_ato or is_single_account_auth_bypass
+        if is_single_account_auth_bypass:
+            q4_clause = f"yes, unauthenticated authentication bypass established valid session/administrative credentials on {endpoint_clean}"
+        elif is_cross_tenant_ato:
+            q4_clause = f"yes, session tokens or authentication credentials compromised on {endpoint_clean}"
+        else:
+            q4_clause = f"no, session credentials not extractable from {endpoint_clean}"
 
         # Q5: Financial / Resource abuse — endpoint naming is not abuse; a proven state change is
         is_financial_target = any(w in (url_lower + " " + f.request_body.lower()) for w in ("coupon", "wallet", "balance", "voucher", "payment", "refund"))
