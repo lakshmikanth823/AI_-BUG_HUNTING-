@@ -154,8 +154,10 @@ def cmd_triage(args):
         target_host = args.host or parsed.netloc.split(":")[0] or "127.0.0.1"
         method = args.method.upper()
         status = args.status
+        req_body = getattr(args, "req_body", "")
         body = args.body
         marker = args.victim_marker
+        proof = getattr(args, "proof", "") or ("Local lab probe" if args.lab else "")
         is_lab = args.lab or any(h in url for h in ("localhost", "127.0.0.1"))
 
     finding = CandidateFinding(
@@ -164,9 +166,11 @@ def cmd_triage(args):
         target_host=target_host,
         request_method=method,
         request_url=url,
+        request_body=req_body,
         response_status=status,
         response_body=body,
         victim_marker=marker,
+        attacker_controlled_proof=proof,
         is_lab=is_lab,
     )
 
@@ -176,6 +180,19 @@ def cmd_triage(args):
     print("=" * 70)
     print(evaluator.format_output_contract(verdict))
     print("=" * 70)
+
+    if getattr(args, "report", False) or getattr(args, "output_report", None):
+        from core.reporter import ReportGenerator
+        rep = ReportGenerator.generate_report(finding, verdict)
+        print("\n" + "=" * 70)
+        print("DISCLOSURE REPORT GENERATION")
+        print("=" * 70)
+        print(rep)
+        print("=" * 70)
+        if getattr(args, "output_report", None):
+            with open(args.output_report, "w", encoding="utf-8") as rf:
+                rf.write(rep)
+            print(f"[+] Report saved to {args.output_report}")
 
 
 def main():
@@ -213,10 +230,14 @@ def main():
     p_triage.add_argument("--method", type=str, default="GET", help="HTTP request method (GET, POST, etc.)")
     p_triage.add_argument("--url", type=str, default="http://127.0.0.1:3000/rest/basket/1", help="Full request URL")
     p_triage.add_argument("--status", type=int, default=200, help="HTTP response status code")
-    p_triage.add_argument("--body", type=str, default="", help="HTTP response body snippet")
+    p_triage.add_argument("--body", "--resp-body", type=str, default="", dest="body", help="HTTP response body snippet")
+    p_triage.add_argument("--req-body", type=str, default="", help="HTTP request body sent by attacker")
+    p_triage.add_argument("--proof", type=str, default="", help="Attacker controlled proof / distinct session evidence")
     p_triage.add_argument("--victim-marker", type=str, default="", help="Planted cross-tenant marker value")
     p_triage.add_argument("--lab", action="store_true", help="Flag as authorized local lab asset")
     p_triage.add_argument("--interactive", "-i", action="store_true", help="Prompt interactively for finding details")
+    p_triage.add_argument("--report", action="store_true", help="Generate full markdown disclosure report if verdict is VALID-PAYABLE")
+    p_triage.add_argument("--output-report", type=str, default=None, help="Save generated disclosure report to file")
 
     args = parser.parse_args()
     if not args.command:

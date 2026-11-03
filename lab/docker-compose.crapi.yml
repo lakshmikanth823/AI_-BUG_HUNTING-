@@ -1,0 +1,155 @@
+version: "3.8"
+
+networks:
+  crapi_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.29.0.0/16
+
+services:
+  # 1. crAPI Web (Nginx Gateway on port 8888)
+  crapi-web:
+    container_name: bounty-crapi-web
+    image: crapi/crapi-web:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8888:80"
+    environment:
+      - COMMUNITY_SERVICE=crapi-community:8087
+      - IDENTITY_SERVICE=crapi-identity:8080
+      - WORKSHOP_SERVICE=crapi-workshop:8000
+      - MAILHOG_WEB_SERVICE=mailhog:8025
+      - TLS_ENABLED=false
+    depends_on:
+      - crapi-identity
+      - crapi-community
+      - crapi-workshop
+    networks:
+      crapi_net:
+        ipv4_address: 172.29.0.2
+
+  # 2. crAPI Identity Microservice (Auth, JWT, User Management)
+  crapi-identity:
+    container_name: bounty-crapi-identity
+    image: crapi/crapi-identity:latest
+    restart: unless-stopped
+    environment:
+      - LOG_LEVEL=INFO
+      - DB_NAME=crapi
+      - DB_USER=admin
+      - DB_PASSWORD=crapisecretpassword
+      - DB_HOST=postgresdb
+      - DB_PORT=5432
+      - SERVER_PORT=8080
+      - JWT_SECRET=crapi
+      - MAILHOG_HOST=mailhog
+      - MAILHOG_PORT=1025
+      - MAILHOG_DOMAIN=example.com
+      - JWT_EXPIRATION=604800000
+      - API_GATEWAY_URL=http://127.0.0.1:8888
+      - TLS_ENABLED=false
+    depends_on:
+      - postgresdb
+      - mongodb
+      - mailhog
+    networks:
+      crapi_net:
+        ipv4_address: 172.29.0.3
+
+  # 3. crAPI Community Microservice (Posts, Comments, Excessive Data Exposure)
+  crapi-community:
+    container_name: bounty-crapi-community
+    image: crapi/crapi-community:latest
+    restart: unless-stopped
+    environment:
+      - LOG_LEVEL=INFO
+      - IDENTITY_SERVICE=crapi-identity:8080
+      - DB_NAME=crapi
+      - DB_USER=admin
+      - DB_PASSWORD=crapisecretpassword
+      - DB_HOST=postgresdb
+      - DB_PORT=5432
+      - SERVER_PORT=8087
+      - MONGO_DB_HOST=mongodb
+      - MONGO_DB_PORT=27017
+      - MONGO_DB_USER=admin
+      - MONGO_DB_PASSWORD=crapisecretpassword
+      - MONGO_DB_NAME=crapi
+      - TLS_ENABLED=false
+    depends_on:
+      - postgresdb
+      - mongodb
+      - crapi-identity
+    networks:
+      crapi_net:
+        ipv4_address: 172.29.0.4
+
+  # 4. crAPI Workshop Microservice (Mechanic, Orders, Vehicles, BOLA/BFLA)
+  crapi-workshop:
+    container_name: bounty-crapi-workshop
+    image: crapi/crapi-workshop:latest
+    restart: unless-stopped
+    environment:
+      - LOG_LEVEL=INFO
+      - IDENTITY_SERVICE=crapi-identity:8080
+      - DB_NAME=crapi
+      - DB_USER=admin
+      - DB_PASSWORD=crapisecretpassword
+      - DB_HOST=postgresdb
+      - DB_PORT=5432
+      - SERVER_PORT=8000
+      - MONGO_DB_HOST=mongodb
+      - MONGO_DB_PORT=27017
+      - MONGO_DB_USER=admin
+      - MONGO_DB_PASSWORD=crapisecretpassword
+      - MONGO_DB_NAME=crapi
+      - SECRET_KEY=crapi
+      - TLS_ENABLED=false
+    depends_on:
+      - postgresdb
+      - mongodb
+      - crapi-identity
+    networks:
+      crapi_net:
+        ipv4_address: 172.29.0.5
+
+  # 5. Dedicated PostgreSQL (Strictly Internal - Zero Host Port Publishing)
+  postgresdb:
+    container_name: bounty-crapi-postgres
+    image: postgres:14
+    restart: unless-stopped
+    command: ["postgres", "-c", "max_connections=200"]
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: crapisecretpassword
+      POSTGRES_DB: crapi
+    networks:
+      crapi_net:
+        ipv4_address: 172.29.0.6
+
+  # 6. Dedicated MongoDB (Strictly Internal - Zero Host Port Publishing)
+  mongodb:
+    container_name: bounty-crapi-mongo
+    image: mongo:4.4
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: crapisecretpassword
+    networks:
+      crapi_net:
+        ipv4_address: 172.29.0.7
+
+  # 7. Dedicated MailHog (Remapped away from host 8025 to 127.0.0.1:8026)
+  mailhog:
+    container_name: bounty-crapi-mailhog
+    image: crapi/mailhog:latest
+    restart: unless-stopped
+    environment:
+      MH_MONGO_URI: admin:crapisecretpassword@mongodb:27017
+      MH_STORAGE: mongodb
+    ports:
+      - "127.0.0.1:8026:8025"
+    networks:
+      crapi_net:
+        ipv4_address: 172.29.0.8
