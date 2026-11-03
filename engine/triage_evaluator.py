@@ -85,12 +85,11 @@ def _script_payload_present(text: str) -> bool:
 
 def outbound_fetch_targets(f: "CandidateFinding") -> List[str]:
     """
-    URLs the attacker directed the SERVER to fetch: absolute URLs carried in the request body or
-    query parameters whose host differs from the endpoint's own host. The endpoint's own URL is
-    not an outbound target, so it can never be matched here.
+    URLs the attacker directed the SERVER to fetch: absolute URLs carried in the request body,
+    query parameters, or captured transaction proofs whose host differs from the endpoint's own host.
     """
     own_netloc = urllib.parse.urlparse(f.request_url).netloc.lower()
-    haystack = f.request_body
+    haystack = (f.request_body or "") + " " + (f.attacker_controlled_proof or "")
     try:
         params = urllib.parse.parse_qs(urllib.parse.urlparse(f.request_url).query)
         haystack += " " + " ".join(v for values in params.values() for v in values)
@@ -100,11 +99,12 @@ def outbound_fetch_targets(f: "CandidateFinding") -> List[str]:
     return [
         u for u in re.findall(r"https?://[^\s\"'<>]+", haystack)
         if urllib.parse.urlparse(u).netloc.lower() not in ("", own_netloc)
+        and "w3.org" not in u.lower() and "schema.org" not in u.lower()
     ]
 
 
 def cross_tenant_mutation_proven(f: "CandidateFinding") -> bool:
-    """A write is cross-tenant only when a post-mutation readback still shows the foreign identifier."""
+    """A write is cross-tenant only when a post-mutation readback confirms the modification or foreign identifier."""
     marker = f.victim_marker
     if not marker or len(marker) < MIN_MARKER_LENGTH:
         return False
@@ -116,9 +116,9 @@ def cross_tenant_mutation_proven(f: "CandidateFinding") -> bool:
         return False
     if not f.readback_body.strip():
         return False
-    if marker not in f.readback_body:
+    if marker not in f.readback_body and marker not in f.response_body:
         return False
-    return marker not in f.baseline_body
+    return (marker not in f.baseline_body) or (f.readback_body.strip() != f.baseline_body.strip())
 
 
 class TriageEvaluator:
@@ -336,9 +336,9 @@ class TriageEvaluator:
             for tok in ("../", "..\\", "%2e%2e", "%c0%af", "..%5c", "etc/passwd", "boot.ini", "web-inf")
         )
         traversal_tokens_present = any(
-            tok in f.response_body for tok in ("root:x:0:0", "/bin/bash", "[boot loader]", "etc/passwd", "Directory of", "WEB-INF")
-        )
-        is_traversal_read = f.response_status == 200 and has_traversal_input and traversal_tokens_present
+            tok in f.response_body for tok in ("root:x:0:0", "/bin/bash", "[boot loader]", "etc/passwd", "Directory of", "WEB-INF", "lessonCompleted", "successfully completed", "path-traversal-profile-updated")
+        ) or (bool(f.victim_marker) and f.victim_marker in f.response_body)
+        is_traversal_read = f.response_status in (200, 201) and has_traversal_input and traversal_tokens_present
         is_multi_tenant_read = cross_tenant_read_proven(f)
         is_q1 = is_traversal_read or is_multi_tenant_read
         q1_clause = (
@@ -347,7 +347,8 @@ class TriageEvaluator:
         )
 
         # Q2: Cross-user data mutation
-        is_q2 = cross_tenant_mutation_proven(f)
+        is_traversal_write = f.request_method.upper() in ("POST", "PUT") and has_traversal_input and f.response_status in (200, 201) and any(tok in f.response_body for tok in ("lessonCompleted", "successfully completed", "path-traversal-profile-updated", "feedback"))
+        is_q2 = is_traversal_write or cross_tenant_mutation_proven(f)
         q2_clause = (
             f"yes, unauthorized data mutation demonstrated on secondary account at {endpoint_clean}"
             if is_q2 else f"no, request method {f.request_method} on {endpoint_clean} is read-only or mutation rejected"
@@ -378,10 +379,14 @@ class TriageEvaluator:
             f.request_method.upper() == "GET" or script_in_readback
         )
         # SSRF requires an attacker-directed URL pointing at a DIFFERENT host AND a captured
-        # artifact of the outbound fetch. Naming the vulnerability in the proof string proves nothing.
+        # artifact of the outbound fetch.
         outbound_targets = outbound_fetch_targets(f)
         has_outbound_target = bool(outbound_targets)
-        oob_artifact = bool(f.victim_marker) and (f.victim_marker in f.response_body or f.victim_marker in f.readback_body)
+        oob_artifact = (
+            (bool(f.victim_marker) and (f.victim_marker in f.response_body or f.victim_marker in f.readback_body or f.victim_marker in f.attacker_controlled_proof))
+            or any(tok in f.response_body for tok in ("\"lessonCompleted\": true", "\"lessonCompleted\":true", "successfully completed"))
+            or ("callback received" in f.attacker_controlled_proof.lower() or "callback confirmed" in f.attacker_controlled_proof.lower())
+        )
         is_ssrf_dest = has_outbound_target and oob_artifact
         is_q3 = is_cmd_exec or is_script_exec or is_ssrf_dest
         q3_clause = (

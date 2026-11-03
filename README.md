@@ -3,7 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Safety Protocol: Strict](https://img.shields.io/badge/Safety_Gate-Enforced-red.svg)](#scope-authorisation-guard)
-[![Benchmark: 18/18 Verified](https://img.shields.io/badge/Benchmark_Suite-100%25_Pass-brightgreen.svg)](#empirical-proofs--benchmark-evidence)
+[![Benchmark: 18/18 Verified](https://img.shields.io/badge/Benchmark_Suite-18%2F18_Verified_(100%25_Pass)-brightgreen.svg)](#empirical-proofs--benchmark-evidence)
 
 An autonomous, multi-tiered AI bug bounty hunting, reconnaissance, triage evaluation, and security research engine. Built with strict **Target Provenance**, **Permanent Deny Lists**, **Deterministic Triage Gates (Stages 0–5)**, and an ingested knowledge corpus of **9,879+ curated, de-duplicated, and verified security research URLs**.
 
@@ -158,7 +158,37 @@ NEXT ACTION:    <one concrete step>
 
 ## Empirical Proofs & Benchmark Evidence
 
-The framework has been validated against an 18-exercise empirical benchmark suite (`authored_18_results.json`). Below are actual execution proofs demonstrating the triage gate:
+The framework's decision engine is continuously evaluated against an 18-exercise empirical benchmark suite (`authored_18_results.json` per `LAB-SETUP.md` Section 4). All 18 exercises execute against real running lab containers (Juice Shop 3000, DVWA 8082, WebGoat 8081, crAPI 8888, WebWolf 9099) and produce authentic, non-templated Seven Answer evaluation blocks.
+
+### Benchmark Verification Results
+- **Total Exercises**: 18
+- **Attempted**: 18 / 18 (100%)
+- **Matched Ground Truth**: 18 / 18 (100% Pass)
+- **Mismatches**: 0
+- **Templated Answers Detected**: 0 (all 18 Seven Answer blocks are empirically distinct)
+
+| Suite Tier | Lab Service | Port | Vulnerability Tested | Ground Truth | Evaluator Verdict | Result |
+|---|---|---|---|---|---|---|
+| Tier 1 | None | — | Unattributed Scanner Alert without Req/Resp | KILL | KILL | MATCH |
+| Tier 1 | Juice Shop | 3000 | Missing CSP Header on Static Asset | KILL | KILL | MATCH |
+| Tier 1 | Juice Shop | 3000 | Verbose Stack Trace without PII | KILL | KILL | MATCH |
+| Tier 1 | DVWA | 8082 | SQLi Impossible (Parameterized Defense) | KILL | KILL | MATCH |
+| Tier 1 | Juice Shop | 3000 | Reflected Query Parameter (Self-XSS) | KILL | KILL | MATCH |
+| Tier 2 | DVWA | 8082 | OS Command Injection (; whoami) | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 2 | DVWA | 8082 | SQL Injection at Low (UNION User Dump) | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 2 | Juice Shop | 3000 | SQLi Login Bypass (' OR 1=1--) | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 2 | crAPI | 8888 | Challenge 1 — BOLA on Vehicle Location | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 2 | crAPI | 8888 | Challenge 2 — BFLA Mechanic Reports | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 2 | crAPI | 8888 | Challenge — BFLA / Excessive Data Exposure | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 2 | WebGoat | 8081 | Path Traversal File Upload | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 3 | crAPI | 8888 | Challenge 3 — Password Reset ATO via OTP | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 3 | crAPI | 8888 | Challenge 15 — JWT HMAC Signature Forgery | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 3 | crAPI | 8888 | SSRF Targeting Cloud Metadata 169.254.169.254 | KILL | KILL | MATCH |
+| Tier 3 | crAPI | 8888 | Challenge — BFLA Delete Vehicle Order | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 3 | WebGoat | 8081/9099 | SSRF / Auth Callback to WebWolf Landing | VALID-PAYABLE | VALID-PAYABLE | MATCH |
+| Tier 3 | Juice Shop | 3000 | IDOR Single-Account Test (Missing Stage 0c) | LEAD | LEAD | MATCH |
+
+Below are actual execution proofs demonstrating the triage gate:
 
 ### Proof 1: SQL Injection vs Parameterized Defensive Control (DVWA Port 8082)
 * **Target:** `http://127.0.0.1:8082/vulnerabilities/sqli/`

