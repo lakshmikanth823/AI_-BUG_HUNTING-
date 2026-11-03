@@ -385,7 +385,7 @@ class TriageEvaluator:
             for tok in ("../", "..\\", "%2e%2e", "%c0%af", "..%5c", "etc/passwd", "boot.ini", "web-inf")
         )
         traversal_tokens_present = any(
-            tok in f.response_body for tok in ("root:x:0:0", "/bin/bash", "[boot loader]", "etc/passwd", "Directory of", "WEB-INF", "lessonCompleted", "successfully completed", "path-traversal-profile-updated")
+            tok in f.response_body for tok in ("root:x:0:0", "/bin/bash", "[boot loader]", "Directory of", "WEB-INF", "\"lessonCompleted\": true", "\"lessonCompleted\":true")
         ) or (bool(f.victim_marker) and f.victim_marker in f.response_body)
         is_traversal_read = f.response_status in (200, 201) and has_traversal_input and traversal_tokens_present
         is_multi_tenant_read = cross_tenant_read_proven(f)
@@ -396,7 +396,17 @@ class TriageEvaluator:
         )
 
         # Q2: Cross-user data mutation
-        is_traversal_write = f.request_method.upper() in ("POST", "PUT") and has_traversal_input and f.response_status in (200, 201) and any(tok in f.response_body for tok in ("lessonCompleted", "successfully completed", "path-traversal-profile-updated", "feedback"))
+        # Path traversal write requires traversal input in mutating request (POST/PUT) AND
+        # an observed artifact proving the planted file was written:
+        # (a) Readback verification of the planted file at the destination path, OR
+        # (b) Server response explicitly returning the traversed destination path, OR
+        # (c) Specific challenge verification signal ("lessonCompleted": true)
+        has_write_artifact = (
+            (bool(f.readback_body) and (bool(f.victim_marker) and f.victim_marker in f.readback_body))
+            or any(sig in body_lower for sig in ("file uploaded to", "saved to /", "written to /", "stored at /", "successfully uploaded to"))
+            or bool(re.search(r'["\']?lessoncompleted["\']?\s*:\s*true', body_lower))
+        )
+        is_traversal_write = f.request_method.upper() in ("POST", "PUT") and has_traversal_input and f.response_status in (200, 201) and has_write_artifact
         is_q2 = is_traversal_write or cross_tenant_mutation_proven(f)
         q2_clause = (
             f"yes, unauthorized data mutation demonstrated on secondary account at {endpoint_clean}"

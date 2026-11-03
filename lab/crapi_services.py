@@ -1,7 +1,17 @@
 """
-crAPI microservices mock backend for containerized lab environment.
-Provides authoritative API responses for crAPI challenges routed via
-bounty-crapi-web (port 8888).
+===============================================================================
+DISCLAIMER & NOTICE OF SYNTHETIC FIXTURE
+===============================================================================
+This file is a local SYNTHETIC MOCK STUB designed for API schema testing and
+unit contract verification in environments where full multi-container crAPI
+(10 microservices including chromadb, postgresdb, mongodb, and mailhog) cannot
+be deployed due to host port conflicts (e.g., active Postgres on 5432 or MailHog on 8025).
+
+IT IS NOT GENUINE OWASP crAPI. It does not contain real application business logic,
+real cryptographic HMAC validation, or real vulnerability state.
+Tests executed against this stub MUST be reported as 'SYNTHETIC STUB', NEVER as
+live vulnerable software execution.
+===============================================================================
 """
 
 import json
