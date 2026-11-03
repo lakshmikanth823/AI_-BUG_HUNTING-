@@ -270,11 +270,21 @@ The framework enforces mandatory **Target Provenance** before any reconnaissance
 
 ## Knowledge Base & Full-Text Search
 
-The framework embeds an ingested knowledge corpus of 15 top-tier security research repositories:
-- **Methodologies:** OWASP WSTG, HackTricks, HackTricks Cloud, The Bug Hunter's Methodology (TBHM), HowToHunt, EdOverflow Bug Bounty Cheatsheet, API Security Checklist.
-- **Payloads & Bypasses:** PayloadsAllTheThings, Can-I-Take-Over-XYZ (80+ cloud fingerprints).
-- **Disclosed Writeups:** Awesome Bug Bounty Writeups, Bug Bounty Reference, HackerOne Disclosed Reports archive.
-- **Templates:** ProjectDiscovery Nuclei community templates (9,000+ detection rules).
+To respect upstream intellectual property and maintain full license compliance (see [`LICENSES.md`](LICENSES.md)), third-party knowledge repositories are **not statically vendored in the git repository**. Instead, users clone and index them locally on-demand for personal research.
+
+### Licensing & Compliance Notice
+- **Non-Commercial Restrictions**: Repositories such as `hacktricks` and `ctf-wiki` are licensed under **CC BY-NC 4.0** / **CC BY-NC-SA 4.0**. They are strictly permitted for personal research and education, and **must not be used for commercial bug bounty hunting or monetary rewards**.
+- **All Rights Reserved**: Curated writeup collections (`tbhm`, `Awesome-Bugbounty-Writeups`, `bug-bounty-reference`, `hackerone-reports`) carry no affirmative open-source license grant and are fetched strictly for local personal reading.
+- Full per-repository license terms, conditions, and copyright attributions are detailed in [`LICENSES.md`](LICENSES.md).
+
+### First-Time Knowledge Base Setup:
+```bash
+# 1. Download third-party research repositories locally with shallow depth (--depth 1)
+python download_kb.py
+
+# 2. Build or update local SQLite FTS5 search index (data/knowledge_fts.db)
+python engine/content_indexer.py --build
+```
 
 ### Instant Search Example:
 ```bash
@@ -296,11 +306,15 @@ If running active fuzzing via `engine/scanner_bridge.py` or running `engine/test
 - **nuclei** (Fast vulnerability scanner): Download precompiled binary from [nuclei releases](https://github.com/projectdiscovery/nuclei/releases) or via `go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest`. Ensure `nuclei` is in your system `PATH` or at `tools/bin/nuclei` (`tools/bin/nuclei.exe` on Windows).
 - **Docker & Docker Compose** (for running local lab containers in `LAB-SETUP.md`).
 
-### Installation
+### Installation & Setup
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/lakshmikanth823/AI_-BUG_HUNTING-.git
 cd AI_-BUG_HUNTING-
+
+# 2. Initialize the local research knowledge base (see LICENSES.md)
+python download_kb.py
+python engine/content_indexer.py --build
 ```
 
 ### Inspect Program Scope & Targets

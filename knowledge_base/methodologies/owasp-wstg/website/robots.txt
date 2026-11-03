@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://wstg.owasp.org/sitemap.xml

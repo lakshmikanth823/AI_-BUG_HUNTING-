@@ -1,4 +1,0 @@
-Sitemap: https://cloud.hacktricks.wiki/sitemap.xml
-
-User-agent: *
-Disallow:

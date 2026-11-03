@@ -1,5 +1,0 @@
-## Content Injection
-
-```
-❤ bounty pls
-```

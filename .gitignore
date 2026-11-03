@@ -13,3 +13,8 @@ tools/bin/*.exe
 # OS-specific
 Thumbs.db
 .DS_Store
+
+# Third-party knowledge base repositories & SQLite FTS database
+# Cloned locally via: python download_kb.py (see LICENSES.md)
+knowledge_base/
+data/knowledge_fts.db
