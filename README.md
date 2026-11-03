@@ -270,15 +270,13 @@ python engine/content_indexer.py --query "ssrf cloud metadata" --limit 3
 ### Prerequisites
 - Python 3.10 or higher
 - Git
+*(No mandatory third-party pip dependencies required: the core CLI, ScopeGuard, KnowledgeEngine, ReconEngine, and TriageEvaluator run strictly on the Python Standard Library).*
 
 ### Installation
 ```bash
 # Clone the repository
 git clone https://github.com/lakshmikanth823/AI_-BUG_HUNTING-.git
 cd AI_-BUG_HUNTING-
-
-# Install Python requirements (if needed)
-pip install -r requirements.txt
 ```
 
 ### Inspect Program Scope & Targets
@@ -286,26 +284,29 @@ pip install -r requirements.txt
 # List top 20 paying bounty programs from corpus
 python hunter.py targets --limit 20
 
-# View program scope, rate limits, and safe-harbor terms
-python hunter.py scope --program Flipkart
+# View program scope, rate limits, and safe-harbor terms (positional program name)
+python hunter.py scope Flipkart
 ```
 
 ### Query Security Methodologies & Payloads
 ```bash
-# Query the FTS5 full-text search index
-python hunter.py kb --query "graphql authorization bypass"
+# Query 51,000+ chunks of methodologies, playbooks & writeups across 15 ingested repositories
+python hunter.py search "graphql authorization bypass" --limit 3
 ```
 
 ### Run Lab Verification Benchmark
 ```bash
-# Run the 18-exercise triage evaluation benchmark
-python hunter.py lab --run
+# Run automated verification benchmark against running lab containers
+python hunter.py lab
 ```
 
 ### Evaluate a Candidate Finding
 ```bash
-# Interactively evaluate a finding through the Stage 0-5 Triage Gate
-python hunter.py triage
+# Evaluate a finding against the Stage 0–5 Triage Gate with command-line flags
+python hunter.py triage --url "http://127.0.0.1:3000/rest/basket/1" --status 200 --lab
+
+# Or evaluate interactively via terminal prompts
+python hunter.py triage --interactive
 ```
 
 ---

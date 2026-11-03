@@ -103,7 +103,7 @@ class AutonomousHunter:
 
             # Same predicate that admits the target: an entry that would be refused for scope
             # must not be able to arm a larger blast radius.
-            admitted = not admission_failure(prog_entry, program_name)
+            admitted = not admission_failure(prog_entry, program_name, automated=True)
             attested_budget = prog_entry.get("max_request_budget") if admitted else None
             if isinstance(attested_budget, int) and not isinstance(attested_budget, bool) and attested_budget > 0:
                 live_ceiling = min(attested_budget, 150)
@@ -133,7 +133,7 @@ class AutonomousHunter:
         # PHASE 1: Scope & Authorisation Gate
         # -------------------------------------------------------------
         print("\n[PHASE 1] Scope Verification & Target Provenance...")
-        in_scope, scope_msg = self.evaluator.verify_scope(program_name, target_host, is_lab=self.is_lab)
+        in_scope, scope_msg = self.evaluator.verify_scope(program_name, target_host, is_lab=self.is_lab, automated=True)
         if not in_scope:
             print(f"[-] OUT OF SCOPE: {scope_msg}")
             return {

@@ -14,23 +14,5 @@
     "rate_limit_rps": 10,
     "max_concurrency": 5,
     "status": "ACTIVE_LAB"
-  },
-  "flipkart": {
-    "program_name": "Flipkart",
-    "platform": "HackerOne",
-    "policy_url": "https://hackerone.com/flipkart",
-    "in_scope_assets": [
-      "www.flipkart.com",
-      "www.myntra.com",
-      "api.myntra.com",
-      "payments.myntra.com",
-      "pay.payzippy.com",
-      "uiscoop.payzippy.com"
-    ],
-    "operator_handle": "lakshmikanth02001",
-    "operator_quote": "I, lakshmikanth02001, authorize low-rate minimal proof-of-concept testing against www.flipkart.com under Flipkart's HackerOne safe harbor policy.",
-    "rate_limit_rps": 1,
-    "max_request_budget": 20,
-    "status": "ACTIVE"
   }
 }

@@ -8,6 +8,7 @@ import os
 import sys
 import json
 import argparse
+import urllib.parse
 from pathlib import Path
 
 # Fix Windows console encoding
@@ -32,14 +33,15 @@ def cmd_targets(args):
     print("=" * 75)
     count = 0
     for p in guard.programs[:args.limit]:
-        payout = p.get("max_payout", "N/A")
+        payout = p.get("payout") or p.get("max_payout", "N/A")
         try:
             p_val = float(payout)
             p_str = f"${p_val:,.0f}" if p_val > 0 else "Points / Swag"
         except ValueError:
             p_str = payout or "Unpublished"
 
-        print(f"[{p.get('platform', 'H1'):<9}] {p.get('name', 'Unknown'):<32} Max: {p_str:<14} Assets: {p.get('in_scope_assets', 'N/A')}")
+        bounty_assets = p.get("bounty_assets") or p.get("in_scope") or p.get("in_scope_assets", "N/A")
+        print(f"[{p.get('platform', 'H1'):<9}] {p.get('name', 'Unknown'):<36} Max: {p_str:<14} Assets: {bounty_assets}")
         count += 1
     print("=" * 75)
     print(f"Total programs loaded: {len(guard.programs)} | Showing top {count}")
@@ -127,6 +129,55 @@ def cmd_lab(args):
     print(f"\n[+] Validation complete. TPR: {tpr:.1f}% | FPR: {fpr:.1f}% | FNR: {fnr:.1f}% | Latency: {latency:.4f}s")
 
 
+def cmd_triage(args):
+    evaluator = TriageEvaluator()
+
+    if args.interactive:
+        print("=" * 70)
+        print("INTERACTIVE TRIAGE GATE EVALUATION")
+        print("=" * 70)
+        title = input("Finding Title [Candidate Security Finding]: ").strip() or "Candidate Security Finding"
+        program = input("Program Name [local_lab]: ").strip() or "local_lab"
+        target_host = input("Target Host [127.0.0.1]: ").strip() or "127.0.0.1"
+        method = input("HTTP Method [GET]: ").strip().upper() or "GET"
+        url = input("Request URL [http://127.0.0.1:3000/rest/basket/1]: ").strip() or "http://127.0.0.1:3000/rest/basket/1"
+        status_in = input("Response Status Code [200]: ").strip()
+        status = int(status_in) if status_in.isdigit() else 200
+        body = input("Response Body Excerpt: ").strip()
+        marker = input("Victim Marker (planted cross-tenant string) []: ").strip()
+        is_lab = input("Is Local Lab? (y/N): ").strip().lower() in ("y", "yes")
+    else:
+        title = args.title
+        program = args.program
+        url = args.url
+        parsed = urllib.parse.urlparse(url if "://" in url else f"http://{url}")
+        target_host = args.host or parsed.netloc.split(":")[0] or "127.0.0.1"
+        method = args.method.upper()
+        status = args.status
+        body = args.body
+        marker = args.victim_marker
+        is_lab = args.lab or any(h in url for h in ("localhost", "127.0.0.1"))
+
+    finding = CandidateFinding(
+        title=title,
+        program=program,
+        target_host=target_host,
+        request_method=method,
+        request_url=url,
+        response_status=status,
+        response_body=body,
+        victim_marker=marker,
+        is_lab=is_lab,
+    )
+
+    verdict = evaluator.evaluate(finding)
+    print("\n" + "=" * 70)
+    print("TRIAGE GATE OUTPUT CONTRACT")
+    print("=" * 70)
+    print(evaluator.format_output_contract(verdict))
+    print("=" * 70)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Antigravity AI Bug Bounty Hunter CLI")
     subparsers = parser.add_subparsers(dest="command", help="Available subcommands")
@@ -154,6 +205,19 @@ def main():
     # lab
     p_lab = subparsers.add_parser("lab", help="Run automated test suite against running lab containers")
 
+    # triage
+    p_triage = subparsers.add_parser("triage", help="Evaluate a candidate finding against the Stage 0-5 Triage Gate")
+    p_triage.add_argument("--title", type=str, default="Candidate Security Finding", help="Finding title")
+    p_triage.add_argument("--program", type=str, default="local_lab", help="Program name (default: local_lab)")
+    p_triage.add_argument("--host", type=str, default="", help="Target host (derived from --url if omitted)")
+    p_triage.add_argument("--method", type=str, default="GET", help="HTTP request method (GET, POST, etc.)")
+    p_triage.add_argument("--url", type=str, default="http://127.0.0.1:3000/rest/basket/1", help="Full request URL")
+    p_triage.add_argument("--status", type=int, default=200, help="HTTP response status code")
+    p_triage.add_argument("--body", type=str, default="", help="HTTP response body snippet")
+    p_triage.add_argument("--victim-marker", type=str, default="", help="Planted cross-tenant marker value")
+    p_triage.add_argument("--lab", action="store_true", help="Flag as authorized local lab asset")
+    p_triage.add_argument("--interactive", "-i", action="store_true", help="Prompt interactively for finding details")
+
     args = parser.parse_args()
     if not args.command:
         parser.print_help()
@@ -165,6 +229,7 @@ def main():
         "search": cmd_search,
         "recon": cmd_recon,
         "lab": cmd_lab,
+        "triage": cmd_triage,
     }
     cmds[args.command](args)
 

@@ -21,6 +21,7 @@ from core.scope_guard import (
     parse_host_port,
     check_deny_list_static,
     gate_destination,
+    admission_failure,
     LAB_HOSTS,
     LAB_PORTS,
     PERMANENT_DENY_PATTERNS,
@@ -147,7 +148,7 @@ class TriageEvaluator:
         except Exception:
             return {}
 
-    def verify_scope(self, program: str, host: str, is_lab: bool = False) -> Tuple[bool, str]:
+    def verify_scope(self, program: str, host: str, is_lab: bool = False, automated: bool = False) -> Tuple[bool, str]:
         """Enforces 08-scope-authorisation.md §1 & §6 with exact canonical program and asset matching."""
         if not host:
             return False, f"OUT OF SCOPE — unknown is not a listed in-scope asset for {program or 'unspecified program'}. Confirm authorisation or pick a target from data/programs-ranked.csv."
@@ -180,15 +181,10 @@ class TriageEvaluator:
         if not prog_entry:
             return False, f"OUT OF SCOPE — program '{program}' is not admitted to data/in_scope_assets.json. Confirm authorisation or pick a target from data/programs-ranked.csv."
 
-        status = prog_entry.get("status", "")
-        auth_by = prog_entry.get("authorized_by")
-
-        # Load-bearing status check
-        if status != "OPERATOR_AUTHORIZED":
-            return False, f"OUT OF SCOPE — program '{canonical_name}' has status '{status or 'UNATTESTED'}'. Only 'OPERATOR_AUTHORIZED' targets are permitted. Step 7 remains locked."
-
-        if not auth_by or not isinstance(auth_by, dict) or not auth_by.get("operator_handle") or not auth_by.get("timestamp") or not auth_by.get("operator_quote") or not prog_entry.get("source_url"):
-            return False, f"OUT OF SCOPE — program '{canonical_name}' lacks valid operator attestation block ('operator_handle', 'timestamp', 'operator_quote') or 'source_url'. Step 7 remains locked."
+        # Single source of truth for operator admission & automated permission
+        failure = admission_failure(prog_entry, canonical_name, automated=automated)
+        if failure:
+            return False, f"OUT OF SCOPE — {failure} Confirm authorisation or pick a target from data/programs-ranked.csv."
 
         prog_assets = prog_entry.get("in_scope_assets", [])
 

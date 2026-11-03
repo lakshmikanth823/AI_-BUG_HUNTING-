@@ -137,6 +137,10 @@ class AuthzProbe:
             raise ProbeRefused("probe config needs both attacker and victim account blocks")
 
         program_name = config.get("program")
+        if not is_lab and program_name:
+            admitted, why = self.recon.scope_guard.verify_target(base_url, program_name, is_lab=False, automated=True)
+            if not admitted:
+                raise ProbeRefused(f"probe automation refused by scope gate: {why}")
         atk_headers, atk_vals = self.authenticate(base_url, attacker_cfg, budget_tracker, is_lab, program_name)
         vic_headers, vic_vals = self.authenticate(base_url, victim_cfg, budget_tracker, is_lab, program_name)
 

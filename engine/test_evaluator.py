@@ -148,6 +148,8 @@ def test_firewall_and_scope_hardening():
     e.asset_map["Mock Attested Program"] = {
         "status": "OPERATOR_AUTHORIZED",
         "source_url": "https://example.com/bounty",
+        "policy_snapshot_path": str(Path(__file__).resolve()),
+        "automated_scanning_permitted": True,
         "in_scope_assets": ["target.example.com"],
         "authorized_by": {
             "operator_handle": "qa-lead",
@@ -169,6 +171,43 @@ def test_firewall_and_scope_hardening():
     in_scope, msg = e.verify_scope("Mock Reference Program", "ref.example.com", is_lab=False)
     assert in_scope is False, "REFERENCE_ONLY target must be refused"
     assert "OUT OF SCOPE" in msg
+
+    # 9. Automated scanning refused when automated_scanning_permitted is False or missing
+    e.asset_map["Mock Manual Only Program"] = {
+        "status": "OPERATOR_AUTHORIZED",
+        "source_url": "https://example.com/bounty",
+        "policy_snapshot_path": str(Path(__file__).resolve()),
+        "automated_scanning_permitted": False,
+        "in_scope_assets": ["manual.example.com"],
+        "authorized_by": {
+            "operator_handle": "qa-lead",
+            "timestamp": "2026-10-29T00:00:00Z",
+            "operator_quote": "Authorizing manual testing only"
+        }
+    }
+    e._programs_cache.append({"name": "Mock Manual Only Program"})
+    in_scope, msg = e.verify_scope("Mock Manual Only Program", "manual.example.com", is_lab=False, automated=False)
+    assert in_scope is True, f"Manual request must pass, got {msg}"
+    in_scope, msg = e.verify_scope("Mock Manual Only Program", "manual.example.com", is_lab=False, automated=True)
+    assert in_scope is False, "Automated scanning must be REFUSED when automated_scanning_permitted is False"
+    assert "automated_scanning_permitted" in msg
+
+    # 10. Missing policy_snapshot_path refuses admission entirely
+    e.asset_map["Mock No Snapshot Program"] = {
+        "status": "OPERATOR_AUTHORIZED",
+        "source_url": "https://example.com/bounty",
+        "automated_scanning_permitted": True,
+        "in_scope_assets": ["nosnap.example.com"],
+        "authorized_by": {
+            "operator_handle": "qa-lead",
+            "timestamp": "2026-10-29T00:00:00Z",
+            "operator_quote": "Missing policy snapshot"
+        }
+    }
+    e._programs_cache.append({"name": "Mock No Snapshot Program"})
+    in_scope, msg = e.verify_scope("Mock No Snapshot Program", "nosnap.example.com", is_lab=False, automated=False)
+    assert in_scope is False, "Missing policy_snapshot_path must refuse admission entirely"
+    assert "policy_snapshot_path" in msg
 
     print("[+] Test Firewall & Scope Hardening (D1, S1, S2, Operator Attestation Gate): PASS")
 

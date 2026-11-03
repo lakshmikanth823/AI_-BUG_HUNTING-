@@ -109,7 +109,7 @@ class ReconEngine:
                     "body": "",
                     "error": "PROVENANCE_REQUIRED: live (non-lab) fetch needs an attested program name; refusing before resolution"
                 }
-            admitted, why = self.scope_guard.verify_target(url, program, is_lab=False)
+            admitted, why = self.scope_guard.verify_target(url, program, is_lab=False, automated=True)
             if not admitted:
                 return {
                     "url": url,

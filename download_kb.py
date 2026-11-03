@@ -9,7 +9,12 @@ import sys
 import time
 from pathlib import Path
 
-BASE_DIR = Path("f:/New folder/knowledge_base")
+ROOT_DIR = Path(__file__).resolve().parent
+BASE_DIR = ROOT_DIR / "knowledge_base"
+
+# Startup check: ensure parent directory exists rather than silently creating a disconnected folder tree
+if not BASE_DIR.parent.exists():
+    raise RuntimeError(f"Expected repository root directory does not exist: {BASE_DIR.parent}")
 
 REPOSITORIES = [
     # Category 1: Methodologies & Playbooks
@@ -114,8 +119,8 @@ REPOSITORIES = [
 
 def clone_repo(repo: dict):
     target_dir = BASE_DIR / repo["category"] / repo["name"]
-    if target_dir.exists() and (target_dir / ".git").exists():
-        print(f"[+] Skipping {repo['name']} (already cloned at {target_dir})")
+    if target_dir.exists() and any(target_dir.iterdir()):
+        print(f"[+] Skipping {repo['name']} (already present at {target_dir})")
         return True
 
     target_dir.parent.mkdir(parents=True, exist_ok=True)

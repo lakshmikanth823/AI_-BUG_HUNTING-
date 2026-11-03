@@ -14,7 +14,12 @@ ssl_context = ssl._create_unverified_context()
 
 from pathlib import Path
 
-DATA_FILE = Path('f:/New folder/data/in_scope_assets.json')
+ROOT_DIR = Path(__file__).resolve().parent.parent
+DATA_FILE = ROOT_DIR / 'data' / 'in_scope_assets.json'
+
+# Startup check: ensure parent directory exists rather than silently creating a disconnected folder tree
+if not DATA_FILE.parent.exists():
+    raise RuntimeError(f"Expected data directory does not exist: {DATA_FILE.parent}")
 
 def load_targets():
     data = json.loads(DATA_FILE.read_text(encoding='utf-8'))

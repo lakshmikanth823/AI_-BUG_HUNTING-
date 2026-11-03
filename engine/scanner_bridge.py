@@ -88,8 +88,8 @@ class ScannerBridge:
         parsed = urllib.parse.urlparse(target_url_with_fuzz)
         host = parsed.netloc.split(":")[0]
 
-        # Provenance check first (zero network / zero DNS)
-        in_scope, scope_msg = self.evaluator.verify_scope(program, host, is_lab=is_lab)
+        # Provenance check first (zero network / zero DNS) with automated scanning check
+        in_scope, scope_msg = self.evaluator.verify_scope(program, host, is_lab=is_lab, automated=True)
         if not in_scope:
             return {"status": "BLOCKED", "reason": scope_msg, "results": []}
 
@@ -250,8 +250,8 @@ class ScannerBridge:
         parsed = urllib.parse.urlparse(target_url)
         host = parsed.netloc.split(":")[0]
 
-        # Provenance check first (zero network / zero DNS)
-        in_scope, scope_msg = self.evaluator.verify_scope(program, host, is_lab=is_lab)
+        # Provenance check first (zero network / zero DNS) with automated scanning check
+        in_scope, scope_msg = self.evaluator.verify_scope(program, host, is_lab=is_lab, automated=True)
         if not in_scope:
             return [{
                 "id": "SCOPE_DENIED",

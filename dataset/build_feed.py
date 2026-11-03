@@ -10,7 +10,13 @@ import urllib.request
 from pathlib import Path
 from typing import List, Dict, Any
 
-OUTPUT_DIR = Path("f:/New folder/dataset")
+ROOT_DIR = Path(__file__).resolve().parent.parent
+OUTPUT_DIR = ROOT_DIR / "dataset"
+
+# Startup check: ensure parent directory exists rather than silently creating a disconnected folder tree
+if not OUTPUT_DIR.parent.exists():
+    raise RuntimeError(f"Expected repository root directory does not exist: {OUTPUT_DIR.parent}")
+
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # 1. High-priority Curated Collections

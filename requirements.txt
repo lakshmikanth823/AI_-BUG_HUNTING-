@@ -1,0 +1,6 @@
+# Python Standard Library only:
+# The core hunting CLI, ScopeGuard, TriageEvaluator, ReconEngine, and lab test harness
+# run strictly on the Python 3.10+ Standard Library (zero mandatory third-party dependencies).
+
+# Optional development & maintenance scripts (e.g., workspace document auditing):
+pyyaml>=6.0

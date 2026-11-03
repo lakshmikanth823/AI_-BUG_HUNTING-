@@ -23,6 +23,8 @@ from engine.authz_probe import AuthzProbe, ProbeRefused  # noqa: E402
 ATTESTED = {
     "status": "OPERATOR_AUTHORIZED",
     "source_url": "https://example.com/policy",
+    "policy_snapshot_path": str(Path(__file__).resolve()),
+    "automated_scanning_permitted": True,
     "authorized_by": {"operator_handle": "@qa", "timestamp": "2026-10-31T00:00:00Z",
                       "operator_quote": "I hold an account in good standing"},
 }

@@ -325,10 +325,22 @@ def check_deny_list_static(destination: str, is_lab: bool = False) -> Tuple[bool
     return False, "CLEAN (RESOLUTION DEFERRED TO EGRESS GATE)"
 
 
-def admission_failure(prog_entry: Optional[Dict[str, Any]], label: str = "") -> str:
+def admission_failure(prog_entry: Optional[Dict[str, Any]], label: str = "", automated: bool = False) -> str:
     """
     Single source of truth for operator admission. Returns '' when the asset-map entry is
     properly attested, else the reason. A missing or malformed entry never admits anything.
+
+    CRITICAL REQUIREMENTS:
+    1. 'status' must be 'OPERATOR_AUTHORIZED'.
+    2. 'authorized_by' must contain 'operator_handle', 'timestamp', and 'operator_quote'.
+    3. 'source_url' must be present.
+    4. 'policy_snapshot_path': path to a locally saved copy of the program's ACTUAL policy
+       page text, fetched and saved with a timestamp, not summarized or typed from memory.
+    5. 'automated_scanning_permitted': true/false.
+       EXPLANATION: This field must NEVER be set to True by an AI agent inferring or deducing it;
+       it must be set strictly by a human operator after actually reading the saved policy text.
+       If an automated/scripted call path (ffuf, nuclei, recon.py, scanner_bridge.py, authz_probe.py)
+       is invoked, this field must be explicitly True.
     """
     if not prog_entry or not isinstance(prog_entry, dict):
         return f"program '{label}' is not admitted to data/in_scope_assets.json."
@@ -342,6 +354,28 @@ def admission_failure(prog_entry: Optional[Dict[str, Any]], label: str = "") -> 
             or not prog_entry.get("source_url")):
         return (f"program '{label}' lacks valid operator attestation block "
                 "('operator_handle', 'timestamp', 'operator_quote') or 'source_url'. Step 7 remains locked.")
+
+    # 4. policy_snapshot_path check: locally saved copy of the program's actual policy text
+    snapshot_path = prog_entry.get("policy_snapshot_path")
+    if not snapshot_path or not isinstance(snapshot_path, str) or not snapshot_path.strip():
+        return (f"program '{label}' lacks valid 'policy_snapshot_path' referencing a locally saved copy "
+                "of the program's actual policy page text. Step 7 remains locked.")
+    snap_p = Path(snapshot_path.strip())
+    if not snap_p.is_absolute():
+        snap_p = (ROOT_DIR / snap_p).resolve()
+    if not snap_p.exists() or not snap_p.is_file():
+        return (f"program '{label}' specifies 'policy_snapshot_path' ('{snapshot_path}') which does not exist on disk. "
+                "Step 7 remains locked.")
+
+    # 5. automated_scanning_permitted check for automated / scripted call paths
+    # NOTE: 'automated_scanning_permitted' must be explicitly set to True by a human operator
+    # after reading the saved policy snapshot. An AI agent must NEVER infer or set this field.
+    if automated:
+        if prog_entry.get("automated_scanning_permitted") is not True:
+            return (f"program '{label}' does not explicitly permit automated scanning "
+                    "('automated_scanning_permitted' is not True). Automated/scripted requests "
+                    "(ffuf, nuclei, recon, scanner_bridge, authz_probe) are strictly refused.")
+
     return ""
 
 
@@ -371,7 +405,7 @@ class ScopeGuard:
         except Exception:
             return {}
 
-    def verify_target(self, target_url: str, program_name: str, is_lab: bool = False) -> Tuple[bool, str]:
+    def verify_target(self, target_url: str, program_name: str, is_lab: bool = False, automated: bool = False) -> Tuple[bool, str]:
         """Validates target provenance and bounds adhering to 08-scope-authorisation.md §1 & §6."""
         host, port = parse_host_port(target_url)
         if not host:
@@ -415,7 +449,7 @@ class ScopeGuard:
             return False, f"OUT OF SCOPE — program '{program_name}' is not admitted to data/in_scope_assets.json. Confirm authorisation or pick a target from data/programs-ranked.csv."
 
         # Load-bearing status check
-        failure = admission_failure(prog_entry, canonical_name)
+        failure = admission_failure(prog_entry, canonical_name, automated=automated)
         if failure:
             return False, f"OUT OF SCOPE — {failure} Confirm authorisation or pick a target from data/programs-ranked.csv."
 
