@@ -1,0 +1,15 @@
+http/misconfiguration/http-missing-security-headers.yaml
+http/misconfiguration/cookies-without-httponly.yaml
+http/misconfiguration/cookies-without-secure.yaml
+http/misconfiguration/missing-cookie-samesite-strict.yaml
+http/misconfiguration/weak-hsts-detect.yaml
+http/misconfiguration/git-web-interface.yaml
+http/misconfiguration/aspx-debug-mode.yaml
+http/misconfiguration/django-debug-config-enabled.yaml
+http/misconfiguration/laravel-debug-error.yaml
+http/misconfiguration/database-error.yaml
+http/misconfiguration/php-errors.yaml
+http/misconfiguration/apache/apache-server-status.yaml
+http/miscellaneous/directory-listing.yaml
+http/exposures/configs/phpinfo-files.yaml
+http/exposures/files/angular-json.yaml

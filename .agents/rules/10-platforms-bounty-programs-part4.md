@@ -1,0 +1,273 @@
+---
+trigger: model_decision
+description: "HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi program URLs and directories. Use when the task is finding or triaging a bug bounty program, checking scope, or picking a target. (part 4/5)"
+---
+
+# Security Research Link Corpus — Bug Bounty Platforms & Program Directories
+
+Part 4 of 5. 264 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ~ <https://hackerone.com/coursera> — Coursera
+- ~ <https://hackerone.com/creditkarma> — Credit Karma
+- ~ <https://hackerone.com/crowdstrike> — Crowdstrike
+- ~ <https://hackerone.com/crypto> — Crypto.com
+- ~ <https://hackerone.com/cs_money> — CS Money
+- ~ <https://hackerone.com/csg-public> — Cloud Software Group
+- ~ <https://hackerone.com/curl> — curl
+- ~ <https://hackerone.com/cylance> — Cylance
+- ~ <https://hackerone.com/dailypay_vdp> — DailyPay VDP
+- ~ <https://hackerone.com/daimler_truck> — Daimler Truck
+- ~ <https://hackerone.com/databricks> — Databricks
+- ~ <https://hackerone.com/defectdojo> — DefectDojo
+- ~ <https://hackerone.com/deptofdefense> — U.S. Dept Of Defense
+- ~ <https://hackerone.com/deribit> — Deribit
+- ~ <https://hackerone.com/deriv> — Deriv.com
+- ~ <https://hackerone.com/dib-vdp> — DIB-VDP
+- ~ <https://hackerone.com/digitalsellz> — DigitalSellz
+- ~ <https://hackerone.com/disclosure-assistance> — Disclosure Assistance
+- ~ <https://hackerone.com/discourse> — Discourse
+- ~ <https://hackerone.com/discover-vdp> — Discover VDP
+- ~ <https://hackerone.com/disney> — The Walt Disney Company
+- ~ <https://hackerone.com/django> — Django
+- ~ <https://hackerone.com/docusign> — DocuSign
+- ~ <https://hackerone.com/doordash> — DoorDash
+- ~ <https://hackerone.com/doppler> — Doppler
+- ~ <https://hackerone.com/dropbox-acquisitions> — Dropbox Acquisitions
+- ~ <https://hackerone.com/duckduckgo> — DuckDuckGo
+- ~ <https://hackerone.com/dust> — Dust
+- ~ <https://hackerone.com/dynatrace> — Dynatrace
+- ~ <https://hackerone.com/dyson> — Dyson
+- ~ <https://hackerone.com/early_warning> — Early Warning
+- ~ <https://hackerone.com/eero> — eero
+- ~ <https://hackerone.com/elastic> — Elastic
+- ~ <https://hackerone.com/emoney-advisor> — eMoney Advisor
+- ~ <https://hackerone.com/enjin> — Enjin
+- ~ <https://hackerone.com/envoy> — Envoy
+- ~ <https://hackerone.com/epicgames> — Epic Games
+- ~ <https://hackerone.com/epicgames-vdp> — Epic Games VDP
+- ~ <https://hackerone.com/equifax> — Equifax-vdp
+- ~ <https://hackerone.com/essity> — Essity
+- ~ <https://hackerone.com/estee-lauder> — Esteé  Lauder
+- ~ <https://hackerone.com/eternal> — Eternal
+- ~ <https://hackerone.com/eufy_security> — eufy Security
+- ~ <https://hackerone.com/evernote> — Evernote
+- ~ <https://hackerone.com/exness> — EXNESS
+- ~ <https://hackerone.com/exodus> — Exodus
+- ~ <https://hackerone.com/expediagroup> — Expedia Group VDP
+- ~ <https://hackerone.com/expediagroup_bbp> — Expedia Group Bug Bounty
+- ~ <https://hackerone.com/experian> — Experian
+- ~ <https://hackerone.com/expressionengine> — ExpressionEngine
+- ~ <https://hackerone.com/faceless> — Faceless
+- ~ <https://hackerone.com/factlink> — Factlink
+- ~ <https://hackerone.com/fanduel> — FanDuel
+- ~ <https://hackerone.com/fanduel-vdp> — FanDuel Response
+- ~ <https://hackerone.com/fanfootage> — FanFootage
+- ~ <https://hackerone.com/faraday_inc> — Faraday, Inc.
+- ~ <https://hackerone.com/fastly-vdp> — Fastly VDP
+- ~ <https://hackerone.com/ferrero> — Ferrero
+- ~ <https://hackerone.com/fertitta_entertainment> — Fertitta Entertainment
+- ~ <https://hackerone.com/fetlife> — FetLife
+- ~ <https://hackerone.com/fidelity> — Fidelity
+- ~ <https://hackerone.com/fifth_third_bank_vdp> — Fifth Third Bank VDP
+- ~ <https://hackerone.com/figma> — Figma
+- ~ <https://hackerone.com/files> — Files.com
+- ~ <https://hackerone.com/finnair_vdp> — Finnair Vulnerability Disclosure
+- ~ <https://hackerone.com/finra> — FINRA Response
+- ~ <https://hackerone.com/fiserv> — Fiserv
+- ~ <https://hackerone.com/flash> — Flash
+- ~ <https://hackerone.com/flexport_vdp> — Flexport VDP
+- ~ <https://hackerone.com/flickr> — Flickr
+- ~ <https://hackerone.com/flipkart> — Flipkart
+- ~ <https://hackerone.com/floqast> — FloQast
+- ~ <https://hackerone.com/flox> — Flox
+- ~ <https://hackerone.com/flutteruki> — Flutter UK&I
+- ~ <https://hackerone.com/ford> — Ford
+- ~ <https://hackerone.com/forescout_technologies> — ForeScout Technologies
+- ~ <https://hackerone.com/formassembly> — FormAssembly
+- ~ <https://hackerone.com/fresenius> — Fresenius
+- ~ <https://hackerone.com/fronthq> — Front
+- ~ <https://hackerone.com/getyourguide_vdp> — GetYourGuide VDP
+- ~ <https://hackerone.com/glasswire> — GlassWire
+- ~ <https://hackerone.com/global-payments> — Global Payments
+- ~ <https://hackerone.com/globaleaks> — GlobaLeaks
+- ~ <https://hackerone.com/gm> — General Motors
+- ~ <https://hackerone.com/gmelius> — Gmelius
+- ~ <https://hackerone.com/gmguys> — GhostMail
+- ~ <https://hackerone.com/gocardless_bbp> — GoCardless Bug Bounty Program
+- ~ <https://hackerone.com/godaddy-vdp> — GoDaddy VDP
+- ~ <https://hackerone.com/gogo_vdp> — Gogo VDP
+- ~ <https://hackerone.com/goldmansachs> — Goldman Sachs
+- ~ <https://hackerone.com/goodrx> — GoodRx
+- ~ <https://hackerone.com/grab> — Grab
+- ~ <https://hackerone.com/grammarly> — Grammarly
+- ~ <https://hackerone.com/gratipay> — Gratipay
+- ~ <https://hackerone.com/greenhouse> — Greenhouse.io
+- ~ <https://hackerone.com/grindr> — Grindr
+- ~ <https://hackerone.com/gymshark> — Gymshark
+- ~ <https://hackerone.com/hack_the_box> — Hack The Box
+- ~ <https://hackerone.com/hcl_software> — HCL Software Inc.
+- ~ <https://hackerone.com/henkel_vdp> — Henkel
+- ~ <https://hackerone.com/hertz> — Hertz VDP
+- ~ <https://hackerone.com/hex> — Hex
+- ~ <https://hackerone.com/hexagon_vdp> — Hexagon-VDP
+- ~ <https://hackerone.com/hilton> — Hilton
+- ~ <https://hackerone.com/hostinger> — hostinger
+- ~ <https://hackerone.com/hotmartvdp> — Hotmart (VDP)
+- ~ <https://hackerone.com/hpe_vdp> — HPE VDP
+- ~ <https://hackerone.com/hubdia> — Hubdia
+- ~ <https://hackerone.com/hubspot> — HubSpot
+- ~ <https://hackerone.com/hy-vee> — Hy-Vee
+- ~ <https://hackerone.com/hyatt> — Hyatt Hotels
+- ~ <https://hackerone.com/hyland_software> — Hyland Software
+- ~ <https://hackerone.com/hypr-corp> — HYPR
+- ~ <https://hackerone.com/iandunn-projects> — Ian Dunn
+- ~ <https://hackerone.com/ibb-apache> — Apache httpd
+- ~ <https://hackerone.com/ibb-nginx> — Nginx
+- ~ <https://hackerone.com/ibb-openssl> — OpenSSL
+- ~ <https://hackerone.com/ibb-perl> — Perl
+- ~ <https://hackerone.com/ibm> — IBM
+- ~ <https://hackerone.com/imgur> — Imgur
+- ~ <https://hackerone.com/inditex> — Inditex
+- ~ <https://hackerone.com/indrive> — inDrive
+- ~ <https://hackerone.com/informatica> — Informatica
+- ~ <https://hackerone.com/insightly> — Insightly
+- ~ <https://hackerone.com/inspectorio> — Inspectorio
+- ~ <https://hackerone.com/instacart> — Instacart
+- ~ <https://hackerone.com/insulet_corporation> — Insulet Corporation
+- ~ <https://hackerone.com/interco_vdp> — Inter & Co. VDP
+- ~ <https://hackerone.com/internet> — The Internet
+- ~ <https://hackerone.com/intuit_rdp> — Intuit
+- ~ <https://hackerone.com/invision> — InVision
+- ~ <https://hackerone.com/ion> — ION Group
+- ~ <https://hackerone.com/ips> — Invision Power Services, Inc.
+- ~ <https://hackerone.com/irccloud> — IRCCloud
+- ~ <https://hackerone.com/itau_unibanco> — Itaú Unibanco
+- ~ <https://hackerone.com/itbit> — itBit Exchange
+- ~ <https://hackerone.com/jetblue> — JetBlue
+- ~ <https://hackerone.com/john-deere> — John Deere
+- ~ <https://hackerone.com/joola-io> — joola.io
+- ~ <https://hackerone.com/jsdelivr> — jsDelivr
+- ~ <https://hackerone.com/judgeme> — Judge.me
+- ~ <https://hackerone.com/kadira> — Kadira
+- ~ <https://hackerone.com/kaseya> — Kaseya
+- ~ <https://hackerone.com/kayak> — KAYAK
+- ~ <https://hackerone.com/kenziy> — kenziy
+- ~ <https://hackerone.com/keybank> — KeyBank
+- ~ <https://hackerone.com/keybase> — Keybase
+- ~ <https://hackerone.com/khanacademy> — Khan Academy
+- ~ <https://hackerone.com/khealth> — KHealth
+- ~ <https://hackerone.com/kiwicom> — Kiwi.com
+- ~ <https://hackerone.com/kkr_vdp> — KKR-VDP
+- ~ <https://hackerone.com/klarna> — Klarna
+- ~ <https://hackerone.com/koho> — KOHO
+- ~ <https://hackerone.com/kong> — Kong
+- ~ <https://hackerone.com/kraken-tech> — Kraken Tech (VDP)
+- ~ <https://hackerone.com/krisp> — Krisp
+- ~ <https://hackerone.com/kubernetes> — Kubernetes
+- ~ <https://hackerone.com/lark_technologies> — Lark Technologies
+- ~ <https://hackerone.com/latamairlines> — LATAM Airlines
+- ~ <https://hackerone.com/leantesting> — Lean Testing
+- ~ <https://hackerone.com/lemlist> — lemlist
+- ~ <https://hackerone.com/libsass> — LibSass
+- ~ <https://hackerone.com/linkedin> — LinkedIn
+- ~ <https://hackerone.com/live_nation> — Live Nation
+- ~ <https://hackerone.com/liverpool_victoria> — Liverpool Victoria
+- ~ <https://hackerone.com/localize> — Localize
+- ~ <https://hackerone.com/logitech> — Logitech
+- ~ <https://hackerone.com/lovable-vdp> — Lovable VDP
+- ~ <https://hackerone.com/lowes> — Lowe's Companies VDP
+- ~ <https://hackerone.com/lpl_financial-vdp> — LPL Financial VDP
+- ~ <https://hackerone.com/luminor> — Luminor
+- ~ <https://hackerone.com/lyst> — Lyst
+- ~ <https://hackerone.com/magic-eden> — Magic Eden
+- ~ <https://hackerone.com/mailru> — Mail.Ru
+- ~ <https://hackerone.com/maplogin> — MapLogin
+- ~ <https://hackerone.com/mariadb> — MariaDB
+- ~ <https://hackerone.com/marktplaats> — Marktplatts
+- ~ <https://hackerone.com/marriott> — Marriott Bug Bounty Program
+- ~ <https://hackerone.com/mars> — Mars
+- ~ <https://hackerone.com/matomo> — Matomo
+- ~ <https://hackerone.com/mavenlink> — Mavenlink
+- ~ <https://hackerone.com/maximum> — Maximum
+- ~ <https://hackerone.com/mcgrawhill> — McGraw Hill
+- ~ <https://hackerone.com/meesho_bbp> — Meesho
+- ~ <https://hackerone.com/mendix> — Mendix
+- ~ <https://hackerone.com/mercadolibre> — MercadoLibre
+- ~ <https://hackerone.com/mergify> — Mergify
+- ~ <https://hackerone.com/meteor> — Meteor
+- ~ <https://hackerone.com/mintel> — Mintel
+- ~ <https://hackerone.com/mobilevikings> — Mobile Vikings
+- ~ <https://hackerone.com/mod_supply_chain_vdp> — MOD Supply Chain VDP
+- ~ <https://hackerone.com/modern_treasury> — Modern Treasury
+- ~ <https://hackerone.com/monarch_money> — Monarch Money
+- ~ <https://hackerone.com/mondelez> — Mondelēz International
+- ~ <https://hackerone.com/monero> — Monero
+- ~ <https://hackerone.com/moneybird> — Moneybird
+- ~ <https://hackerone.com/moneystream> — MoneyStream
+- ~ <https://hackerone.com/mongodb> — MongoDB
+- ~ <https://hackerone.com/moonpay> — MoonPay
+- ~ <https://hackerone.com/moov> — Moov
+- ~ <https://hackerone.com/msci> — MSCI
+- ~ <https://hackerone.com/msd> — Merck & Co., Inc., Rahway, NJ, USA
+- ~ <https://hackerone.com/mtb> — M&T Bank Vulnerability Disclosure
+- ~ <https://hackerone.com/mtn_group> — MTN Group
+- ~ <https://hackerone.com/mueller_water_products_vdp> — Mueller Water Products (VDP)
+- ~ <https://hackerone.com/mufg-vdp> — MUFG VDP
+- ~ <https://hackerone.com/myndr> — Myndr
+- ~ <https://hackerone.com/navient_solutions> — Navient Solutions LLC
+- ~ <https://hackerone.com/nba-public> — NBA Public Bug Bounty
+- ~ <https://hackerone.com/nearby> — Nearby Live
+- ~ <https://hackerone.com/nebius_ai_vdp> — Nebius AI Vulnerability Disclosure
+- ~ <https://hackerone.com/neon_bbp> — Neon
+- ~ <https://hackerone.com/netflix> — Netflix
+- ~ <https://hackerone.com/netscaler_public_program> — NetScaler Public Program
+- ~ <https://hackerone.com/newegg> — Newegg
+- ~ <https://hackerone.com/nextcloud> — Nextcloud
+- ~ <https://hackerone.com/nintendo> — Nintendo
+- ~ <https://hackerone.com/nisc> — NISC-VDP
+- ~ <https://hackerone.com/nodejs> — Node.js
+- ~ <https://hackerone.com/nominet> — Nominet
+- ~ <https://hackerone.com/notion> — Notion Labs, Inc.
+- ~ <https://hackerone.com/nutanix> — Nutanix
+- ~ <https://hackerone.com/oaknorth_bank> — OakNorth Bank
+- ~ <https://hackerone.com/oanda> — OANDA
+- ~ <https://hackerone.com/octopus-energy> — Octopus Energy Group
+- ~ <https://hackerone.com/ohiosecretaryofstate> — Ohio Secretary of State
+- ~ <https://hackerone.com/ok> — ok.ru
+- ~ <https://hackerone.com/okcupid> — OkCupid
+- ~ <https://hackerone.com/okg> — OKG
+- ~ <https://hackerone.com/omarchy> — Omarchy
+- ~ <https://hackerone.com/omnicell> — Omnicell
+- ~ <https://hackerone.com/on> — On
+- ~ <https://hackerone.com/openfolio> — Openfolio
+- ~ <https://hackerone.com/openmage> — OpenMage
+- ~ <https://hackerone.com/oportun_vdp> — Oportun
+- ~ <https://hackerone.com/oppo_bbp> — OPPO
+- ~ <https://hackerone.com/owncloud> — ownCloud
+- ~ <https://hackerone.com/owox> — OWOX, Inc.
+- ~ <https://hackerone.com/pagerduty> — PagerDuty
+- ~ <https://hackerone.com/palantir_public> — Palantir Public
+- ~ <https://hackerone.com/palo_alto_software> — Palo Alto Software
+- ~ <https://hackerone.com/panasonic-aero> — Panasonic Avionics
+- ~ <https://hackerone.com/paragonie> — Paragon Initiative Enterprises
+- ~ <https://hackerone.com/payoneer> — Payoneer
+- ~ <https://hackerone.com/paystack-vdp> — Paystack Vulnerability Disclosure
+- ~ <https://hackerone.com/peloton> — Peloton
+- ~ <https://hackerone.com/penn_entertainment> — Penn Entertainment
+- ~ <https://hackerone.com/pepsico_vdp> — PepsiCo VDP
+- ~ <https://hackerone.com/pfizer> — Pfizer
+- ~ <https://hackerone.com/phabricator> — Phabricator
+- ~ <https://hackerone.com/phonepe_vdp> — PhonePe
+- ~ <https://hackerone.com/picsart> — Picsart
+- ~ <https://hackerone.com/pingidentity> — Ping Identity
+- ~ <https://hackerone.com/pixiv> — pixiv
+- ~ <https://hackerone.com/plaid> — Plaid
+- ~ <https://hackerone.com/planet-labs> — Planet Labs
+- ~ <https://hackerone.com/playstation> — PlayStation
+- ~ <https://hackerone.com/playtika> — Playtika
+- ~ <https://hackerone.com/polygon-technology> — Polygon Technology
+- ~ <https://hackerone.com/pornbox> — PornBox
+- ~ <https://hackerone.com/portswigger> — PortSwigger Web Security
+- ~ <https://hackerone.com/priceline> — Priceline
+- ~ <https://hackerone.com/prism_vdp> — PRISM
+- ~ <https://hackerone.com/privy-bbp> — Privy (Bounty)

@@ -1,0 +1,132 @@
+---
+trigger: model_decision
+description: "GitHub security orgs, awesome-lists and repositories worth cloning. Use when sourcing or recommending a codebase. (part 9/9)"
+---
+
+# Security Research Link Corpus — GitHub Security Repos & Awesome Lists
+
+Part 9 of 9. 123 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://hoppersroppers.org/ctf> — gitbook
+- ✓ <https://hoppersroppers.org/fundamentals> — gitbook
+- ✓ <https://hoppersroppers.org/training.html> — Roppers Academy Training
+- ✓ <https://hub.docker.com/r/citizenstig/nowasp> — OWASP Mutillidae II Web Pen-Test Practice Application
+- ✓ <https://hub.docker.com/r/cylabs/cy-threat-response> — Cyware Threat Response Docker
+- ✓ <https://hub.docker.com/r/kalilinux/kali-last-release> — official Kali Linux
+- ✓ <https://hub.docker.com/r/metasploitframework/metasploit-framework> — Official Metasploit
+- ✓ <https://hub.docker.com/r/noncetonic/archlinux-pentest-lxde> — Arch Linux Penetration Tester
+- ✓ <https://hub.docker.com/r/wpscanteam/wpscan> — official WPScan
+- ✓ <https://hunter.io> — Hunter.io
+- ✓ <https://insomnihack.ch> — Insomni’hack
+- ✓ <https://jetbrains.com/decompiler> — dotPeek
+- ✓ <https://kali.org> — Kali Linux
+- ✓ <https://kali.org/tools/skipfish> — skipfish
+- ✓ <https://kernel.org/doc/Documentation/usb/usbmon.txt> — usbmon
+- ✓ <https://kismetwireless.net> — Kismet
+- ✓ <https://kube-hunter.aquasec.com> — kube-hunter
+- ✓ <https://legitbs.net> — DEF CON
+- ✓ <https://malwareunicorn.org/workshops/re101.html> — Malware Unicorn Reverse Engineering Tutorial
+- ✓ <https://metasploit.com> — Metasploit
+- ✓ <https://metrics.torproject.org/collector.html> — Tor Bulk Exit List
+- ✓ <https://misp-project.org> — MISP - Open Source Threat Intelligence Platform
+- ✓ <https://misp-project.org/feeds> — feeds
+- ✓ <https://misp-project.org/galaxy.html> — threat-actors and various malware
+- ✓ <https://misp-project.org/objects.html> — objects
+- ✓ <https://misp-project.org/taxonomies.html> — taxonomies
+- ✓ <https://missing.csail.mit.edu/2020/course-shell> — Missing Semester
+- ✓ <https://mitmproxy.org> — mitmproxy
+- ✓ <https://monkey.org/~dugsong/dsniff> — dsniff
+- ✓ <https://n0where.net/best-linux-penetration-testing-distributions> — Best Linux Penetration Testing Distributions @ CyberPunk
+- ✓ <https://n0where.net/wifijammer> — Wifi Jammer
+- ✓ <https://nationalcybersummit.com> — National Cyber Summit
+- ✓ <https://onionscan.org> — OnionScan
+- ✓ <https://opalopc.com> — OpalOPC
+- ✓ <https://openvpn.net> — OpenVPN
+- ✓ <https://opnsense.org> — OPNsense
+- ✓ <https://parrotlinux.org> — Parrot
+- ✓ <https://passbolt.com> — passbolt
+- ✓ <https://pentest-ground.com> — Pentest-Ground
+- ✓ <https://pentestbox.org> — PentestBox
+- ✓ <https://pentestreports.com> — Pentest reports
+- ✓ <https://pfsense.org> — pfSense
+- ✓ <https://phishstats.info> — PhishStats
+- ✓ <https://prelude-siem.org> — Prelude
+- ✓ <https://proxmark3.com> — Proxmark3
+- ✓ <https://pypi.python.org/pypi/bandit> — bandit
+- ✓ <https://qubes-os.org> — Qubes OS
+- ✓ <https://rapid7.com/products/nexpose> — Nexpose
+- ✓ <https://reconmap.com> — Reconmap
+- ✓ <https://rfxn.com/projects/linux-malware-detect> — Linux Malware Detect
+- ✓ <https://rizin.re> — rizin
+- ✓ <https://ronin-rb.dev> — Ronin
+- ✓ <https://samy.pl/poisontap> — Poisontap
+- ✓ <https://scammerlist.now.sh> — Scammer-List
+- ✓ <https://secapps.com> — SecApps
+- ✓ <https://secroles.com/jobs>
+- ✓ <https://shop.hak5.org> — Hak5
+- ✓ <https://sno.phy.queensu.ca/~phil/exiftool> — ExifTool
+- ✓ <https://snort.org> — Snort
+- ✓ <https://spamassassin.apache.org> — SpamAssassin
+- ✓ <https://sparta.secforce.com> — SPARTA
+- ✓ <https://steelcon.info> — SteelCon
+- ✓ <https://stegonline.georgeom.net> — StegOnline
+- ✓ <https://swisscyberstorm.com> — Swiss Cyber Storm
+- ✓ <https://synalysis.net> — Synalize It
+- ✓ <https://tcpreplay.appneta.com> — tcpreplay
+- ✓ <https://telerik.com/fiddler> — Fiddler
+- ✓ <https://threatjammer.com> — Threat Jammer
+- ✓ <https://thunderclap.io> — Thunderclap
+- ✓ <https://torproject.org> — Tor Project
+- ✓ <https://tracewrangler.com> — TraceWrangler
+- ✓ <https://trapkit.de/tools/checksec.html> — checksec.sh
+- ✓ <https://tsurugi-linux.org> — tsurugi
+- ✓ <https://vaultproject.io> — Vault
+- ✓ <https://veil-framework.com> — Veil
+- ✓ <https://vulmon.com> — Vulmon
+- ✓ <https://wappalyzer.com> — Wappalyzer
+- ✓ <https://whonix.org> — Whonix
+- ✓ <https://wifipineapple.com> — WiFi Pineapple
+- ✓ <https://wigle.net> — WiGLE.net
+- ✓ <https://wireedit.com> — WireEdit
+- ✓ <https://wireshark.org> — Wireshark
+- ✓ <https://zerodays.ie> — ZeroDays CTF
+- ✓ <https://zmap.io> — zmap
+- ~ <http://alienvault.com/open-threat-exchange/dashboard> — AlienVault Open Threat Exchange
+- ~ <http://bittwist.sourceforge.net> — bittwist
+- ~ <http://blindelephant.sourceforge.net> — BlindElephant
+- ~ <http://cppcheck.sourceforge.net> — cppcheck
+- ~ <http://ctf.codegate.org/html/Main.html?lang=eng> — Codegate CTF
+- ~ <http://denyhosts.sourceforge.net> — Denyhosts
+- ~ <http://ekoparty.org> — Ekoparty
+- ~ <http://findbugs.sourceforge.net> — FindBugs
+- ~ <http://frhed.sourceforge.net> — Frhed
+- ~ <http://justniffer.sourceforge.net> — justniffer
+- ~ <http://kojoney.sourceforge.net> — Kojoney
+- ~ <http://malzilla.sourceforge.net> — malzilla
+- ~ <http://mcafee.com/kr/downloads/free-tools/bintext.aspx>
+- ~ <http://ngrep.sourceforge.net> — ngrep
+- ~ <http://rarcrack.sourceforge.net> — Rar Crack
+- ~ <http://rkhunter.sourceforge.net> — rkhunter
+- ~ <http://sourceforge.net/projects/bifrozt> — Bifrozt
+- ~ <http://sourceforge.net/projects/paros> — Paros
+- ~ <http://tgcd.sourceforge.net> — tgcd
+- ~ <http://upx.sourceforge.net> — UPX
+- ~ <http://wapiti.sourceforge.net> — Wapiti
+- ~ <https://aibuilds.net> — Demo
+- ~ <https://alienvault.com/open-threat-exchange/projects> — OSSIM
+- ~ <https://appsecusa.org> — AppSecUSA
+- ~ <https://atcommands.org> — AT Commands
+- ~ <https://chcon.nz> — CHCon
+- ~ <https://digi.ninja/projects/cewl.php> — CeWL
+- ~ <https://dnsdumpster.com> — DNSDumpster
+- ~ <https://dshield.org/reports.html> — Internet Storm Center
+- ~ <https://hitcon.org> — HITCON
+- ~ <https://shellterproject.com> — Shellter
+- ~ <https://sourceforge.net/projects/high-orbit-ion-cannon> — HOIC
+- ~ <https://summercon.org> — SummerCon
+- ~ <https://tails.boum.org> — Tails OS
+- ~ <https://testandverification.com/wp-content/uploads/template-penetration-testing-report-v03.pdf> — T&VS Pentesting Report Template
+- ~ <https://virusbulletin.com/conference/index> — Virus Bulletin Conference
+- ~ <https://webreaver.com> — WebReaver
+- ~ <https://wpscan.org> — WPScan
+- ~ <https://zeek.org> — Zeek

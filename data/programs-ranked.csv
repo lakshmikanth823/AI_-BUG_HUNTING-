@@ -1,0 +1,947 @@
+platform,name,url,payout,currency,in_scope,managed,offers,resp_eff,harbor,disclosure,bounty_assets,ttr_hours,ttb_hours,ttr_days,ttb_days
+Bugcrowd,OpenSea Managed Bug Bounty Program,https://bugcrowd.com/engagements/opensea,3000000,USD,11,True,,,full,True,,,,,
+YesWeHack,Swiss Post - E-Voting,https://yeswehack.com/programs?search=Swiss%20Post%20-%20E-Voting,230000,USD,5,,True,,,,,,,,
+Bugcrowd,Fireblocks MPC Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/fireblocks-mbb-og2,150000,USD,1,True,,,full,False,,,,,
+Bugcrowd,T-Mobile,https://bugcrowd.com/engagements/t-mobile,133700,USD,76,True,,,full,False,,,,,
+Bugcrowd,SpaceX/Starlink,https://bugcrowd.com/engagements/spacex,100000,USD,1,True,,,,False,,,,,
+Bugcrowd,Tesla,https://bugcrowd.com/engagements/tesla,100000,USD,11,True,,,partial,False,,,,,
+Bugcrowd,Sophos,https://bugcrowd.com/engagements/sophos,80000,USD,18,True,,,full,True,,,,,
+Bugcrowd,Okta,https://bugcrowd.com/engagements/okta,75000,USD,21,True,,,full,True,,,,,
+Bugcrowd,Auth0 by Okta,https://bugcrowd.com/engagements/auth0-okta,50000,USD,26,True,,,full,True,,,,,
+Bugcrowd,Zendesk Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/zendesk,50000,USD,6,True,,,full,True,,,,,
+YesWeHack,Doctolib,https://yeswehack.com/programs?search=Doctolib,50000,USD,9,,True,,,,,,,,
+YesWeHack,Kiteworks Public Bug Bounty Program,https://yeswehack.com/programs?search=Kiteworks%20Public%20Bug%20Bounty%20Program,50000,USD,12,,True,,,,,,,,
+Bugcrowd,AXIS OS,https://bugcrowd.com/engagements/axis-os-public,40000,USD,1,True,,,full,False,,,,,
+Bugcrowd,Aiven Managed Bug Bounty,https://bugcrowd.com/engagements/aiven-mbb-og,25000,USD,16,True,,,full,False,,,,,
+Bugcrowd,Bullish Exchange,https://bugcrowd.com/engagements/bullish-exchange,25000,USD,2,True,,,full,False,,,,,
+Bugcrowd,Hypixel Studios Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/hypixel-studios-mbb-og,25000,USD,10,True,,,full,False,,,,,
+Bugcrowd,Kiteworks,https://bugcrowd.com/engagements/kiteworks-public,25000,USD,1,True,,,partial,False,,,,,
+Bugcrowd,Pinterest,https://bugcrowd.com/engagements/pinterest,25000,USD,13,True,,,full,False,,,,,
+Bugcrowd,Chime Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/chime,20000,USD,19,True,,,full,False,,,,,
+Bugcrowd,FIS,https://bugcrowd.com/engagements/fis,20000,USD,2,True,,,full,True,,,,,
+Bugcrowd,SAP Invitational Bug Bounty Program,https://bugcrowd.com/engagements/sap-private-invite,20000,USD,25,True,,,full,True,,,,,
+Intigriti,Arm,https://www.intigriti.com/programs/arm/arm/detail,20000,USD,2,,True,,,,,,,,
+Bugcrowd,Cash App,https://bugcrowd.com/engagements/cashapp,18000,USD,4,True,,,full,True,,,,,
+Bugcrowd,Square,https://bugcrowd.com/engagements/square,18000,USD,8,True,,,full,True,,,,,
+Bugcrowd,Bitdefender,https://bugcrowd.com/engagements/bitdefender,15000,USD,5,True,,,full,True,,,,,
+Bugcrowd,Bitpanda Ongoing Bug Bounty,https://bugcrowd.com/engagements/bitpanda-og-bb,15000,USD,10,True,,,full,True,,,,,
+Bugcrowd,Bitso Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/bitso-mbb-og,15000,USD,8,True,,,full,False,,,,,
+Bugcrowd,Canva,https://bugcrowd.com/engagements/canva,15000,USD,18,True,,,partial,False,,,,,
+Bugcrowd,KuCoin Managed Bug Bounty Program,https://bugcrowd.com/engagements/kucoin,15000,USD,4,True,,,partial,False,,,,,
+Bugcrowd,eToro Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/etoro-mbb-og,15000,USD,8,True,,,full,False,,,,,
+Intigriti,BMW Group Automotive,https://www.intigriti.com/programs/bmw/bmwgroup-automotive/detail,15000,EUR,4,,True,,,,,,,,
+Intigriti,Capital.com,https://www.intigriti.com/programs/capitalcom/capitalcom/detail,15000,EUR,12,,True,,,,,,,,
+Intigriti,Delen Private Bank,https://www.intigriti.com/programs/delenprivatebank/privatebankdelen/detail,15000,EUR,19,,True,,,,,,,,
+Intigriti,Dropbox Bug Bounty,https://www.intigriti.com/programs/dropbox/dropbox/detail,15000,USD,26,,True,,,,,,,,
+Intigriti,Yahoo Bug Bounty,https://www.intigriti.com/programs/yahoo/yahoobugbounty/detail,15000,USD,36,,True,,,,,,,,
+YesWeHack,FDJ United (Online Betting and Gaming) - Bug Bounty program,https://yeswehack.com/programs?search=FDJ%20United%20%28Online%20Betting%20and%20Gaming%29%20-%20Bug%20Bounty%20program,15000,USD,33,,True,,,,,,,,
+YesWeHack,YesWeHack,https://yeswehack.com/programs?search=YesWeHack,15000,USD,4,,True,,,,,,,,
+Intigriti,intigriti,https://www.intigriti.com/programs/intigriti/intigriti/detail,13337,EUR,5,,True,,,,,,,,
+Intigriti,Monzo Public Bug Bounty Program,https://www.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail,12500,GBP,6,,True,,,,,,,,
+YesWeHack,OVHcloud,https://yeswehack.com/programs?search=OVHcloud,12500,USD,3,,True,,,,,,,,
+Bugcrowd,Atlassian,https://bugcrowd.com/engagements/atlassian,12000,USD,50,True,,,full,False,,,,,
+Bugcrowd,Bullish.com,https://bugcrowd.com/engagements/bullish,12000,USD,2,True,,,full,False,,,,,
+Bugcrowd,Electroneum Legacy Blockchain: EOL,https://bugcrowd.com/engagements/legacy-blockchain-mbb-og,12000,USD,2,True,,,full,False,,,,,
+Bugcrowd,Electroneum Smart Chain (ETN-SC) — EVM-Compatible Blockchain,https://bugcrowd.com/engagements/smartchain-mbb-og,12000,USD,3,True,,,full,False,,,,,
+Bugcrowd,Fireblocks Web Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/fireblocks-mbb-og,12000,USD,3,True,,,full,False,,,,,
+Bugcrowd,Trello,https://bugcrowd.com/engagements/trello,12000,USD,13,True,,,,False,,,,,
+Bugcrowd,Binance,https://bugcrowd.com/engagements/binance,10000,USD,21,True,,,partial,True,,,,,
+Bugcrowd,Blockchain.com Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/blockchain-dot-com,10000,USD,5,True,,,full,False,,,,,
+Bugcrowd,Bugcrowd,https://bugcrowd.com/engagements/bugcrowd,10000,USD,8,True,,,full,False,,,,,
+Bugcrowd,Cisco Networking,https://bugcrowd.com/engagements/cisconetworking,10000,USD,12,True,,,partial,False,,,,,
+Bugcrowd,Etsy,https://bugcrowd.com/engagements/etsy,10000,USD,10,True,,,partial,True,,,,,
+Bugcrowd,Immutable Bug Bounty,https://bugcrowd.com/engagements/immutable,10000,USD,7,True,,,full,False,,,,,
+Bugcrowd,Indeed,https://bugcrowd.com/engagements/indeed,10000,USD,17,True,,,full,False,,,,,
+Bugcrowd,Keeper Security Public Bounty Program,https://bugcrowd.com/engagements/keepersecurity,10000,USD,22,True,,,partial,True,,,,,
+Bugcrowd,SEEK,https://bugcrowd.com/engagements/seek,10000,USD,18,True,,,full,True,,,,,
+Bugcrowd,Verisign Bug Bounty,https://bugcrowd.com/engagements/verisign,10000,USD,11,True,,,partial,True,,,,,
+Intigriti,DigitalOcean,https://www.intigriti.com/programs/digitalocean/digitalocean/detail,10000,USD,20,,True,,,,,,,,
+YesWeHack,TeamViewer - Bounty Program,https://yeswehack.com/programs?search=TeamViewer%20-%20Bounty%20Program,10000,USD,9,,True,,,,,,,,
+Bugcrowd,Orderly Network Public Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/orderlynetwork-mbb-og2,9000,USD,3,True,,,partial,False,,,,,
+Bugcrowd,Orderly Network: Bug Bounty Program,https://bugcrowd.com/engagements/orderlynetwork-mbb-og,9000,USD,3,True,,,full,False,,,,,
+Intigriti,ICI PARIS XL,https://www.intigriti.com/programs/aswatson/iciparisxl/detail,8500,USD,37,,True,,,,,,,,
+Intigriti,Kruidvat,https://www.intigriti.com/programs/aswatson/kruidvat/detail,8500,USD,50,,True,,,,,,,,
+Intigriti,Marionnaud,https://www.intigriti.com/programs/aswatson/marionnaud/detail,8500,USD,77,,True,,,,,,,,
+Intigriti,Superdrug,https://www.intigriti.com/programs/aswatson/superdrug/detail,8500,USD,28,,True,,,,,,,,
+Intigriti,The Perfume Shop,https://www.intigriti.com/programs/aswatson/theperfumeshop/detail,8500,USD,10,,True,,,,,,,,
+Intigriti,Watsons,https://www.intigriti.com/programs/aswatson/watsons/detail,8500,USD,123,,True,,,,,,,,
+Bugcrowd,Skyscanner,https://bugcrowd.com/engagements/skyscanner,8000,USD,10,True,,,full,True,,,,,
+Bugcrowd,Vinted Bug Bounty,https://bugcrowd.com/engagements/vinted-uab-mbb,8000,USD,12,True,,,full,False,,,,,
+Bugcrowd,lululemon,https://bugcrowd.com/engagements/lululemon,8000,USD,13,True,,,,True,,,,,
+YesWeHack,Mon Espace Santé (MES),https://yeswehack.com/programs?search=Mon%20Espace%20Sant%C3%A9%20%28MES%29,8000,USD,43,,True,,,,,,,,
+Bugcrowd,CoinDesk Data - Data API,https://bugcrowd.com/engagements/CCData-mbb-og,7500,USD,2,True,,,full,False,,,,,
+Bugcrowd,CoinDesk Mobile,https://bugcrowd.com/engagements/coindesk-mobile-mbb-og,7500,USD,2,True,,,full,False,,,,,
+Bugcrowd,CoinDesk.com,https://bugcrowd.com/engagements/coindesk-mbb-og,7500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Consensus by CoinDesk,https://bugcrowd.com/engagements/consensus-mbb-og,7500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Fivetran,https://bugcrowd.com/engagements/fivetran-mbb-og,7500,USD,5,True,,,full,True,,,,,
+Bugcrowd,Latitude Financial Services Bug Bounty,https://bugcrowd.com/engagements/latitude-financial-service-bugbounty,7500,USD,26,True,,,full,False,,,,,
+Bugcrowd,LaunchDarkly Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/launchdarkly-mbb-og,7500,USD,6,True,,,full,True,,,,,
+Bugcrowd,Lightspeed Hospitality,https://bugcrowd.com/engagements/lightspeed-hospitality,7500,USD,3,True,,,full,False,,,,,
+Bugcrowd,Lightspeed Retail,https://bugcrowd.com/engagements/lightspeed-retail,7500,USD,6,True,,,full,False,,,,,
+Bugcrowd,Linktree,https://bugcrowd.com/engagements/linktree-mbb-og,7500,USD,18,True,,,full,True,,,,,
+Bugcrowd,MGM China Holdings Limited Managed Bug Bounty Program,https://bugcrowd.com/engagements/mgmmacau-mbb-og,7500,USD,12,True,,,full,False,,,,,
+Bugcrowd,Monash University Bug Bounty,https://bugcrowd.com/engagements/monash-mbb,7500,USD,48,True,,,full,False,,,,,
+Bugcrowd,Rapyd,https://bugcrowd.com/engagements/rapyd,7500,USD,10,True,,,full,True,,,,,
+Bugcrowd,Safety Bug Bounty,https://bugcrowd.com/engagements/openai-safety,7500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Centers for Medicare & Medicaid Services - Public Bug Bounty Program 2026,https://bugcrowd.com/engagements/cms-bbpublic,7000,USD,11,True,,,full,False,,,,,
+Bugcrowd,Glassdoor Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/glassdoor-ogbb,7000,USD,15,True,,,full,False,,,,,
+Bugcrowd,Lime,https://bugcrowd.com/engagements/lime,7000,USD,20,True,,,full,False,,,,,
+Bugcrowd,MATLAB Online - Ongoing Bug Bounty Engagement,https://bugcrowd.com/engagements/matlab-online,7000,USD,1,True,,,full,True,,,,,
+Bugcrowd,Moovit Managed Bug Bounty Program,https://bugcrowd.com/engagements/moovit-mbb-og,7000,USD,4,True,,,full,False,,,,,
+YesWeHack,Infomaniak Bug Bounty program,https://yeswehack.com/programs?search=Infomaniak%20Bug%20Bounty%20program,7000,USD,53,,True,,,,,,,,
+Intigriti,SBB - Swiss Federal Railways,https://www.intigriti.com/programs/sbb/sbbglobal/detail,6666,EUR,13,,True,,,,,,,,
+Bugcrowd,Asana,https://bugcrowd.com/engagements/asana,6500,USD,10,True,,,partial,False,,,,,
+Bugcrowd,Backblaze,https://bugcrowd.com/engagements/backblaze,6500,USD,9,True,,,,False,,,,,
+Bugcrowd,Bolt Technology OÜ,https://bugcrowd.com/engagements/bolt-og,6500,USD,8,True,,,full,True,,,,,
+Bugcrowd,Entain Game Logic Flaws Bug Bounty Program,https://bugcrowd.com/engagements/entain-glf-mbb-og,6500,USD,6,True,,,full,False,,,,,
+Bugcrowd,OneTrust,https://bugcrowd.com/engagements/onetrust,6500,USD,1,True,,,full,True,,,,,
+Bugcrowd,OpenAI,https://bugcrowd.com/engagements/openai,6500,USD,13,True,,,partial,False,,,,,
+Intigriti,Torfs,https://www.intigriti.com/programs/torfs/torfs/detail,6500,EUR,7,,True,,,,,,,,
+Bugcrowd,Flourish,https://bugcrowd.com/engagements/flourish,6000,USD,6,True,,,,False,,,,,
+Bugcrowd,Gearset: Managed Bug Bounty,https://bugcrowd.com/engagements/gearset-mbb,6000,USD,5,True,,,full,False,,,,,
+Bugcrowd,Intercom,https://bugcrowd.com/engagements/intercom,6000,USD,12,True,,,partial,True,,,,,
+Bugcrowd,Kaleido,https://bugcrowd.com/engagements/kaleido,6000,USD,4,True,,,,False,,,,,
+Bugcrowd,New Relic Public Bug Bounty Program,https://bugcrowd.com/engagements/newrelic-mbb-og-public,6000,USD,13,True,,,partial,False,,,,,
+Bugcrowd,Northwestern Mutual - Public Bug Bounty,https://bugcrowd.com/engagements/northwestern-mutual-mbb-og,6000,USD,8,True,,,partial,True,,,,,
+Bugcrowd,Octopus,https://bugcrowd.com/engagements/octopus-og,6000,USD,3,True,,,full,False,,,,,
+Bugcrowd,Octopus Deploy,https://bugcrowd.com/engagements/octopus-deploy,6000,USD,2,True,,,full,True,,,,,
+Bugcrowd,Pexels,https://bugcrowd.com/engagements/pexels,6000,USD,1,True,,,partial,True,,,,,
+Bugcrowd,Pixabay,https://bugcrowd.com/engagements/pixabay,6000,USD,1,True,,,,False,,,,,
+Bugcrowd,Seek.com,https://bugcrowd.com/engagements/seek-com,6000,USD,18,True,,,full,True,,,,,
+Bugcrowd,SimpliSafe Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/simplisafe,6000,USD,24,True,,,full,True,,,,,
+Bugcrowd,USAA,https://bugcrowd.com/engagements/usaa,6000,USD,49,True,,,partial,True,,,,,
+Intigriti,BMW Group,https://www.intigriti.com/programs/bmw/bmwgroup/detail,6000,EUR,7,,True,,,,,,,,
+Intigriti,SimScale,https://www.intigriti.com/programs/simscale/simscale/detail,6000,EUR,4,,True,,,,,,,,
+Intigriti,Uphold,https://www.intigriti.com/programs/Uphold/upholdcom/detail,6000,EUR,27,,True,,,,,,,,
+YesWeHack,Telenor Sweden Public Bug Bounty Program,https://yeswehack.com/programs?search=Telenor%20Sweden%20Public%20Bug%20Bounty%20Program,6000,USD,24,,True,,,,,,,,
+Bugcrowd,Comcast Xfinity Bug Bounty,https://bugcrowd.com/engagements/comcast-mbb,5500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Xfinity Home & xFi,https://bugcrowd.com/engagements/xfinity-home,5500,USD,26,True,,,full,False,,,,,
+Intigriti,Fluvius,https://www.intigriti.com/programs/fluvius/fluvius/detail,5500,EUR,3,,True,,,,,,,,
+Intigriti,Intergamma,https://www.intigriti.com/programs/intergamma/intergamma/detail,5500,EUR,33,,True,,,,,,,,
+Bugcrowd,20 Minuten,https://bugcrowd.com/engagements/twentyminuten,5000,USD,7,True,,,full,False,,,,,
+Bugcrowd,Afterpay Bug Bounty Program,https://bugcrowd.com/engagements/afterpay,5000,USD,16,True,,,full,True,,,,,
+Bugcrowd,Bitdefender Box v2,https://bugcrowd.com/engagements/bitdefenderbox2,5000,USD,1,True,,,full,True,,,,,
+Bugcrowd,Block Open Source,https://bugcrowd.com/engagements/blockopensource,5000,USD,7,True,,,full,True,,,,,
+Bugcrowd,Dell Technologies' Products Bug Bounty Program,https://bugcrowd.com/engagements/dell-product,5000,USD,2,True,,,partial,True,,,,,
+Bugcrowd,Entain Public Managed Bug Bounty Engagement 2024,https://bugcrowd.com/engagements/entain-public-mbb-og,5000,USD,12,True,,,full,False,,,,,
+Bugcrowd,Glean Technologies Public Engagement,https://bugcrowd.com/engagements/glean-technologies-public,5000,USD,5,True,,,partial,False,,,,,
+Bugcrowd,HPE Networking Product Public Program,https://bugcrowd.com/engagements/hpe-networking-product-public,5000,USD,20,True,,,full,False,,,,,
+Bugcrowd,LastPass,https://bugcrowd.com/engagements/lastpass,5000,USD,14,True,,,partial,False,,,,,
+Bugcrowd,Mastercard Public Bug Bounty,https://bugcrowd.com/engagements/mastercard,5000,USD,21,True,,,partial,True,,,,,
+Bugcrowd,Moneytree KK,https://bugcrowd.com/engagements/moneytreekkog,5000,USD,12,True,,,partial,False,,,,,
+Bugcrowd,Motorola Mobility Hardware Engagement,https://bugcrowd.com/engagements/motorolamobility-iot,5000,USD,1,True,,,partial,False,,,,,
+Bugcrowd,Opera Public Bug Bounty,https://bugcrowd.com/engagements/opera,5000,USD,89,True,,,full,False,,,,,
+Bugcrowd,Optus Managed Bug Bounty,https://bugcrowd.com/engagements/optus-mbb-og,5000,USD,168,True,,,full,False,,,,,
+Bugcrowd,Plusgrade Loyalty Public Program,https://bugcrowd.com/engagements/plusgrade-mbb-public,5000,USD,2,True,,,full,True,,,,,
+Bugcrowd,Recorded Future Public Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/recorded-future-mbb-og,5000,USD,20,True,,,full,False,,,,,
+Bugcrowd,Skroutz Public Managed Bug Bounty,https://bugcrowd.com/engagements/skroutz,5000,USD,1,True,,,full,False,,,,,
+Bugcrowd,TIDAL,https://bugcrowd.com/engagements/tidal-bugbounty,5000,USD,10,True,,,full,True,,,,,
+Bugcrowd,The Trade Desk,https://bugcrowd.com/engagements/thetradedesk-mbb,5000,USD,38,True,,,full,False,,,,,
+Bugcrowd,Tripadvisor,https://bugcrowd.com/engagements/tripadvisor-bb-og,5000,USD,27,True,,,full,False,,,,,
+Bugcrowd,Upwork,https://bugcrowd.com/engagements/upwork,5000,USD,12,True,,,,False,,,,,
+Bugcrowd,VR Public Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/vr-group-mbb-og1,5000,USD,1,True,,,full,False,,,,,
+Bugcrowd,Wyze Bug Bounty,https://bugcrowd.com/engagements/wyze,5000,USD,5,True,,,,False,,,,,
+Intigriti,Exoscale Bug Bounty,https://www.intigriti.com/programs/exoscale/excoscalebugbounty/detail,5000,EUR,7,,True,,,,,,,,
+Intigriti,Kinepolis Group,https://www.intigriti.com/programs/kinepolis/website/detail,5000,EUR,51,,True,,,,,,,,
+Intigriti,Mobile Vikings,https://www.intigriti.com/programs/mv/mobilevikings/detail,5000,EUR,18,,True,,,,,,,,
+Intigriti,Personio,https://www.intigriti.com/programs/personio/personio/detail,5000,EUR,14,,True,,,,,,,,
+Intigriti,Rivian Bug Bounty,https://www.intigriti.com/programs/rivian/rivianbugbounty/detail,5000,USD,9,,True,,,,,,,,
+Intigriti,Skoda Auto Bug Bounty Program,https://www.intigriti.com/programs/skodaauto/skodaautoprivatebugbountyprogram/detail,5000,EUR,2,,True,,,,,,,,
+Intigriti,UZ Leuven,https://www.intigriti.com/programs/uz%20leuven/uzleuven/detail,5000,EUR,34,,True,,,,,,,,
+Intigriti,Venly,https://www.intigriti.com/programs/arkane/arkanenetwork/detail,5000,EUR,8,,True,,,,,,,,
+YesWeHack,3DS OUTSCALE,https://yeswehack.com/programs?search=3DS%20OUTSCALE,5000,USD,7,,True,,,,,,,,
+YesWeHack,Cryptobox,https://yeswehack.com/programs?search=Cryptobox,5000,USD,3,,True,,,,,,,,
+YesWeHack,GoTo Financial - Public Bounty Program,https://yeswehack.com/programs?search=GoTo%20Financial%20-%20Public%20Bounty%20Program,5000,USD,14,,True,,,,,,,,
+YesWeHack,Louis Vuitton Malletier - Public Bug Bounty Program,https://yeswehack.com/programs?search=Louis%20Vuitton%20Malletier%20-%20Public%20Bug%20Bounty%20Program,5000,USD,6,,True,,,,,,,,
+YesWeHack,Maya - Public Bug Bounty Program,https://yeswehack.com/programs?search=Maya%20-%20Public%20Bug%20Bounty%20Program,5000,USD,9,,True,,,,,,,,
+YesWeHack,OneDoc,https://yeswehack.com/programs?search=OneDoc,5000,USD,4,,True,,,,,,,,
+YesWeHack,Paddle.com Public Bug Bounty Program,https://yeswehack.com/programs?search=Paddle.com%20Public%20Bug%20Bounty%20Program,5000,USD,12,,True,,,,,,,,
+YesWeHack,Swiss Post,https://yeswehack.com/programs?search=Swiss%20Post,5000,USD,9,,True,,,,,,,,
+YesWeHack,Tencent Bug Bounty Program,https://yeswehack.com/programs?search=Tencent%20Bug%20Bounty%20Program,5000,USD,2,,True,,,,,,,,
+Intigriti,Nexo,https://www.intigriti.com/programs/nexo/nexo/detail,4800,USD,18,,True,,,,,,,,
+Bugcrowd,Arlo Cash Rewards,https://bugcrowd.com/engagements/arlo,4500,USD,33,True,,,partial,True,,,,,
+Bugcrowd,Aurory Managed Bug Bounty Engagement (Public),https://bugcrowd.com/engagements/aurory-mbb-og2,4500,USD,3,True,,,partial,False,,,,,
+Bugcrowd,BitGo Managed Public Bug Bounty Engagement,https://bugcrowd.com/engagements/bitgo-mbb-og-public,4500,USD,5,True,,,full,False,,,,,
+Bugcrowd,BitGo Mobile Apps Bug Bounty Engagement,https://bugcrowd.com/engagements/bitgo-mobileapps-mbb-og,4500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Certinia (formerly FinancialForce),https://bugcrowd.com/engagements/financialforce,4500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Chipotle Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/chipotle-mbb-og,4500,USD,6,True,,,full,False,,,,,
+Bugcrowd,Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty,https://bugcrowd.com/engagements/thousandeyes-og,4500,USD,5,True,,,partial,False,,,,,
+Bugcrowd,Felix Health Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/felix-health-mbb-og,4500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Infinite Athlete,https://bugcrowd.com/engagements/tempusex-public-mbb-og,4500,USD,5,True,,,full,False,,,,,
+Bugcrowd,Just Eat Takeaway.com,https://bugcrowd.com/engagements/justeattakeaway,4500,USD,29,True,,,full,False,,,,,
+Bugcrowd,Kohl's,https://bugcrowd.com/engagements/kohls,4500,USD,4,True,,,partial,True,,,,,
+Bugcrowd,MyFitnessPal Managed Bug Bounty,https://bugcrowd.com/engagements/myfitnesspal-mbb,4500,USD,3,True,,,full,True,,,,,
+Bugcrowd,Navan,https://bugcrowd.com/engagements/navan,4500,USD,1,True,,,full,False,,,,,
+Bugcrowd,New Blue Website (NBW) - VWFS Bug Bounty Program,https://bugcrowd.com/engagements/volkswagen-vwfs-mbb-og,4500,USD,21,True,,,full,False,,,,,
+Bugcrowd,PNI Media - Bug Bounty,https://bugcrowd.com/engagements/pnimedia-bb,4500,USD,59,True,,,full,False,,,,,
+Bugcrowd,"REA Group | realestate.com.au, realcommercial.com.au, property.com.au",https://bugcrowd.com/engagements/rea-mbb-og,4500,USD,30,True,,,full,True,,,,,
+Bugcrowd,Soteri Marketplace Bug Bounty,https://bugcrowd.com/engagements/soteri,4500,USD,5,True,,,,False,,,,,
+Bugcrowd,SoundCloud,https://bugcrowd.com/engagements/soundcloud,4500,USD,10,True,,,full,True,,,,,
+Bugcrowd,Ultra Mobile Mobile Apps Bug Bounty Engagement,https://bugcrowd.com/engagements/ultramobile-mobile-apps,4500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Ultra Mobile Public Bug Bounty Engagement,https://bugcrowd.com/engagements/ultramobile-public,4500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Ultra Mobile Public ECOMM 2025 Bug Bounty Engagement,https://bugcrowd.com/engagements/ultramobile-ecomm,4500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Unisys Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/unisys-mbb-og,4500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Viator,https://bugcrowd.com/engagements/viator,4500,USD,11,True,,,partial,True,,,,,
+Bugcrowd,iRobot,https://bugcrowd.com/engagements/irobot,4500,USD,28,True,,,full,True,,,,,
+Intigriti,InnoGames,https://www.intigriti.com/programs/innogames/innogames/detail,4500,EUR,5,,True,,,,,,,,
+Intigriti,Port of Antwerp-Bruges,https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail,4500,EUR,49,,True,,,,,,,,
+Bugcrowd,"Acorns Grow, Inc.",https://bugcrowd.com/engagements/acorns,4000,USD,5,True,,,full,True,,,,,
+Bugcrowd,Atlassian-Built Apps,https://bugcrowd.com/engagements/atlassianapps,4000,USD,119,True,,,,False,,,,,
+Bugcrowd,Blofin Crypto Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/blofin-crypto-mbb-og,4000,USD,7,True,,,full,False,,,,,
+Bugcrowd,Cloudinary,https://bugcrowd.com/engagements/cloudinary,4000,USD,5,True,,,full,True,,,,,
+Bugcrowd,Elementor: Bug Bounty Program,https://bugcrowd.com/engagements/elementor,4000,USD,8,True,,,full,True,,,,,
+Bugcrowd,Empower Personal Wealth,https://bugcrowd.com/engagements/personalcapital,4000,USD,1,True,,,full,True,,,,,
+Bugcrowd,Majid Al Futtaim Retail,https://bugcrowd.com/engagements/carrefour,4000,USD,4,True,,,full,True,,,,,
+Bugcrowd,Nubank Brasil Managed Bug Bounty Program,https://bugcrowd.com/engagements/nubank,4000,USD,9,True,,,full,True,,,,,
+Bugcrowd,Opsgenie,https://bugcrowd.com/engagements/opsgenie,4000,USD,5,True,,,full,False,,,,,
+Bugcrowd,Statuspage,https://bugcrowd.com/engagements/statuspage,4000,USD,2,True,,,full,False,,,,,
+Bugcrowd,Wise (ex-TransferWise),https://bugcrowd.com/engagements/wise,4000,USD,9,True,,,full,True,,,,,
+Intigriti,Allegro,https://www.intigriti.com/programs/allegro/allegrobugbounty/detail,4000,EUR,3,,True,,,,,,,,
+Intigriti,Cloudways by DigitalOcean,https://www.intigriti.com/programs/digitalocean/cloudways/detail,4000,USD,7,,True,,,,,,,,
+YesWeHack,ATG Public Bug Bounty Program,https://yeswehack.com/programs?search=ATG%20Public%20Bug%20Bounty%20Program,4000,USD,7,,True,,,,,,,,
+YesWeHack,HARMAN International - Web Applications,https://yeswehack.com/programs?search=HARMAN%20International%20-%20Web%20Applications,4000,USD,27,,True,,,,,,,,
+YesWeHack,Harman International Lifestyle Products & Services,https://yeswehack.com/programs?search=Harman%20International%20Lifestyle%20Products%20%26%20Services,4000,USD,25,,True,,,,,,,,
+YesWeHack,MediaMarktSaturn Bug Bounty Program,https://yeswehack.com/programs?search=MediaMarktSaturn%20Bug%20Bounty%20Program,4000,USD,31,,True,,,,,,,,
+Bugcrowd,iFood: Bug Bounty Program,https://bugcrowd.com/engagements/ifood-og,3750,USD,20,True,,,full,False,,,,,
+Bugcrowd,City of Vienna Managed Bug Bounty,https://bugcrowd.com/engagements/city-of-vienna-mbb-og,3500,USD,25,True,,,full,True,,,,,
+Bugcrowd,Klaviyo Managed Bug Bounty,https://bugcrowd.com/engagements/klaviyo-og,3500,USD,51,True,,,full,False,,,,,
+Bugcrowd,Majid Al Futtaim Lifestyle,https://bugcrowd.com/engagements/maffashion,3500,USD,13,True,,,full,True,,,,,
+Bugcrowd,NEOGOV Public Assets,https://bugcrowd.com/engagements/neohrms,3500,USD,17,True,,,full,False,,,,,
+Bugcrowd,Optimizely,https://bugcrowd.com/engagements/optimizely,3500,USD,15,True,,,partial,True,,,,,
+Bugcrowd,TheFork Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/thefork-mbb-og,3500,USD,17,True,,,full,True,,,,,
+Bugcrowd,Ultra Mobile Retailer Portal Bug Bounty Engagement,https://bugcrowd.com/engagements/ultramobile-retailer-portal,3500,USD,1,True,,,partial,False,,,,,
+Intigriti,Fing Bug Bounty Program,https://www.intigriti.com/programs/lansweeper/fing/detail,3500,EUR,4,,True,,,,,,,,
+YesWeHack,GOJEK - Public Bounty Program,https://yeswehack.com/programs?search=GOJEK%20-%20Public%20Bounty%20Program,3500,USD,16,,True,,,,,,,,
+YesWeHack,Thüringer Aufbaubank Bug Bounty Program,https://yeswehack.com/programs?search=Th%C3%BCringer%20Aufbaubank%20Bug%20Bounty%20Program,3500,USD,2,,True,,,,,,,,
+Bugcrowd,Cvent Bug Bounty,https://bugcrowd.com/engagements/cvent-bb-og,3000,USD,14,True,,,,True,,,,,
+Bugcrowd,Directly,https://bugcrowd.com/engagements/directly,3000,USD,3,True,,,full,True,,,,,
+Bugcrowd,Magic Labs Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/magiclabs-mbb-og,3000,USD,3,True,,,full,True,,,,,
+Bugcrowd,PlanetHoster Bug Bounty,https://bugcrowd.com/engagements/planethosterinc,3000,USD,5,True,,,partial,True,,,,,
+Bugcrowd,Stiltsoft,https://bugcrowd.com/engagements/stiltsoft,3000,USD,14,True,,,full,True,,,,,
+Bugcrowd,Unity Technologies,https://bugcrowd.com/engagements/unity,3000,USD,9,True,,,full,False,,,,,
+Bugcrowd,Web.com Bug Bounty,https://bugcrowd.com/engagements/webdotcom,3000,USD,4,True,,,full,True,,,,,
+Bugcrowd,YNAB,https://bugcrowd.com/engagements/ynab,3000,USD,3,True,,,full,False,,,,,
+Bugcrowd,eazyBI,https://bugcrowd.com/engagements/eazybi,3000,USD,5,True,,,partial,True,,,,,
+YesWeHack,Bug Bounty Program - BlaBlaCar,https://yeswehack.com/programs?search=Bug%20Bounty%20Program%20-%20BlaBlaCar,3000,USD,6,,True,,,,,,,,
+YesWeHack,DANA Bug Bounty Program,https://yeswehack.com/programs?search=DANA%20Bug%20Bounty%20Program,3000,USD,4,,True,,,,,,,,
+YesWeHack,DataDome Bug Bounty,https://yeswehack.com/programs?search=DataDome%20Bug%20Bounty,3000,USD,8,,True,,,,,,,,
+YesWeHack,GRW Trading FZE - Open Bug Bounty Program,https://yeswehack.com/programs?search=GRW%20Trading%20FZE%20-%20Open%20Bug%20Bounty%20Program,3000,USD,2,,True,,,,,,,,
+YesWeHack,Programme de prime aux bogues du Gouvernement du Québec,https://yeswehack.com/programs?search=Programme%20de%20prime%20aux%20bogues%20du%20Gouvernement%20du%20Qu%C3%A9bec,3000,USD,2,,True,,,,,,,,
+YesWeHack,VINCI SA - Public program,https://yeswehack.com/programs?search=VINCI%20SA%20-%20Public%20program,3000,USD,19,,True,,,,,,,,
+YesWeHack,toom Baumarkt GmbH - Webshop,https://yeswehack.com/programs?search=toom%20Baumarkt%20GmbH%20-%20Webshop,3000,USD,2,,True,,,,,,,,
+YesWeHack,vidaXL Services - Open Bug Bounty Program,https://yeswehack.com/programs?search=vidaXL%20Services%20-%20Open%20Bug%20Bounty%20Program,3000,USD,4,,True,,,,,,,,
+Intigriti,CM.com,https://www.intigriti.com/programs/cmcom/cmcom/detail,2625,EUR,20,,True,,,,,,,,
+Bugcrowd,ClassDojo,https://bugcrowd.com/engagements/classdojo,2500,USD,16,True,,,full,True,,,,,
+Bugcrowd,ClickHouse,https://bugcrowd.com/engagements/clickhouse,2500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Dell Technologies Application Bug Bounty,https://bugcrowd.com/engagements/dell-com,2500,USD,6,True,,,,True,,,,,
+Bugcrowd,HostGator LATAM Bug Bounty,https://bugcrowd.com/engagements/hostgator-latam-bb,2500,USD,2,True,,,full,True,,,,,
+Bugcrowd,Izymes,https://bugcrowd.com/engagements/izymes,2500,USD,9,True,,,full,False,,,,,
+Bugcrowd,Jora,https://bugcrowd.com/engagements/jora,2500,USD,4,True,,,full,True,,,,,
+Bugcrowd,Majid Al Futtaim Customer Solutions,https://bugcrowd.com/engagements/majidalfuttaim-loyalty,2500,USD,27,True,,,full,True,,,,,
+Bugcrowd,Majid Al Futtaim Entertainment,https://bugcrowd.com/engagements/vox,2500,USD,5,True,,,full,True,,,,,
+Bugcrowd,Majid Al Futtaim Properties,https://bugcrowd.com/engagements/mallofemirates,2500,USD,25,True,,,full,True,,,,,
+Bugcrowd,Origin Energy,https://bugcrowd.com/engagements/originenergy-og1,2500,USD,23,True,,,full,True,,,,,
+Bugcrowd,Rec Room Video Games,https://bugcrowd.com/engagements/recroom-og,2500,USD,15,True,,,,False,,,,,
+Bugcrowd,Refined,https://bugcrowd.com/engagements/refined2,2500,USD,8,True,,,partial,True,,,,,
+Bugcrowd,SecureDrop,https://bugcrowd.com/engagements/freedomofpress,2500,USD,3,True,,,partial,True,,,,,
+Bugcrowd,Tamedia,https://bugcrowd.com/engagements/tamedia,2500,USD,2,True,,,full,True,,,,,
+Bugcrowd,Thales Cyber Security Products Bug Bounty,https://bugcrowd.com/engagements/imperva-mbb,2500,USD,4,True,,,full,True,,,,,
+Bugcrowd,The Hut Group: Public Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/hutgroup-public,2500,USD,7,True,,,full,False,,,,,
+Bugcrowd,"Tyler Technologies Data & Insights – Tyler Data Platform, powered by Socrata",https://bugcrowd.com/engagements/tyler-tech-data-insights,2500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Under Armour Corporate,https://bugcrowd.com/engagements/underarmour-corp,2500,USD,23,True,,,full,True,,,,,
+Bugcrowd,Under Armour Product Security,https://bugcrowd.com/engagements/underarmour,2500,USD,14,True,,,full,True,,,,,
+Bugcrowd,Volkswagen,https://bugcrowd.com/engagements/volkswagen-og,2500,USD,1,True,,,full,False,,,,,
+Intigriti,Aikido Security: Bug Bounty Program,https://www.intigriti.com/programs/aikido/aikido/detail,2500,EUR,1,,True,,,,,,,,
+Intigriti,Axel Springer National Media & Tech,https://www.intigriti.com/programs/axelspringerse/nmt/detail,2500,EUR,41,,True,,,,,,,,
+Intigriti,Nexuzhealth,https://www.intigriti.com/programs/nexuzhealth/nexuzhealth/detail,2500,EUR,8,,True,,,,,,,,
+Intigriti,Sqills,https://www.intigriti.com/programs/sqills/sqillscorporatewebsite/detail,2500,EUR,2,,True,,,,,,,,
+Intigriti,Tomorrowland,https://www.intigriti.com/programs/tomorrowland/tomorrowland/detail,2500,EUR,22,,True,,,,,,,,
+Intigriti,WP Engine Bug Bounty,https://www.intigriti.com/programs/wpengine/wpenginebugbounty/detail,2500,EUR,18,,True,,,,,,,,
+YesWeHack,Ant Group Security Response Center - Bug Bounty Program,https://yeswehack.com/programs?search=Ant%20Group%20Security%20Response%20Center%20-%20Bug%20Bounty%20Program,2500,USD,8,,True,,,,,,,,
+YesWeHack,DECATHLON,https://yeswehack.com/programs?search=DECATHLON,2500,USD,5,,True,,,,,,,,
+YesWeHack,ExpressVPN - Bug Bounty Program,https://yeswehack.com/programs?search=ExpressVPN%20-%20Bug%20Bounty%20Program,2500,USD,31,,True,,,,,,,,
+YesWeHack,OTTO.DE Bug Bounty,https://yeswehack.com/programs?search=OTTO.DE%20Bug%20Bounty,2500,USD,10,,True,,,,,,,,
+Intigriti,Algemeen Dagblad,https://www.intigriti.com/programs/dpgm/algemeendagblad/detail,2200,EUR,4,,True,,,,,,,,
+Intigriti,De Morgen,https://www.intigriti.com/programs/dpgm/demorgen/detail,2200,EUR,4,,True,,,,,,,,
+Intigriti,De Volkskrant,https://www.intigriti.com/programs/dpgm/devolkskrant/detail,2200,EUR,4,,True,,,,,,,,
+Intigriti,Het Laatste Nieuws,https://www.intigriti.com/programs/dpgm/hetlaatstenieuws/detail,2200,EUR,7,,True,,,,,,,,
+Intigriti,Het Parool,https://www.intigriti.com/programs/dpgm/hetparool/detail,2200,EUR,6,,True,,,,,,,,
+Intigriti,Humo,https://www.intigriti.com/programs/dpgm/humo/detail,2200,EUR,6,,True,,,,,,,,
+Intigriti,Libelle,https://www.intigriti.com/programs/dpgm/libelle/detail,2200,EUR,2,,True,,,,,,,,
+Intigriti,Trouw,https://www.intigriti.com/programs/dpgm/trouw/detail,2200,EUR,6,,True,,,,,,,,
+Intigriti,Tweakers,https://www.intigriti.com/programs/dpgm/tweakers/detail,2200,EUR,3,,True,,,,,,,,
+Intigriti,VTM GO,https://www.intigriti.com/programs/dpgm/vtmgo/detail,2200,EUR,5,,True,,,,,,,,
+Bugcrowd,Council on Foreign Relations,https://bugcrowd.com/engagements/cfr,2100,USD,3,True,,,,False,,,,,
+Bugcrowd,Easy Agile,https://bugcrowd.com/engagements/easyagile,2000,USD,5,True,,,full,True,,,,,
+Bugcrowd,Internet Brands Public,https://bugcrowd.com/engagements/internetbrands-public,2000,USD,24,True,,,full,True,,,,,
+Bugcrowd,Mattermost Public Bug Bounty Engagement,https://bugcrowd.com/engagements/mattermost-mbb-public,2000,USD,16,True,,,full,False,,,,,
+Bugcrowd,Quizlet,https://bugcrowd.com/engagements/quizlet,2000,USD,4,True,,,partial,True,,,,,
+Bugcrowd,SnapNames Bug Bounty,https://bugcrowd.com/engagements/snapnames,2000,USD,2,True,,,full,True,,,,,
+Bugcrowd,Zola Managed Bug Bounty,https://bugcrowd.com/engagements/zola-mbb-og,2000,USD,2,True,,,full,False,,,,,
+Intigriti,Here Technologies,https://www.intigriti.com/programs/heretechnologies/heretechnologies/detail,2000,EUR,23,,True,,,,,,,,
+Intigriti,Housing Application (huisvestingsapp) Bug Bounty Program,https://www.intigriti.com/programs/kuleuven/huisvesting/detail,2000,EUR,1,,True,,,,,,,,
+Intigriti,Lansweeper Bug Bounty Program,https://www.intigriti.com/programs/lansweeper/lansweeper1/detail,2000,EUR,11,,True,,,,,,,,
+Intigriti,Online enrollment for students Bug Bounty Program,https://www.intigriti.com/programs/kuleuven/onlineinschrijvingenbetalingstoepassing/detail,2000,EUR,2,,True,,,,,,,,
+Intigriti,Posti Bug Bounty,https://www.intigriti.com/programs/posti/postibugbounty/detail,2000,EUR,43,,True,,,,,,,,
+Intigriti,RIPE NCC,https://www.intigriti.com/programs/ripencc/ripencc/detail,2000,EUR,10,,True,,,,,,,,
+Intigriti,VRT,https://www.intigriti.com/programs/vrtnv/vrtnv/detail,2000,EUR,10,,True,,,,,,,,
+Intigriti,eHealth Hub VZN KUL,https://www.intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail,2000,EUR,6,,True,,,,,,,,
+YesWeHack,BookBeat,https://yeswehack.com/programs?search=BookBeat,2000,USD,6,,True,,,,,,,,
+YesWeHack,Dossier Medical Partagé Bug Bounty Program,https://yeswehack.com/programs?search=Dossier%20Medical%20Partag%C3%A9%20Bug%20Bounty%20Program,2000,USD,10,,True,,,,,,,,
+YesWeHack,Moneybox Bug Bounty,https://yeswehack.com/programs?search=Moneybox%20Bug%20Bounty,2000,USD,6,,True,,,,,,,,
+YesWeHack,Sogexia,https://yeswehack.com/programs?search=Sogexia,2000,USD,3,,True,,,,,,,,
+YesWeHack,Superbank - Public Bug Bounty Program,https://yeswehack.com/programs?search=Superbank%20-%20Public%20Bug%20Bounty%20Program,2000,USD,6,,True,,,,,,,,
+YesWeHack,Swapcard,https://yeswehack.com/programs?search=Swapcard,2000,USD,12,,True,,,,,,,,
+YesWeHack,ZECIBLE PUBLIC BUG BOUNTY PROGRAM,https://yeswehack.com/programs?search=ZECIBLE%20PUBLIC%20BUG%20BOUNTY%20PROGRAM,2000,USD,20,,True,,,,,,,,
+Bugcrowd,55 Degrees,https://bugcrowd.com/engagements/fiftyfivedegrees,1500,USD,11,True,,,partial,False,,,,,
+Bugcrowd,AI | Apps+ Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/apps-plus2,1500,USD,24,True,,,full,False,,,,,
+Bugcrowd,APTIS,https://bugcrowd.com/engagements/epicsumup,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Accxia Marketplace Bug Bounty,https://bugcrowd.com/engagements/accxia-gmbh,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Aelbox Marketplace Bug Bounty,https://bugcrowd.com/engagements/aelbox,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,AgilePulse Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/agile-pulse,1500,USD,8,True,,,full,True,,,,,
+Bugcrowd,Agilis LT Bug Bounty,https://bugcrowd.com/engagements/agilislt,1500,USD,10,True,,,full,False,,,,,
+Bugcrowd,Akeles Marketplace Bug Bounty,https://bugcrowd.com/engagements/akeles,1500,USD,15,True,,,,False,,,,,
+Bugcrowd,Almarise Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/almarise-market,1500,USD,1,True,,,partial,False,,,,,
+Bugcrowd,Amoeboids,https://bugcrowd.com/engagements/amoeboids,1500,USD,8,True,,,full,False,,,,,
+Bugcrowd,AppFox,https://bugcrowd.com/engagements/automationconsultants,1500,USD,5,True,,,full,False,,,,,
+Bugcrowd,AppLiger,https://bugcrowd.com/engagements/appliger,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Appsvio Marketplace Bug Bounty,https://bugcrowd.com/engagements/appsvio,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Avisi Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/avisi,1500,USD,8,True,,,full,False,,,,,
+Bugcrowd,BOJA Consulting Bug Bounty,https://bugcrowd.com/engagements/boja,1500,USD,4,True,,,,False,,,,,
+Bugcrowd,Balsamiq for Atlassian Products,https://bugcrowd.com/engagements/balsamiq,1500,USD,4,True,,,partial,True,,,,,
+Bugcrowd,Bloompeak's Bug Bounty,https://bugcrowd.com/engagements/bloompeak,1500,USD,17,True,,,full,False,,,,,
+Bugcrowd,BrizoIT,https://bugcrowd.com/engagements/brizoit,1500,USD,6,True,,,,False,,,,,
+Bugcrowd,Broken Build Bug Bounty,https://bugcrowd.com/engagements/brokenbuild,1500,USD,10,True,,,full,False,,,,,
+Bugcrowd,BrowserStack Inc. Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/browserstack-market,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Caelor Group,https://bugcrowd.com/engagements/caelor-group-market,1500,USD,10,True,,,full,False,,,,,
+Bugcrowd,Cappsule Sarl - Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/cappsule-sarl,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Catapult Labs Bug Bounty,https://bugcrowd.com/engagements/catapultlabs,1500,USD,8,True,,,full,False,,,,,
+Bugcrowd,Colined,https://bugcrowd.com/engagements/colined,1500,USD,6,True,,,partial,False,,,,,
+Bugcrowd,Craft Coders Marketplace Bug Bounty,https://bugcrowd.com/engagements/craftcoders,1500,USD,3,True,,,full,False,,,,,
+Bugcrowd,Creativas,https://bugcrowd.com/engagements/creativas,1500,USD,5,True,,,full,False,,,,,
+Bugcrowd,Decadis AG,https://bugcrowd.com/engagements/decadisag,1500,USD,3,True,,,,False,,,,,
+Bugcrowd,DevAcrobats,https://bugcrowd.com/engagements/devacrobats-market,1500,USD,3,True,,,full,False,,,,,
+Bugcrowd,DevSamurai,https://bugcrowd.com/engagements/devsamurai,1500,USD,16,True,,,full,False,,,,,
+Bugcrowd,Deview Studios Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/deviewstudios-market,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Deviniti,https://bugcrowd.com/engagements/deviniti,1500,USD,16,True,,,full,False,,,,,
+Bugcrowd,Digital Rose's Marketplace Bug Bounty,https://bugcrowd.com/engagements/digitalrose,1500,USD,3,True,,,full,False,,,,,
+Bugcrowd,Dutch Beginners ZZP Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/dutch-beginners-market,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Elements,https://bugcrowd.com/engagements/elements,1500,USD,8,True,,,full,False,,,,,
+Bugcrowd,Excentia Bug Bounty,https://bugcrowd.com/engagements/excentia,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,FindOut InfoVis AB - Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/FindOut-infovis,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Gliffy,https://bugcrowd.com/engagements/gliffy,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,HeroCoders Apps,https://bugcrowd.com/engagements/herocoders,1500,USD,7,True,,,partial,False,,,,,
+Bugcrowd,Inprowiser Bug Bounty,https://bugcrowd.com/engagements/inprowiser,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,J-Tricks - Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/j-tricks,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Jaanga Marketplace Bug Bounty,https://bugcrowd.com/engagements/JaangaInc-mbb-market,1500,USD,4,True,,,partial,False,,,,,
+Bugcrowd,K15t,https://bugcrowd.com/engagements/k15t,1500,USD,22,True,,,,False,,,,,
+Bugcrowd,Kantega SSO,https://bugcrowd.com/engagements/kantega,1500,USD,7,True,,,full,False,,,,,
+Bugcrowd,Litew8 GmbH - Marketplace Bug Bounty,https://bugcrowd.com/engagements/litew8,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Lively Apps GmbH - marketplace Bug Bounty Program,https://bugcrowd.com/engagements/lively-apps,1500,USD,5,True,,,full,False,,,,,
+Bugcrowd,META-INF,https://bugcrowd.com/engagements/metainfkft,1500,USD,7,True,,,full,False,,,,,
+Bugcrowd,Magic Apps Marketplace Bug Bounty,https://bugcrowd.com/engagements/magic-apps,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Marketplace Expert SL,https://bugcrowd.com/engagements/marketplaceexpert,1500,USD,5,True,,,full,False,,,,,
+Bugcrowd,Marvelution,https://bugcrowd.com/engagements/marvelutionbv,1500,USD,5,True,,,full,False,,,,,
+Bugcrowd,Meetical,https://bugcrowd.com/engagements/meetical,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,MobilityStream Bug Bounty,https://bugcrowd.com/engagements/mobilitystream,1500,USD,15,True,,,full,False,,,,,
+Bugcrowd,Move Work Forward,https://bugcrowd.com/engagements/moveworkforward,1500,USD,11,True,,,full,False,,,,,
+Bugcrowd,Navarambh,https://bugcrowd.com/engagements/navarambh,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Nemetschek,https://bugcrowd.com/engagements/nemetschek,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Nextup.ai,https://bugcrowd.com/engagements/nextupai,1500,USD,5,True,,,,False,,,,,
+Bugcrowd,OSL Managed Public Bug Bounty Engagement,https://bugcrowd.com/engagements/osl-mbb-og1,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,OST Consulting SRL Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/ost-consulting-market,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Okapya,https://bugcrowd.com/engagements/okapya,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Onward Software Solutions Inc. - Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/onward-software-solutions-inc,1500,USD,3,True,,,full,False,,,,,
+Bugcrowd,Opus Guard Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/opus-guard-market,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Presago Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/presago,1500,USD,10,True,,,full,False,,,,,
+Bugcrowd,Programmer Hat Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/programmer-hat-market,1500,USD,6,True,,,full,False,,,,,
+Bugcrowd,ProjectBalm,https://bugcrowd.com/engagements/projectbalm,1500,USD,1,True,,,partial,False,,,,,
+Bugcrowd,Quirk Consulting Marketplace Bug Bounty,https://bugcrowd.com/engagements/quirk-consulting,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,RV Softwares Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/rv-softwares,1500,USD,8,True,,,full,False,,,,,
+Bugcrowd,RadBee Ltd.,https://bugcrowd.com/engagements/radbee,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Railsware,https://bugcrowd.com/engagements/railsware,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,Raley Apps,https://bugcrowd.com/engagements/raleyapps,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,Redmoon,https://bugcrowd.com/engagements/redmoon,1500,USD,5,True,,,full,False,,,,,
+Bugcrowd,Release Management (by Y2 ENGR),https://bugcrowd.com/engagements/releasemanagement,1500,USD,7,True,,,,False,,,,,
+Bugcrowd,Requirement Yogi (Bug bounty),https://bugcrowd.com/engagements/requirement-yogi,1500,USD,9,True,,,partial,False,,,,,
+Bugcrowd,Resolution,https://bugcrowd.com/engagements/resolutionde,1500,USD,47,True,,,full,True,,,,,
+Bugcrowd,Revyz - Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/revyz,1500,USD,4,True,,,full,False,,,,,
+Bugcrowd,STAGIL Marketplace Bug Bounty,https://bugcrowd.com/engagements/stagil,1500,USD,3,True,,,full,False,,,,,
+Bugcrowd,SaaSJet,https://bugcrowd.com/engagements/saasjet,1500,USD,10,True,,,,False,,,,,
+Bugcrowd,Savignano Software Solutions Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/savignano,1500,USD,3,True,,,full,False,,,,,
+Bugcrowd,SecureFlag Marketplace Bug Bounty,https://bugcrowd.com/engagements/secureflag-mbb-market,1500,USD,2,True,,,partial,False,,,,,
+Bugcrowd,Shinetech Software Inc Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/shinetech-software-market,1500,USD,2,True,,,full,False,,,,,
+Bugcrowd,Smart Guess ehf. - Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/envision-ehf,1500,USD,3,True,,,full,False,,,,,
+Bugcrowd,Snapbytes Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/snapbytes-market,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,SolDevelo,https://bugcrowd.com/engagements/soldevelo,1500,USD,8,True,,,full,False,,,,,
+Bugcrowd,StonikByte,https://bugcrowd.com/engagements/stonikbyte,1500,USD,9,True,,,full,False,,,,,
+Bugcrowd,Sykora IT Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/sykora-it-market,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,The Plugin People,https://bugcrowd.com/engagements/plugin-people,1500,USD,7,True,,,full,False,,,,,
+Bugcrowd,ToolsPlus,https://bugcrowd.com/engagements/toolsplus,1500,USD,1,True,,,partial,False,,,,,
+Bugcrowd,Vectors Bug Bounty,https://bugcrowd.com/engagements/vectors-marketplace,1500,USD,8,True,,,full,False,,,,,
+Bugcrowd,Vico Marketplace Bug Bounty,https://bugcrowd.com/engagements/vicosoft,1500,USD,1,True,,,,False,,,,,
+Bugcrowd,Xopero Software S.A. Marketplace Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/xopero-software-marketplace,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,agile doyens,https://bugcrowd.com/engagements/agiledoyens-market,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,celix Solutions GmbH Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/celix-solutions-market,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,codecentric AG - Marketplace Bug Bounty Program,https://bugcrowd.com/engagements/codecentric,1500,USD,1,True,,,full,False,,,,,
+Bugcrowd,codeclou GmbH,https://bugcrowd.com/engagements/codeclou,1500,USD,6,True,,,full,False,,,,,
+Bugcrowd,codefortynine,https://bugcrowd.com/engagements/codefortynine,1500,USD,16,True,,,partial,True,,,,,
+Bugcrowd,weweave GmbH Marketplace Bug Bounty,https://bugcrowd.com/engagements/we-weave,1500,USD,24,True,,,full,False,,,,,
+Intigriti,Bpost,https://www.intigriti.com/programs/bpost/dummy/detail,1500,EUR,20,,True,,,,,,,,
+Intigriti,DataCamp,https://www.intigriti.com/programs/datacamp/datacamp/detail,1500,EUR,15,,True,,,,,,,,
+Intigriti,EURid,https://www.intigriti.com/programs/eurid/eurid/detail,1500,EUR,7,,True,,,,,,,,
+YesWeHack,Ooredoo QPSC - Customer Portal Bug Bounty Program,https://yeswehack.com/programs?search=Ooredoo%20QPSC%20-%20Customer%20Portal%20Bug%20Bounty%20Program,1500,USD,5,,True,,,,,,,,
+YesWeHack,Santé Publique France Bug Bounty Program,https://yeswehack.com/programs?search=Sant%C3%A9%20Publique%20France%20Bug%20Bounty%20Program,1500,USD,8,,True,,,,,,,,
+YesWeHack,VFS Global Bug Bounty Program,https://yeswehack.com/programs?search=VFS%20Global%20Bug%20Bounty%20Program,1500,USD,26,,True,,,,,,,,
+Bugcrowd,Prosus,https://bugcrowd.com/engagements/prosus-og,1250,USD,10,True,,,full,False,,,,,
+YesWeHack,CyberGhost - Bug Bounty Program,https://yeswehack.com/programs?search=CyberGhost%20-%20Bug%20Bounty%20Program,1250,USD,12,,True,,,,,,,,
+YesWeHack,Private Internet Access - Bug Bounty Program,https://yeswehack.com/programs?search=Private%20Internet%20Access%20-%20Bug%20Bounty%20Program,1250,USD,12,,True,,,,,,,,
+YesWeHack,IMOU Public Bug Bounty Program,https://yeswehack.com/programs?search=IMOU%20Public%20Bug%20Bounty%20Program,1200,USD,6,,True,,,,,,,,
+Intigriti,Dstny,https://www.intigriti.com/programs/dstny/dstnybugbounty/detail,1100,EUR,4,,True,,,,,,,,
+Bugcrowd,EPAM Systems Managed Bug Bounty Program,https://bugcrowd.com/engagements/epam-mbb-og,1000,USD,15,True,,,full,True,,,,,
+Bugcrowd,Ibotta,https://bugcrowd.com/engagements/ibotta,1000,USD,13,True,,,full,True,,,,,
+Bugcrowd,QuintoAndar Managed Bug Bounty Engagement,https://bugcrowd.com/engagements/quintoandar,1000,USD,10,True,,,full,False,,,,,
+Bugcrowd,Sky DACH Vulnerability Disclosure Program,https://bugcrowd.com/engagements/sky-plc-mbb-og2,1000,USD,1,True,,,full,False,,,,,
+Bugcrowd,Sky Italy Vulnerability Disclosure Program,https://bugcrowd.com/engagements/sky-plc-mbb-og1,1000,USD,1,True,,,full,False,,,,,
+Bugcrowd,Sky UK/ROI Vulnerability Disclosure Program,https://bugcrowd.com/engagements/sky-plc-mbb-og,1000,USD,1,True,,,full,False,,,,,
+Bugcrowd,TRM Labs Public Bug Bounty Engagement,https://bugcrowd.com/engagements/trm-labs-public-mbb,1000,USD,2,True,,,partial,False,,,,,
+Intigriti,Nexuzhealth Web PACS,https://www.intigriti.com/programs/uz%20leuven/nexuzhealthwebpacs/detail,1000,EUR,3,,True,,,,,,,,
+Intigriti,Social Deal,https://www.intigriti.com/programs/socialdeal/socialdeal/detail,1000,EUR,8,,True,,,,,,,,
+YesWeHack,Alasco GmbH - Bug Bounty Program,https://yeswehack.com/programs?search=Alasco%20GmbH%20-%20Bug%20Bounty%20Program,1000,USD,4,,True,,,,,,,,
+YesWeHack,DataDome Bot Bounty,https://yeswehack.com/programs?search=DataDome%20Bot%20Bounty,1000,USD,6,,True,,,,,,,,
+YesWeHack,Pine Labs Bug Bounty Program,https://yeswehack.com/programs?search=Pine%20Labs%20Bug%20Bounty%20Program,1000,USD,22,,True,,,,,,,,
+Bugcrowd,Pantheon,https://bugcrowd.com/engagements/pantheon,500,USD,1,True,,,partial,True,,,,,
+Intigriti,DPG Media,https://www.intigriti.com/programs/dpgm/dpgmedia/detail,500,EUR,3,,True,,,,,,,,
+YesWeHack,Ezviz - Bug Bounty Program,https://yeswehack.com/programs?search=Ezviz%20-%20Bug%20Bounty%20Program,420,USD,13,,True,,,,,,,,
+Bugcrowd,"Appliances - Barracuda Networks, Inc.",https://bugcrowd.com/engagements/barracuda,,USD,6,True,,,partial,True,,,,,
+Bugcrowd,CodeAI,https://bugcrowd.com/engagements/codeorg,,USD,2,True,,,full,False,,,,,
+Bugcrowd,Comcast Xfinity Vulnerability Disclosure Program,https://bugcrowd.com/engagements/comcastvdp,,USD,6,True,,,full,False,,,,,
+Bugcrowd,Shipwire,https://bugcrowd.com/engagements/shipwire,,USD,5,True,,,partial,True,,,,,
+Bugcrowd,oDesk,https://bugcrowd.com/engagements/odesk,,USD,1,True,,,partial,True,,,,,
+HackerOne,1Password - Enterprise Password Manager,https://hackerone.com/1password,,USD,4,False,True,85,,,4,,258.0,,10.75
+HackerOne,1win,https://hackerone.com/1win_com,,USD,11,False,True,100,,,11,1017.0,361.0,42.38,15.04
+HackerOne,23andMe Bug Bounty,https://hackerone.com/23andme_bbp,,USD,18,True,True,90,,,18,1292.0,304.0,53.83,12.67
+HackerOne,3CX,https://hackerone.com/3cx,,USD,14,False,True,96,,,13,2932.0,67.0,122.17,2.79
+HackerOne,6sense VDP,https://hackerone.com/6sense-vdp,,USD,3,True,False,67,,,0,1288.0,,53.67,
+HackerOne,8x8,https://hackerone.com/8x8-bounty,,USD,117,False,True,100,,,20,562.0,29.0,23.42,1.21
+HackerOne,ABB Information Systems Ltd,https://hackerone.com/abb,,USD,1063,True,False,99,,,0,,,,
+HackerOne,ABN AMRO Bank VDP,https://hackerone.com/abn_amro_vdp,,USD,21,True,False,83,,,0,,,,
+HackerOne,AIG,https://hackerone.com/aig,,USD,18,True,False,99,,,0,388.0,,16.17,
+HackerOne,ALSCO,https://hackerone.com/alsco,,USD,2,False,True,100,,,2,,,,
+HackerOne,APNIC,https://hackerone.com/apnic,,USD,18,True,False,78,,,0,515.0,,21.46,
+HackerOne,AT&T,https://hackerone.com/att,,USD,1,True,True,93,,,1,,1952.0,,81.33
+HackerOne,AWS VDP,https://hackerone.com/aws_vdp,,USD,554,True,False,41,,,0,1217.0,,50.71,
+HackerOne,Abercrombie & Fitch Bug Bounty,https://hackerone.com/abercrombie_fitch_bbp,,USD,8,True,True,91,,,8,535.0,62.0,22.29,2.58
+HackerOne,Abercrombie & Fitch Management Co.,https://hackerone.com/abercrombie_fitch,,USD,8,True,False,92,,,0,,,,
+HackerOne,Acronis,https://hackerone.com/acronis,,USD,21,False,True,39,,,21,4055.0,1790.0,168.96,74.58
+HackerOne,Adevinta,https://hackerone.com/adevinta_vdp,,USD,23,True,False,71,,,0,1691.0,,70.46,
+HackerOne,Aegean Airlines Vulnerability Disclosure,https://hackerone.com/aegean_airlines_vdp,,USD,292,True,False,89,,,0,1234.0,,51.42,
+HackerOne,Aeromexico VDP,https://hackerone.com/aeromexico_vdp,,USD,13,True,False,80,,,0,674.0,,28.08,
+HackerOne,Affirm,https://hackerone.com/affirm,,USD,3,True,True,85,,,3,1043.0,277.0,43.46,11.54
+HackerOne,Agoda Public,https://hackerone.com/agoda-public,,USD,3,True,True,91,,,3,,348.0,,14.5
+HackerOne,Airbnb,https://hackerone.com/airbnb,,USD,27,False,True,100,,,27,890.0,141.0,37.08,5.88
+HackerOne,Airtable,https://hackerone.com/airtable,,USD,7,True,True,74,,,7,,173.0,,7.21
+HackerOne,Alibaba VDP,https://hackerone.com/alibaba_vdp,,USD,28,True,False,48,,,0,,,,
+HackerOne,Allegion,https://hackerone.com/allegion,,USD,135,True,False,80,,,0,4092.0,,170.5,
+HackerOne,Alohi,https://hackerone.com/alohi,,USD,10,False,False,100,,,0,287.0,,11.96,
+HackerOne,Alshaya,https://hackerone.com/alshaya,,USD,184,True,False,80,,,0,2080.0,,86.67,
+HackerOne,Amazon Vulnerability Research Program,https://hackerone.com/amazonvrp,,USD,121,True,True,60,,,117,2951.0,457.0,122.96,19.04
+HackerOne,Anduril Industries,https://hackerone.com/anduril_industries,,USD,6,True,True,87,,,6,2288.0,249.0,95.33,10.38
+HackerOne,Anthropic,https://hackerone.com/anthropic,,USD,14,False,True,96,,,14,1219.0,153.0,50.79,6.38
+HackerOne,Anthropic Cyber Jailbreak,https://hackerone.com/anthropic-cyber-jailbreak,,USD,5,True,False,100,,,0,,,,
+HackerOne,Anywhere Real Estate,https://hackerone.com/anywhererealestate,,USD,16,True,False,59,,,0,7181.0,,299.21,
+HackerOne,Aon,https://hackerone.com/aon,,USD,257,True,False,76,,,0,1497.0,,62.38,
+HackerOne,Arc,https://hackerone.com/arc-bbp,,USD,6,True,True,87,,,6,326.0,346.0,13.58,14.42
+HackerOne,Arkose Labs,https://hackerone.com/arkose_labs,,USD,8,True,True,80,,,8,94.0,249.0,3.92,10.38
+HackerOne,Assa Abloy Americas,https://hackerone.com/assa_abloy_americas,,USD,36,True,False,76,,,0,172.0,,7.17,
+HackerOne,Audible,https://hackerone.com/audible,,USD,4,True,True,82,,,4,1572.0,483.0,65.5,20.12
+HackerOne,Autodesk,https://hackerone.com/autodesk,,USD,1,True,False,98,,,0,904.0,,37.67,
+HackerOne,Automattic,https://hackerone.com/automattic,,USD,30,False,True,62,,,30,,854.0,,35.58
+HackerOne,Avalara,https://hackerone.com/avalara,,USD,14,True,False,48,,,0,1852.0,,77.17,
+HackerOne,Aven (Response),https://hackerone.com/aven_response,,USD,4,True,False,90,,,0,,,,
+HackerOne,BILL VDP,https://hackerone.com/bill_vdp,,USD,10,True,False,63,,,0,303.0,,12.62,
+HackerOne,Baird,https://hackerone.com/baird_vdp,,USD,2,True,False,93,,,0,,,,
+HackerOne,Banco Plata,https://hackerone.com/banco_plata,,USD,7,True,True,97,,,7,5938.0,627.0,247.42,26.12
+HackerOne,BankUnited,https://hackerone.com/bankunited,,USD,20,True,False,83,,,0,,,,
+HackerOne,Basecamp,https://hackerone.com/basecamp,,USD,17,False,True,97,,,13,11116.0,206.0,463.17,8.58
+HackerOne,Beiersdorf,https://hackerone.com/beiersdorf,,USD,0,True,False,80,,,0,8302.0,,345.92,
+HackerOne,Best Buy,https://hackerone.com/bestbuy,,USD,1,True,False,72,,,0,1465.0,,61.04,
+HackerOne,Bitwarden,https://hackerone.com/bitwarden,,USD,22,False,False,100,,,0,,,,
+HackerOne,BlackRock,https://hackerone.com/blackrock,,USD,4,True,False,60,,,0,,,,
+HackerOne,Blend Labs,https://hackerone.com/blend-labs,,USD,1,True,True,84,,,1,,,,
+HackerOne,Booking.com,https://hackerone.com/bookingcom,,USD,49,True,True,96,,,49,1573.0,775.0,65.54,32.29
+HackerOne,Boozt Fashion AB,https://hackerone.com/boozt,,USD,7,True,True,81,,,7,3005.0,41.0,125.21,1.71
+HackerOne,Bose (VDP),https://hackerone.com/bose_vdp,,USD,12,True,False,88,,,0,1935.0,,80.62,
+HackerOne,Box BB,https://hackerone.com/box_private,,USD,12,True,True,95,,,12,1925.0,719.0,80.21,29.96
+HackerOne,Brave Software,https://hackerone.com/brave,,USD,5,False,True,100,,,5,,96.0,,4.0
+HackerOne,"Braze, Inc.",https://hackerone.com/braze_inc,,USD,3,True,True,93,,,3,2472.0,2802.0,103.0,116.75
+HackerOne,Brightspeed,https://hackerone.com/brightspeed,,USD,5,True,False,57,,,0,3300.0,,137.5,
+HackerOne,British Airways VDP,https://hackerone.com/british_airways_vdp,,USD,7,True,False,54,,,0,1963.0,159.0,81.79,6.62
+HackerOne,Bumba,https://hackerone.com/bumba_bbp,,USD,1,True,True,95,,,1,,,,
+HackerOne,Bumble,https://hackerone.com/bumble,,USD,50,True,True,77,,,50,1116.0,263.0,46.5,10.96
+HackerOne,Bybit Fintech Ltd,https://hackerone.com/bybit_fintech,,USD,9,True,True,85,,,9,1011.0,272.0,42.12,11.33
+HackerOne,Bykea,https://hackerone.com/bykea,,USD,16,False,True,100,,,16,,21.0,,0.88
+HackerOne,CBRE,https://hackerone.com/cbre,,USD,8691,True,False,90,,,0,1148.0,,47.83,
+HackerOne,CERT/CC,https://hackerone.com/cert,,USD,0,False,False,,,,0,,,,
+HackerOne,CLEAR,https://hackerone.com/clear,,USD,17,True,True,82,,,17,332.0,388.0,13.83,16.17
+HackerOne,CS Money,https://hackerone.com/cs_money,,USD,5,False,True,57,,,5,482.0,433.0,20.08,18.04
+HackerOne,Callsign,https://hackerone.com/callsign,,USD,5,True,False,67,,,0,,,,
+HackerOne,Canada Goose Inc.,https://hackerone.com/canada_goose_inc,,USD,3,True,False,83,,,0,2214.0,,92.25,
+HackerOne,Capital One,https://hackerone.com/capital-one,,USD,27,True,False,100,,,0,212.0,,8.83,
+HackerOne,Capital One Bug Bounty,https://hackerone.com/capital-one-bounty,,USD,10,True,True,84,,,10,975.0,62.0,40.62,2.58
+HackerOne,Caterpillar,https://hackerone.com/caterpillar,,USD,0,True,False,94,,,0,990.0,,41.25,
+HackerOne,Cedars-Sinai,https://hackerone.com/cedars-sinai,,USD,39,True,False,75,,,0,1532.0,,63.83,
+HackerOne,Central Security Project,https://hackerone.com/central-security-project,,USD,3,False,False,40,,,0,,,,
+HackerOne,Chainlink,https://hackerone.com/chainlink,,USD,8,False,True,15,,,6,,,,
+HackerOne,Chaturbate,https://hackerone.com/chaturbate,,USD,9,True,True,70,,,9,1637.0,766.0,68.21,31.92
+HackerOne,Chia Network,https://hackerone.com/chia_network,,USD,9,False,True,100,,,9,,354.0,,14.75
+HackerOne,Circle,https://hackerone.com/circle-bbp,,USD,22,True,True,90,,,22,3178.0,2509.0,132.42,104.54
+HackerOne,Citi Group,https://hackerone.com/citi_group,,USD,1,True,False,63,,,0,,,,
+HackerOne,City of Los Angeles,https://hackerone.com/city_of_los_angeles_vdp,,USD,2,True,False,52,,,0,,,,
+HackerOne,Clarivate,https://hackerone.com/clarivate,,USD,5026,True,False,55,,,0,,,,
+HackerOne,Clear Street Disclosure Program,https://hackerone.com/clear_street_vdp,,USD,1,True,False,82,,,0,,,,
+HackerOne,Cloud Software Group,https://hackerone.com/csg-public,,USD,17,False,True,39,,,16,,249.0,,10.38
+HackerOne,Cloudflare Public Bug Bounty,https://hackerone.com/cloudflare,,USD,52,False,True,87,,,52,,825.0,,34.38
+HackerOne,"Coalition, Inc.",https://hackerone.com/coalition,,USD,4,False,False,50,,,0,528.0,,22.0,
+HackerOne,Cognition,https://hackerone.com/cognition,,USD,8,True,False,57,,,0,,,,
+HackerOne,Cognizant,https://hackerone.com/cognizant,,USD,26,True,False,81,,,0,,,,
+HackerOne,CoinDCX Vulnerability Disclosure,https://hackerone.com/coindcx_vdp,,USD,9,False,False,93,,,0,,,,
+HackerOne,CoinMate.io,https://hackerone.com/coinmate,,USD,0,False,True,100,,,0,1608.0,5.0,67.0,0.21
+HackerOne,CoinSpot,https://hackerone.com/coinspot,,USD,4,True,True,88,,,4,,53.0,,2.21
+HackerOne,Coinbase,https://hackerone.com/coinbase,,USD,16,True,True,91,,,14,,1175.0,,48.96
+HackerOne,Compass,https://hackerone.com/compass-bbp,,USD,3,True,True,90,,,3,,430.0,,17.92
+HackerOne,Concrete CMS,https://hackerone.com/concretecms,,USD,1,False,False,62,,,0,1277.0,,53.21,
+HackerOne,Corebridge Financial,https://hackerone.com/corebridge_financial,,USD,21,True,False,54,,,0,530.0,,22.08,
+HackerOne,Costco,https://hackerone.com/costco,,USD,14,True,False,100,,,0,,,,
+HackerOne,Coupang Taiwan,https://hackerone.com/coupang_tw,,USD,47,True,True,94,,,47,1238.0,403.0,51.58,16.79
+HackerOne,Coursera,https://hackerone.com/coursera,,USD,1,False,False,81,,,0,62.0,,2.58,
+HackerOne,Credit Karma,https://hackerone.com/creditkarma,,USD,14,False,True,93,,,14,,455.0,,18.96
+HackerOne,Crowdstrike,https://hackerone.com/crowdstrike,,USD,20,False,True,100,,,20,,21.0,,0.88
+HackerOne,Crypto.com,https://hackerone.com/crypto,,USD,24,False,True,100,,,24,,121.0,,5.04
+HackerOne,DIB-VDP,https://hackerone.com/dib-vdp,,USD,1094,False,False,100,,,0,5953.0,,248.04,
+HackerOne,DailyPay VDP,https://hackerone.com/dailypay_vdp,,USD,10,True,False,97,,,0,,,,
+HackerOne,Daimler Truck,https://hackerone.com/daimler_truck,,USD,272,True,False,66,,,0,2438.0,,101.58,
+HackerOne,Databricks,https://hackerone.com/databricks,,USD,9,True,True,89,,,8,8874.0,312.0,369.75,13.0
+HackerOne,DefectDojo,https://hackerone.com/defectdojo,,USD,1,False,False,72,,,0,262.0,,10.92,
+HackerOne,Deribit,https://hackerone.com/deribit,,USD,8,True,True,71,,,8,,3012.0,,125.5
+HackerOne,Deriv.com,https://hackerone.com/deriv,,USD,18,False,True,98,,,15,72.0,95.0,3.0,3.96
+HackerOne,Disclosure Assistance,https://hackerone.com/disclosure-assistance,,USD,0,False,False,,,,0,,,,
+HackerOne,Discourse,https://hackerone.com/discourse,,USD,2,False,True,26,,,2,1227.0,,51.12,
+HackerOne,Discover VDP,https://hackerone.com/discover-vdp,,USD,2,True,False,81,,,0,1170.0,,48.75,
+HackerOne,DocuSign,https://hackerone.com/docusign,,USD,1,True,False,75,,,0,327.0,,13.62,
+HackerOne,DoorDash,https://hackerone.com/doordash,,USD,3,True,True,75,,,3,1058.0,481.0,44.08,20.04
+HackerOne,Doppler,https://hackerone.com/doppler,,USD,6,True,True,88,,,6,273.0,,11.38,
+HackerOne,DuckDuckGo,https://hackerone.com/duckduckgo,,USD,4,True,False,60,,,0,3052.0,,127.17,
+HackerOne,Dust,https://hackerone.com/dust,,USD,2,False,False,38,,,0,1108.0,,46.17,
+HackerOne,Dynatrace,https://hackerone.com/dynatrace,,USD,10,True,True,71,,,9,850.0,481.0,35.42,20.04
+HackerOne,Dyson,https://hackerone.com/dyson,,USD,66,True,True,,,,66,3875.0,97.0,161.46,4.04
+HackerOne,EXNESS,https://hackerone.com/exness,,USD,14,False,True,92,,,11,740.0,131.0,30.83,5.46
+HackerOne,Early Warning,https://hackerone.com/early_warning,,USD,17,True,True,98,,,17,1736.0,50.0,72.33,2.08
+HackerOne,Elastic,https://hackerone.com/elastic,,USD,34,True,True,84,,,34,2353.0,1361.0,98.04,56.71
+HackerOne,Enjin,https://hackerone.com/enjin,,USD,6,False,True,100,,,5,,168.0,,7.0
+HackerOne,Epic Games,https://hackerone.com/epicgames,,USD,85,True,True,71,,,83,,186.0,,7.75
+HackerOne,Epic Games VDP,https://hackerone.com/epicgames-vdp,,USD,91,True,False,78,,,0,1864.0,,77.67,
+HackerOne,Equifax-vdp,https://hackerone.com/equifax,,USD,283,True,False,93,,,0,1216.0,,50.67,
+HackerOne,Essity,https://hackerone.com/essity,,USD,480,False,False,100,,,0,,,,
+HackerOne,Esteé  Lauder,https://hackerone.com/estee-lauder,,USD,471,False,False,58,,,0,565.0,,23.54,
+HackerOne,Eternal,https://hackerone.com/eternal,,USD,34,False,True,100,,,32,158.0,5.0,6.58,0.21
+HackerOne,Evernote,https://hackerone.com/evernote,,USD,9,True,True,76,,,7,,475.0,,19.79
+HackerOne,Exodus,https://hackerone.com/exodus,,USD,28,False,True,97,,,27,93.0,367.0,3.88,15.29
+HackerOne,Expedia Group Bug Bounty,https://hackerone.com/expediagroup_bbp,,USD,77,True,True,66,,,75,5697.0,152.0,237.38,6.33
+HackerOne,Expedia Group VDP,https://hackerone.com/expediagroup,,USD,33,True,False,69,,,0,10300.0,,429.17,
+HackerOne,Experian,https://hackerone.com/experian,,USD,0,True,False,100,,,0,722.0,,30.08,
+HackerOne,FINRA Response,https://hackerone.com/finra,,USD,2,True,False,100,,,0,,,,
+HackerOne,FanDuel,https://hackerone.com/fanduel,,USD,19,False,True,97,,,19,,202.0,,8.42
+HackerOne,FanDuel Response,https://hackerone.com/fanduel-vdp,,USD,1,False,False,100,,,0,,,,
+HackerOne,"Faraday, Inc.",https://hackerone.com/faraday_inc,,USD,12,True,True,99,,,12,68.0,66.0,2.83,2.75
+HackerOne,Fastly VDP,https://hackerone.com/fastly-vdp,,USD,6,True,False,57,,,0,,,,
+HackerOne,Ferrero,https://hackerone.com/ferrero,,USD,416,True,False,83,,,0,4152.0,,173.0,
+HackerOne,Fertitta Entertainment,https://hackerone.com/fertitta_entertainment,,USD,21,True,False,67,,,0,,,,
+HackerOne,FetLife,https://hackerone.com/fetlife,,USD,3,False,True,90,,,3,553.0,64.0,23.04,2.67
+HackerOne,Fidelity,https://hackerone.com/fidelity,,USD,20,True,False,50,,,0,,,,
+HackerOne,Fifth Third Bank VDP,https://hackerone.com/fifth_third_bank_vdp,,USD,73,True,False,74,,,0,,,,
+HackerOne,Figma,https://hackerone.com/figma,,USD,8,True,True,72,,,8,1068.0,182.0,44.5,7.58
+HackerOne,Files.com,https://hackerone.com/files,,USD,10,False,True,92,,,10,112.0,26.0,4.67,1.08
+HackerOne,Finnair Vulnerability Disclosure,https://hackerone.com/finnair_vdp,,USD,41,True,False,75,,,0,162.0,,6.75,
+HackerOne,Fiserv,https://hackerone.com/fiserv,,USD,10923,True,False,99,,,0,1091.0,,45.46,
+HackerOne,Flexport VDP,https://hackerone.com/flexport_vdp,,USD,2,True,False,89,,,0,9460.0,,394.17,
+HackerOne,Flickr,https://hackerone.com/flickr,,USD,5,True,True,54,,,5,4420.0,2447.0,184.17,101.96
+HackerOne,Flipkart,https://hackerone.com/flipkart,,USD,10,True,True,78,,,10,1576.0,970.0,65.67,40.42
+HackerOne,FloQast,https://hackerone.com/floqast,,USD,4,False,True,81,,,4,4371.0,1031.0,182.12,42.96
+HackerOne,Flutter UK&I,https://hackerone.com/flutteruki,,USD,44,True,True,89,,,44,,16.0,,0.67
+HackerOne,Ford,https://hackerone.com/ford,,USD,27,True,False,82,,,0,9464.0,,394.33,
+HackerOne,ForeScout Technologies,https://hackerone.com/forescout_technologies,,USD,63,True,True,70,,,63,,,,
+HackerOne,FormAssembly,https://hackerone.com/formassembly,,USD,7,False,False,83,,,0,,,,
+HackerOne,Fresenius,https://hackerone.com/fresenius,,USD,0,True,False,92,,,0,2069.0,,86.21,
+HackerOne,Front,https://hackerone.com/fronthq,,USD,6,True,True,76,,,6,5500.0,8178.0,229.17,340.75
+HackerOne,General Motors,https://hackerone.com/gm,,USD,0,False,False,,,,0,,,,
+HackerOne,GetYourGuide VDP,https://hackerone.com/getyourguide_vdp,,USD,12,False,False,100,,,0,1165.0,,48.54,
+HackerOne,GitHub,https://hackerone.com/github,,USD,27,False,True,29,,,27,2422.0,1751.0,100.92,72.96
+HackerOne,GitLab,https://hackerone.com/gitlab,,USD,19,True,True,74,,,19,1651.0,978.0,68.79,40.75
+HackerOne,Global Payments,https://hackerone.com/global-payments,,USD,43,True,False,98,,,0,350.0,,14.58,
+HackerOne,Gmelius,https://hackerone.com/gmelius,,USD,3,False,False,60,,,0,,,,
+HackerOne,GoCardless Bug Bounty Program,https://hackerone.com/gocardless_bbp,,USD,18,True,True,88,,,10,327.0,193.0,13.62,8.04
+HackerOne,GoDaddy VDP,https://hackerone.com/godaddy-vdp,,USD,0,True,False,71,,,0,16324.0,,680.17,
+HackerOne,Gogo VDP,https://hackerone.com/gogo_vdp,,USD,1,False,False,98,,,0,1024.0,,42.67,
+HackerOne,Goldman Sachs,https://hackerone.com/goldmansachs,,USD,39,True,True,99,,,38,3756.0,193.0,156.5,8.04
+HackerOne,GoodRx,https://hackerone.com/goodrx,,USD,3,True,True,62,,,3,,,,
+HackerOne,Grab,https://hackerone.com/grab,,USD,32,True,True,88,,,32,,408.0,,17.0
+HackerOne,Greenhouse.io,https://hackerone.com/greenhouse,,USD,12,True,True,95,,,12,547.0,330.0,22.79,13.75
+HackerOne,Grindr,https://hackerone.com/grindr,,USD,9,False,True,86,,,6,1030.0,682.0,42.92,28.42
+HackerOne,Gymshark,https://hackerone.com/gymshark,,USD,7,True,False,73,,,0,268.0,,11.17,
+HackerOne,HCL Software Inc.,https://hackerone.com/hcl_software,,USD,48,True,False,50,,,0,,,,
+HackerOne,HPE VDP,https://hackerone.com/hpe_vdp,,USD,207,True,False,50,,,0,1367.0,,56.96,
+HackerOne,HYPR,https://hackerone.com/hypr-corp,,USD,6,False,True,97,,,6,552.0,565.0,23.0,23.54
+HackerOne,Hack The Box,https://hackerone.com/hack_the_box,,USD,11,True,False,100,,,0,,,,
+HackerOne,HackerOne,https://hackerone.com/security,,USD,26,True,True,100,,,25,175.0,1574.0,7.29,65.58
+HackerOne,Henkel,https://hackerone.com/henkel_vdp,,USD,266,True,False,100,,,0,150.0,,6.25,
+HackerOne,Hertz VDP,https://hackerone.com/hertz,,USD,5,True,False,89,,,0,,,,
+HackerOne,Hex,https://hackerone.com/hex,,USD,3,True,False,82,,,0,,,,
+HackerOne,Hexagon-VDP,https://hackerone.com/hexagon_vdp,,USD,1,True,False,79,,,0,,,,
+HackerOne,Hilton,https://hackerone.com/hilton,,USD,23,True,True,82,,,23,,16.0,,0.67
+HackerOne,Hotmart (VDP),https://hackerone.com/hotmartvdp,,USD,1,True,False,67,,,0,,,,
+HackerOne,HubSpot,https://hackerone.com/hubspot,,USD,15,True,True,74,,,15,1325.0,161.0,55.21,6.71
+HackerOne,Hy-Vee,https://hackerone.com/hy-vee,,USD,3,True,False,54,,,0,,,,
+HackerOne,Hyatt Hotels,https://hackerone.com/hyatt,,USD,60,True,True,98,,,60,2318.0,114.0,96.58,4.75
+HackerOne,Hyland Software,https://hackerone.com/hyland_software,,USD,14,True,False,62,,,0,,,,
+HackerOne,IBM,https://hackerone.com/ibm,,USD,3,False,False,79,,,0,986.0,,41.08,
+HackerOne,ION Group,https://hackerone.com/ion,,USD,1444,True,False,81,,,0,593.0,,24.71,
+HackerOne,Inditex,https://hackerone.com/inditex,,USD,4,True,True,100,,,4,,110.0,,4.58
+HackerOne,Informatica,https://hackerone.com/informatica,,USD,5,False,False,89,,,0,1070.0,,44.58,
+HackerOne,Insightly,https://hackerone.com/insightly,,USD,9,True,True,75,,,9,156.0,207.0,6.5,8.62
+HackerOne,Inspectorio,https://hackerone.com/inspectorio,,USD,11,True,True,75,,,9,7532.0,0.0,313.83,0.0
+HackerOne,Instacart,https://hackerone.com/instacart,,USD,10,True,True,75,,,10,5475.0,1389.0,228.12,57.88
+HackerOne,Insulet Corporation,https://hackerone.com/insulet_corporation,,USD,19,True,False,75,,,0,,,,
+HackerOne,Inter & Co. VDP,https://hackerone.com/interco_vdp,,USD,27,True,False,55,,,0,,,,
+HackerOne,Intuit,https://hackerone.com/intuit_rdp,,USD,5,True,False,93,,,0,,,,
+HackerOne,"Invision Power Services, Inc.",https://hackerone.com/ips,,USD,0,False,False,100,,,0,,,,
+HackerOne,Itaú Unibanco,https://hackerone.com/itau_unibanco,,USD,137,True,False,57,,,0,,,,
+HackerOne,JetBlue,https://hackerone.com/jetblue,,USD,16,True,False,100,,,0,1160.0,,48.33,
+HackerOne,John Deere,https://hackerone.com/john-deere,,USD,2050,True,False,78,,,0,1620.0,,67.5,
+HackerOne,Judge.me,https://hackerone.com/judgeme,,USD,7,True,True,73,,,7,801.0,731.0,33.38,30.46
+HackerOne,KAYAK,https://hackerone.com/kayak,,USD,12,True,True,87,,,12,445.0,387.0,18.54,16.12
+HackerOne,KHealth,https://hackerone.com/khealth,,USD,13,True,True,83,,,13,541.0,322.0,22.54,13.42
+HackerOne,KKR-VDP,https://hackerone.com/kkr_vdp,,USD,60,True,False,80,,,0,,,,
+HackerOne,KOHO,https://hackerone.com/koho,,USD,11,False,True,99,,,11,3925.0,18.0,163.54,0.75
+HackerOne,Kaseya,https://hackerone.com/kaseya,,USD,36,True,False,80,,,0,,,,
+HackerOne,KeyBank,https://hackerone.com/keybank,,USD,19,True,False,67,,,0,,,,
+HackerOne,Khan Academy,https://hackerone.com/khanacademy,,USD,0,False,False,100,,,0,5714.0,,238.08,
+HackerOne,Kiwi.com,https://hackerone.com/kiwicom,,USD,9,True,True,84,,,9,1050.0,280.0,43.75,11.67
+HackerOne,Klarna,https://hackerone.com/klarna,,USD,8,True,True,77,,,8,1637.0,68.0,68.21,2.83
+HackerOne,Kong,https://hackerone.com/kong,,USD,12,True,True,79,,,11,1935.0,267.0,80.62,11.12
+HackerOne,Kraken Tech (VDP),https://hackerone.com/kraken-tech,,USD,0,True,False,50,,,0,,,,
+HackerOne,Krisp,https://hackerone.com/krisp,,USD,15,False,True,100,,,12,3405.0,37.0,141.88,1.54
+HackerOne,Kubernetes,https://hackerone.com/kubernetes,,USD,82,True,True,82,,,57,2247.0,2044.0,93.62,85.17
+HackerOne,LATAM Airlines,https://hackerone.com/latamairlines,,USD,71,True,False,86,,,0,341.0,,14.21,
+HackerOne,LPL Financial VDP,https://hackerone.com/lpl_financial-vdp,,USD,3,True,False,100,,,0,,,,
+HackerOne,Lark Technologies,https://hackerone.com/lark_technologies,,USD,17,True,True,60,,,17,,278.0,,11.58
+HackerOne,LinkedIn,https://hackerone.com/linkedin,,USD,5,True,True,65,,,5,,142.0,,5.92
+HackerOne,Live Nation,https://hackerone.com/live_nation,,USD,25,True,True,95,,,25,1055.0,103.0,43.96,4.29
+HackerOne,Liverpool Victoria,https://hackerone.com/liverpool_victoria,,USD,1,True,False,100,,,0,,,,
+HackerOne,Logitech,https://hackerone.com/logitech,,USD,86,True,True,73,,,37,4993.0,4935.0,208.04,205.62
+HackerOne,Lovable VDP,https://hackerone.com/lovable-vdp,,USD,5,True,False,84,,,0,444.0,,18.5,
+HackerOne,Lowe's Companies VDP,https://hackerone.com/lowes,,USD,8,True,False,72,,,0,,,,
+HackerOne,Luminor,https://hackerone.com/luminor,,USD,5,False,False,100,,,0,,,,
+HackerOne,Lyst,https://hackerone.com/lyst,,USD,7,True,True,73,,,7,2209.0,1244.0,92.04,51.83
+HackerOne,M&T Bank Vulnerability Disclosure,https://hackerone.com/mtb,,USD,11,True,False,71,,,0,2350.0,,97.92,
+HackerOne,MOD Supply Chain VDP,https://hackerone.com/mod_supply_chain_vdp,,USD,185,False,False,79,,,0,360.0,,15.0,
+HackerOne,MSCI,https://hackerone.com/msci,,USD,1,True,False,60,,,0,1012.0,,42.17,
+HackerOne,MTN Group,https://hackerone.com/mtn_group,,USD,498,True,False,84,,,0,1130.0,,47.08,
+HackerOne,MUFG VDP,https://hackerone.com/mufg-vdp,,USD,2,True,False,59,,,0,1119.0,,46.62,
+HackerOne,Magic Eden,https://hackerone.com/magic-eden,,USD,2,True,True,64,,,2,228.0,139.0,9.5,5.79
+HackerOne,MariaDB,https://hackerone.com/mariadb,,USD,5,False,False,56,,,0,1125.0,,46.88,
+HackerOne,Marriott Bug Bounty Program,https://hackerone.com/marriott,,USD,59,True,True,98,,,56,818.0,277.0,34.08,11.54
+HackerOne,Mars,https://hackerone.com/mars,,USD,112,True,False,80,,,0,850.0,,35.42,
+HackerOne,Matomo,https://hackerone.com/matomo,,USD,11,False,True,100,,,9,222.0,245.0,9.25,10.21
+HackerOne,McGraw Hill,https://hackerone.com/mcgrawhill,,USD,8,True,False,74,,,0,1038.0,,43.25,
+HackerOne,Meesho,https://hackerone.com/meesho_bbp,,USD,12,False,True,63,,,12,1087.0,628.0,45.29,26.17
+HackerOne,Mendix,https://hackerone.com/mendix,,USD,23,True,False,43,,,0,6449.0,,268.71,
+HackerOne,MercadoLibre,https://hackerone.com/mercadolibre,,USD,79,True,True,95,,,71,1589.0,139.0,66.21,5.79
+HackerOne,"Merck & Co., Inc., Rahway, NJ, USA",https://hackerone.com/msd,,USD,3,True,False,90,,,0,814.0,,33.92,
+HackerOne,Mergify,https://hackerone.com/mergify,,USD,2,False,True,100,,,2,207.0,59.0,8.62,2.46
+HackerOne,Mintel,https://hackerone.com/mintel,,USD,23,True,False,87,,,0,634.0,,26.42,
+HackerOne,Modern Treasury,https://hackerone.com/modern_treasury,,USD,2,True,True,71,,,2,1101.0,921.0,45.88,38.38
+HackerOne,Monarch Money,https://hackerone.com/monarch_money,,USD,4,True,False,,,,0,,,,
+HackerOne,Mondelēz International,https://hackerone.com/mondelez,,USD,371,True,False,90,,,0,1178.0,,49.08,
+HackerOne,Monero,https://hackerone.com/monero,,USD,0,False,False,100,,,0,954.0,,39.75,
+HackerOne,Moneybird,https://hackerone.com/moneybird,,USD,4,False,True,81,,,4,20388.0,199.0,849.5,8.29
+HackerOne,MongoDB,https://hackerone.com/mongodb,,USD,30,True,True,81,,,27,1243.0,696.0,51.79,29.0
+HackerOne,MoonPay,https://hackerone.com/moonpay,,USD,21,False,True,98,,,21,15.0,90.0,0.62,3.75
+HackerOne,Moov,https://hackerone.com/moov,,USD,7,True,False,79,,,0,137.0,,5.71,
+HackerOne,Mueller Water Products (VDP),https://hackerone.com/mueller_water_products_vdp,,USD,0,True,False,80,,,0,,,,
+HackerOne,Myndr,https://hackerone.com/myndr,,USD,3,False,False,85,,,0,415.0,,17.29,
+HackerOne,NBA Public Bug Bounty,https://hackerone.com/nba-public,,USD,460,True,True,85,,,460,413.0,184.0,17.21,7.67
+HackerOne,NISC-VDP,https://hackerone.com/nisc,,USD,11,True,False,50,,,0,34551.0,,1439.62,
+HackerOne,Navient Solutions LLC,https://hackerone.com/navient_solutions,,USD,1,False,False,100,,,0,,,,
+HackerOne,Nebius AI Vulnerability Disclosure,https://hackerone.com/nebius_ai_vdp,,USD,21,True,False,81,,,0,,,,
+HackerOne,Neon,https://hackerone.com/neon_bbp,,USD,4,True,True,79,,,4,2465.0,280.0,102.71,11.67
+HackerOne,NetScaler Public Program,https://hackerone.com/netscaler_public_program,,USD,3,False,True,19,,,3,,,,
+HackerOne,Netflix,https://hackerone.com/netflix,,USD,30,True,True,89,,,26,2446.0,226.0,101.92,9.42
+HackerOne,Newegg,https://hackerone.com/newegg,,USD,8,True,True,66,,,7,,633.0,,26.38
+HackerOne,Nextcloud,https://hackerone.com/nextcloud,,USD,94,False,True,100,,,0,2968.0,4178.0,123.67,174.08
+HackerOne,Nintendo,https://hackerone.com/nintendo,,USD,7,False,True,83,,,7,,1279.0,,53.29
+HackerOne,Node.js,https://hackerone.com/nodejs,,USD,1,False,True,77,,,1,815.0,,33.96,
+HackerOne,Nominet,https://hackerone.com/nominet,,USD,3,True,False,100,,,0,,,,
+HackerOne,"Notion Labs, Inc.",https://hackerone.com/notion,,USD,13,True,True,90,,,13,1328.0,386.0,55.33,16.08
+HackerOne,Nutanix,https://hackerone.com/nutanix,,USD,17,True,False,44,,,0,,,,
+HackerOne,OANDA,https://hackerone.com/oanda,,USD,7,True,False,86,,,0,3044.0,,126.83,
+HackerOne,OKG,https://hackerone.com/okg,,USD,10,True,True,99,,,10,,546.0,,22.75
+HackerOne,OPPO,https://hackerone.com/oppo_bbp,,USD,133,True,True,85,,,133,770.0,781.0,32.08,32.54
+HackerOne,"OWOX, Inc.",https://hackerone.com/owox,,USD,0,False,False,100,,,0,,,,
+HackerOne,OakNorth Bank,https://hackerone.com/oaknorth_bank,,USD,11,True,False,100,,,0,2831.0,,117.96,
+HackerOne,Octopus Energy Group,https://hackerone.com/octopus-energy,,USD,1,True,False,71,,,0,571.0,,23.79,
+HackerOne,Ohio Secretary of State,https://hackerone.com/ohiosecretaryofstate,,USD,10,True,False,90,,,0,,,,
+HackerOne,Omarchy,https://hackerone.com/omarchy,,USD,1,False,True,94,,,1,,,,
+HackerOne,Omnicell,https://hackerone.com/omnicell,,USD,3,True,False,76,,,0,488.0,,20.33,
+HackerOne,On,https://hackerone.com/on,,USD,5,True,False,100,,,0,,,,
+HackerOne,OpenMage,https://hackerone.com/openmage,,USD,3,False,False,38,,,0,,,,
+HackerOne,Oportun,https://hackerone.com/oportun_vdp,,USD,44,True,False,100,,,0,,,,
+HackerOne,PRISM,https://hackerone.com/prism_vdp,,USD,27,True,False,87,,,0,304.0,,12.67,
+HackerOne,PUBG,https://hackerone.com/pubg,,USD,2,True,False,78,,,0,,,,
+HackerOne,PagerDuty,https://hackerone.com/pagerduty,,USD,18,True,False,77,,,0,2084.0,,86.83,
+HackerOne,Palantir Public,https://hackerone.com/palantir_public,,USD,2,False,True,53,,,2,927.0,464.0,38.62,19.33
+HackerOne,Palo Alto Software,https://hackerone.com/palo_alto_software,,USD,4,False,False,,,,0,30986.0,,1291.08,
+HackerOne,PayPal,https://hackerone.com/paypal,,USD,42,True,True,93,,,41,4609.0,2210.0,192.04,92.08
+HackerOne,Payoneer,https://hackerone.com/payoneer,,USD,5,True,True,64,,,5,345.0,276.0,14.38,11.5
+HackerOne,Paystack Vulnerability Disclosure,https://hackerone.com/paystack-vdp,,USD,14,True,False,56,,,0,,,,
+HackerOne,Peloton,https://hackerone.com/peloton,,USD,5,True,False,67,,,0,1378.0,,57.42,
+HackerOne,Penn Entertainment,https://hackerone.com/penn_entertainment,,USD,11,True,False,60,,,0,470.0,,19.58,
+HackerOne,PepsiCo VDP,https://hackerone.com/pepsico_vdp,,USD,227,True,False,73,,,0,3963.0,,165.12,
+HackerOne,Pfizer,https://hackerone.com/pfizer,,USD,0,True,False,100,,,0,9367.0,,390.29,
+HackerOne,Phabricator,https://hackerone.com/phabricator,,USD,0,False,True,12,,,0,,,,
+HackerOne,PhonePe,https://hackerone.com/phonepe_vdp,,USD,13,False,False,64,,,0,,,,
+HackerOne,Picsart,https://hackerone.com/picsart,,USD,18,True,False,54,,,0,,,,
+HackerOne,Ping Identity,https://hackerone.com/pingidentity,,USD,10,True,True,64,,,10,,40.0,,1.67
+HackerOne,Plaid,https://hackerone.com/plaid,,USD,12,True,True,91,,,12,,246.0,,10.25
+HackerOne,Planet Labs,https://hackerone.com/planet-labs,,USD,4,True,False,44,,,0,500.0,,20.83,
+HackerOne,PlayStation,https://hackerone.com/playstation,,USD,24,True,True,79,,,23,1495.0,138.0,62.29,5.75
+HackerOne,Playtika,https://hackerone.com/playtika,,USD,65,True,True,92,,,63,2780.0,1.0,115.83,0.04
+HackerOne,Polygon Technology,https://hackerone.com/polygon-technology,,USD,8,True,True,90,,,8,691.0,198.0,28.79,8.25
+HackerOne,PornBox,https://hackerone.com/pornbox,,USD,4,True,True,98,,,4,235.0,164.0,9.79,6.83
+HackerOne,PortSwigger Web Security,https://hackerone.com/portswigger,,USD,10,False,True,99,,,10,,530.0,,22.08
+HackerOne,Priceline,https://hackerone.com/priceline,,USD,13,True,True,81,,,13,2310.0,1192.0,96.25,49.67
+HackerOne,Privy (Bounty),https://hackerone.com/privy-bbp,,USD,12,True,True,94,,,12,,342.0,,14.25
+HackerOne,"ProductBoard, Inc.",https://hackerone.com/productboard,,USD,2,True,False,44,,,0,,,,
+HackerOne,Prudential Financial,https://hackerone.com/prudential-financial,,USD,2,True,False,73,,,0,1502.0,,62.58,
+HackerOne,Publitas,https://hackerone.com/publitas,,USD,0,False,False,0,,,0,378.0,,15.75,
+HackerOne,QinetiQ Response,https://hackerone.com/qinetiq,,USD,30,True,False,70,,,0,509.0,,21.21,
+HackerOne,Quora,https://hackerone.com/quora,,USD,4,False,True,21,,,4,2566.0,1236.0,106.92,51.5
+HackerOne,R3,https://hackerone.com/r3,,USD,1,True,False,67,,,0,49.0,,2.04,
+HackerOne,REI BBP,https://hackerone.com/rei_bbp,,USD,6,True,True,80,,,6,2485.0,159.0,103.54,6.62
+HackerOne,REI VDP,https://hackerone.com/rei_vdp,,USD,6,True,False,80,,,0,,,,
+HackerOne,Razorpay,https://hackerone.com/razorpay,,USD,6,False,True,51,,,6,,149.0,,6.21
+HackerOne,Recreation.gov,https://hackerone.com/recreation_gov_vdp,,USD,7,True,False,76,,,0,6331.0,,263.79,
+HackerOne,Reddit,https://hackerone.com/reddit,,USD,27,True,True,87,,,27,1310.0,483.0,54.58,20.12
+HackerOne,Redis VDP,https://hackerone.com/redis-vdp,,USD,8,True,False,74,,,0,2360.0,,98.33,
+HackerOne,Redox,https://hackerone.com/redox_bbp,,USD,9,True,True,93,,,9,,26.0,,1.08
+HackerOne,Regions Financial,https://hackerone.com/regions_financial,,USD,16,True,False,58,,,0,,,,
+HackerOne,Remitly,https://hackerone.com/remitly,,USD,72,False,True,99,,,72,3161.0,3571.0,131.71,148.79
+HackerOne,Render,https://hackerone.com/render,,USD,3,False,False,62,,,0,120.0,,5.0,
+HackerOne,ResMed,https://hackerone.com/resmed,,USD,63,True,False,65,,,0,,,,
+HackerOne,Revive Adserver,https://hackerone.com/revive_adserver,,USD,1,False,False,100,,,0,151.0,,6.29,
+HackerOne,Ring,https://hackerone.com/ring,,USD,30,False,True,66,,,30,5151.0,618.0,214.62,25.75
+HackerOne,Ripio,https://hackerone.com/ripio,,USD,24,False,True,91,,,23,103.0,13.0,4.29,0.54
+HackerOne,Ro,https://hackerone.com/ro,,USD,17,True,False,75,,,0,,,,
+HackerOne,Robinhood Markets,https://hackerone.com/robinhood_markets,,USD,31,True,False,69,,,0,,,,
+HackerOne,Robinhood Markets Bounty,https://hackerone.com/robinhood,,USD,25,True,True,67,,,22,194.0,23.0,8.08,0.96
+HackerOne,Roblox,https://hackerone.com/roblox,,USD,7,True,True,65,,,7,2002.0,1096.0,83.42,45.67
+HackerOne,Rockstar Games,https://hackerone.com/rockstargames,,USD,9,True,True,76,,,9,,0.0,,0.0
+HackerOne,Ruby,https://hackerone.com/ruby,,USD,1,False,True,86,,,0,1104.0,,46.0,
+HackerOne,Ruby on Rails,https://hackerone.com/rails,,USD,1,False,False,92,,,0,518.0,,21.58,
+HackerOne,RubyGems,https://hackerone.com/rubygems,,USD,4,False,False,81,,,0,1670.0,,69.58,
+HackerOne,S-Pankki,https://hackerone.com/s-pankki,,USD,8,True,True,72,,,8,23176.0,932.0,965.67,38.83
+HackerOne,SHEIN,https://hackerone.com/shein,,USD,7,True,True,61,,,7,,206.0,,8.58
+HackerOne,SIX Group,https://hackerone.com/six-group,,USD,57,True,True,84,,,57,,3964.0,,165.17
+HackerOne,SMTP2GO BBP,https://hackerone.com/smtp2go,,USD,3,True,True,86,,,3,245.0,186.0,10.21,7.75
+HackerOne,Scopely,https://hackerone.com/scopely,,USD,24,True,True,99,,,12,1779.0,2107.0,74.12,87.79
+HackerOne,Semrush,https://hackerone.com/semrush,,USD,14,False,True,100,,,10,856.0,160.0,35.67,6.67
+HackerOne,Semtech,https://hackerone.com/semtech,,USD,43,True,False,83,,,0,871.0,,36.29,
+HackerOne,ServiceNow Disclosure,https://hackerone.com/servicenow-disclosure,,USD,3,True,False,73,,,0,885.0,,36.88,
+HackerOne,Sheer,https://hackerone.com/sheer_bbp,,USD,2,True,True,88,,,2,242.0,242.0,10.08,10.08
+HackerOne,Shopify,https://hackerone.com/shopify,,USD,21,False,True,53,,,19,10003.0,287.0,416.79,11.96
+HackerOne,Shutterfly VDP,https://hackerone.com/shutterfly_vdp,,USD,35,True,False,71,,,0,2386.0,,99.42,
+HackerOne,Simple Poll,https://hackerone.com/simple_poll,,USD,4,False,False,100,,,0,,,,
+HackerOne,SingleStore,https://hackerone.com/singlestore,,USD,14,True,False,53,,,0,1572.0,,65.5,
+HackerOne,Slack,https://hackerone.com/slack,,USD,19,False,True,99,,,19,,128.0,,5.33
+HackerOne,Snapchat,https://hackerone.com/snapchat,,USD,40,False,True,93,,,40,1701.0,575.0,70.88,23.96
+HackerOne,Sony,https://hackerone.com/sony,,USD,1,True,False,91,,,0,1099.0,,45.79,
+HackerOne,Sorare,https://hackerone.com/sorare,,USD,3,True,True,80,,,3,442.0,428.0,18.42,17.83
+HackerOne,Spotify,https://hackerone.com/spotify,,USD,45,True,True,71,,,45,2018.0,1431.0,84.08,59.62
+HackerOne,Staging.every.org,https://hackerone.com/stagingdoteverydotorg,,USD,1,False,False,0,,,0,,,,
+HackerOne,Starbucks,https://hackerone.com/starbucks,,USD,10,True,True,66,,,9,4152.0,816.0,173.0,34.0
+HackerOne,Starbucks China,https://hackerone.com/starbucks_china,,USD,3,True,True,71,,,3,1637.0,512.0,68.21,21.33
+HackerOne,Starbucks Japan,https://hackerone.com/starbucks_japan,,USD,7,True,True,70,,,7,5735.0,1050.0,238.96,43.75
+HackerOne,Starling Bank VDP,https://hackerone.com/starling_bank,,USD,12,False,False,100,,,0,,,,
+HackerOne,Stellar.org,https://hackerone.com/stellar,,USD,0,False,False,86,,,0,610.0,,25.42,
+HackerOne,Streak,https://hackerone.com/streak_com,,USD,4,False,False,75,,,0,,,,
+HackerOne,Stripchat,https://hackerone.com/stripchat,,USD,2,False,True,97,,,2,,247.0,,10.29
+HackerOne,Stripe,https://hackerone.com/stripe,,USD,52,True,True,74,,,51,886.0,347.0,36.92,14.46
+HackerOne,Stripo Inc,https://hackerone.com/stripo,,USD,2,False,False,100,,,0,743.0,,30.96,
+HackerOne,Supabase,https://hackerone.com/supabase,,USD,8,False,False,78,,,0,455.0,,18.96,
+HackerOne,Superbet,https://hackerone.com/superbet,,USD,28,True,True,89,,,28,,131.0,,5.46
+HackerOne,Superhuman (formerly Grammarly),https://hackerone.com/superhuman,,USD,29,True,True,90,,,29,4956.0,98.0,206.5,4.08
+HackerOne,Syfe,https://hackerone.com/syfe_bbp,,USD,8,True,True,83,,,8,804.0,212.0,33.5,8.83
+HackerOne,TD Bank Group,https://hackerone.com/td-bank,,USD,20,True,False,91,,,0,1287.0,,53.62,
+HackerOne,TRON DAO,https://hackerone.com/tron_dao,,USD,1,False,True,79,,,1,2378.0,2294.0,99.08,95.58
+HackerOne,Taxwell VDP,https://hackerone.com/taxwell-vdp,,USD,6,True,False,100,,,0,,,,
+HackerOne,Temu,https://hackerone.com/temu,,USD,6,True,True,88,,,6,1028.0,410.0,42.83,17.08
+HackerOne,Tenable,https://hackerone.com/tenable,,USD,15,True,False,78,,,0,646.0,,26.92,
+HackerOne,Tesco,https://hackerone.com/tesco,,USD,24,True,False,93,,,0,139.0,,5.79,
+HackerOne,The Browser Company of NYC,https://hackerone.com/bcny,,USD,6,True,True,74,,,6,,374.0,,15.58
+HackerOne,The Walt Disney Company,https://hackerone.com/disney,,USD,17,True,False,81,,,0,1759.0,,73.29,
+HackerOne,Thnks,https://hackerone.com/thnks,,USD,4,False,False,0,,,0,2005.0,,83.54,
+HackerOne,Thomson Reuters,https://hackerone.com/thomsonreuters-public,,USD,2,True,False,50,,,0,599.0,,24.96,
+HackerOne,TikTok,https://hackerone.com/tiktok,,USD,35,True,True,75,,,35,,286.0,,11.92
+HackerOne,Tinder,https://hackerone.com/tinder,,USD,8,True,True,66,,,8,,647.0,,26.96
+HackerOne,Tines (VDP),https://hackerone.com/tines_automation_vdp,,USD,2,True,False,29,,,0,4597.0,,191.54,
+HackerOne,TomTom,https://hackerone.com/tomtom,,USD,4,True,False,72,,,0,2143.0,,89.29,
+HackerOne,Tools for Humanity,https://hackerone.com/toolsforhumanity,,USD,22,True,True,94,,,22,815.0,740.0,33.96,30.83
+HackerOne,Top Echelon Software,https://hackerone.com/top_echelon_software,,USD,3,False,False,67,,,0,8784.0,,366.0,
+HackerOne,Tor,https://hackerone.com/torproject,,USD,1,False,True,17,,,1,852.0,1079.0,35.5,44.96
+HackerOne,Toyota,https://hackerone.com/toyota,,USD,28,False,False,,,,0,,,,
+HackerOne,TransUnion LLC,https://hackerone.com/transunion,,USD,154,True,False,94,,,0,2969.0,,123.71,
+HackerOne,Treasury Board of Canada Secretariat/Secrétariat du Conseil du Trésor du Canada,https://hackerone.com/tbs-sct,,USD,22,True,False,52,,,0,1533.0,,63.88,
+HackerOne,Trellix,https://hackerone.com/trellix,,USD,6,True,False,63,,,0,6096.0,,254.0,
+HackerOne,Trendyol,https://hackerone.com/trendyol,,USD,11,False,True,100,,,11,781.0,102.0,32.54,4.25
+HackerOne,Trip.com,https://hackerone.com/trip_com,,USD,16,True,True,89,,,15,453.0,281.0,18.88,11.71
+HackerOne,Truist Financial,https://hackerone.com/truist_financial,,USD,14,True,False,67,,,0,2462.0,,102.58,
+HackerOne,Tucows (VDP),https://hackerone.com/tucows_vdp,,USD,11,True,False,98,,,0,743.0,,30.96,
+HackerOne,Twilio,https://hackerone.com/twilio,,USD,85,True,True,83,,,85,1897.0,77.0,79.04,3.21
+HackerOne,U.S. Department of State,https://hackerone.com/us-department-of-state,,USD,24,True,False,96,,,0,3747.0,,156.12,
+HackerOne,U.S. Dept Of Defense,https://hackerone.com/deptofdefense,,USD,0,False,False,100,,,0,,,,
+HackerOne,UPS VDP,https://hackerone.com/ups,,USD,3,True,False,64,,,0,1536.0,,64.0,
+HackerOne,USPS - United States Postal Service,https://hackerone.com/usps,,USD,17,True,False,50,,,0,9523.0,,396.79,
+HackerOne,Uber,https://hackerone.com/uber,,USD,4,True,True,69,,,4,,154.0,,6.42
+HackerOne,Ubiquiti Inc.,https://hackerone.com/ui,,USD,52,True,True,87,,,40,1175.0,800.0,48.96,33.33
+HackerOne,Udemy,https://hackerone.com/udemy,,USD,2,True,True,75,,,2,1766.0,6615.0,73.58,275.62
+HackerOne,Unico IDtech,https://hackerone.com/unico_idtech,,USD,14,True,True,89,,,14,2971.0,398.0,123.79,16.58
+HackerOne,Uniti,https://hackerone.com/unitigroup,,USD,29,True,False,79,,,0,335.0,,13.96,
+HackerOne,Urban Company,https://hackerone.com/urbancompany,,USD,6,False,True,95,,,6,947.0,1536.0,39.46,64.0
+HackerOne,VF Corporation - VDP,https://hackerone.com/vf-corporation-vdp,,USD,5,True,False,74,,,0,,,,
+HackerOne,Valve,https://hackerone.com/valve,,USD,21,True,True,72,,,18,15011.0,604.0,625.46,25.17
+HackerOne,Vanguard,https://hackerone.com/vanguard,,USD,1,True,False,84,,,0,1010.0,,42.08,
+HackerOne,Varonis,https://hackerone.com/varonis,,USD,6,True,True,62,,,6,1319.0,211.0,54.96,8.79
+HackerOne,"Vectra AI, Inc. (Response)",https://hackerone.com/vectra_ai_vdp,,USD,9,True,False,80,,,0,1029.0,,42.88,
+HackerOne,Veeam,https://hackerone.com/veeam,,USD,6,True,False,68,,,0,866.0,,36.08,
+HackerOne,Vendasta,https://hackerone.com/vendasta,,USD,11,True,False,75,,,0,5352.0,,223.0,
+HackerOne,Vercel,https://hackerone.com/vercel,,USD,25,True,True,95,,,25,949.0,685.0,39.54,28.54
+HackerOne,Verily Life Sciences,https://hackerone.com/verily_life_sciences,,USD,6,True,True,63,,,6,,971.0,,40.46
+HackerOne,Verisk VDP,https://hackerone.com/verisk_vdp,,USD,2,True,False,85,,,0,,,,
+HackerOne,Version Cake,https://hackerone.com/versioncake,,USD,1,False,False,20,,,0,,,,
+HackerOne,Via,https://hackerone.com/ridewithvia,,USD,13,False,True,85,,,13,215.0,226.0,8.96,9.42
+HackerOne,Vimeo,https://hackerone.com/vimeo,,USD,30,True,True,98,,,30,5032.0,36.0,209.67,1.5
+HackerOne,Visa,https://hackerone.com/visa,,USD,168,True,True,72,,,168,717.0,0.0,29.88,0.0
+HackerOne,Vodafone,https://hackerone.com/vodafone,,USD,67,True,False,89,,,0,1122.0,,46.75,
+HackerOne,Vodafone Oman,https://hackerone.com/vodafone_oman,,USD,7,False,True,98,,,7,171.0,10.0,7.12,0.42
+HackerOne,WHO COVID-19 Mobile App,https://hackerone.com/who-covid-19-mobile-app,,USD,5,False,False,0,,,0,,,,
+HackerOne,WakaTime,https://hackerone.com/wakatime,,USD,1,False,False,100,,,0,15.0,,0.62,
+HackerOne,Walt.io,https://hackerone.com/walt_io,,USD,10,True,True,96,,,10,225.0,121.0,9.38,5.04
+HackerOne,Wealthsimple,https://hackerone.com/wealthsimple,,USD,6,True,True,82,,,6,1117.0,116.0,46.54,4.83
+HackerOne,Weblate,https://hackerone.com/weblate,,USD,6,False,False,95,,,0,139.0,,5.79,
+HackerOne,WellHive,https://hackerone.com/wellhive,,USD,4,True,False,86,,,0,,,,
+HackerOne,Wells Fargo Bounty,https://hackerone.com/wellsfargo-bbp,,USD,14,True,True,81,,,7,574.0,225.0,23.92,9.38
+HackerOne,Whatnot,https://hackerone.com/whatnot,,USD,7,True,True,88,,,7,,736.0,,30.67
+HackerOne,Whoop Bug Bounty,https://hackerone.com/whoop_bug_bounty,,USD,8,True,True,81,,,8,2210.0,345.0,92.08,14.38
+HackerOne,Wickr,https://hackerone.com/wickr,,USD,13,True,True,62,,,12,5252.0,1331.0,218.83,55.46
+HackerOne,"WisdomTree, Inc.",https://hackerone.com/wisdomtree,,USD,6,True,True,95,,,6,257.0,0.0,10.71,0.0
+HackerOne,Wolt,https://hackerone.com/wolt,,USD,12,True,True,89,,,12,2.0,418.0,0.08,17.42
+HackerOne,WordPress,https://hackerone.com/wordpress,,USD,23,False,True,85,,,23,,744.0,,31.0
+HackerOne,Worklytics,https://hackerone.com/worklytics,,USD,1,False,False,100,,,0,311.0,,12.96,
+HackerOne,Worldpay,https://hackerone.com/worldpay,,USD,3,True,False,100,,,0,2573.0,,107.21,
+HackerOne,X / xAI,https://hackerone.com/x,,USD,24,True,True,71,,,23,1859.0,453.0,77.46,18.88
+HackerOne,XP Inc Vulnerability Disclosure,https://hackerone.com/xp_inc_vdp,,USD,14,True,False,96,,,0,259.0,,10.79,
+HackerOne,XVIDEOS,https://hackerone.com/xvideos,,USD,5,True,True,88,,,5,1545.0,379.0,64.38,15.79
+HackerOne,Xiaomi,https://hackerone.com/xiaomi,,USD,66,False,True,58,,,66,690.0,228.0,28.75,9.5
+HackerOne,Yelp,https://hackerone.com/yelp,,USD,8,False,True,50,,,8,4533.0,682.0,188.88,28.42
+HackerOne,Yoti,https://hackerone.com/yoti,,USD,9,False,True,10,,,9,,,,
+HackerOne,Yuga Labs,https://hackerone.com/yuga_labs,,USD,6,True,True,70,,,6,,1522.0,,63.42
+HackerOne,Zebra VDP,https://hackerone.com/zebra_vdp,,USD,55,True,False,86,,,0,6954.0,,289.75,
+HackerOne,Zooplus,https://hackerone.com/zooplus,,USD,4,True,True,85,,,4,3348.0,2.0,139.5,0.08
+HackerOne,Zurich Insurance,https://hackerone.com/zurich-insurance,,USD,43,True,False,66,,,0,1003.0,,41.79,
+HackerOne,arkadiyt-projects,https://hackerone.com/arkadiyt-projects,,USD,0,False,False,94,,,0,212.0,,8.83,
+HackerOne,curl,https://hackerone.com/curl,,USD,1,False,False,100,,,0,419.0,,17.46,
+HackerOne,d-you App & German EUDI Wallet Ecosystem,https://hackerone.com/common_codes,,USD,7,True,True,86,,,7,,0.0,,0.0
+HackerOne,eMoney Advisor,https://hackerone.com/emoney-advisor,,USD,3,True,False,80,,,0,,,,
+HackerOne,eero,https://hackerone.com/eero,,USD,5,True,True,79,,,5,1635.0,605.0,68.12,25.21
+HackerOne,eufy Security,https://hackerone.com/eufy_security,,USD,19,True,True,55,,,19,749.0,142.0,31.21,5.92
+HackerOne,hostinger,https://hackerone.com/hostinger,,USD,12,False,True,100,,,12,753.0,105.0,31.38,4.38
+HackerOne,inDrive,https://hackerone.com/indrive,,USD,174,False,True,100,,,174,1587.0,165.0,66.12,6.88
+HackerOne,lemlist,https://hackerone.com/lemlist,,USD,5,False,False,100,,,0,246.0,,10.25,
+HackerOne,pixiv,https://hackerone.com/pixiv,,USD,18,True,True,75,,,18,1246.0,147.0,51.92,6.12
+Intigriti,ADAC Vulnerability Disclosure Program,https://www.intigriti.com/programs/adac/adacvulnerabilitydisclosureprogram/detail,,EUR,4,,True,,,,,,,,
+Intigriti,Anaconda Vulnerability Disclosure Program,https://www.intigriti.com/programs/anacondainc/anacondavdp/detail,,USD,1,,True,,,,,,,,
+Intigriti,Arbonia VDP program,https://www.intigriti.com/programs/arbonia/arboniavdpprogram/detail,,EUR,8,,True,,,,,,,,
+Intigriti,Atolls Vulnerability Disclosure Program (VDP),https://www.intigriti.com/programs/atolls/atollsvdp/detail,,EUR,37,,True,,,,,,,,
+Intigriti,Attentia VDP,https://www.intigriti.com/programs/attentia/attentiavdp/detail,,EUR,5,,True,,,,,,,,
+Intigriti,Axel Springer SE Vulnerability Disclosure Program,https://www.intigriti.com/programs/axelspringerse/axelspringersevulnerabilitydisclosureprogram/detail,,EUR,1,,True,,,,,,,,
+Intigriti,BMC,https://www.intigriti.com/programs/randstad/bmc/detail,,EUR,1,,True,,,,,,,,
+Intigriti,BRP Challenge,https://www.intigriti.com/programs/intigriti/challengebrp/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Bitvavo VDP,https://www.intigriti.com/programs/bitvavo/bitvavovdp/detail,,EUR,5,,True,,,,,,,,
+Intigriti,Bühler Group VDP,https://www.intigriti.com/programs/buhlergroup/buhlergroupvdp/detail,,EUR,9,,True,,,,,,,,
+Intigriti,Canada Post - Responsible Disclosure Program,https://www.intigriti.com/programs/innovapost/innovapost/detail,,EUR,6,,True,,,,,,,,
+Intigriti,Citymesh Responsible Vulnerability Disclosure Program,https://www.intigriti.com/programs/citymesh/responsiblevulnerabilitydisclosureprogram/detail,,EUR,82,,True,,,,,,,,
+Intigriti,Coke One North America,https://www.intigriti.com/programs/tccc/cokeonenorthamerica/detail,,USD,5,,True,,,,,,,,
+Intigriti,Cross Border Fines,https://www.intigriti.com/programs/bpost/crossborderfines/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Cyber Security Coalition,https://www.intigriti.com/programs/cybersecuritycoalition/cybersecuritycoalition/detail,,EUR,4,,True,,,,,,,,
+Intigriti,DHL Group Vulnerability Disclosure Program,https://www.intigriti.com/programs/dhlgroup/dhlvdp/detail,,EUR,7,,True,,,,,,,,
+Intigriti,DIGI Responsible Disclosure Program,https://www.intigriti.com/programs/digi/digi-vdp/detail,,EUR,7,,True,,,,,,,,
+Intigriti,Dashlane Vulnerability Disclosure Program,https://www.intigriti.com/programs/dashlane/dashlanevulnerabilitydisclosureprogram/detail,,USD,6,,True,,,,,,,,
+Intigriti,Donorbox Vulnerability Disclosure Project,https://www.intigriti.com/programs/donorbox/donorboxvdp/detail,,USD,7,,True,,,,,,,,
+Intigriti,Driessen Vulnerability Disclosure Program,https://www.intigriti.com/programs/driessengroep/driessenvdp/detail,,EUR,2,,True,,,,,,,,
+Intigriti,Dropbox Vulnerability Disclosure Program,https://www.intigriti.com/programs/dropbox/dropbox-vdp/detail,,USD,1,,True,,,,,,,,
+Intigriti,Dutch Lottery VDP,https://www.intigriti.com/programs/nederlandseloterij/dutchlotteryvdp/detail,,EUR,9,,True,,,,,,,,
+Intigriti,European Space Agency (ESA) VDP,https://www.intigriti.com/programs/europeanspaceagency/europeanspaceagencyvdp/detail,,EUR,58,,True,,,,,,,,
+Intigriti,Exact Vulnerability Disclosure Program,https://www.intigriti.com/programs/exact/exactvulnerabilitydisclosureprogram/detail,,EUR,16,,True,,,,,,,,
+Intigriti,GULP,https://www.intigriti.com/programs/randstad/gulp/detail,,EUR,4,,True,,,,,,,,
+Intigriti,Grafana Labs - Vulnerability Disclosure Program (VDP),https://www.intigriti.com/programs/grafanalabs/grafanalabsvdp/detail,,USD,11,,True,,,,,,,,
+Intigriti,HRS Group VDP,https://www.intigriti.com/programs/hrsgroup/hrsgroupvdp/detail,,EUR,1,,True,,,,,,,,
+Intigriti,House of HR Vulnerability Disclosure Program,https://www.intigriti.com/programs/houseofhr/houseofhrvulnerabilitydisclosureprogram/detail,,EUR,1,,True,,,,,,,,
+Intigriti,ING Responsible Disclosure,https://www.intigriti.com/programs/ing/ing-responsible-disclosure/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Intel® Vulnerability Disclosure Program,https://www.intigriti.com/programs/intel/intelvulnerabilitydisclosureprogram/detail,,USD,4,,True,,,,,,,,
+Intigriti,Ivo: AI VDP,https://www.intigriti.com/programs/ivoai/ivovulnerabilitydisclosureprogram/detail,,USD,4,,True,,,,,,,,
+Intigriti,KU Leuven Vulnerability Disclosure Program (VDP),https://www.intigriti.com/programs/kuleuven/kuleuvenrdp/detail,,EUR,3,,True,,,,,,,,
+Intigriti,Kiwa Vulnerability Disclosure Program,https://www.intigriti.com/programs/kiwa/kiwavdp/detail,,EUR,6,,True,,,,,,,,
+Intigriti,Liferay VDP,https://www.intigriti.com/programs/liferay/liferay-vdp/detail,,USD,7,,True,,,,,,,,
+Intigriti,MAGNIFIC VDP,https://www.intigriti.com/programs/freepik/freepikcompany/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Mateco VDP,https://www.intigriti.com/programs/mateco/matecovdp/detail,,EUR,89,,True,,,,,,,,
+Intigriti,NVIDIA Vulnerability Disclosure Program,https://www.intigriti.com/programs/nvidia/nvidiavdp/detail,,USD,1,,True,,,,,,,,
+Intigriti,Nestlé VDP,https://www.intigriti.com/programs/nestl%C3%A9/nestl%C3%A9vdp/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Nexuzhealth VDP,https://www.intigriti.com/programs/nexuzhealth/nexuzhealthvdp/detail,,EUR,1,,True,,,,,,,,
+Intigriti,NxtPort VDP,https://www.intigriti.com/programs/portofantwerp/nxtportvdp/detail,,EUR,3,,True,,,,,,,,
+Intigriti,OURA Vulnerability Disclosure Program,https://www.intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail,,USD,6,,True,,,,,,,,
+Intigriti,Orbia Responsible Disclosure,https://www.intigriti.com/programs/orbia/orbiavdp/detail,,USD,31,,True,,,,,,,,
+Intigriti,PeopleCert VDP,https://www.intigriti.com/programs/peoplecert/peoplecert/detail,,EUR,5,,True,,,,,,,,
+Intigriti,Posten Bring Responsible Disclosure,https://www.intigriti.com/programs/postenbringas/vdp/detail,,EUR,8,,True,,,,,,,,
+Intigriti,Proof.com VDP,https://www.intigriti.com/programs/proof/proofvdp/detail,,USD,3,,True,,,,,,,,
+Intigriti,QC VDP,https://www.intigriti.com/programs/quadcode/qcvdp/detail,,EUR,4,,True,,,,,,,,
+Intigriti,Qualified Responsible Disclosure Program,https://www.intigriti.com/programs/qualified/qualifiedresponsibledisclosureprogram/detail,,USD,3,,True,,,,,,,,
+Intigriti,RGF BE - VDP,https://www.intigriti.com/programs/rgfstaffing/rgfbe-vdp/detail,,EUR,7,,True,,,,,,,,
+Intigriti,Randstad,https://www.intigriti.com/programs/randstad/randstad/detail,,EUR,4,,True,,,,,,,,
+Intigriti,Red Bull,https://www.intigriti.com/programs/redbull/redbull/detail,,EUR,2,,True,,,,,,,,
+Intigriti,Revolut VDP,https://www.intigriti.com/programs/revolut/revolutvdp/detail,,GBP,1,,True,,,,,,,,
+Intigriti,Salto Vulnerability Disclosure,https://www.intigriti.com/programs/saltosystems/saltovulnerabilitydisclosure/detail,,EUR,30,,True,,,,,,,,
+Intigriti,Signicat Responsible Disclosure,https://www.intigriti.com/programs/signicat/signicatresponsibledisclosure/detail,,EUR,3,,True,,,,,,,,
+Intigriti,SolarWinds VDP,https://www.intigriti.com/programs/solarwinds/solarwindsvdp/detail,,USD,1,,True,,,,,,,,
+Intigriti,Spacelift VDP,https://www.intigriti.com/programs/spacelift/spaceliftvdp/detail,,USD,3,,True,,,,,,,,
+Intigriti,Speakap Responsible Disclosure,https://www.intigriti.com/programs/speakap/speakapresponsibledisclosure/detail,,EUR,5,,True,,,,,,,,
+Intigriti,Storebrand Responsible Disclosure,https://www.intigriti.com/programs/spp-storebrand/storebrand-rd/detail,,EUR,38,,True,,,,,,,,
+Intigriti,Tekion VDP,https://www.intigriti.com/programs/tekion/tekionvdp/detail,,USD,17,,True,,,,,,,,
+Intigriti,Tempo-Team,https://www.intigriti.com/programs/randstad/tempo-team/detail,,EUR,5,,True,,,,,,,,
+Intigriti,The Coca-Cola Company Vulnerability Disclosure Program,https://www.intigriti.com/programs/tccc/coca-cola/detail,,USD,8,,True,,,,,,,,
+Intigriti,Toast VDP,https://www.intigriti.com/programs/toast/toastvdp/detail,,USD,15,,True,,,,,,,,
+Intigriti,TrueLayer VDP,https://www.intigriti.com/programs/truelayer/truelayervdp/detail,,EUR,11,,True,,,,,,,,
+Intigriti,Ubisoft Responsible Disclosure Program,https://www.intigriti.com/programs/ubisoft/ubisoftvdp/detail,,EUR,2,,True,,,,,,,,
+Intigriti,University of Basel VDP,https://www.intigriti.com/programs/universityofbasel/universityofbaselvdp/detail,,EUR,2,,True,,,,,,,,
+Intigriti,Universitätsspital Zürich VDP,https://www.intigriti.com/programs/universitatsspitalzurich/usz-vdp/detail,,EUR,2,,True,,,,,,,,
+Intigriti,VDP,https://www.intigriti.com/programs/showpad/vdp/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Visma Responsible Disclosure,https://www.intigriti.com/programs/visma/VismaResponsibleDisclosure/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Vlerick Business School,https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail,,EUR,5,,True,,,,,,,,
+Intigriti,Voi Vulnerability Disclosure Program,https://www.intigriti.com/programs/voi/voivulnerabilitydisclosureprogram/detail,,EUR,1,,True,,,,,,,,
+Intigriti,WP Engine VDP,https://www.intigriti.com/programs/wpengine/wpengine/detail,,EUR,15,,True,,,,,,,,
+Intigriti,Water-Link VDP,https://www.intigriti.com/programs/waterlink/water-linkvdp/detail,,EUR,3,,True,,,,,,,,
+Intigriti,Wärtsilä Vulnerability Disclosure Program,https://www.intigriti.com/programs/wartsila/wartsila-vdp/detail,,EUR,2,,True,,,,,,,,
+Intigriti,Yacht,https://www.intigriti.com/programs/randstad/yacht/detail,,EUR,1,,True,,,,,,,,
+Intigriti,Zabka Group Vulnerability Disclosure Program,https://www.intigriti.com/programs/zabkapolska/zabkagroup-vdp/detail,,EUR,10,,True,,,,,,,,
+Intigriti,e-tracker,https://www.intigriti.com/programs/bpost/e-tracker/detail,,EUR,1,,True,,,,,,,,
+YesWeHack,GovTech - Vulnerability Disclosure Programme,https://yeswehack.com/programs?search=GovTech%20-%20Vulnerability%20Disclosure%20Programme,,USD,2,,True,,,,,,,,
+YesWeHack,YesWeHack Dojo,https://yeswehack.com/programs?search=YesWeHack%20Dojo,,USD,1,,True,,,,,,,,

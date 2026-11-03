@@ -1,0 +1,115 @@
+---
+trigger: model_decision
+description: "NVD, CVE, CWE, CVSS, EPSS, CISA KEV, Exploit-DB, OSV, vendor advisory feeds, Shodan/Censys/crt.sh. Use when looking up CVE data, severity scoring, exploitability or certificate transparency."
+---
+
+# Security Research Link Corpus — Vulnerability Databases, Standards & Threat Intel
+
+Part 1 of 1. 106 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://atlas.mitre.org> — MITRE ATLAS - adversarial threat landscape for AI
+- ✓ <https://attack.mitre.org> — MITRE's Adversarial Tactics, Techniques & Common Knowledge (ATT&CK)
+- ✓ <https://attack.mitre.org/matrices/enterprise> — MITRE ATT&CK
+- ✓ <https://attack.mitre.org/techniques/enterprise> — MITRE ATT&CK - technique index
+- ✓ <https://attackerkb.com> — AttackerKB (Rapid7)
+- ✓ <https://capec.mitre.org> — MITRE CAPEC - attack pattern catalog
+- ✓ <https://chromereleases.googleblog.com> — Chrome Release Blog
+- ✓ <https://commoncrawl.org> — Common Crawl
+- ✓ <https://crt.sh> — crt.sh - certificate transparency search
+- ✓ <https://cve.mitre.org/cve> — CVE Program - CVE List
+- ✓ <https://cve.org> — CVE Program
+- ✓ <https://cwe.mitre.org/data/definitions/699.html> — CWE - Common Weakness Enumeration
+- ✓ <https://cwe.mitre.org/top25/archive> — CWE Top 25 Most Dangerous Software Weaknesses
+- ✓ <https://cxsecurity.com/exploit> — CXSecurity
+- ✓ <https://d3fend.mitre.org> — MITRE D3FEND
+- ✓ <https://exploit-db.com> — Exploit Database
+- ✓ <https://exploit-db.com/google-hacking-database> — Dorks collection: Google Hacking DB
+- ✓ <https://first.org/cvss/calculator/4.0> — CVSS v4.0 calculator
+- ✓ <https://first.org/cvss/specification-document> — CVSS specification
+- ✓ <https://first.org/epss> — EPSS - Exploit Prediction Scoring System
+- ✓ <https://fofa.info> — FOFA
+- ✓ <https://haveibeenpwned.com> — Have I Been Pwned
+- ✓ <https://hunter.how> — Hunter Search Engine
+- ✓ <https://krebsonsecurity.com> — Krebs on Security
+- ✓ <https://msrc.microsoft.com> — Microsoft MSRC Researcher Portal
+- ✓ <https://msrc.microsoft.com/blog> — Microsoft Security Response Center blog
+- ✓ <https://msrc.microsoft.com/create-report> — Microsoft - case submission
+- ✓ <https://msrc.microsoft.com/update-guide> — Azure Security Advisories
+- ✓ <https://msrc.microsoft.com/update-guide/en-US> — Microsoft Security Update Guide
+- ✓ <https://nvd.nist.gov/vuln/search> — NVD - National Vulnerability Database
+- ✓ <https://osv.dev> — OSV.dev - open source vulnerability database
+- ✓ <https://osv.dev/docs> — OSV API
+- ✓ <https://otx.alienvault.com> — OTX AlienVault
+- ✓ <https://packetstormsecurity.com> — Packet Storm Security
+- ✓ <https://publicwww.com> — PublicWWW
+- ✓ <https://securelist.com> — ThreatPost / Kaspersky advisories
+- ✓ <https://talosintelligence.com> — Cisco Talos threat intel
+- ✓ <https://thehackernews.com> — The Hacker News
+- ✓ <https://threatpost.com> — ThreatPost
+- ✓ <https://troyhunt.com> — Troy Hunt blog
+- ✓ <https://urlscan.io> — urlscan.io
+- ✓ <https://virustotal.com/gui/home/search> — VirusTotal
+- ✓ <https://viz.greynoise.io> — GreyNoise
+- ✓ <https://vulners.com> — Vulners
+- ✓ <https://zerodayinitiative.com/advisories/published> — Zero Day Initiative advisories
+- ~ <https://abuseipdb.com> — Abuseipdb
+- ~ <https://app.netlas.io> — Netlas.io
+- ~ <https://bleepingcomputer.com> — BleepingComputer
+- ~ <https://cisa.gov/known-exploited-vulnerabilities-catalog> — CISA Known Exploited Vulnerabilities Catalog
+- ~ <https://cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json> — CISA KEV JSON feed
+- ~ <https://cvedetails.com> — CVE Details
+- ~ <https://dehashed.com> — DeHashed
+- ~ <https://search.censys.io> — censys search
+- ~ <https://shodan.io> — Shodan
+- ~ <https://vuldb.com> — VulDB
+- ~ <https://zoomeye.org> — ZoomEye
+- ✓ <http://exploit-db.com/author/?a=1275> — @ZeQ3uL
+- ✓ <http://zerodayinitiative.com/advisories/published> — Zero Day Initiative
+- ✓ <https://cve.mitre.org> — Common Vulnerabilities and Exposures (CVE)
+- ✓ <https://cxsecurity.com> — CXSecurity
+- ✓ <https://exploit-db.com/?author=1293> — @MustLive
+- ✓ <https://exploit-db.com/?author=1614> — @Sec Consult
+- ✓ <https://exploit-db.com/?author=1996> — @John Dos
+- ✓ <https://exploit-db.com/?author=2016> — @Global-Evolution
+- ✓ <https://exploit-db.com/?author=2168> — @Anonymous
+- ✓ <https://exploit-db.com/?author=2741> — @DavidK
+- ✓ <https://exploit-db.com/?author=2932> — @Anastasios Monachos
+- ✓ <https://exploit-db.com/?author=479> — @xort
+- ✓ <https://exploit-db.com/?author=628> — @Michael Brooks
+- ✓ <https://exploit-db.com/?author=6413> — @Giuseppe D'Amore
+- ✓ <https://exploit-db.com/?author=6654> — @NNPoster
+- ✓ <https://exploit-db.com/?author=7396> — @BGA Security
+- ✓ <https://exploit-db.com/?author=7740> — @DRK1WI
+- ✓ <https://exploit-db.com/?author=7854> — @Benjamin Mejri
+- ✓ <https://exploit-db.com/?author=8505> — @Voxel
+- ✓ <https://exploit-db.com/?author=8991> — @0x09AL
+- ✓ <https://exploit-db.com/?author=9396> — @rsp3ar
+- ✓ <https://exploit-db.com/?author=9901> — @ed0x21son
+- ✓ <https://exploit-db.com/author/?a=9381> — Haboob Team
+- ✓ <https://exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf> — MySQL Error Based SQL Injection Using EXP
+- ✓ <https://exploit-db.com/docs/english/45074-file-upload-restrictions-bypass.pdf> — File Upload Restrictions Bypass
+- ✓ <https://exploit-db.com/exploits/18840> — @Binar10
+- ✓ <https://exploit-db.com/exploits/21834>
+- ✓ <https://exploit-db.com/exploits/25136>
+- ✓ <https://exploit-db.com/exploits/30777> — `generic_api_call.pl` XSS
+- ✓ <https://exploit-db.com/exploits/39766> — Command Injection
+- ✓ <https://exploit-db.com/exploits/40146> — Barracuda WAF 8.0.1 - Remote Command Execution (Metasploit)
+- ✓ <https://exploit-db.com/exploits/40147> — Barracuda Spam & Virus Firewall 5.1.3 - Remote Command Execution (Meta…
+- ✓ <https://exploit-db.com/exploits/45130> — Imperva SecureSphere <= v13 - Privilege Escalation
+- ✓ <https://exploit-db.com/exploits/45542> — Imperva SecureSphere 13 - Remote Command Execution
+- ✓ <https://exploit-db.com/exploits/7919> — GET Type CSRF Attack
+- ✓ <https://exploit-db.com/exploits/8921>
+- ✓ <https://exploit-db.com/papers> — Exploit Database
+- ✓ <https://exploit-db.com/search/?action=search&q=android> — Exploit Database
+- ✓ <https://krebsonsecurity.com/feed> — Krebs on Security
+- ✓ <https://nvd.nist.gov> — National Vulnerability Database (NVD)
+- ✓ <https://nvd.nist.gov/vuln/detail/CVE-2023-39848> — CVE-2023-39848
+- ✓ <https://packetstormsecurity.com/files> — Packet Storm
+- ✓ <https://packetstormsecurity.com/files/tags/exploit>
+- ✓ <https://talosintelligence.com/ebc_spam> — Cisco Talos Intelligence
+- ✓ <https://talosintelligence.com/reputation>
+- ✓ <https://talosintelligence.com/reputation_center> — Cisco Talos Intelligence
+- ✓ <https://zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit> — PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT
+- ~ <https://censys.io> — Censys
+- ~ <https://cvedetails.com/vulnerability-list/vendor_id-1224/product_id-19997/Google-Android.html> — Android's reported security vulnerabilities
+- ~ <https://vuldb.com/?actor>

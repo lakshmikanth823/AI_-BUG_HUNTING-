@@ -1,0 +1,30 @@
+services:
+  # 1. OWASP Juice Shop (Live & Healthy)
+  juiceshop:
+    image: bkimminich/juice-shop:latest
+    container_name: bounty-juiceshop
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      - NODE_ENV=unsafe
+
+  # 2. DVWA (Live on port 8082 - avoids Keycloak on 8080)
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: bounty-dvwa
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8082:80"
+
+  # 3. OWASP WebGoat (Live on port 8081; WebWolf on 9099 - avoids Prometheus on 9090)
+  webgoat:
+    image: webgoat/webgoat:latest
+    container_name: bounty-webgoat
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8081:8080"
+      - "127.0.0.1:9099:9090"
+    environment:
+      - WEBWOLF_PORT=9090
+      - WEBGOAT_PORT=8080

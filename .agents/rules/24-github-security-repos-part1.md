@@ -1,0 +1,247 @@
+---
+trigger: model_decision
+description: "GitHub security orgs, awesome-lists and repositories worth cloning. Use when sourcing or recommending a codebase. (part 1/9)"
+---
+
+# Security Research Link Corpus — GitHub Security Repos & Awesome Lists
+
+Part 1 of 9. 238 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://bellingcat.com/category/resources/how-tos> — Bellingcat online toolkit
+- ✓ <https://corelan.be/index.php/articles> — Exploit Development - corelan
+- ✓ <https://github.com/0xInfection/Awesome-WAF> — Awesome-WAF
+- ✓ <https://github.com/1ndianl33t/Gf-Patterns> — Gf patterns collection
+- ✓ <https://github.com/advisories> — GitHub Security Advisories
+- ✓ <https://github.com/AFLplusplus/AFLplusplus> — AFL++
+- ✓ <https://github.com/AlienVault-OTX> — webhacking101 notes
+- ✓ <https://github.com/ambionics/phpggc> — PHPGGC - PHP generic gadget chains
+- ✓ <https://github.com/aquasecurity/trivy> — Trivy (Aqua)
+- ✓ <https://github.com/arkadiyt/bounty-targets-data> — arkadiyt/bounty-targets-data - scraped program dataset
+- ✓ <https://github.com/ashishb/android-security-awesome> — android-security-awesome
+- ✓ <https://github.com/assetnote/kiterunner> — kiterunner (API discovery)
+- ✓ <https://github.com/blechschmidt/massdns> — massdns
+- ✓ <https://github.com/Bo0oM/fuzz.txt> — fuzz.txt
+- ✓ <https://github.com/carpedm20/awesome-hacking> — Awesome Hacking
+- ✓ <https://github.com/codingo/NoSQLMap> — NoSQLmap
+- ✓ <https://github.com/commixproject/commix> — commix - command injection
+- ✓ <https://github.com/cpuu/awesome-fuzzing> — awesome-fuzzing
+- ✓ <https://github.com/d3mondev/puredns> — puredns
+- ✓ <https://github.com/danielmiessler/SecLists> — SecLists - wordlists
+- ✓ <https://github.com/devanshbatham/OpenRedireX> — OpenRedireX
+- ✓ <https://github.com/djadmin/awesome-bug-bounty> — djadmin/awesome-bug-bounty
+- ✓ <https://github.com/dsopas/assessment-mindset> — dsopas/assessment-mindset
+- ✓ <https://github.com/dxa4481/truffleHog> — truffleHog (legacy)
+- ✓ <https://github.com/edoardottt/cariddi> — cariddi
+- ✓ <https://github.com/enaqx/awesome-pentest> — Awesome Pentest
+- ✓ <https://github.com/epi052/feroxbuster> — feroxbuster
+- ✓ <https://github.com/epinna/tplmap> — tplmap - SSTI
+- ✓ <https://github.com/ffuf/ffuf> — ffuf - web fuzzer
+- ✓ <https://github.com/frohoff/ysoserial> — ysoserial - Java deserialization
+- ✓ <https://github.com/fuzzdb-project/fuzzdb> — Fuzzdb
+- ✓ <https://github.com/GerbenJavado/LinkFinder> — LinkFinder
+- ✓ <https://github.com/gitleaks/gitleaks> — gitleaks
+- ✓ <https://github.com/glebarez/cero> — cero
+- ✓ <https://github.com/google/clusterfuzz> — ClusterFuzz
+- ✓ <https://github.com/google/fuzzbench> — FuzzBench
+- ✓ <https://github.com/google/honggfuzz> — honggfuzz
+- ✓ <https://github.com/google/oss-fuzz> — OSS-Fuzz
+- ✓ <https://github.com/google/security-research> — Google Security (GitHub org)
+- ✓ <https://github.com/google/syzkaller> — syzkaller (kernel fuzzing)
+- ✓ <https://github.com/haccer/subjack> — subjack
+- ✓ <https://github.com/Hacker0x01> — HackerOne (GitHub org)
+- ✓ <https://github.com/HackTricks-wiki/hacktricks> — HackTricks (GitHub)
+- ✓ <https://github.com/hahwul/dalfox> — Dalfox - XSS
+- ✓ <https://github.com/HAHWUL/XSpear> — XSpear
+- ✓ <https://github.com/hakluke/hakrawler> — hakrawler
+- ✓ <https://github.com/hslatman/awesome-threat-intelligence> — Awesome Threat Intelligence
+- ✓ <https://github.com/hugsy/gef> — gef
+- ✓ <https://github.com/infosec-au/altdns> — altdns
+- ✓ <https://github.com/j3ssie/osmedeus> — Osmedeus
+- ✓ <https://github.com/jaeles-project/jaeles> — Jaeles scanner
+- ✓ <https://github.com/jivoi/awesome-osint> — <img src="https://github.com/jivoi/awesome-osint/raw/master/osint_logo…
+- ✓ <https://github.com/joernio/joern> — Joern - code property graph
+- ✓ <https://github.com/Josue87/EmailFinder> — emailfinder
+- ✓ <https://github.com/laramies/theHarvester> — The Harvester
+- ✓ <https://github.com/lc/gau> — gau - wayback/commoncrawl URLs
+- ✓ <https://github.com/LeCoupa/awesome-cheatsheets> — awesome-cheatsheets (LeCoupa)
+- ✓ <https://github.com/m4ll0k/SecretFinder> — SecretFinder
+- ✓ <https://github.com/maurosoria/dirsearch> — dirsearch
+- ✓ <https://github.com/mbechler/marshalsec> — marshalsec
+- ✓ <https://github.com/megadose/holehe> — Holehe
+- ✓ <https://github.com/megadose/ignorant> — ignorant
+- ✓ <https://github.com/meirwah/awesome-incident-response> — Awesome Incident Response
+- ✓ <https://github.com/MobSF/Mobile-Security-Framework-MobSF> — MobSF - mobile security framework
+- ✓ <https://github.com/nahamsec/Resources-For-Beginner-Bug-Bounty-Hunters> — The Bug Hunter's Methodology v4.01 (slides)
+- ✓ <https://github.com/NationalSecurityAgency/ghidra> — Ghidra GitHub
+- ✓ <https://github.com/NVIDIA/NeMo-Guardrails> — NVIDIA NeMo Guardrails
+- ✓ <https://github.com/OJ/gobuster> — gobuster
+- ✓ <https://github.com/OWASP> — OWASP Foundation (GitHub org)
+- ✓ <https://github.com/owasp-amass/amass> — Amass
+- ✓ <https://github.com/paralax/awesome-honeypots> — awesome-honeypots
+- ✓ <https://github.com/PaulSec/awesome-sec-talks> — Curated list of Security Talks and Videos
+- ✓ <https://github.com/PentestPad/subzy> — subzy
+- ✓ <https://github.com/PortSwigger> — PortSwigger (GitHub org)
+- ✓ <https://github.com/PortSwigger/autorize> — BurpSuite extensions: Autorize
+- ✓ <https://github.com/PortSwigger/param-miner> — Param Miner (Burp ext)
+- ✓ <https://github.com/PortSwigger/turbo-intruder> — Turbo Intruder
+- ✓ <https://github.com/praetorian-inc/noseyparker> — noseyparker
+- ✓ <https://github.com/presidentbeef/brakeman> — Brakeman (Rails SAST)
+- ✓ <https://github.com/ProjectAnte/dnsgen> — dnsgen
+- ✓ <https://github.com/projectdiscovery> — ProjectDiscovery (GitHub org)
+- ✓ <https://github.com/projectdiscovery/dnsx> — ProjectDiscovery dnsx
+- ✓ <https://github.com/projectdiscovery/httpx> — ProjectDiscovery httpx
+- ✓ <https://github.com/projectdiscovery/interactsh> — ProjectDiscovery interactsh (OOB)
+- ✓ <https://github.com/projectdiscovery/katana> — ProjectDiscovery katana (crawler)
+- ✓ <https://github.com/projectdiscovery/naabu> — ProjectDiscovery naabu (port scan)
+- ✓ <https://github.com/projectdiscovery/nuclei> — ProjectDiscovery nuclei
+- ✓ <https://github.com/projectdiscovery/shuffledns> — shuffledns
+- ✓ <https://github.com/projectdiscovery/subfinder> — ProjectDiscovery subfinder
+- ✓ <https://github.com/promptfoo/promptfoo> — promptfoo GitHub
+- ✓ <https://github.com/protectai/rebuff> — Rebuff - prompt injection detection
+- ✓ <https://github.com/pwncollege> — pwn.college (GitHub)
+- ✓ <https://github.com/pwndbg/pwndbg> — GDB + pwndbg
+- ✓ <https://github.com/PyCQA/bandit> — Bandit (Python SAST)
+- ✓ <https://github.com/qazbnm456/awesome-web-security> — awesome-web-security
+- ✓ <https://github.com/Quitten/Autorize> — Autorize (Quitten)
+- ✓ <https://github.com/radareorg/radare2> — Radare2 - Unix-like reverse engineering framework and commandline tool…
+- ✓ <https://github.com/rapid7> — Rapid7 (GitHub org)
+- ✓ <https://github.com/rapid7/metasploit-framework> — Metasploit Framework
+- ✓ <https://github.com/rapid7/metasploit-framework/tree/master/modules/exploits> — Metasploit modules
+- ✓ <https://github.com/RetireJS/retire.js> — retire.js
+- ✓ <https://github.com/rverton/webanalyze> — webanalyze (Wappalyzer CLI)
+- ✓ <https://github.com/s0md3v/Arjun> — Arjun - parameter discovery
+- ✓ <https://github.com/s0md3v/Photon> — Photon crawler
+- ✓ <https://github.com/s0md3v/XSStrike> — XSStrike
+- ✓ <https://github.com/sbilly/awesome-security> — awesome-security
+- ✓ <https://github.com/secfigo/Awesome-Fuzzing> — Awesome-Fuzzing
+- ✓ <https://github.com/securego/gosec> — go/security: gosec
+- ✓ <https://github.com/semgrep/semgrep> — Semgrep
+- ✓ <https://github.com/semgrep/semgrep-rules> — Semgrep rules
+- ✓ <https://github.com/sensepost/objection> — Objection - mobile exploration toolkit by Frida
+- ✓ <https://github.com/sherlock-project/sherlock> — Sherlock - username OSINT
+- ✓ <https://github.com/six2dez/OneListForAll> — BountyRecon / onelistforall
+- ✓ <https://github.com/skylot/jadx> — JADX
+- ✓ <https://github.com/smicallef/spiderfoot> — SpiderFoot
+- ✓ <https://github.com/sqlmapproject/sqlmap> — SQLMap Tamper Scripts
+- ✓ <https://github.com/sqlmapproject/sqlmap/wiki> — sqlmap wiki
+- ✓ <https://github.com/swisskyrepo/SSRFmap> — SSRFmap
+- ✓ <https://github.com/tarunkant/Gopherus> — Gopherus - SSRF gopher payloads
+- ✓ <https://github.com/Threezh1/JSFinder> — JSFinder
+- ✓ <https://github.com/tomnomnom/assetfinder> — assetfinder
+- ✓ <https://github.com/tomnomnom/gf> — Gf-Patterns (tomnomnom gf)
+- ✓ <https://github.com/tomnomnom/httprobe> — httprobe
+- ✓ <https://github.com/tomnomnom/meg> — meg
+- ✓ <https://github.com/tomnomnom/waybackurls> — Waybackurls
+- ✓ <https://github.com/trufflesecurity/trufflehog> — trufflehog
+- ✓ <https://github.com/Tuhinshubhra/CMSeeK> — CMSeeK
+- ✓ <https://github.com/urbanadventurer/WhatWeb> — WhatWeb
+- ✓ <https://github.com/vaib25vicky/awesome-mobile-security> — awesome-mobile-security
+- ✓ <https://github.com/vulhub/vulhub> — vulhub/vulhub - Dockerized CVE environments (1000+)
+- ✓ <https://github.com/wireghoul/dotdotpwn> — dotdotpwn - path traversal
+- ✓ <https://github.com/wtsxDev/reverse-engineering> — reverse-engineering
+- ✓ <https://github.com/X1r0z> — X1r0z / bug bounty notes
+- ✓ <https://github.com/xmendez/wfuzz> — wfuzz
+- ✓ <https://github.com/zmap/zmap> — zmap
+- ✓ <https://offensiveosint.io> — OffensiveOSINT
+- ✓ <https://osinttechniques.com> — OSINT Techniques
+- ✓ <https://redteam-pentesting.de/en/advisories> — RedTeamPentesting
+- ✓ <http://aircrack-ng.org> — Aircrack-ng
+- ✓ <http://arachni-scanner.com> — Arachni
+- ✓ <http://azcwr.org> — ARIZONA CYBER WARFARE RANGE
+- ✓ <http://beginners.re> — Reverse Engineering for Beginners by Dennis Yurichev
+- ✓ <http://blog.gentilkiwi.com/mimikatz> — mimikatz
+- ✓ <http://bostonkeyparty.net> — Boston Key Party CTF
+- ✓ <http://brucon.org> — BruCON
+- ✓ <http://bruteforce.gr/honeydrive> — HoneyDrive
+- ✓ <http://capstone-engine.org> — Capstone
+- ✓ <http://chipwhisperer.com> — ChipWhisperer
+- ✓ <http://cirt.dk> — cirt-fuzzer
+- ✓ <http://clamav.net> — ClamAv
+- ✓ <http://codef00.com/projects> — Evan's Debugger (EDB)
+- ✓ <http://conpot.org> — Conpot
+- ✓ <http://cuckoosandbox.org> — Cuckoo Sandbox
+- ✓ <http://def.camp> — DefCamp
+- ✓ <http://doc.emergingthreats.net/bin/view/Main/EmergingFAQ> — Emerging Threats - Open Source
+- ✓ <http://dpdk.org> — DPDK
+- ✓ <http://dtag-dev-sec.github.io/mediator/feature/2017/11/07/t-pot-17.10.html> — T-Pot Honeypot Distro
+- ✓ <http://dumpsterventures.com/jason/httpry> — httpry
+- ✓ <http://fsec.foi.hr> — FSec
+- ✓ <http://fumalwareanalysis.blogspot.kr/p/malware-analysis-tutorials-reverse.html> — Malware Analysis Tutorials: a Reverse Engineering Approach
+- ✓ <http://ghostintheshellcode.com> — Ghost in the Shellcode
+- ✓ <http://git.kali.org/gitweb/?p=packages/bully.git;a=summary> — Bully
+- ✓ <http://glastopf.org> — Glastopf
+- ✓ <http://h.foofus.net/?page_id=218> — Praeda
+- ✓ <http://hachettebookgroup.com/titles/kevin-mitnick/ghost-in-the-wires/9780316134477> — Ghost in the Wires by Kevin D. Mitnick & William L. Simon, 2011
+- ✓ <http://hack.plus> — Hack+
+- ✓ <http://hashcat.net/hashcat> — Hashcat
+- ✓ <http://iwaxx.com/debookee> — Debookee
+- ✓ <http://jsnice.org> — JS Nice
+- ✓ <http://kaitai.io> — Kaitai Struct
+- ✓ <http://layerone.org> — LayerOne
+- ✓ <http://maltego.com> — Maltego
+- ✓ <http://malwaredomains.com> — DNS-BH
+- ✓ <http://mh-nexus.de/en/hxd> — HxD
+- ✓ <http://netbootcamp.org/osinttools> — NetBootcamp OSINT Tools
+- ✓ <http://netresec.com/?page=NetworkMiner> — NetworkMiner
+- ✓ <http://netsniff-ng.org> — netsniff-ng
+- ✓ <http://ntop.org/products/packet-capture/pf_ring> — PF_RING
+- ✓ <http://ollydbg.de> — OllyDbg v1.10
+- ✓ <http://openvas.org> — OpenVAS
+- ✓ <http://openwall.com/john> — John the Ripper
+- ✓ <http://phdays.com> — PHD CTF
+- ✓ <http://phishtank.com> — PhishTank
+- ✓ <http://phrack.org> — Phrack Magazine
+- ✓ <http://phreaknic.info> — PhreakNIC
+- ✓ <http://plaidctf.com> — Pliad CTF
+- ✓ <http://projecthoneypot.org> — Project Honey Pot
+- ✓ <http://punter-infosec.com/exploit-writing-tutorials-for-pentesters>
+- ✓ <http://rada.re/r/index.html> — Radare2
+- ✓ <http://reversing.kr> — Reversing.kr
+- ✓ <http://ridiculousfish.com/hexfiend> — Hex Fiend
+- ✓ <http://rudder-project.org> — Rudder
+- ✓ <http://sagan.quadrantsec.com> — sagan
+- ✓ <http://seclists.org/fulldisclosure> — Full-Disclosure
+- ✓ <http://sectools.org> — SecTools
+- ✓ <http://securiteam.com> — SecuriTeam
+- ✓ <http://shell-storm.org/shellcode> — Shellcode Examples
+- ✓ <http://shmoocon.org> — ShmooCon
+- ✓ <http://simples.kr> — simples.kr
+- ✓ <http://skydogcon.com> — SkyDogCon
+- ✓ <http://sleuthkit.org/autopsy> — Autopsy
+- ✓ <http://sleuthkit.org/sleuthkit/index.php> — The Sleuth Kit
+- ✓ <http://smashthestack.org> — SmashTheStack
+- ✓ <http://sniff.su> — Intercepter-NG
+- ✓ <http://social-engineer.org/framework/general-discussion> — Social Engineering Framework
+- ✓ <http://spamhaus.org> — SBL / XBL / PBL / DBL / DROP / ROKSO
+- ✓ <http://spiderfoot.net> — Spiderfoot
+- ✓ <http://sqlmap.org> — SQLmap
+- ✓ <http://sshguard.net> — SSHGuard
+- ✓ <http://tcpdump.org> — tcpdump/libpcap
+- ✓ <http://thotcon.org> — ThotCon
+- ✓ <http://tools.kali.org/tools-listing> — Kali Linux Tools
+- ✓ <http://varaneckas.com/jad> — JAD
+- ✓ <http://vividmachines.com/shellcode/shellcode.html> — Shellcode Tutorial
+- ✓ <http://webhacking.kr> — Webhacking.kr
+- ✓ <http://webkay.robinlinus.com> — What Every Browser Knows About You
+- ✓ <http://wechall.net> — WeChall
+- ✓ <http://winhex.com/winhex> — WinHex
+- ✓ <http://wjradburn.com/software> — PEview
+- ✓ <http://workbench.readthedocs.org> — Workbench
+- ✓ <http://wxhexeditor.org> — wxHexEditor
+- ✓ <http://x64dbg.com> — x64dbg
+- ✓ <http://xmodulo.com/two-factor-authentication-ssh-login-linux.html> — Tutorials: How to set up two-factor authentication for SSH login on Li…
+- ✓ <http://xplico.org> — Xplico
+- ✓ <https://0xacab.org/jvoisin/mat2> — Metadata Anonymization Toolkit (MAT)
+- ✓ <https://0xf.at> — 0xf.at
+- ✓ <https://2600.com/Magazine/DigitalEditions> — 2600: The Hacker Quarterly
+- ✓ <https://abuse.ch> — abuse.ch
+- ✓ <https://amazon.de/Blue-Team-Field-Manual-BTFM/dp/154101636X> — BTFM: Blue Team Field Manual by Alan J White & Ben Clark, 2017
+- ✓ <https://amzn.to/2uWh1Up> — How to Hack Like a Legend
+- ✓ <https://angr.io> — angr
+- ✓ <https://archive.org/details/lena151> — Lena151: Reversing With Lena
+- ✓ <https://archstrike.org> — ArchStrike
+- ✓ <https://autoshun.org> — AutoShun
+- ✓ <https://balccon.org> — BalCCon
+- ✓ <https://bettercap.org> — BetterCAP
+- ✓ <https://bitbucket.org/camp0/aiengine> — AIEngine
+- ✓ <https://blackarch.org> — BlackArch Linux

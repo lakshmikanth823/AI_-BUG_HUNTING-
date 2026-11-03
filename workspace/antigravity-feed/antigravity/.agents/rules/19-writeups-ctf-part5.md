@@ -1,0 +1,167 @@
+---
+trigger: model_decision
+description: "CTF writeup archives by event/year/challenge plus CTFtime. Use when looking for worked solutions to pwn/web/crypto/rev challenges. (part 5/5)"
+---
+
+# Security Research Link Corpus — CTF Writeups & Archives
+
+Part 5 of 5. 158 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/SECCON/2018/Quals/profile/libc-2.23.so> — libc-2.23.so
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/SECCON/2018/Quals/profile/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/SECCON/2018/Quals/profile/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/SECCON/2018/Quals/profile/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/babystack/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/babystack/libc-2.23.so> — libc-2.23.so
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/babystack/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/babystack/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/babystack/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/note/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/note/libc-2.23.so> — libc-2.23.so
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/note/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/note/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/note/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/warmup/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/warmup/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/warmup/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/StarCTF/2018/warmup/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2018/pwn5/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2018/pwn5/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2018/pwn5/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2018/pwn5/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn3/exploit.asm> — exploit.asm
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn3/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn3/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn3/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn3/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn5/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn5/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn5/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/TAMUctf/2019/pwn5/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UIUCTF/2018/how2heap/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UIUCTF/2018/how2heap/libc-2.26.so> — libc-2.26.so
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UIUCTF/2018/how2heap/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UIUCTF/2018/how2heap/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UIUCTF/2018/how2heap/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UTCTF/2019/babyecho/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UTCTF/2019/babyecho/flag.txt> — flag.txt
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UTCTF/2019/babyecho/ld-2.23.so> — ld-2.23.so
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UTCTF/2019/babyecho/libc-2.23.so> — libc-2.23.so
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UTCTF/2019/babyecho/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UTCTF/2019/babyecho/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/UTCTF/2019/babyecho/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WhiteHat/2018/Quals/pwn02/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WhiteHat/2018/Quals/pwn02/libc-2.27.so> — libc-2.27.so
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WhiteHat/2018/Quals/pwn02/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WhiteHat/2018/Quals/pwn02/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WhiteHat/2018/Quals/pwn02/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level1/exploit.asm> — exploit.asm
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level1/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level1/flag.txt> — flag.txt
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level1/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level1/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level1/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level2/exploit.py> — exploit.py
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level2/exploit.sh> — exploit.sh
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level2/program> — program
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level2/pseudocode.cc> — pseudocode.cc
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/ctfs/WPICTF/2018/forker.level2/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/docker/build-image.sh> — build-image.sh
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/docker/common.sh> — common.sh
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/docker/create-container.sh> — create-container.sh
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/docker/Dockerfile> — Dockerfile
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/docker/README.md> — README.md
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/docker/run-container.sh> — run-container.sh
+- ✓ <https://github.com/sajjadium/ctf-writeups/blob/master/README.md> — README.md
+- ✓ <https://github.com/smokeleeteveryday/CTF_WRITEUPS> — Smoke Leet Everyday
+- ✓ <https://github.com/Super-Guesser/ctf/blob/master/2022/dicectf/shadow.md> — Dice CTF 2022 - shadow
+- ✓ <https://github.com/taviso/ctftool> — ctftool
+- ✓ <https://github.com/uppusaikiran/awesome-ctf-cheatsheet> — Capture the Flag CheatSheet
+- ✓ <https://github.com/w181496/CTF/blob/47fe34112401d123b2b53ee12058e7ec72888e0e/csaw_2018_qual/sso/README.md> — CSAW CTF 2018 Qual - SSO
+- ✓ <https://github.com/w181496/CTF/blob/master/fbctf2019/pdfme/flag.fods> — Link
+- ✓ <https://github.com/w181496/CTF/blob/master/fbctf2019/pdfme/README_en.md> — FBCTF 2019
+- ✓ <https://github.com/w181496/CTF/blob/master/googlectf-2019-qual/bnv/README_en.md> — Google CTF 2019 Qual - bnv
+- ✓ <https://github.com/w181496/CTF/tree/eedc3315e8c5719771f6ecc5efd11f9d61df314c/volgactf2020_quals/library> — VolgaCTF 2020 - library
+- ✓ <https://github.com/w181496/CTF/tree/master/0ctf2018_qual/EzDoor> — 0CTF 2018 Qual - EzDoor
+- ✓ <https://github.com/w181496/CTF/tree/master/0ctf2019_qual/WallbreakerEasy> — link
+- ✓ <https://github.com/w181496/CTF/tree/master/0ctf2021_qual/1linephp> — 0CTF 2021 Qual - 1linephp
+- ✓ <https://github.com/w181496/CTF/tree/master/ACSC2021_qual/cowsay> — ACSC 2021 Qual - Cowsay as a Service
+- ✓ <https://github.com/w181496/CTF/tree/master/codegate2018-prequal/simpleCMS> — Codegate2018 prequal - simpleCMS
+- ✓ <https://github.com/w181496/CTF/tree/master/CTFZone-2019-qual/Catcontrol> — CTFZone 2019 qual - Catcontrol
+- ✓ <https://github.com/w181496/CTF/tree/master/defcon2018-qual/EasyPisy> — DEFCON CTF 2018 Qual - EasyPisy
+- ✓ <https://github.com/w181496/CTF/tree/master/dragonctf-2021> — Dragon CTF 2021 - webpwn
+- ✓ <https://github.com/w181496/CTF/tree/master/fbctf2019/secret_note_keeper> — Facebook CTF - Secret Note Keeper
+- ✓ <https://github.com/w181496/CTF/tree/master/hitcon2015/hard-to-say> — HITCON CTF 2015 - Hard to say
+- ✓ <https://github.com/w181496/CTF/tree/master/midnightsun2019/Rubenscube> — MidnightSun CTF - Rubenscube
+- ✓ <https://github.com/w181496/CTF/tree/master/RealWorldCTF2021/MoP2021> — RealWorld CTF 3rd - MoP2021
+- ✓ <https://github.com/w181496/CTF/tree/master/RealWorldCTF2022/Hack_into_Skynet> — Real World CTF 4th - Hack into Skynet
+- ✓ <https://github.com/w181496/CTF/tree/master/seccon2018-qual/GhostKingdom> — SECCON CTF 2018 - GhostKingdom
+- ✓ <https://github.com/w181496/CTF/tree/master/trendmicro-ctf-2019/forensics300> — TrendMicro CTF 2019 Qual - Forensics 300
+- ✓ <https://github.com/w181496/CTF/tree/master/volgactf2019_quals/shop> — VolgaCTF 2019 - shop
+- ✓ <https://github.com/w181496/CTF/tree/master/volgactf2021_quals/JWT> — VolgaCTF 2021 Qual - JWT
+- ✓ <https://github.com/w181496/CTF/tree/master/volgactf2021_quals/Static_Site> — VolgaCTF 2021 - Static Site
+- ✓ <https://github.com/w181496/CTF/tree/master/wctf2020/thymeleaf> — WCTF 2020 - thymeleaf
+- ✓ <https://github.com/w181496/CTF/tree/master/zer0pts2020/can_you_guess_it> — zer0pts CTF 2020 - Can you guess it?
+- ✓ <https://github.com/w181496/CTF/tree/master/zer0pts2020/MusicBlog> — zer0pts CTF 2020 - MusicBlog
+- ✓ <https://github.com/w181496/CTF/tree/master/zer0pts2020/phpNantokaAdmin> — zer0pts CTF 2020 - phpNantokaAdmin
+- ✓ <https://github.com/w181496/My-CTF-Challenges/tree/master/Balsn-CTF-2019> — BalsnCTF 2019 - 卍乂Oo韓國魚oO乂卍
+- ✓ <https://github.com/w181496/My-CTF-Challenges/tree/master/Balsn-CTF-2020> — Balsn CTF 2020 - L5D
+- ✓ <https://github.com/w181496/My-CTF-Challenges/tree/master/Balsn-CTF-2021> — Balsn CTF 2021 - 4pple Music
+- ✓ <https://github.com/w181496/My-CTF-Challenges/tree/master/Balsn-CTF-2023> — Balsn CTF 2023 - ginowa
+- ✓ <https://github.com/w181496/Web-CTF-Cheatsheet/blob/master/scripts/others/secret_key_base_decrypt.rb> — script
+- ✓ <https://github.com/xairy/mipt-ctf> — MIPT CTF
+- ✓ <https://github.com/zeyu2001/My-CTF-Challenges/blob/main/SEETF-2023/readonly/README.md> — SEETF 2023 - readonlt
+- ✓ <https://github.com/zsxsoft/my-ctf-challenges/tree/master/rctf2019/nextphp> — RCTF 2019 - nextphp
+- ✓ <https://hackmd.io/@terjanq/justCTF2020-writeups> — justCTF 2020 - BabyCSP
+- ✓ <https://hxp.io/blog/53/0CTF-Quals-2019-Wallbreaker-easy-writeup> — Link
+- ✓ <https://hxp.io/blog/89/hxp-CTF-2021-counter-writeup> — hxp ctf 2021 - counter
+- ✓ <https://hxp.io/blog/90/hxp%20CTF%202021:%20includer%27s%20revenge%20writeup> — hxp ctf 2021 - includer's revenge
+- ✓ <https://imagemagick.org/script/resources.php> — Document
+- ✓ <https://jetmind.github.io/2016/03/31/heroku-forwarded.html>
+- ✓ <https://l3yx.github.io/2020/09/04/DDCTF-2020-WEB-WriteUp> — DDCTF 2020 - Easy Web
+- ✓ <https://l4wio.github.io/CTF-challenges-by-me/0ctf_final-2018/0ctf_tctf_2018_slides.pdf> — 0CTF 2018 Final - h4x0rs.club
+- ✓ <https://leavesongs.com/HTML/javascript-up-low-ercase-tip.html> — Reference
+- ✓ <https://leavesongs.com/PENETRATION/a-tour-of-tui-editor-xss.html> — 一次对 Tui Editor XSS 的挖掘与分析
+- ✓ <https://leavesongs.com/PENETRATION/use-tls-proxy-to-exploit-ldaps.html>
+- ✓ <https://nese.team/writeup/aliyunctf2023.pdf> — `)             - `{"@type":"[com.sun.rowset.JdbcRowSetImpl"[,{"dataSou…
+- ✓ <https://nese.team/writeup/n1ctf2022.pdf> — N1CTF 2022 - Old FastJSON
+- ✓ <https://nginx.com/resources/wiki/start/topics/examples/x-accel> — Document
+- ✓ <https://nginx.org/en/docs/http/ngx_http_core_module.html> — reference
+- ✓ <https://nguyendt.hashnode.dev/pbctf-2023-writeup> — PBCTF 2023 - Makima
+- ✓ <https://portswigger-labs.net/xss/xss.php?x=%3Cscript%3Elocation.protocol=%27javascript%27;%3C/script%3E> — portswigger cheatsheet
+- ✓ <https://r12a.github.io/apps/encodings>
+- ✓ <https://r3kapig.com/writeup/20220125-rwctf4> — Real World CTF 4th - RWDN
+- ✓ <https://somd5.com>
+- ✓ <https://sonarsource.com/blog/joomla-multiple-xss-vulnerabilities> — Joomla XSS
+- ✓ <https://soroush.me/blog/2023/08/cookieless-duodrop-iis-auth-bypass-app-pool-privesc-in-asp-net-framework-cve-2023-36899> — Cookieless DuoDrop: IIS Auth Bypass & App Pool Privesc in ASP.NET Fram…
+- ✓ <https://ssd-disclosure.com/ssd-advisory-php-spldoublylinkedlist-uaf-sandbox-escape>
+- ✓ <https://staaldraad.github.io/post/2021-01-09-universal-rce-ruby-yaml-load-updated>
+- ✓ <https://t00ls.net/dnslog.html>
+- ✓ <https://tinyxss.terjanq.me>
+- ✓ <https://w0y.at/writeup/2019/10/28/hacklu-2019-trees-for-future.html> — Hack.lu 2019 - Trees For Future
+- ✓ <https://werkzeug.palletsprojects.com/en/2.0.x/routing> — ref
+- ✓ <https://x.threatbook.cn>
+- ✓ <https://xz.aliyun.com/t/4688> — Link
+- ✓ <https://xz.aliyun.com/t/6300> — N1CTF 2019 - sql_manage
+- ✓ <https://yougetsignal.com/tools/web-sites-on-web-server>
+- ~ <http://dnslog.com>
+- ~ <http://requestbin.net/dns>
+- ~ <http://w3.org/1999/xlink>
+- ~ <http://w3.org/1999/XSL/Transform>
+- ~ <http://w3.org/2000/svg>
+- ~ <http://w3.org/2001/XInclude>
+- ~ <http://w3.org/Graphics/SVG/1.1/DTD/svg11.dtd>
+- ~ <http://webscan.cc>
+- ~ <http://zeroplace.cn/article.asp?id=906>
+- ~ <https://blog.hamayanhamayan.com/entry/2023/02/26/124239> — ACSC CTF 2023 - easyssti
+- ~ <https://book.hacktricks.wiki/en/src/crypto/ctf-misc/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/crypto/ctf-workflow/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/mobile-pentesting/android-app-pentesting/google-ctf-2018-shall-we-play-a-game> — google-ctf-2018-shall-we-play-a-game
+- ~ <https://dev.mysql.com/doc/refman/8.0/en/load-data.html> — link
+- ~ <https://domainiq.com/reverse_whois>
+- ~ <https://harold.kim/blog/2021/11/n1ctf-writeup> — N1CTF 2021 - Funny_web
+- ~ <https://landgrey.me/blog/15>
+- ~ <https://ptr-yudai.hatenablog.com> — CakeCTF 2022 - ImageSurfing
+- ~ <https://robtex.com/dns-lookup>
+- ~ <https://slideshare.net/0ang3el/new-methods-for-exploiting-orm-injections-in-java-applications>
+- ~ <https://slideshare.net/slideshow/new-methods-for-exploiting-orm-injections-in-java-applications/62514298>

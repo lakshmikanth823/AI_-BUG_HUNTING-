@@ -1,0 +1,191 @@
+---
+trigger: model_decision
+description: "Disclosed bug bounty reports, hacktivity archives, researcher blogs and writeup collections. Use when looking for prior art on a vulnerability class or learning report quality. (part 1/2)"
+---
+
+# Security Research Link Corpus — Bug Bounty Writeups & Disclosed Reports
+
+Part 1 of 2. 182 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://0xdf.gitlab.io> — 0xdf writes hack things
+- ✓ <https://albinowax.skeletonscribe.net> — James Kettle research
+- ✓ <https://blog.orange.tw> — Orange Tsai blog (DEVCORE)
+- ✓ <https://buer.haus> — BRETT BUERHAUS
+- ✓ <https://corben.io> — Corben Leo
+- ✓ <https://github.com/devanshbatham/Awesome-Bugbounty-Writeups> — devanshbatham/Awesome-Bugbounty-Writeups
+- ✓ <https://github.com/m4ll0k/Awesome-BugBounty-Writeups> — m4ll0k/Awesome-BugBounty-Writeups
+- ✓ <https://github.com/reddelexc/hackerone-reports> — HackerOne disclosed reports (reddelexc index)
+- ✓ <https://ngalabs.io> — Ron Chan / NGALabs
+- ✓ <https://pentester.land> — Pentester Land - writeup collection
+- ✓ <https://rana-khalil.gitbook.io/hack-the-box> — Rana Khalil - HackTheBox walkthroughs
+- ~ <https://hackerone.com/hacktivity> — HackerOne - hacktivity (public disclosed reports)
+- ~ <https://hackerone.com/hacktivity?orderby=popular> — HackerOne - top reports by weakness
+- ~ <https://infosecwriteups.com> — InfoSec Writeups (Medium)
+- ✓ <http://blog.h4rsh4d.com/2019/04/stealing-local-storage-data-through-xss.html> — Stealing local storage data through XSS
+- ✓ <http://blog.orange.tw/2018/08/how-i-chained-4-bugs-features-into-rce-on-amazon.html> — How I chained 4 bugs features into RCE on amazon
+- ✓ <http://blog.shashank.co/2013/10/lfi-in-nokia-maps.html> — LFI in nokia maps
+- ✓ <http://blog.shashank.co/2013/11/oracle-xss.html> — Oracle XSS
+- ✓ <http://breakingmesh.blogspot.in> — breakingmesh.blogspot.in
+- ✓ <http://c0rni3sm.blogspot.in> — c0rni3sm.blogspot.in
+- ✓ <http://docs.sellfy.com/contact> — Sellfy
+- ✓ <http://en.altervista.org/feedback.php?who=feedback> — Altervista
+- ✓ <http://fossfactory.org> — FOSS Factory
+- ✓ <http://integraxor.com/support.html> — IntegraXor
+- ✓ <http://my.kayako.com/Tickets/Submit> — Kayako
+- ✓ <http://pwndizzle.blogspot.in> — pwndizzle.blogspot.in
+- ✓ <http://releasewire.com/about/contact> — Release Wire
+- ✓ <http://respectxss.blogspot.in> — respectxss.blogspot.in
+- ✓ <http://sakurity.com/blog> — sakurity.com/blog
+- ✓ <http://sasi2103.blogspot.co.il> — sasi2103.blogspot.co.il
+- ✓ <http://secinfinity.net> — secinfinity.net
+- ✓ <http://tracker.ardour.org/my_view_page.php> — Ardour
+- ✓ <http://vel.joomla.org/submit-vel> — Joomla
+- ✓ <http://websecresearch.com> — websecresearch.com
+- ✓ <https://0x65.dev/blog/2020-03-30/cve-2019-17004-semi-universal-xss-affecting-firefox-for-ios.html> — Universal XSS affecting Firefox
+- ✓ <https://0xpatrik.com/subdomain-takeover-starbucks> — Subdomain takeover Starbucks
+- ✓ <https://0xpatrik.com/subdomain-takeover-starbucks-ii> — Subdomain takeover Starbucks (Part 2)
+- ✓ <https://amolbaikar.com/facebook-source-code-disclosure-in-ads-api> — Facebook source code disclosure in ads API
+- ✓ <https://amolbaikar.com/xss-on-facebook-instagram-cdn-server-bypassing-signature-protection> — XSS on Facebook instagram CDN server bypassing signature protection
+- ✓ <https://amolbaikar.com/xss-on-facebooks-acquisition-oculus-cdn-server> — XSS on Facebook's Acquisition Oculus
+- ✓ <https://antihack.me> — AntiHACK
+- ✓ <https://apapedulimu.click/clickjacking-on-google-myaccount-worth-7500> — Clickjacking on google myaccount worth 7500
+- ✓ <https://apapedulimu.click/multiple-stored-xss-on-tokopedia> — Muliple Stored XSS on tokopedia
+- ✓ <https://arneswinnen.net/2016/11/authentication-bypass-on-sso-ubnt-com-via-subdomain-takeover-of-ping-ubnt-com> — Authentication bypass on SSO ubnt.com via Subdomain takeover of ping.u…
+- ✓ <https://arneswinnen.net/2017/06/authentication-bypass-on-airbnb-via-oauth-tokens-theft> — Authentication Bypass on airbnb via oauth tokens theft
+- ✓ <https://arneswinnen.net/2017/06/authentication-bypass-on-ubers-sso-via-subdomain-takeover> — Authentication bypass on uber's SSO via subdomain takeover
+- ✓ <https://artkond.com/2018/10/10/symantec-authentication-bypass> — Symantec authentication Bypass
+- ✓ <https://betterhacker.com/2018/12/rce-in-hubspot-with-el-injection-in-hubl.html> — RCE in Hubspot with EL injection in HubL
+- ✓ <https://bishopfox.com/blog/2017/06/how-i-built-an-xss-worm-on-atmail> — How I built an XSS worm on atmail
+- ✓ <https://bitquark.co.uk/blog/2013/07/03/amazon_packaging_feedback_xss> — Amazon Packaging feedback XSS
+- ✓ <https://bitquark.co.uk/blog/2013/07/19/admob_creative_image_xss> — Admob Creative image XSS
+- ✓ <https://bitquark.co.uk/blog/2014/02/23/tesla_motors_blind_sql_injection> — Tesla Motors blind SQLI
+- ✓ <https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html> — XSS in Google Colaboratory + CSP bypass
+- ✓ <https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html> — Another XSS in google collaboratory
+- ✓ <https://blog.darabi.me/2015/04/bypass-facebook-csrf.html> — Bypass Facebook CSRF
+- ✓ <https://blog.darabi.me/2019/12/instagram-delete-media-csrf.html> — Instagram delete media CSRF
+- ✓ <https://blog.doyensec.com/2020/04/30/polymorphic-images-for-xss.html> — Researching Polymorphic Images for XSS on Google Scholar
+- ✓ <https://blog.intothesymmetry.com/2017/10/slack-saml-authentication-bypass.html> — Slack SAML authentocation bypass
+- ✓ <https://blog.ripstech.com/2018/wordpress-design-flaw-leads-to-woocommerce-rce> — Wordpress design flaw leads to woocommerce RCE
+- ✓ <https://blog.ripstech.com/2019/wordpress-csrf-to-rce> — Wordpress CSRF to RCE
+- ✓ <https://blog.takemyhand.xyz/2019/05/escalating-subdomain-takeovers-to-steal.html> — Escalating subdomain takeover to steal sensitive stuff
+- ✓ <https://blog.teddykatz.com/2019/11/12/github-actions-dos.html> — Github actions DOS
+- ✓ <https://blog.yappare.com/2020/04/tricky-oracle-sql-injection-situation.html> — Tricky oracle SQLI situation
+- ✓ <https://breaksec.com> — breaksec.com
+- ✓ <https://buer.haus/2014/06/16/facebook-stored-cross-site-scripting-xss-badges> — Facebook stored XSS
+- ✓ <https://buer.haus/2015/01/15/yahoo-root-access-sql-injection-tw-yahoo-com> — Yahoo – Root Access SQLI – tw.yahoo.com
+- ✓ <https://buer.haus/2015/01/21/admin-google-com-reflected-cross-site-scripting-xss> — Admin google.com reflected XSS
+- ✓ <https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities> — Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Audit…
+- ✓ <https://buer.haus/2017/03/09/airbnb-chaining-third-party-open-redirect-into-server-side-request-forgery-ssrf-via-liveperson-chat> — Airbnb chaining third party open redirect into SSRF via liveperson cha…
+- ✓ <https://buer.haus/2017/06/29/escalating-xss-in-phantomjs-image-rendering-to-ssrflocal-file-read> — Escalating XSS in phantomjs image rendering to SSRF
+- ✓ <https://bugs.opera.com/wizarddesktop> — Opera
+- ✓ <https://bugs.php.net/report.php> — PHP
+- ✓ <https://cesppa.com> — CESPPA
+- ✓ <https://cs.detectify.com> — Detectify
+- ✓ <https://cyberzombie.in/my-first-lfi> — My first LFI
+- ✓ <https://cyberzombie.in/stored-xss-on-indeed> — Stored XSS on indeed
+- ✓ <https://drupal.org/node/101494> — Drupal
+- ✓ <https://etsy.com/bounty> — Etsy
+- ✓ <https://footstep.ninja/posts/exploiting-self-xss> — Exploiting Self XSS
+- ✓ <https://gauravnarwani.com/a-tale-of-3-xss> — A Tale of 3 XSS
+- ✓ <https://gauravnarwani.com/how-i-xssed-admin-account> — How I xssed admin account
+- ✓ <https://gauravnarwani.com/two-factor-authentication-bypass> — Two factor authentication bypass
+- ✓ <https://gauravnarwani.com/xssed-my-way-to-1000> — XSSed my way to 1000
+- ✓ <https://geleta.eu/2019/my-first-ssrf-using-dns-rebinfing> — My first SSRF using DNS rebinding
+- ✓ <https://github.com/B3nac/Android-Reports-and-Resources> — Android Reports and Resources
+- ✓ <https://github.com/B3nac/Android-Reports-and-Resources/blob/master/README.md> — Android-Reports-and-Resources
+- ✓ <https://github.com/devanshbatham/Awesome-Bugbounty-Writeups/blob/master/README.md> — Server Side Request Forgery (SSRF)
+- ✓ <https://github.com/httpvoid/writeups/blob/main/Ruby-deserialization-gadget-on-rails.md>
+- ✓ <https://github.com/jacobdjwilson/awesome-annual-security-reports> — Annual Security Reports
+- ✓ <https://github.com/juliocesarfort/public-pentesting-reports> — Public Pentesting Reports
+- ✓ <https://github.com/momenbasel/htb-writeups> — htb-writeups
+- ✓ <https://github.com/pwning/public-writeup/tree/master/codegate2018/Simple%20CMS> — PPP simpleCMS writeup
+- ✓ <https://global.blackberry.com/secure/report-an-issue/en.html> — BlackBerry
+- ✓ <https://go.intigriti.com/altroconsumo> — Altroconsumo
+- ✓ <https://go.intigriti.com/arkanenetwork> — Arkane
+- ✓ <https://go.intigriti.com/base> — Base
+- ✓ <https://go.intigriti.com/brusselsairlines> — Brussels Airlines
+- ✓ <https://go.intigriti.com/collishop> — Collishop
+- ✓ <https://go.intigriti.com/colruyt> — Colruyt
+- ✓ <https://go.intigriti.com/crossborderfines> — Cross Border Fines
+- ✓ <https://go.intigriti.com/delen> — Delen Private Bank
+- ✓ <https://go.intigriti.com/devolkskrant> — De Volkskrant
+- ✓ <https://go.intigriti.com/dream> — Dreamland
+- ✓ <https://go.intigriti.com/dreamland> — Dreambaby
+- ✓ <https://go.intigriti.com/ehealthhubvznkul> — eHealth Hub VZN KUL
+- ✓ <https://go.intigriti.com/eurid> — EURid
+- ✓ <https://go.intigriti.com/itsme> — itsme
+- ✓ <https://go.intigriti.com/kinepolis> — Kinepolis
+- ✓ <https://go.intigriti.com/kuleuvenlogin> — IAM KU Leuven
+- ✓ <https://go.intigriti.com/marietjeschaake> — Marietje Schaake
+- ✓ <https://go.intigriti.com/mobilevikings> — Mobile Vikings
+- ✓ <https://go.intigriti.com/nexushealth> — Nexuzhealth
+- ✓ <https://go.intigriti.com/nexuzhealthwebpacs> — Nexuzhealth Web PACS
+- ✓ <https://go.intigriti.com/printscan> — Student Assessment System
+- ✓ <https://go.intigriti.com/sentiance> — Sentiance
+- ✓ <https://go.intigriti.com/spaargids> — Spaargids
+- ✓ <https://go.intigriti.com/studio100> — Studio 100
+- ✓ <https://go.intigriti.com/suivoweb> — Suivo
+- ✓ <https://go.intigriti.com/telenet> — Telenet
+- ✓ <https://go.intigriti.com/testaankoop> — Test-Aankoop
+- ✓ <https://go.intigriti.com/tweakers> — Tweakers
+- ✓ <https://go.intigriti.com/vascomobileproducts> — OneSpan Mobile
+- ✓ <https://go.intigriti.com/vascoserver-sideproducts> — OneSpan Server Products
+- ✓ <https://go.intigriti.com/woorank> — Woorank
+- ✓ <https://hackerhive.io> — Hackerhive
+- ✓ <https://hacktrophy.com> — Hacktrophy
+- ✓ <https://hazana.xyz/posts/escalating-reflected-xss-with-http-smuggling> — Reflected XSS with  HTTP Smuggling
+- ✓ <https://help.campaignmonitor.com/contact> — Campaign Monitor
+- ✓ <https://ibreak.software> — ibreak.software
+- ✓ <https://itsecguy.com/xss-with-put-in-ghost-blog> — XSS with put in ghost blog
+- ✓ <https://jonbottarini.com/2017/03/16/penetrating-pornhub-xss-vulns-galore-plus-a-cool-shirt> — Penetrating Pornhub XSS vulns
+- ✓ <https://jonbottarini.com/2017/04/03/inspect-element-leads-to-stripe-account-lockout-authentication-bypass> — Inspect element leads to stripe account lockout authentication Bypass
+- ✓ <https://josipfranjkovic.com/blog/facebook-csrf-full-account-takeover> — Facebook CSRF full account takeover
+- ✓ <https://josipfranjkovic.com/blog/hacking-facebook-csrf-device-login-flow> — Hacking Facebook CSRF device login flow
+- ✓ <https://josipfranjkovic.com/blog/hacking-facebook-oculus-integration-csrf> — Hacking facebook oculus integration CSRF
+- ✓ <https://josipfranjkovic.com/blog/race-conditions-on-web> — Race condition on web
+- ✓ <https://jspin.re/fileupload-blind-sqli> — File Upload blind SQLI
+- ✓ <https://kishanbagaria.com/airdos> — AirDoS: remotely render any nearby iPhone or iPad unusable
+- ✓ <https://komodosec.com/post/mime-sniffing-xss> — MIME  sniffing XSS
+- ✓ <https://m-q-t.github.io/notes/downnotifer-ssrf> — Downnotifeer SSRF
+- ✓ <https://nc-lp.com/blog/searching-for-xss-found-ldap-injection> — Searching for XSS found ldap injection
+- ✓ <https://omespino.com/write-up-1000-usd-in-5-minutes-xss-stored-in-outlook-com-ios-browsers> — 1000 USD in 5mins Stored XSS in Outlook
+- ✓ <https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network> — Into the borg of SSRF inside google production network
+- ✓ <https://philippeharewood.com/facebook-graphql-csrf> — Facebook graphql CSRF
+- ✓ <https://pwning.re/2018/12/04/github-desktop-rce> — Github Desktop RCE
+- ✓ <https://randywestergren.com/xss-vulnerabilities-in-multiple-iframe-busters-affecting-top-tier-sites> — XSS vulnerabilities in multiple iframe busters affecting top tier site…
+- ✓ <https://reddelexc.github.io/hackerone-reports> — reddelexc.github.io/hackerone-reports
+- ✓ <https://research.securitum.com/xss-in-amp4email-dom-clobbering> — XSS in AMP4EMAIL(DOM clobbering)
+- ✓ <https://safehats.com> — Safehats
+- ✓ <https://samcurry.net/the-12000-intersection-between-clickjacking-xss-and-denial-of-service> — 12000 intersection betwen clickjacking XSS and denial of service
+- ✓ <https://secure.sony.net/form> — Sony
+- ✓ <https://shawarkhan.com/2019/08/leveraging-angularjs-based-xss-to-privilege-escalation.html> — Leveraging angularjs based XSS to privilege escalation
+- ✓ <https://sites.google.com/securifyinc.com/secblogs/yahoo-luminate-rce> — Yahoo luminate RCE
+- ✓ <https://sites.google.com/securifyinc.com/vrp-writeups/gsuite/bookmark-xss-device-management> — Google VRP XSS in device management
+- ✓ <https://sites.google.com/securifyinc.com/vrp-writeups/hire-with-google/blind-xss> — Google VRP Blind XSS
+- ✓ <https://sites.google.com/securifyinc.com/vrp-writeups/hire-with-google/xsses> — Google VRP XSS
+- ✓ <https://sites.google.com/securifyinc.com/vrp-writeups/waze/waze-xss> — WAZE XSS
+- ✓ <https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce> — $36k Google App Engine RCE
+- ✓ <https://sites.google.com/view/harshjaiswalblog/rce-due-to-showexceptions> — RCE due to showexceptions
+- ✓ <https://smaranchand.com.np/2019/05/an-unexploited-cors-misconfiguration-reflecting-further-issues> — An unexploited CORS misconfiguration reflecting further issues
+- ✓ <https://smaranchand.com.np/2019/10/an-inconsistent-csrf> — An inconsistent CSRF
+- ✓ <https://smaranchand.com.np/2019/12/subdomain-takeover-via-pantheon> — Subdomain Takeover via pantheon
+- ✓ <https://smaranchand.com.np/2020/02/the-tricky-xss> — The tricky XSS
+- ✓ <https://soroush.secproject.com/blog/2018/12/story-of-two-published-rces-in-sharepoint-workflows> — Two RCE in SharePoint
+- ✓ <https://soroush.secproject.com/blog/2019/04/yet-other-examples-of-abusing-csrf-in-logout> — Yet other examples of abusing CSRF in logout
+- ✓ <https://thehackerblog.com/ebay-mobile-reflected-xss-disclosure-writeup/index.html> — Ebay mobile reflected XSS
+- ✓ <https://thehackerblog.com/poisoning-the-well-compromising-godaddy-customer-support-with-blind-xss/index.html> — Poisoning the well compromising godaddy customer support with blind XS…
+- ✓ <https://thehackerblog.com/steam-fire-and-paste-a-story-of-uxss-via-dom-xss-clickjacking-in-steam-inventory-helper/index.html> — Steam fire and paste : a story of uxss via DOM XSS and Clickjacking in…
+- ✓ <https://vesiluoma.com/abusing-mysql-clients> — Abusing MYSQL CLients
+- ✓ <https://vpnmentor.com/blog/dom-xss-bug-affecting-tinder-shopify-yelp> — DOM XSS bug affecting tinder shopify Yelp
+- ✓ <https://websecblog.com/vulns/clickjacking-xss-on-google-org> — Clickjacking + XSS on Google org
+- ✓ <https://websecblog.com/vulns/google-code-in-xss> — Google code in XSS
+- ✓ <https://websecblog.com/vulns/googleplex-com-blind-xss> — Googleplex.com blind XSS
+- ✓ <https://websecblog.com/vulns/reflected-xss-in-google-code-jam> — XSS in google code jam
+- ✓ <https://websecblog.com/vulns/stored-xss-in-webcomponents-org> — Stored XSS in webcomponents.org
+- ✓ <https://wesecureapp.com/blog/persistent-xss-to-steal-passwords-paypal> — Persistent XSS to steal passwords(Paypal)
+- ✓ <https://wesecureapp.com/blog/xss-by-tossing-cookies> — XSS by tossing cookies
+- ✓ <https://whitton.io/archive/persistent-xss-on-myworld-ebay-com> — Persistent XSS on my world
+- ✓ <https://whitton.io/articles/abusing-cors-for-an-xss-on-flickr> — Abusing CORS for an XSS on flickr
+- ✓ <https://whitton.io/articles/bug-bounties-101-getting-started> — Bug Bounties 101
+- ✓ <https://whitton.io/articles/content-types-and-xss-facebook-studio> — Content types and XSS Facebook Studio
+- ✓ <https://whitton.io/articles/messenger-site-wide-csrf> — Messenger site wide CSRF

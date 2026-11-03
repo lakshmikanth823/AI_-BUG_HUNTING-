@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large binaries exceeding GitHub 100MB limit
+*.exe
+tools/bin/*.exe
+
+# Log files
+*.log
+
+# OS-specific
+Thumbs.db
+.DS_Store

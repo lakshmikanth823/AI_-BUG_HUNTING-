@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "title": "Bug Bounty Cluster Hunting & Vulnerability Chains (A -> B -> C)",
+  "chains": [
+    {
+      "id": "CHAIN_IDOR_TO_ATO",
+      "name": "IDOR Escalation to Full Account Takeover",
+      "step_a": {
+        "finding": "IDOR in GET /api/v1/users/{id} profile retrieval",
+        "severity": "Medium",
+        "action": "Inspect response body for sensitive identifiers: email, phone, security question, tenant ID"
+      },
+      "step_b": {
+        "finding": "PUT /api/v1/users/{id} accepts email/phone update without verifying current password or ownership",
+        "severity": "High",
+        "action": "Swap attacker email onto victim user ID"
+      },
+      "step_c": {
+        "finding": "Password reset triggered to attacker email",
+        "severity": "Critical",
+        "impact": "Complete zero-click victim Account Takeover"
+      }
+    },
+    {
+      "id": "CHAIN_SSRF_TO_RCE",
+      "name": "SSRF Cloud Metadata to Remote Code Execution",
+      "step_a": {
+        "finding": "SSRF parameter in PDF generator or webhook URL input",
+        "severity": "Medium",
+        "action": "Probe http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+      },
+      "step_b": {
+        "finding": "Retrieve AWS IAM role temporary keys (AccessKeyId, SecretAccessKey, Token)",
+        "severity": "Critical",
+        "action": "Verify privileges via aws sts get-caller-identity and check ec2/lambda/s3 permissions"
+      },
+      "step_c": {
+        "finding": "Use IAM permissions to update AWS Lambda function or EC2 user-data script",
+        "severity": "Critical",
+        "impact": "Infrastructure Remote Code Execution"
+      }
+    },
+    {
+      "id": "CHAIN_OPEN_REDIRECT_TO_OAUTH_THEFT",
+      "name": "Open Redirect to OAuth Code Theft (ATO)",
+      "step_a": {
+        "finding": "Open redirect on trusted subdomain /oauth/callback?next=https://attacker.com",
+        "severity": "Low",
+        "action": "Supply target redirect into primary OAuth authorization URL redirect_uri"
+      },
+      "step_b": {
+        "finding": "OAuth provider permits whitelisted domain subdirectory without strict exact-path matching",
+        "severity": "High",
+        "action": "Victim clicks authorization link: browser follows open redirect carrying ?code=AUTHORIZATION_CODE"
+      },
+      "step_c": {
+        "finding": "Attacker captures authorization code on external server and exchanges for victim access token",
+        "severity": "Critical",
+        "impact": "Account Takeover via OAuth token exfiltration"
+      }
+    },
+    {
+      "id": "CHAIN_CORS_TO_PII_EXFIL",
+      "name": "CORS Misconfiguration to Authenticated Data Theft",
+      "step_a": {
+        "finding": "Origin header reflection on /api/user/financial_records",
+        "severity": "Low",
+        "action": "Verify Access-Control-Allow-Credentials: true is returned"
+      },
+      "step_b": {
+        "finding": "Craft cross-origin fetch() script hosted on attacker.com",
+        "severity": "High",
+        "action": "Victim visits attacker page with active session cookies"
+      },
+      "step_c": {
+        "finding": "Response containing private banking/PII details is read and sent to attacker server",
+        "severity": "High",
+        "impact": "Mass PII and financial record exfiltration"
+      }
+    }
+  ]
+}

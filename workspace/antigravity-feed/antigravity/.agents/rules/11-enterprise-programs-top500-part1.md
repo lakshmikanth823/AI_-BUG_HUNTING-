@@ -1,0 +1,186 @@
+---
+trigger: model_decision
+description: "Direct vulnerability reward / PSIRT / responsible-disclosure pages for big-tech, finance, healthcare, automotive and ICS vendors. Use when researching a specific large company's program or security posture. (part 1/3)"
+---
+
+# Security Research Link Corpus — Enterprise / Fortune-500 Program Pages
+
+Part 1 of 3. 177 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://about.gitlab.com/security/disclosure> — GitLab - responsible disclosure & bug bounty
+- ✓ <https://access.redhat.com/security/security-updates> — Red Hat Security Advisories
+- ✓ <https://alteredsecurity.com/adlab> — CRTP - Certified Red Team Professional
+- ✓ <https://aws.amazon.com/security/security-bulletins> — AWS Security Bulletins
+- ✓ <https://aws.amazon.com/security/vulnerability-reporting> — AWS Vulnerability Reporting
+- ✓ <https://binance.com/en/support/announcement/0e1c8a5a1e0f4e5aa66f0f0f4c1b8a1a> — Binance Bug Bounty
+- ✓ <https://bugbounty.meta.com> — Meta Bug Bounty - program overview
+- ✓ <https://bugbounty.meta.com/scope> — Meta Bug Bounty - scope & reward tiers
+- ✓ <https://bugbountyforum.com> — Bug Bounty Forum
+- ✓ <https://bugbountyworld.com> — Bug Bounty World Discord
+- ✓ <https://bughunters.google.com> — Google VRP / bughunters.google.com
+- ✓ <https://bughunters.google.com/about> — Google VRP - about
+- ✓ <https://cert-portal.siemens.com> — Panasonic / Siemens / ABB CERT portals (Siemens)
+- ✓ <https://certificate-transparency.org> — Certificate Transparency logs
+- ✓ <https://dell.com/support/security/en-us> — Dell Security Advisories
+- ✓ <https://help.salesforce.com/s/articleView?id=000384588&type=1> — Salesforce Trust - bug bounty
+- ✓ <https://huggingface.co/docs/hub/security> — Hugging Face security
+- ✓ <https://ibm.com/security/secure-engineering/bounty.html> — IBM PSIRT
+- ✓ <https://kraken.com/features/security> — Kraken Security
+- ✓ <https://medtronic.com/us-en/healthcare-professionals/product-security.html> — Medtronic Product Security
+- ✓ <https://mend.io/vulnerability-database> — Mend/WhiteSource vulnerability DB
+- ✓ <https://mozilla.org/en-US/security/advisories> — Mozilla Security Advisories
+- ✓ <https://nike.com/help/a/responsible-disclosure> — Nike - responsible disclosure
+- ✓ <https://nvidia.com/en-us/security> — NVIDIA Product Security
+- ✓ <https://oracle.com/corporate/security-practices/assurance/vulnerability/disclosure> — Oracle Vulnerability Disclosure Policy
+- ✓ <https://oracle.com/corporate/security-practices/testing/faq> — Oracle Security Testing Policy (no open bounty program)
+- ✓ <https://pentester.land/list-of-bug-bounty-writeups.html> — Pentester Land - list of bug bounty writeups
+- ✓ <https://qualcomm.com/company/product-security> — Qualcomm Product Security
+- ✓ <https://rapid7.com/db> — Rapid7 Vulnerability & Exploit Database
+- ✓ <https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html> — Cisco PSIRT & vulnerability policy
+- ✓ <https://security-tracker.debian.org/tracker> — Debian Security Tracker
+- ✓ <https://security.apple.com/bounty> — Apple Security Bounty
+- ✓ <https://security.salesforce.com> — Salesforce Security
+- ✓ <https://security.samsungmobile.com> — Samsung Mobile Security
+- ✓ <https://security.samsungmobile.com/rewardsProgram.smsb> — Samsung Security - rewards program
+- ✓ <https://securitylab.github.com> — GitHub Security Lab
+- ✓ <https://spotify.com/us/legal/vulnerability-disclosure-policy> — Spotify - responsible disclosure
+- ✓ <https://stripe.com/docs/security> — Stripe Security / bug bounty
+- ✓ <https://support.apple.com/en-us/100100> — Apple Security Releases
+- ✓ <https://support.apple.com/guide/security> — Apple Platform Security guide
+- ✓ <https://this.weekinsecurity.com> — This Week in Security
+- ✓ <https://ubuntu.com/security/notices> — Ubuntu Security Notices
+- ~ <https://cisa.gov/ics-advisories> — CISA ICS-CERT advisories
+- ~ <https://cisa.gov/news-events/cybersecurity-advisories?t=1648> — CISA - ICS advisories (industrial/OT vendors)
+- ~ <https://cisco.com/c/en/us/about/security-center/vulnerability-policy.html> — Cisco Bug Bounty
+- ~ <https://explore.zoom.us/en/trust> — Zoom Trust Center
+- ~ <https://helpx.adobe.com/security/alertus.html> — Adobe Security - bug bounty
+- ~ <https://infosecwriteups.com/tagged/bug-bounty> — InfoSec Writeups - bug bounty tag
+- ~ <https://intel.com/content/www/us/en/security-center/default.html> — Intel PSIRT / bug bounty
+- ~ <https://mastercard.com/en-us/personal/get-support/resolve-an-issue/vulnerability-disclosure.html> — Mastercard - bug bounty
+- ~ <https://netflixtechblog.com/tagged/security> — Netflix Tech Blog - security
+- ~ <https://pfizer.com/general/product-security> — Pfizer Vulnerability Disclosure
+- ~ <https://radar.cloudflare.com> — Cloudflare Radar
+- ~ <https://reddit.com/r/bugbounty> — r/bugbounty
+- ~ <https://reddit.com/r/websec> — r/WebSecurity
+- ~ <https://se.com/ww/en/work/support/cybersecurity/security-notifications.jsp> — Schneider Electric Cybersecurity Support Portal
+- ~ <https://sony.com/en/SonyInfo/security-disclosure> — Sony - vulnerability disclosure
+- ~ <https://support.broadcom.com/security-advisory> — VMware / Broadcom Security Response
+- ~ <https://support.lenovo.com/us/en/solutions/lps500184> — Lenovo Product Security
+- ~ <https://tesla.com/support/vulnerability-response> — Tesla - responsible disclosure
+- ✓ <http://123contactform.com/security-acknowledgements.htm> — 123Contact Form
+- ✓ <http://amzn.to/2jlvtyt> — Art of Software Security Assessment
+- ✓ <http://amzn.to/2jMKCWc> — Fuzzing for Software Security
+- ✓ <http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html> — Advisory: Java/Python FTP Injections Allow for Firewall Bypass
+- ✓ <http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html> — Creating custom peach fuzzer publishers
+- ✓ <http://blog.securityonion.net> — Security Onion
+- ✓ <http://ccssforum.org/malware-certificates.php>
+- ✓ <http://distrowatch.com/search.php?category=Security> — Security @ Distrowatch
+- ✓ <http://download.microsoft.com/download/8/0/1/801358EC-2A0A-4675-A2E7-96C2E7B93E73/Framework_for_Cybersecurity_Info_Sharing.pdf>
+- ✓ <http://eventespresso.com/report-a-security-vulnerability> — Event Espresso
+- ✓ <http://infosecurityeurope.com> — Infosecurity Europe
+- ✓ <http://kahusecurity.com/posts/registry_dumper_find_and_dump_hidden_registry_keys.html> — Registry Dumper
+- ✓ <http://kahusecurity.com/posts/revelo_javascript_deobfuscator.html> — Revelo
+- ✓ <http://mailchimp.com/about/security-response> — MailChimp
+- ✓ <http://manpages.ubuntu.com/manpages/trusty/man1/exif.1.html> — Exif
+- ✓ <http://modsecurity.org> — ModSecurity
+- ✓ <http://mulliner.org/blog/blosxom.cgi/security/androiddbiv02.html> — Android DBI framework
+- ✓ <http://networksecuritytoolkit.org> — Network Security Toolkit (NST)
+- ✓ <http://nullsecurity.net/tools/binary.html> — Hyperion
+- ✓ <http://omespino.com/write-up-telegram-bug-bounty-whatsapp-n-a-blind-xss-stored-ios-in-messengers-twins-who-really-care-about-your-security> — A blind XSS in messengers twins
+- ✓ <http://opensecuritytraining.info> — Open Security Training
+- ✓ <http://opensecuritytraining.info/Training.html> — Open Security Training
+- ✓ <http://pages.ebay.com/securitycenter/Researchers.html> — eBay
+- ✓ <http://pdf.textfiles.com/security/googlehackers.pdf> — Google Dorks Cheat Sheet
+- ✓ <http://pwnsecurity.net> — pwnsecurity.net
+- ✓ <http://securitybsides.com> — BSides
+- ✓ <http://securitycompass.github.io/AndroidLabs/setup.html> — ExploitMe Android Labs
+- ✓ <http://webappsec.org> — Web Application Security Consortium
+- ✓ <http://websecurity.com.ua>
+- ✓ <http://websecuritylog.com> — websecuritylog.com
+- ✓ <https://a.co/d/0bXISQgZ> — Fuzzing Against the Machine: Automate vulnerability research with emul…
+- ✓ <https://academy.8ksec.io> — 8kSec Academy – In-Depth Mobile & AI Security Courses
+- ✓ <https://acunetix.com/blog/web-security-zone/xss-google-acunetix> — XSS on Google using Acunetix
+- ✓ <https://admintoolkit.io/guides/dns-mail-security-methodology> — From DNS Evidence to a Finding: DNS and Mail Security Methodology
+- ✓ <https://allysonomalley.com> — iOS App Security, Penetration Testing, and Development
+- ✓ <https://ambionics.io> — Ambionics Security
+- ✓ <https://ampliasecurity.com/research/windows-credentials-editor> — Windows Credentials Editor
+- ✓ <https://app.hackinghub.io/hubs/nahamsec-bug-bounty-course> — NahamSec's Bug Bounty Course with 100+ Labs
+- ✓ <https://aptive.co.uk/blog/tls-ssl-security-testing> — SSL & TLS Penetration Testing
+- ✓ <https://auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html> — All you need to know about SSRF and how may we write tools to do auto-…
+- ✓ <https://belfercenter.org/publication/cybersecurity-campaign-playbook> — Cybersecurity Campaign Playbook
+- ✓ <https://binarymist.io/publication/docker-security> — Docker Security - Quick Reference: For DevOps Engineers
+- ✓ <https://blog.0daylabs.com/2019/09/18/deep-dive-into-Android-security> — Dive deep into Android Application Security
+- ✓ <https://blog.assetnote.io/bug-bounty/2019/03/19/rce-on-mozilla-zero-day-webpagetest> — Zero Day RCE on Mozilla's AWS Network
+- ✓ <https://blog.compass-security.com/2018/12/xss-worm-a-creative-use-of-web-application-vulnerability> — XSS worm  : a creative use of web application vulnerability
+- ✓ <https://blog.exodusintel.com/2016/05/18/exodus-intelligence-2016-training-course> — Exodus Intelligence - Vulnerability development master class
+- ✓ <https://blog.maple3142.net/2022/06/03/securityfest-ctf-2022-writeups> — SecurityFest CTF 2022 - tunnelvision
+- ✓ <https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection> — GitHub Enterprise SQL Injection
+- ✓ <https://blog.securitybreached.org/2017/10/10/bugcrowds-domain-subdomain-takeover-vulnerability> — Bugcrowd domain subdomain takeover vulnerability
+- ✓ <https://blog.securitybreached.org/2017/10/10/exploiting-insecure-cross-origin-resource-sharing-cors-api-artsy-net> — Exploiting insecure CORS API api.artsy.net
+- ✓ <https://blog.securitybreached.org/2017/10/10/subdomain-takeover-lamborghini-hacked> — Subdomain takeover vulnerability (Lamborghini Hacked)
+- ✓ <https://blog.securitybreached.org/2017/11/20/uber-wildcard-subdomain-takeover> — Uber wildcard subdomain takeover
+- ✓ <https://blog.securitybreached.org/2017/12/19/unrestricted-file-upload-to-rce-bug-bounty-poc> — Unrestricted file upload to RCE
+- ✓ <https://blog.securitybreached.org/2018/02/02/how-i-was-able-to-bypass-xss-protection-on-hackerones-private-program> — How I was able to bypass XSS protection on h1 private program
+- ✓ <https://blog.securitybreached.org/2018/09/07/rce-jenkins-instance-dosomething-org-bug-bounty-poc> — RCE jenkins instance
+- ✓ <https://blog.securitybreached.org/2018/09/08/sqli-bootcampnutanix-com-bug-bounty-poc> — SQLI bootcamp.nutanix.com
+- ✓ <https://blog.securitybreached.org/2018/09/09/zol-zimbabwe-authbypass-sqli-xss> — ZOL Zimbabwe Authentication Bypass to XSS & SQLi
+- ✓ <https://blog.securitybreached.org/2018/09/10/sqli-login-bypass-autotraders> — SQLI Authentication Bypass AutoTrader Webmail
+- ✓ <https://blog.securitybreached.org/2018/09/24/subdomain-takeover-via-unsecured-s3-bucket> — Subdomain takeover via unsecured s3 bucket
+- ✓ <https://blog.securitybreached.org/2020/03/31/microsoft-rce-bugbounty> — Microsoft RCE bugbounty
+- ✓ <https://blog.shakiltech.com/laravel-content-security-policy-guide> — Laravel Content Security Policy: Complete Implementation Guide
+- ✓ <https://bounty.github.com/submit-a-vulnerability.html> — GitHub
+- ✓ <https://bugbounty.jp> — Bugbountyjp
+- ✓ <https://bugbounty.linecorp.com/en> — Line
+- ✓ <https://bugbounty.paytm.com> — Paytm
+- ✓ <https://bugbountyhq.com> — BugbountyHQ
+- ✓ <https://bugbountypoc.com/instagram-account-is-reactivated-without-entering-2fa> — Instagram account is reactivated without entering 2FA
+- ✓ <https://capacitorset.github.io/mathjs> — How we exploited a remote code execution vulnerability in math.js
+- ✓ <https://cert.pl/en>
+- ✓ <https://certgrep.sh> — certgrep
+- ✓ <https://certkit.io/tools/ct-logs> — CertKit Certificate Search
+- ✓ <https://certstream.calidog.io>
+- ✓ <https://certstream.dev/free-certstream-api.html> — CertStream API
+- ✓ <https://cgsecurity.org> — TestDisk & PhotoRec
+- ✓ <https://cgsecurity.org/wiki/TestDisk> — testdisk
+- ✓ <https://clickup.com/bug-bounty> — ClickUp
+- ✓ <https://code.google.com/p/asef> — Android Security Evaluation Framework
+- ✓ <https://code.google.com/p/chromium/issues/entry?template=Security%20Bug> — Chromium Project
+- ✓ <https://codingninjas.com/bug-bounty> — Coding Ninjas
+- ✓ <https://computer.org/csdl/proceedings-article/sp/2024/313000a070/1RjEaG9OpTa> — SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices, …
+- ✓ <https://computer.org/csdl/proceedings-article/sp/2025/223600a066/21B7Ray6BkA> — Predator: Directed Web Application Fuzzing for Efficient Vulnerability…
+- ✓ <https://computer.org/csdl/proceedings-article/sp/2025/223600c865/26hiVb0gXUA> — CHIMERA: Fuzzing P4 Network Infrastructure for Multi-Plane Bug Detecti…
+- ✓ <https://computer.org/csdl/proceedings-article/sp/2025/223600d507/26hiVy3bGHm> — HouseFuzz: Service-Aware Grey-Box Fuzzing for Vulnerability Detection …
+- ✓ <https://computer.org/csdl/proceedings/iccsa/2008/3243/00/3243a019-abs.html> — Call-Flow Aware API Fuzz Testing for Security of Windows Systems, 2008
+- ✓ <https://conference.auscert.org.au> — Auscert2019
+- ✓ <https://corp.badoo.com/en/security> — Badoo
+- ✓ <https://crcpress.com/Android-Security-Attacks-and-Defenses/Misra-Dubey/p/book/9780367380182> — Android Security: Attacks and Defenses
+- ✓ <https://distrowatch.com/search.php?category=Security> — DistroWatch.com's Security Category
+- ✓ <https://docs.google.com/spreadsheet/pub?key=0Am5hHW4ATym7dGhFU1A4X2lqbUJtRm1QSWNRc3E0UlE&single=true&gid=0&output=html> — Vulnerability Google Doc
+- ✓ <https://docs.microsoft.com/en-us/security-updates> — Microsoft Security Advisories and Bulletins
+- ✓ <https://doi.org/10.1109/sp63933.2026.00002> — Camveil: Unveiling Security Camera Vulnerabilities through Multi-Proto…
+- ✓ <https://doi.org/10.1109/sp63933.2026.00237> — Web Application Vulnerability Repair via Context-Aware Fault Localizat…
+- ✓ <https://enablesecurity.com> — @EnableSecurity
+- ✓ <https://enablesecurity.com/blog/slack-webrtc-turn-compromise-and-bug-bounty> — How we abused Slack's TURN servers to gain access to internal services
+- ✓ <https://energy.gov/ceser/cybersecurity-capability-maturity-model-c2m2>
+- ✓ <https://findsecuritycontacts.com> — Find Security Contacts
+- ✓ <https://forensics.cert.org> — The Appliance for Digital Investigation and Analysis (ADIA)
+- ✓ <https://github.blog/2017-02-22-githubs-bug-bounty-workflow> — A glimpse into GitHub's Bug Bounty workflow
+- ✓ <https://github.blog/security/vulnerability-research/execute-commands-by-sending-json-learn-how-unsafe-deserialization-vulnerabilities-work-in-ruby-projects>
+- ✓ <https://gitlab.com/rawsec/rawsec-cybersecurity-list> — Source
+- ✓ <https://google.com/about/appsecurity/android-rewards> — Android Security Reward Program
+- ✓ <https://google.com/about/appsecurity/reward-program/index.html> — Google VRP
+- ✓ <https://google.com/intl/sw/about/appsecurity/learning/xss> — Cross-Site Scripting – Application Security – Google
+- ✓ <https://gosecure.net/blog/2020/04/06/bypassing-xamarin-certificate-pinning-on-android> — Bypassing Xamarin Certificate Pinning
+- ✓ <https://guides.rubyonrails.org/security.html> — Official Rails Security Guide
+- ✓ <https://hackademic.co.in/how-a-classical-xss-can-lead-to-persistent-ato-vulnerability> — How a classical XSS can lead to persistent  ATO vulnerability
+- ✓ <https://hackernoon.com/hands-on-mobile-api-security-get-rid-of-client-secrets-a79f111b6844> — Hands On Mobile API Security
+- ✓ <https://hackmd.io/s/SkuTVw5O-> — Rails Security - First part
+- ✓ <https://hacknpentest.com/dom-based-xss-bug-bounty-writeup> — DOM Based XSS bug bounty writeup
+- ✓ <https://hardenwindows10forsecurity.com> — Hardening Windows 10
+- ✓ <https://hexhive.epfl.ch/publications/files/23Oakland.pdf> — TEEzz: Fuzzing Trusted Applications on COTS Android Devices, 2023
+- ✓ <https://hoppersroppers.org/security> — gitbook
+- ✓ <https://hub.docker.com/r/diogomonica/docker-bench-security> — Docker Bench for Security
+- ✓ <https://hub.docker.com/r/hmlio/vaas-cve-2014-0160> — Vulnerability as a service: Heartbleed
+- ✓ <https://hub.docker.com/r/hmlio/vaas-cve-2014-6271> — Vulnerability as a service: Shellshock
+- ✓ <https://hub.docker.com/r/ismisepaul/securityshepherd> — OWASP Security Shepherd
+- ✓ <https://hub.docker.com/r/opendns/security-ninjas> — Security Ninjas

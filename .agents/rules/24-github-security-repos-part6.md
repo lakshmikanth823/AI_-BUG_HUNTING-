@@ -1,0 +1,236 @@
+---
+trigger: model_decision
+description: "GitHub security orgs, awesome-lists and repositories worth cloning. Use when sourcing or recommending a codebase. (part 6/9)"
+---
+
+# Security Research Link Corpus — GitHub Security Repos & Awesome Lists
+
+Part 6 of 9. 227 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://github.com/misiektoja/lastfm_monitor> — lastfm_monitor
+- ✓ <https://github.com/misiektoja/lol_monitor> — lol_monitor
+- ✓ <https://github.com/misiektoja/psn_monitor> — psn_monitor
+- ✓ <https://github.com/misiektoja/spotify_monitor> — spotify_monitor
+- ✓ <https://github.com/misiektoja/spotify_profile_monitor> — spotify_profile_monitor
+- ✓ <https://github.com/misiektoja/steam_monitor> — steam_monitor
+- ✓ <https://github.com/misiektoja/xbox_monitor> — xbox_monitor
+- ✓ <https://github.com/MISP/cti-transmute>
+- ✓ <https://github.com/MISP/MISP-Taxii-Server>
+- ✓ <https://github.com/MISP/misp-workbench>
+- ✓ <https://github.com/mitre/caldera> — Caldera
+- ✓ <https://github.com/mitre/cti>
+- ✓ <https://github.com/mkishere/sshsyrup> — sshsyrup
+- ✓ <https://github.com/mkorman90/VolatilityBot> — VolatilityBot
+- ✓ <https://github.com/mmiszczyk/deepmage> — deepmage
+- ✓ <https://github.com/Mobile-IoT-Security-Lab/ARMANDroid> — ARMANDroid
+- ✓ <https://github.com/MobileForensicsResearch/mem> — Mem
+- ✓ <https://github.com/Mojachieee/go-HoneyPot> — go-HoneyPot
+- ✓ <https://github.com/moloch--/RootTheBox> — RootTheBox
+- ✓ <https://github.com/momenbasel/keyFinder> — keyFinder
+- ✓ <https://github.com/Moresyl/metaclean> — MetaClean
+- ✓ <https://github.com/morian/blacknet> — Blacknet
+- ✓ <https://github.com/moxie0/AndroidPinning> — Android Pinning
+- ✓ <https://github.com/moyix/creddump> — Creddump
+- ✓ <https://github.com/moyix/panda> — PANDA ( Platform for Architecture-Neutral Dynamic Analysis )
+- ✓ <https://github.com/mozilla/MozDef> — MozDef
+- ✓ <https://github.com/mozilla/sops> — Sops
+- ✓ <https://github.com/MozillaSecurity/grizzly> — Grizzly
+- ✓ <https://github.com/MozillaSecurity/peach> — MozPeach
+- ✓ <https://github.com/mpast/mobileAudit> — Mobile Audit
+- ✓ <https://github.com/mpesen/awesome-industrial-control-system-security> — Awesome Industrial Control System Security
+- ✓ <https://github.com/mrexodia/ida-pro-mcp> — ida-pro-mcp
+- ✓ <https://github.com/mrheinen/lophiid> — Lophiid
+- ✓ <https://github.com/mrschyte/dockerpot> — Dockerpot
+- ✓ <https://github.com/mschwager/fierce> — fierce
+- ✓ <https://github.com/msurguy/Honeypot> — Laravel Application Honeypot
+- ✓ <https://github.com/muhammedalikcb/securecheck> — SecureCheck
+- ✓ <https://github.com/mushorg/conpot> — Conpot
+- ✓ <https://github.com/mushorg/glastopf> — Glastopf
+- ✓ <https://github.com/mushorg/glutton> — glutton
+- ✓ <https://github.com/mushorg/imhoneypot> — IMHoneypot
+- ✓ <https://github.com/mushorg/snare> — Snare
+- ✓ <https://github.com/mushorg/tanner> — Tanner
+- ✓ <https://github.com/MutableSecurity/mutablesecurity> — MutableSecurity
+- ✓ <https://github.com/muteb/Hoarder> — Hoarder
+- ✓ <https://github.com/mvt-project/mvt> — MVT (Mobile Verification Toolkit)
+- ✓ <https://github.com/mwielgoszewski/doorman> — Doorman
+- ✓ <https://github.com/mwielgoszewski/python-paddingoracle> — python-paddingoracle
+- ✓ <https://github.com/mwrlabs/dref> — dref
+- ✓ <https://github.com/mwrlabs/drozer> — Drozer
+- ✓ <https://github.com/mwrlabs/drozer/releases/download/2.3.4/sieve.apk> — Sieve app
+- ✓ <https://github.com/mwrlabs/needle> — Needle
+- ✓ <https://github.com/mxmssh/drltrace> — drltrace
+- ✓ <https://github.com/mxrch/GHunt> — Ghunt
+- ✓ <https://github.com/mycert/ESPot> — ESPot
+- ✓ <https://github.com/n00py/Hwacha> — Hwacha
+- ✓ <https://github.com/n0kovo/awesome-password-cracking> — Password Cracking
+- ✓ <https://github.com/n1nj4sec/pupy> — Pupy
+- ✓ <https://github.com/nabla-c0d3/ssl-kill-switch2> — SSL Kill Switch 2
+- ✓ <https://github.com/nabla-c0d3/sslyze> — SSLyze
+- ✓ <https://github.com/Nakiami/mellivora> — Mellivora
+- ✓ <https://github.com/naorlivne/dshp> — Damn Simple Honeypot (DSHP)
+- ✓ <https://github.com/nbs-system/naxsi> — NAXSI
+- ✓ <https://github.com/nccgroup/featherduster> — featherduster
+- ✓ <https://github.com/nccgroup/hodor> — Hodor Fuzzer
+- ✓ <https://github.com/nccgroup/house> — House
+- ✓ <https://github.com/nccgroup/redsnarf> — redsnarf
+- ✓ <https://github.com/nccgroup/SCOMDecrypt> — SCOMDecrypt
+- ✓ <https://github.com/nccgroup/singularity> — Singularity of Origin
+- ✓ <https://github.com/nccgroup/sobelow> — sobelow
+- ✓ <https://github.com/ncouture/MockSSH> — MockSSH
+- ✓ <https://github.com/Ne0nd0g/merlin> — Merlin
+- ✓ <https://github.com/Nekmo/dirhunt> — dirhunt
+- ✓ <https://github.com/nelenkov/android-backup-extractor> — Android backup extractor
+- ✓ <https://github.com/nelenkov/android-device-check> — android-device-check - a set of scripts to check Android device securi…
+- ✓ <https://github.com/nemesida-waf/waf-bypass> — WAF Bypass Tool
+- ✓ <https://github.com/Neo23x0/Fenrir> — Fenrir
+- ✓ <https://github.com/Neo23x0/Loki> — LOKI
+- ✓ <https://github.com/Neo23x0/munin> — Munin
+- ✓ <https://github.com/Neo23x0/Raccine> — Raccine
+- ✓ <https://github.com/Neo23x0/signature-base>
+- ✓ <https://github.com/Neo23x0/yarGen> — yarGen
+- ✓ <https://github.com/Netflix-Skunkworks/diffy> — Diffy
+- ✓ <https://github.com/Netflix/Scumblr>
+- ✓ <https://github.com/netsniff-ng/netsniff-ng> — netsniff-ng
+- ✓ <https://github.com/netzob/netzob> — Netzob
+- ✓ <https://github.com/NewEraCracker/LOIC> — Low Orbit Ion Canon (LOIC)
+- ✓ <https://github.com/NextronSystems/APTSimulator> — APTSimulator
+- ✓ <https://github.com/ngalongc/bug-bounty-reference> — Bug Bounty Reference
+- ✓ <https://github.com/Nhoya/gOSINT> — gOSINT
+- ✓ <https://github.com/nicholasaleks/Awesome-Drone-Hacking> — Drone Hacking
+- ✓ <https://github.com/NickstaDB/BaRMIe> — BaRMIe
+- ✓ <https://github.com/NickstaDB/SerializationDumper> — SerializationDumper
+- ✓ <https://github.com/Nightbringer21/fridump> — Fridump
+- ✓ <https://github.com/niklasb/libc-database> — libc-database
+- ✓ <https://github.com/nil0x42/duplicut> — duplicut
+- ✓ <https://github.com/nil0x42/phpsploit> — PhpSploit
+- ✓ <https://github.com/nixawk/pentest-wiki> — PENTEST-WIKI
+- ✓ <https://github.com/nodejs/LTS> — node.js LTS schedule
+- ✓ <https://github.com/Noelo-Lab/kuna> — kuna
+- ✓ <https://github.com/nonce-disrespect/nonce-disrespect> — nonce-disrespect
+- ✓ <https://github.com/NorthwaveNL/fridax> — Fridax
+- ✓ <https://github.com/NotSoSecure/android_application_analyzer> — Android_application_analyzer
+- ✓ <https://github.com/noveogroup/android-check> — Android Check – Static Code analysis plugin for Android Project
+- ✓ <https://github.com/novoda/gradle-static-analysis-plugin> — Gradle Static Analysis Plugin
+- ✓ <https://github.com/nox-project/nox-framework> — NOX
+- ✓ <https://github.com/NPCmillionaire/dread-scraper> — Dread Scraper
+- ✓ <https://github.com/nsmfoo/antivmdetection> — Antivmdetect
+- ✓ <https://github.com/nsmfoo/dicompot> — dicompot
+- ✓ <https://github.com/NtQuery/Scylla> — Scylla
+- ✓ <https://github.com/NullArray/AutoSploit> — AutoSploit
+- ✓ <https://github.com/nwhusted/AuditdAndroid> — AuditdAndroid
+- ✓ <https://github.com/obitouka/InstagramPrivSniffer> — InstagramPrivSniffer
+- ✓ <https://github.com/obsidianforensics/hindsight> — Hindsight
+- ✓ <https://github.com/ocmdev/rita>
+- ✓ <https://github.com/oguzhantopgul/Vezir-Project> — Vezir Project
+- ✓ <https://github.com/oguzy/ovizart> — ovizart
+- ✓ <https://github.com/ohjeongwook/DarunGrim> — DarunGrim
+- ✓ <https://github.com/olafhartong/sysmon-modular> — sysmon-modular
+- ✓ <https://github.com/omererdem/honeything> — HoneyThing
+- ✓ <https://github.com/OMH4ck/BuzzBee> — BuzzBee
+- ✓ <https://github.com/onethawt/idaplugins-list> — onehawt IDA Plugin List
+- ✓ <https://github.com/onethawt/reverseengineering-reading-list> — Reverse Engineering
+- ✓ <https://github.com/onlurking/awesome-infosec> — Infosec
+- ✓ <https://github.com/openai/codex> — Codex
+- ✓ <https://github.com/openappsec/openappsec> — open-appsec
+- ✓ <https://github.com/OpenRCE/sulley> — Sulley
+- ✓ <https://github.com/OpenSOC/opensoc> — OpenSOC
+- ✓ <https://github.com/opsdisk/pagodo> — pagodo
+- ✓ <https://github.com/orlikoski/CyLR> — CyLR
+- ✓ <https://github.com/OsandaMalith/IPObfuscator> — IPObfuscator
+- ✓ <https://github.com/OSINTI4L/cupidcr4wl> — Cupidcr4wl
+- ✓ <https://github.com/outflanknl/RedELK> — RedELK
+- ✓ <https://github.com/OWASP/Amass> — OWASP Amass
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_ar> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP_Application_Security_Verification_Standard_5.0.0_en.csv> — OWASP Application Security Verification Standard 5.0.0 English (CSV)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_en/OWASP_Application_Security_Verification_Standard_5.0.0_en.docx> — OWASP Application Security Verification Standard 5.0.0 English (Word)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_fa> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_fr> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_id> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_ko> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_pl> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_pt> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_ru> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_tr> — other formats
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/docs_zh-cn> — other formats
+- ✓ <https://github.com/OWASP/ASVS/tree/v5.0.0> — OWASP Application Security Verification Standard 5.0.0 (GitHub Branch)
+- ✓ <https://github.com/OWASP/CheatSheetSeries> — Security Cheatsheets
+- ✓ <https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Mass_Assignment_Cheat_Sheet.md> — Mass_Assignment_Cheat_Sheet
+- ✓ <https://github.com/OWASP/mastg/releases/latest> — Get the latest Mobile App Security Checklists
+- ✓ <https://github.com/OWASP/masvs> — OWASP Mobile Application Verification Standard (MASVS)
+- ✓ <https://github.com/OWASP/maswe> — OWASP Mobile Security Weakness Enumeration (MASWE)
+- ✓ <https://github.com/OWASP/MSTG-Hacking-Playground> — MSTG Hacking Playground
+- ✓ <https://github.com/owasp/nodegoat> — OWASP NodeGoat
+- ✓ <https://github.com/OWASP/owasp-mstg> — OWASP Mobile Security Testing Guide Manual
+- ✓ <https://github.com/OWASP/owasp-mstg/tree/master/Crackmes> — UnCrackable Mobile Apps
+- ✓ <https://github.com/OWASP/Python-Honeypot> — Python-Honeypot
+- ✓ <https://github.com/OWASP/SecurityShepherd> — SecurityShepherd
+- ✓ <https://github.com/OWASP/wstg/contribute> — GitHub's suggestions for first-time contributors
+- ✓ <https://github.com/OWASP/wstg/releases/tag/v4.2> — check release 4.2
+- ✓ <https://github.com/OWASP/wstg/tree/master/document> — read the current document here on GitHub
+- ✓ <https://github.com/P0cL4bs/Kadimus> — Kadimus
+- ✓ <https://github.com/P0cL4bs/wifipumpkin3> — WiFi-Pumpkin3
+- ✓ <https://github.com/P1kachu/v0lt> — V0lt
+- ✓ <https://github.com/p1ngul1n0/blackbird> — Blackbird
+- ✓ <https://github.com/packing-box/awesome-executable-packing> — Executable Packing
+- ✓ <https://github.com/PagerDuty/incident-response-docs> — GitHub
+- ✓ <https://github.com/PalindromeLabs/awesome-websocket-security> — Awesome WebSocket Security
+- ✓ <https://github.com/PaloAltoNetworks/minemeld/wiki>
+- ✓ <https://github.com/panda-re/panda> — panda
+- ✓ <https://github.com/Paradoxis/StegCracker> — StegCracker
+- ✓ <https://github.com/paragonie/awesome-appsec> — AppSec
+- ✓ <https://github.com/paranoidninja/CarbonCopy> — CarbonCopy
+- ✓ <https://github.com/patriksimek/vm2/issues/533>
+- ✓ <https://github.com/PaulMaddox/gohoney> — gohoney
+- ✓ <https://github.com/paulpc/nyx>
+- ✓ <https://github.com/PaulSec/awesome-windows-domain-hardening> — Windows Domain Hardening
+- ✓ <https://github.com/PaulSec/Shodan.io-mobile-app> — Shodan.io-mobile-app for Android
+- ✓ <https://github.com/pdautry/py_chall_factory> — PyChallFactory
+- ✓ <https://github.com/pentestmonkey/unix-privesc-check> — unix-privesc-check
+- ✓ <https://github.com/PeterGabaldon/Fortigate.VPN-SSL.Honeypot> — FortiGate SSL-VPN Honeypot
+- ✓ <https://github.com/pfalcon/ScratchABit> — ScratchABit
+- ✓ <https://github.com/pFarb/awesome-crypto-papers> — Awesome Crypto Papers
+- ✓ <https://github.com/pfq/PFQ> — PFQ
+- ✓ <https://github.com/phin3has/mailoney> — Mailoney
+- ✓ <https://github.com/Phype/telnet-iot-honeypot> — telnet-iot-honeypot
+- ✓ <https://github.com/pimps/gopher-tomcat-deployer>
+- ✓ <https://github.com/pixel/hexedit> — hexedit
+- ✓ <https://github.com/pjlantz/droidbox> — Droidbox
+- ✓ <https://github.com/pjlantz/Hale> — Hale
+- ✓ <https://github.com/plasma-disassembler/plasma> — plasma
+- ✓ <https://github.com/plum-umd/redexer> — Redexer
+- ✓ <https://github.com/pmd/pmd> — PMD – An extensible multilanguage static code analyzer
+- ✓ <https://github.com/polycarbohydrate/awesome-tor> — Tor
+- ✓ <https://github.com/pompelmi/pompelmi> — Pompelmi
+- ✓ <https://github.com/portantier/habu> — Habu
+- ✓ <https://github.com/ppacher/honeyssh> — honeyssh
+- ✓ <https://github.com/praetorian-inc/GitPhish> — GitPhish
+- ✓ <https://github.com/programa-stic/barf-project> — Barf
+- ✓ <https://github.com/programa-stic/marvin-django> — Marvin - Analyzes Android applications and allows tracking of an app
+- ✓ <https://github.com/prompt-security/ps-fuzz> — Prompt Fuzzer
+- ✓ <https://github.com/proseltd/Telepathy-Community> — Telepahty
+- ✓ <https://github.com/provos/honeyd> — Honeyd
+- ✓ <https://github.com/pry0cc/axiom> — Axiom
+- ✓ <https://github.com/psu-security-universe/countdown> — CountDown
+- ✓ <https://github.com/PSU-Security-Universe/sqlright> — SQLRight
+- ✓ <https://github.com/Ptr32Void/OSTrICa>
+- ✓ <https://github.com/ptswarm/reFlutter> — reFlutter
+- ✓ <https://github.com/puppet-meteor/MINER> — MINER
+- ✓ <https://github.com/puppet-meteor/MOpt-AFL> — MOpt-AFL
+- ✓ <https://github.com/puresec/awesome-serverless-security> — Serverless Security
+- ✓ <https://github.com/purseclab/fuzzusb> — FuzzUSB
+- ✓ <https://github.com/pwittchen/android-quality-starter> — Android Quality Starter
+- ✓ <https://github.com/pwntester/ysoserial.net> — ysoserial.net
+- ✓ <https://github.com/pxb1988/dex2jar> — dex2jar
+- ✓ <https://github.com/qazbnm456/awesome-cve-poc> — awesome-cve-poc
+- ✓ <https://github.com/qazbnm456/VWGen> — VWGen
+- ✓ <https://github.com/qeeqbox/honeypots> — honeypots
+- ✓ <https://github.com/qeeqbox/social-analyzer> — social-analyzer
+- ✓ <https://github.com/qilingframework/qiling> — qiling
+- ✓ <https://github.com/qtc-de/remote-method-guesser> — remote-method-guesser
+- ✓ <https://github.com/QTek/QRadio>
+- ✓ <https://github.com/quark-engine/quark-engine> — quark-engine - An Obfuscation-Neglect Android Malware Scoring System
+- ✓ <https://github.com/quarkslab/android-fuzzing> — QuarksLab's Android Fuzzing
+- ✓ <https://github.com/QuoSecGmbH/grap> — grap
+- ✓ <https://github.com/quozd/awesome-dotnet> — .NET Programming
+- ✓ <https://github.com/r00t-3xp10it/morpheus> — Morpheus

@@ -1,0 +1,33 @@
+{
+ "generated": "2026-10-29",
+ "raw_harvested": 22500,
+ "unique_after_dedupe": 11094,
+ "final_kept": 9879,
+ "core_relevance": 9012,
+ "adjacent_relevance": 867,
+ "live_verified_http200": 7428,
+ "antibot_but_valid": 2451,
+ "dropped_dead": 804,
+ "dropped_unsafe_ssrf": 33,
+ "dropped_low_value": 378,
+ "by_category": {
+  "platforms-bounty-programs": 1041,
+  "communities-forums": 22,
+  "writeups-bug-bounty": 220,
+  "enterprise-programs-top500": 381,
+  "github-security-repos": 1972,
+  "vuln-classes-reference": 1521,
+  "books-courses": 179,
+  "ai-llm-security": 118,
+  "youtube-media": 360,
+  "tools-exploitation": 1474,
+  "methodology-cheatsheets": 108,
+  "standards-databases": 106,
+  "writeups-ctf": 717,
+  "labs-vulnerable-apps": 116,
+  "ctf-platforms-labs": 113,
+  "mobile-api-cloud-iot": 136,
+  "tools-recon": 1295
+ },
+ "bounty_programs_indexed": 946
+}

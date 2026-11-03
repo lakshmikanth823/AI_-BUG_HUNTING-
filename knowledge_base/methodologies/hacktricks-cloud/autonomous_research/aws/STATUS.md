@@ -1,0 +1,1206 @@
+# AWS audit — status
+
+Last updated: 2026-10-01
+
+## Active 2026-09-27 checkpoint
+
+Research remains active on branch `research/aws-technique-audit-2` and PR #428. The current sweep added or substantially refreshed public enumeration and attack coverage for Customer Profiles, Invoicing and Billing, Resource Explorer 2, User Notifications, Payment Cryptography, Supply Chain, Verified Permissions, Clean Rooms/Clean Rooms ML, WorkSpaces Web, Billing Data Exports, Network Manager/Cloud WAN, End User Messaging Social, AppFabric, Mainframe Modernization, and Migration Hub Refactor Spaces, WorkSpaces Thin Client, Migration Hub Orchestrator, AppIntegrations, Application Discovery Service, core Migration Hub, Migration Hub Strategy Recommendations, MemoryDB, and Resilience Hub (including the September 2026 next-generation API), Glue, Redshift/Redshift Serverless, S3 Tables, S3 Vectors, Backup Search, Entity Resolution, Timestream, and Bedrock Data Automation, Systems Manager GUI Connect, Billing Conductor, License Manager, WorkMail Message Flow, the separate Amazon Connect voice Contact Lens transcript API, and the WorkSpaces Instances AMI/user-data/instance-profile launch path, plus Lambda durable-execution history disclosure and callback result injection and CloudWatch Observability Admin telemetry-pipeline anti-forensics. The latest live Amplify branch test also proved that exact-branch `UpdateBranch` environment-variable control plus `StartJob` can activate a repository-local runtime hook and access AWS resources as the app's existing service role, without caller-side `iam:PassRole` or downstream access. Amplify `CreateWebHook` was also verified as exact-branch, credential-less trigger persistence: an unsigned URL created a build job after the creating IAM user and key were deleted. New AWS PCS coverage maps the cluster, queue and compute-group attack surface and documents theft of the shared Slurm authentication key or REST JWT signing key through `GetCluster` plus an independently authorized Secrets Manager read. Amazon Connect coverage now includes `CreateParticipant` as the control-plane-to-bearer bridge for adding a custom chat bot or WebRTC customer to a known active contact without a Connect user login. Amazon EVS coverage now maps environment/host/VLAN/connector exposure and the separate IAM gates for recovering EVS-managed VCF, ESX root and connector appliance credentials from Secrets Manager. SageMaker HyperPod coverage now includes the cluster-only `UpdateClusterSoftware` custom-AMI path: it replaces node root volumes and can run as the existing instance-group role without caller-side `iam:PassRole`, subject to same-account image and orchestrator constraints. Every published technique includes its minimum permissions and prerequisites, impact or persistence scope, stealth assessment, and a compact logs-generated table. Per-service ledgers record successful and negative live branches, authorization boundaries, telemetry, and final cleanup evidence.
+
+Unexpected security-impact findings are not published in this repository. Confirmed candidates from this sweep are documented only in the restricted local AWS report directory for separate disclosure.
+
+Cleanup exception currently being monitored: a pre-existing HealthImaging test image-set version remains in an AWS-controlled workflow that blocks deletion of its tagged research datastore. Fresh exact child and parent deletion attempts still fail; the issue and cleanup identifiers are maintained only in the private AWS report. All supporting buckets, roles and secondary image sets are absent. Do not mark this audit fully cleaned until both the exact image set and datastore are confirmed absent.
+
+The Application Auto Scaling custom-resource signed-request candidate is now closed: the exact AWS reference URL shape reached the current integration, but registration-only access was rejected by the documented caller-side validation for API Gateway GET/PATCH and CloudWatch permissions. All owned endpoint and service-linked-role fixtures were deleted.
+
+CodeGuru Security is closed as a reasoned exclusion: the live scan API now returns the service's post-retirement `FeatureNoLongerAvailableException`; only inert default configuration and zero metrics remain readable. No public page was added and no state was changed.
+
+Current next check: continue the missing-service/action sweep, prioritizing services with cross-account resource policies, credential/data export, stored service roles, mutable execution configuration, and unauthenticated identifiers. Re-test older exclusions when service capabilities or SDK models have materially changed.
+
+## cont.171 (2026-10-01) — Amplify UI Builder codegen
+
+- SHIPPED #175: added the missing `amplifyuibuilder` inventory and exact-job recovery of the full generic data schema plus presigned generated React source. Live least-privilege testing required `GetCodegenJob` on the exact job ARN and `amplify:GetApp` on the exact parent app; no list, component/form/theme read, write, IAM, build or deployment permission was present.
+- Documented the manifest-of-presigned-files format, source/schema impact, High stealth and compact CloudTrail/download telemetry. Also added the public CVE-2025-4318 upgrade and generated-diff review warning without exposing current private research.
+- A current unexpected security-impact code-generation issue was confirmed in the managed service and upstream 2.20.7 renderer. Details remain only in the restricted local AWS report directory pending AWS review.
+- All disposable apps/forms/jobs and IAM users/policies/keys were deleted; final matching app and principal inventories were empty. No branch, backend, repository, build, deployment, role, secret, Figma token, data record or paid workload was created. See `amplify-ui-builder/audit-2026-10-01.md`.
+
+## cont.170 (2026-10-01) — AWS Telco Network Builder retirement
+
+- Closed TNB as a current zero-coverage lead. Historical NSD packages could bundle Bash lifecycle hooks, select a CodeBuild-assumable `execution_role`, and run during network instantiation; AWS's own example hook role has `AdministratorAccess`. Package reads, lifecycle replacement and termination were additional historical candidates.
+- The service is no longer usable: five signed September 23 writes all produced `AWS Telco Network Builder is deprecated. All API operations are blocked.` in CloudTrail, and on October 1 the documented regional endpoints no longer resolved. Current API/IAM/quota documentation remains stale and must not be mistaken for availability.
+- No public page was added because the techniques are dead and the exact caller-side hook-role PassRole checkpoint cannot be retested. No private report was opened. This pass was read-only and created no AWS resources; see `tnb/audit-2026-10-01.md`.
+
+## cont.169 (2026-10-01) — Partner Central Selling API
+
+- SHIPPED #172: added the missing Selling inventory and exact-resource recovery of customer PII/account IDs, Partner/AWS contacts, project/sales pipeline, expected spend, associations, scores/recommendations and software commitment/discount terms from Opportunities, AWS summaries, invitations and snapshots.
+- SHIPPED #173: documented exact Opportunity workflow abuse: full replacement treats omitted fields as null, assignment/association writes can divert ownership or commercial links, submission locks edits during AWS review, and referral rejection removes receiver access.
+- SHIPPED #174: documented Partner Central Selling service-level persistence through an accepted external Engagement member plus permanent immutable snapshot access, and continued automatic publication through the account-wide passed snapshot-job role and an existing target-bound job.
+- Live probes established the `us-east-1`-only endpoint, active-Partner gate, exact Opportunity/Catalog scoping, required exact-role PassRole and functional `iam:PassedToService=resource-snapshot-job.partnercentral-selling.amazonaws.com`. Failed reads/writes were default CloudTrail events with null request/response/resource fields.
+- All three disposable IAM users/policies/keys were deleted; final `ht-pcs-*` user/role inventories were empty. No Partner record, role, setting, job, invitation or external workflow changed. Expected functionality only, no private report and no cleanup debt.
+
+## cont.168 (2026-10-01) — Partner Central Channel API
+
+- SHIPPED #170: added the missing Channel inventory and documented PMA/relationship/handshake reads that expose reseller, customer and billing-transfer topology, account IDs, programs, sectors and service-period terms.
+- SHIPPED #171: documented benefit diversion through attacker-controlled PMAs/relationships, mutual-consent service-period manipulation, support-request changes and relationship/PMA removal, with explicit Partner enrollment, target acceptance, state and AWS-validation boundaries.
+- The global endpoint accepted three Region inputs. In the non-enrolled lab, every sender/receiver handshake inventory succeeded empty, while PMA/relationship lists and correctly shaped PMA creates in both catalogs stopped at `INCOMPATIBLE_BENEFIT_AWS_PARTNER_STATE`. No Partner resource was created.
+- A disposable principal proved `ListChannelHandshakes` needs `Resource: "*"` in an empty discovery context; `partnercentral:Catalog` and `partnercentral:ChannelHandshakeType` correctly restricted that wildcard. All test users, policies and keys were deleted; final matching principals were absent. Expected functionality only, no private report and no new cleanup debt.
+
+## cont.167 (2026-10-01) — Partner Central Benefits API
+
+- SHIPPED #168: added the missing Benefits inventory and documented exact-allocation recovery of literal AWS promotional credit codes plus account/value/status/expiry and cash/consumable/access fulfillment data.
+- SHIPPED #169: documented full Benefit Application evidence recovery (benefit-specific JSON, workflow reasons, contacts, files and related resources) plus exact-application financial/workflow abuse: the documented amendment path can change the requested credit account, while draft replacement, recall/update/resubmit and permanent cancellation enable fraud or denial subject to state, revision, validation and AWS approval.
+- Live probes established authentication, `us-east-1` endpoint, Partner-enrollment gate and `partnercentral-benefits.amazonaws.com` management telemetry. The non-enrolled account could not distinguish allowed/different synthetic allocation ARNs because the business gate ran first, so public text identifies documentation-grounded versus live results explicitly.
+- The disposable IAM user/policy/access key was deleted; final matching users/roles were empty. No Benefit, Application, Allocation, tag, file, resource association, Marketplace object, credit, disbursement or external workflow was created or changed. Expected functionality only; no private report and no cleanup debt.
+
+## cont.166 (2026-10-01) — Partner Central Account API
+
+- SHIPPED #167: added the missing `partnercentral-account` service inventory plus wildcard `GetVerification` recovery of business registration/workflow data and time-limited completion URLs, and exact-resource recovery of alliance contact PII, verified training domains, relationship account IDs, invitation content and qualification topology.
+- Live calls established the `us-east-1` endpoint, authentication requirement, empty AWS/Sandbox inventories, default connection preferences, CloudTrail source, wildcard verification resource boundary and functional `partnercentral:VerificationType` separation. No Partner enrollment or workflow existed, so documented response fields are not presented as a live recovered token.
+- Profile/contact poisoning, qualification transfer, connection disruption and invitation-message hypotheses remain queued until a reversible enrolled Partner fixture exists. All disposable IAM users, policies and access keys were deleted; no Partner Central state or preference was mutated and final matching IAM inventories were empty.
+
+## cont.165 (2026-10-01) — SimpleDB v2 domain export
+
+- SHIPPED #166 (new March 2026 API + exact-resource authorization): `sdb:StartDomainExport` can asynchronously copy a complete SimpleDB domain as JSON to same-account, cross-Region or explicitly supported cross-account S3 without `Select`, `GetAttributes`, ListDomains or DomainMetadata. Published exact domain scope, destination S3/KMS gates, full impact, Low stealth and telemetry.
+- A restricted role allowed only one synthetic domain reached `NoSuchDomainException`; a different domain was denied on its exact ARN. Explicit denies on every SimpleDB read and `s3:*` did not prevent the allowed request from reaching domain resolution. Both failures arrived as CloudTrail management writes: the authorized call retained domain/bucket parameters and resource ARNs, while the IAM denial redacted parameters but retained the domain ARN. `ListExports` was empty before and after.
+- No end-to-end export was launched because the new API has no cancel/delete operation and records remain listable for three months. Current AWS documentation establishes background execution, standard JSON layout, cross-account `s3BucketOwner`, destination prerequisites and CloudTrail fields; public text does not overclaim a live-tested S3 permission minimum.
+- Closed the stale exclusion that `StartDomainExport` did not exist and removed `simpledbv2` from the zero-coverage/deprecated set. The disposable role/policy was deleted; final matching roles, domains and exports were empty. No bucket, object, key or irreversible export record was created. Expected functionality only, no private AWS report and no new cleanup debt.
+
+## cont.164 (2026-10-01) — CloudWatch Omni mutable-view privilege escalation
+
+- SHIPPED #165 (verified end to end): view-scoped `cloudwatch:GetRecords`, wildcard query actions and either `CreateView` on `view/*` or exact-view `UpdateView` created/expanded a raw `logs.default` broker. Restricted readers recovered real alert-history rows while an explicit identity-policy deny still blocked direct `dataset/default` queries.
+- Live authorization treats a view as synthetic `arn:aws:cloudwatch:<region>:<account>:dataset/view.<name>` for `GetRecords`; it does not re-evaluate the caller against the view's underlying default Dataset. The update action accepted the exact returned `view/view.<name>/<uuid>` ARN and needed no Get/List or default-Dataset read.
+- Published this as a dangerous expected security-definer composition, not an AWS defect. `UpdateView` intentionally controls the reusable query definition. Coverage explicitly does not claim a bypass of Omni access-grant `dataScope`, which was not part of the direct-IAM fixture.
+- CloudTrail recorded the complete replacement SQL in the `UpdateView` request and response. The outer query remained hidden and returned rows were absent, so installation is Low stealth but subsequent collection is less reconstructable.
+- All four disposable views, their query sessions and matching IAM roles/policies were removed. Final USER-view and matching-role inventories were empty; no domain, space, grant, forwarding, compute or third-party resource was created. Expected functionality only, no private AWS report and no new cleanup debt.
+
+## cont.163 (2026-10-01) — CloudWatch Omni integration rebinding
+
+- SHIPPED #164 (verified exact-resource minimum): `cloudwatch:UpdateIntegration` on one exact external-agent integration replaced its stored API key and `catalogId` without Get/List, Secrets Manager, KMS, space, grant, telemetry or PassRole permission. Published as conditional provider/workflow rebinding and disruption, not old-secret disclosure or IAM escalation.
+- The created `EXTERNAL_AGENT` integration required a `catalogId`, accepted a dummy API key plus arbitrary test catalog string and became `ACTIVE`. Get/List exposed `authType: API_KEY` and the catalog but returned neither the key nor a `credentialArn`; no customer-visible `cw-omni-*` secret existed.
+- Secure role boundary: creating or changing an `AWS_INTEGRATION` role enforced exact-role `iam:PassRole` with `iam:PassedToService=cloudwatch.amazonaws.com`. Update was denied without it and succeeded after it was added. Because the documented role use is bounded Context Graph resource discovery and no STS tuple was returned, this is a guardrail note rather than a privilege-escalation technique.
+- CloudTrail redacted API keys as `HIDDEN_DUE_TO_SECURITY_REASONS` while retaining catalog and role attributes. Successful create/update emitted both a caller-attributed sanitized event and a service-internal companion with null identity; denied attempts omitted request parameters.
+- All integrations and matching IAM roles were deleted. A response-parser cleanup miss was caught by independent inventory and the one orphan was explicitly removed; final integration, matching-role and matching-secret inventories were empty. No domain, space, telemetry forwarding, compute or third-party provider was created. Expected functionality only, no private AWS report and no new cleanup debt.
+
+## cont.162 (2026-10-01) — CloudWatch Omni asynchronous alert persistence
+
+- SHIPPED #162 (verified minimum and autonomous execution): `cloudwatch:CreateAlert` on the same-account `alert/*` prefix plus `cloudwatch:AssumeAccessProfile` on one exact existing profile created an enabled 30-second scheduled alert. The restricted caller had no list/get, grant/profile administration, telemetry-read, SNS, integration or PassRole permission. This is service-level persistence through the profile and operator-role ceilings, not IAM escalation.
+- SHIPPED #163 (verified exact-resource update): exact-alert `UpdateAlert` plus exact-profile `AssumeAccessProfile` replaced the stored query, zero threshold, 30-second cadence and full notification list. The alert autonomously reached `CRITICAL` after the updater session ended. `UpdateAlert` alone could edit description, but notification replacement was denied until exact-profile assumption was present.
+- Both create and update accepted a foreign-account SNS ARN without target existence validation. Public coverage makes delivery conditional on an attacker-controlled topic policy and does not claim raw query-row export; the durable value also includes false alerts, notification redirection and monitoring suppression.
+- CloudTrail retained full alert queries, thresholds, cadence, profile IDs and foreign target ARNs in default write events; creation returned the generated alert ID/ARN and update responses were null. Installation stealth is therefore Low/Medium at best.
+- Built and removed a real IAM-only domain, space, operator role, access profile, grants and three alerts. Final domains, spaces, Omni integrations, Dataset integrations and matching IAM-role inventories were empty, and OTel enrichment remained stopped; no SNS, secret, KMS, forwarding, compute or third-party resource was created. Expected functionality only, no private AWS report and no new cleanup debt.
+
+## cont.161 (2026-10-01) — CloudWatch Omni foundational audit
+
+- SHIPPED #158 (live minimum and zero-row execution): wildcard `StartTelemetryQuerySession`/`StartTelemetryQuery`/`GetTelemetryQueryResults` plus exact `cloudwatch:GetRecords` on `dataset/default` completed a bounded logs query without an Omni domain, space or access grant. Removing `GetRecords` failed on the exact Dataset ARN; space-scoping the session action failed on `resource: *`. The account had no forwarded records, so the query returned zero rows rather than sensitive content.
+- SHIPPED #159 (live wildcard authorization + documented browser session): `cloudwatch:CreateOneTimeDeepLinkCode` alone on `*` reached a synthetic domain, while fabricated domain/space ARNs were denied. It returns a one-use 60–600 second domain-session URL/code and is now explicitly included in `CloudWatchReadOnlyAccess` v25; published it as a CLI-to-browser foothold, not privilege escalation or persistence.
+- SHIPPED #160 (live generated-ARN authorization + documented durable grant): `cloudwatch:CreateAccessGrant` evaluated against `arn:aws:cloudwatch:<region>:<account>:access-grant/<generated-uuid>`. The same-account `access-grant/*` prefix reached the nonexistent domain; space-only, wrong-account and no-action controls were denied. Published `SPACE_ADMIN` as service-level persistence and the need to require `cloudwatch:HasAccessGrant=true` for direct IAM callers.
+- SHIPPED #161 (documented credential return + secure member-account negative): an authorized Organizations management/delegated-admin can use wildcard-only `GetSpaceCredentialsForOrganization` to obtain one-hour credentials for a member space's operator/data-access role. This member account returned `AccessDenied` under admin and action-only sessions, so the public technique retains the management/delegated-admin, target-space-access and same-organization prerequisites.
+- Added the previously missing domain/space/Dataset/grant/profile/integration/dashboard/alert/view inventory, the `cloudwatchomni` client versus `cloudwatch` IAM/signing boundary, operator/evaluation-role exposure, direct-IAM versus grant semantics, and the documented data-scope exclusions.
+- CloudTrail uses `cloudwatch.amazonaws.com`. Query sessions/results were default read-only management events; successful query text was replaced by `HIDDEN_DUE_TO_SECURITY_REASONS`. Deep-link creation and grant creation were writes; authorized grant failures retained target/principal/permission while IAM denials omitted parameters.
+- Updated the durable no-grant credential-vending hypothesis: current `CloudWatchReadOnlyAccess` v25 still includes the broker via `cloudwatch:Get*`. A decisive disposable management/member fixture remains required; no vulnerability is claimed or privately reported.
+- Every created query session was stopped. Final domains/spaces remain empty; no grant, profile, integration, view, alert, dashboard, role, secret, KMS key, forwarding rule or organization resource was created. Expected functionality only and no new cleanup debt.
+
+## cont.160 (2026-10-01) — Chime SDK live-connector publishing-key disclosure
+
+- SHIPPED #157 (exact-resource authorization + documented secret response): `chime:GetMediaPipeline` on one media-pipeline ARN returns a live connector's complete RTMP(S) sink URL. AWS defines that URL as endpoint plus stream key, making the read a third-party publishing-credential disclosure rather than ordinary metadata.
+- A restricted session reached `NotFoundException` for the allowed synthetic pipeline while a different pipeline and `ListMediaPipelines` were denied. The read needs no meeting access, Chime write, PassRole, or downstream-platform permission when the pipeline ID is known.
+- Published bounded broadcast-injection/disruption impact, downstream key-lifetime/platform limits, High stealth, dedicated media-pipeline CloudTrail source and successful-response logging uncertainty. The authorized not-found event retained the pipeline ID; the IAM denial had null parameters. Marked the April 7, 2026 proxy-session end of support and kept its phone-number metadata as a low-value legacy check.
+- Administrative inventory stayed at zero pipelines. No meeting, live connector, external stream, service-linked role or IAM fixture was created; cleanup was vacuous. Expected functionality only; no AWS report.
+
+## cont.159 (2026-10-01) — Amazon Q in Connect AI-agent default persistence
+
+- SHIPPED #156 (exact-resource authorization + documented runtime): `wisdom:UpdateAssistantAIAgent` alone on one Assistant ARN can persist a published custom AI-agent version as the selected use-case default for future Connect Customer contacts/Q sessions. A known version requires no Q read/list, `iam:PassRole`, Connect, Bedrock or downstream permission from the writer.
+- The safe restricted session reached `Assistant does not exist` on the allowed synthetic assistant; a different assistant and `GetAssistant` were denied. This verifies exact Assistant scoping and the single-action final stage without creating a Q resource. CloudTrail retained the complete IDs/type in both failed write-management events.
+- Published the full build-chain permission model, explicit prompt/agent version requirements, session-over-assistant-over-system precedence, service-level-not-IAM scope, bounded tool/association authority, Low installation stealth and management/runtime detection signals.
+- The allowed Region remained at zero assistants before and after testing. No prompt, agent, session, Connect association, IAM resource, log destination, or billable fixture was created; cleanup was vacuous. Expected functionality only; no AWS report.
+
+## cont.158 (2026-10-01) — Snowball prepaid-contract renewal
+
+- SHIPPED #155 (live wildcard authorization + documented financial effect): `snowball:UpdateLongTermPricing` alone on `Resource: "*"` reached the service for a synthetic pricing ID and can enable automatic renewal on an existing one-/three-year prepaid Snowball contract. A synthetic pricing ARN was denied by IAM; no list, job, address, PassRole, S3 or KMS permission is needed when the ID is known.
+- Bounded the impact to a delayed eligible renewal rather than an immediate charge. Current public US one-year examples are tens of thousands of dollars, but pricing varies and defenders can revert the flag before renewal. Monthly plans already renew while the device remains in possession.
+- RESEARCHED / NOT SHIPPED: `CreateLongTermPricing` is wildcard-only and creates a pricing entry, but official sources differ in wording between upfront billing and charging when the device is received. It was not called, and the book does not claim that the API alone immediately bills the account.
+- Updated Snowball/SDM coverage for the newly published December 31, 2026 commercial-Region end-of-support date. Final pricing, job, address and usage inventory stayed empty/zero; no contract, device, shipment or cleanup debt and no AWS report.
+
+## cont.157 (2026-09-30) — Snowball physical data export and device credentials
+
+- SHIPPED #152 (live wildcard boundary + documented credential return): `GetJobManifest` and `GetJobUnlockCode` require wildcard Snowball permissions and return the two credentials needed to unlock a `WithCustomer` appliance. Published the 60-minute URL, 360-day credential, physical/network reach and no-IAM-credential boundaries with default management telemetry.
+- SHIPPED #153 (live action/PassRole split + documented export lifecycle): `UpdateJob` alone can replace address/resources during an export job's roughly 60-minute `New` window while preserving the existing data-access role. Supplying a new role separately triggered `iam:PassRole`; omitting it reached the service with only `UpdateJob`. Published the conditional physical S3 exfiltration path, exact role/KMS/data limits and conspicuous logistics evidence.
+- SHIPPED #154 (live PassRole gate + documented role execution): `CreateJob` with a role failed without exact-role PassRole and passed that authorization gate with `iam:PassedToService=importexport.amazonaws.com`. Existing-customer accounts can use the role to export selected S3 data to a physical device; this is explicitly bounded to the role's S3/KMS permissions and is not arbitrary role credential theft.
+- Added complete job/address/cluster/pricing/shipping enumeration, the no-resource-ARN/no-service-condition authorization model, sensitive job-report/address metadata, and bounded early-state cancellation DoS.
+- No paid order was placed: the current client/live endpoint exposed non-security device-enum availability drift, every request remained invalid, and final jobs, addresses, pricing entries and usage stayed empty/zero. No infrastructure, shipment or cleanup debt; no AWS report.
+
+## cont.156 (2026-09-30) — Snow Device Management remote physical-device control
+
+- SHIPPED #151 (documented current model + safe live preflight): added the previously missing Snow Device Management inventory and exact device/task/read authorization map. `CreateTask` has no resource type and therefore requires `Resource: "*"`; its only commands are parameterless `unlock` and `reboot` for up to ten managed-device IDs.
+- Published remote unlock as a conditional foothold enabler: it replaces the normal manifest/unlock-code step, but still requires a powered, activated, online device plus separate physical/local-network reach and local service credentials. It does not itself grant device data, EC2-compatible, or AWS IAM access.
+- Published reboot as a direct availability attack: it stops device EC2-compatible instances, interrupts S3-compatible writes, takes roughly ten minutes to recover and requires re-unlock. Explicitly rejected arbitrary-command/RCE overclaims.
+- Both wildcard and synthetic exact-device session probes reached the account's empty-device preflight, so the live environment could not prove the documented wildcard distinction. `ListTasks` failure appeared in CloudTrail, while the empty-account `CreateTask` failures did not; the public telemetry language preserves that limitation.
+- Both allowed-Region inventories had no usable device (`us-west-2` is SCP-denied), no resource was created, and no physical device or network was contacted. Expected functionality only; no AWS report and no cleanup debt.
+
+## cont.155 (2026-09-30) — EventBridge V2 retention-window destruction
+
+- SHIPPED #150 (live exact-bus minimum + documented retention effect): `events:UpdateEventBus` alone changed one enhanced bus from 365-day retention to the one-day minimum. No read, publish, subscriber, policy, KMS or PassRole permission was present.
+- The bus stayed `ACTIVE` while its stored retention configuration changed and continued reporting the replay horizon. Events older than the resulting `RetentionWindowStartTime` are outside retention and cannot be recovered by later increasing the period, affecting paused consumers and future/catch-up replays without interrupting live delivery.
+- CloudTrail exposed the exact bus and one-day request, then returned the resulting retention, horizon and active state. Published explicit irreversible-history impact, Low stealth, detection guidance and the newest-day/already-delivered/other-bus boundaries.
+- The no-event fixture avoided storage cost and a 24-hour wait while validating action scope, state and telemetry. Its trap deleted the exact bus; final matching inventory is empty. Expected functionality only; no AWS report.
+
+## cont.154 (2026-09-30) — EventBridge V2 resource-policy persistence
+
+- SHIPPED #149 (live exact-bus policy write + current cross-account contract): `events:PutResourcePolicy` alone installed a named foreign-principal `events:PutEvents` grant on one enhanced bus. The `default` policy persists beyond the writer session and can delegate injection or, with the consumer's additional subscriber/PassRole/target permissions, retrospective and continuing retained-event export.
+- Bounded the path: external callers need a matching identity allow; the available external user lacked it and remained denied after the victim-side grant. Public policies are blocked, a same-account user policy was rejected as invalid, `AWS_RAM` is RAM-only, and owner-only bus management cannot be delegated.
+- The API replaces the full customer-managed policy and can write blindly when no expected revision is supplied. The safe fixture used `NO_POLICY`; CloudTrail retained the entire external principal/action/resource document, policy name and generated revision, and deletion retained the removed revision.
+- Updated the EventBridge persistence page and cross-account service matrix with injection, subscriber replay/export, resource ownership, explicit persistence scope, Low-install/Medium-to-High-use stealth, and detection guidance.
+- Three guarded valid/negative cycles left zero matching buses, IAM users, roles or access keys. No resources were created in the external account. Expected functionality only; no AWS report.
+
+## cont.153 (2026-09-30) — EventBridge V2 filter clearing and log suppression
+
+- SHIPPED #148 (live exact-resource minimum): `events:UpdateSubscriber` on the exact subscriber **and bus** ARNs cleared all filters with `FilterConfiguration:{}` and disabled subscriber delivery logs with `Level=OFF`. The restricted session had no PassRole, target/queue, publish, IAM or EventBridge read permission.
+- An initial `detail.classification=secret` event was rejected by the stored public-only filter. After the patch, an otherwise-identical secret event reached the unchanged SQS target; the subscriber stayed `RUNNING`, its target/role did not change, and `DescribeSubscriber` omitted the filter and returned logging `OFF`.
+- Established a non-obvious authorization split: state-only changes accept exact-subscriber permission, but filter/log mutation additionally evaluated the exact bus. A subscriber-only session was denied on that bus ARN; adding only the bus resource succeeded.
+- CloudTrail exposed the literal empty filter, complete `OFF` log setting, session identity and both resource ARNs. Mandatory `AWS/EventsV2` metrics remain even when vended delivery records are disabled. Published explicit impact, Low stealth, prerequisites and detection guidance.
+- Negative/diagnostic cycles rejected invalid `IncludePayload=NEVER`, corrected the enhanced `PutEvents` top-level bus shape, and handled the CLI's empty SQS response safely. Every cycle cleaned via traps; final matching enhanced-bus/subscriber, role and queue inventories are empty. Expected functionality only; no AWS report.
+
+## cont.152 (2026-09-30) — EventBridge V2 lossy subscriber resume
+
+- SHIPPED #147 (live exact-subscriber minimum): `events:UpdateSubscriber` alone stopped a live enhanced-bus consumer, then `RUNNING + ResumePosition=LATEST` skipped the complete retained backlog and resumed only at new events. No PassRole, bus, target, publish, role, queue or subscriber-read permission was present.
+- End-to-end proof accepted a synthetic event while stopped and a control event after resume. The unchanged SQS target received only the control; the paused event never arrived. Other subscribers and retained bus data are unaffected, and a newly authorized replay subscriber could still recover the event.
+- CloudTrail recorded both writes with the exact state; the lossy resume explicitly retained `resumePosition: LATEST` and returned the final running state. Published explicit impact, Low stealth, detection, and the boundary that replay subscribers cannot use this resume position.
+- One preliminary cycle hit only a local empty-response parser error after both cloud updates; its trap cleaned fully. The corrected cycle verified behavior and also cleaned. Final matching bus/subscriber, IAM-role and SQS-queue inventories are empty. Expected functionality only; no AWS report.
+
+## cont.151 (2026-09-30) — EventBridge V2 universal-target role execution
+
+- SHIPPED #146 (live exact-scope role execution): `events:CreateSubscriber` on one enhanced bus/future subscriber name plus exact-role `iam:PassRole` with `iam:PassedToService=events.amazonaws.com` created a universal `s3:PutObject` target. The caller session had no S3 action; one matching event caused the passed role to write the exact synthetic object.
+- Universal targets require a supported `arn:aws:events:::aws-sdk:<service>:<action>` target, a correctly shaped JSON request in `UniversalTargetParameters.Input`, and explicit batch configuration. Double-encoded input and a missing batch were rejected before creation.
+- Published as conditional privilege escalation: any supported write API authorized by the passed role can run on a retained/natural event without caller-side target permission or `events:PutEvents`; it returns no role credentials and a cross-account subscriber only uses a role in the subscriber owner's account.
+- CloudTrail exposed the bus, subscriber, target action, role, state and batch, but redacted the complete API request and event filter. The trigger was absent from default Event History; target-service data logging remains action dependent.
+- Re-ran retained-event replay and again recovered a pre-subscriber synthetic event through a HORIZON subscriber; removing PassRole failed. All four new fixture cycles cleaned in traps. Final enhanced-bus, IAM-role, S3-bucket and SQS-queue inventories are empty. Expected functionality only; no AWS report.
+
+## cont.150 (2026-09-30) — Cognito replica resilience destruction
+
+- SHIPPED #145 (documented effect + live exact-resource authorization): `UpdateUserPoolReplica` can deactivate the only secondary authentication plane and `DeleteUserPoolReplica` can then remove that inactive replica. The primary directory survives, but regional authentication and future failover capacity are lost until a paid KMS-backed replica and its regional controls are rebuilt.
+- Proved the non-obvious ARN boundary with a nonexistent synthetic pool: Update authorizes the user-pool ARN in the API endpoint's Region, not the target `RegionName`. Exact local ARNs reached not-found from both endpoints; the opposite-Region ARN was denied. Delete required the primary endpoint/exact primary ARN and no list/describe permission.
+- CloudTrail recorded both writes as management events. Service-reached update failures retained pool, target Region and status; delete retained pool and Region. IAM denials omitted request/response fields but exposed the endpoint-Region ARN. Included explicit impact, Low stealth and a compact log/detection table.
+- RESEARCHED / NOT SHIPPED: `DescribeTermsByClient` only returns managed-login public terms/privacy links and unusually requires both its own action and `DescribeTerms`. The dependency was live-confirmed; it exposes no useful secret or bypass.
+- Both regional inventories remained empty. Only nonexistent-ID calls and expiring STS sessions were used; no replica, KMS, Route 53, WAF, domain, trigger, logging, or IAM resource was created. Expected functionality only; no AWS report.
+
+## cont.149 (2026-09-30) — Cognito provisioned-limit cost boundary
+
+- SHIPPED #144 (live action-only minimum + failure controls): `cognito-idp:UpdateProvisionedLimit` on `Resource: "*"` alone performed a no-cost `UserCreation=50` no-op and returned current/free values. A user-pool-ARN policy was denied because the account-level operation authorizes against `*`; `GetProvisionedLimit` was independently confirmed with its action alone.
+- Published the conditional regional cost-abuse path: where Service Quotas already grants headroom above the free value, the writer can activate paid RPS without a quota-increase, pool, or PassRole permission. The current pricing page documents per-category incremental-RPS billing and a one-day minimum.
+- NEGATIVE / hard boundary: 49 RPS was rejected below the free 50, and 51 was rejected above the approved ceiling 50. The action cannot lower free capacity or exceed pre-approved headroom, grants no token/directory access, and cannot manage another account.
+- CloudTrail recorded successful writes with the requested and resulting free/provisioned values. Successful reads retained the category but suppressed the response; the above-ceiling error retained the attempted value, while the IAM denial omitted request/response fields.
+- All six adjustable categories were at free/default ceilings. Final `UserCreation` remained 50/50/50, both Regions retained zero user pools, and no persistent resource or paid capacity was created. Expected functionality only; no AWS report.
+
+## cont.148 (2026-09-30) — Cognito multi-Region authentication boundaries
+
+- SHIPPED #143 (current documented contract + safe exact-resource probe): an `ACTIVE` Cognito secondary accepts public authentication but keeps a password-failure/lockout counter independent from the primary. With one supported secondary, attackers can split guesses across two exponential-backoff schedules.
+- Bounded the path: it requires a replicated client, username and compatible password flow; confidential clients still need their secret, other challenges remain, and TOTP users must authenticate in the primary because secondary TOTP is unsupported.
+- Added multi-Region inventory and highlighted regional WAF/Lambda/log-export drift. Direct API clients select a regional endpoint independently of managed-domain health-check routing, so defenders must apply controls and aggregate failures across both Regions.
+- Exact synthetic-pool `ListUserPoolReplicas` reached not-found while a different ARN was denied and unsigned access failed. No replica was created because MRR's multi-Region KMS prerequisite cannot be immediately deleted; both regional pool inventories remain empty and no AWS/KMS/Route 53/WAF/Lambda/IAM fixture exists.
+- Included explicit impact, Low stealth and expandable CloudTrail/metrics/WAF telemetry. Expected documented limitation only; no private report.
+
+## cont.147 (2026-09-30) — AppConfig experiment-overlay poisoning
+
+- SHIPPED #142 (live exact-resource and consumer proof): `CreateExperimentDefinition` can store attacker-selected control/treatment values for an already deployed feature flag without `CreateHostedConfigurationVersion`; experiment start/update overlays them without adding a hosted version.
+- `StartExperimentRun` is not a deployment-authority bypass: it required dependent `appconfig:StartDeployment` on the application/profile/environment and otherwise-unlisted `AppConfig.ServiceManaged` strategy. `UpdateExperimentRun` required exact application/definition/run plus the same dependency; run 999 was denied.
+- Separate exact-run calls pinned synthetic entity `victim-123` to `t1` and raised exposure from 0% to 100%. The official disposable AppConfig Agent returned `__t1_override__` with `enabled: true` while the only hosted version remained disabled.
+- Found restrictive documentation drift: application-only definition creation was denied on the referenced profile ARN, while application + profile succeeded; the current authorization row lists only application. Combined exposure+override updates were securely rejected because only one deployment attribute can change per request.
+- CloudTrail retained full audience/treatment snapshots; override requests were masked but responses echoed entity mappings in clear. Each mutation's paired deployment named the run ARN and service-managed strategy. Added explicit consumer/impact/billing limits and Low stealth.
+- Four guarded fixtures, all AppConfig children/parents/strategies, and the local Agent container/new image were removed; both regional application inventories are empty. Expected behavior only; no private report.
+
+## cont.146 (2026-09-30) — Cognito TOTP-factor deletion
+
+- SHIPPED #141 (live exact-resource minimum): `cognito-idp:AdminDeleteSoftwareToken` alone on one exact user-pool ARN deleted a known user's registered TOTP factor; a different pool ARN was denied. Optional `AdminGetUserAuthFactors` exposes the user's factor types/preferences but no secret.
+- In an `OPTIONAL` pool with TOTP as the only MFA factor, unsigned password authentication changed from `SOFTWARE_TOKEN_MFA` to immediate tokens. In an `ON` pool, deletion returned `MFA_SETUP` and no token; an unsigned associate/verify/respond sequence registered an attacker-controlled replacement TOTP and returned tokens.
+- Bounded the technique: it requires a valid password or separate reset primitive for takeover, falls back to another available factor, does not disable pool-wide mandatory MFA, and without authentication capability is deletion/lockout only.
+- Added explicit minimum permission, impact, Low stealth, factor-recon command, and expandable CloudTrail table to the existing Cognito MFA escalation section. After an initial indexing delay, CloudTrail confirmed both new actions as default management events: pool ID visible, username masked, response null; the factor read was read-only and deletion was a write.
+- Four disposable pools were independently confirmed absent after two guarded failed runs and two successful tests. Final regional pool inventory is empty; no IAM, identity-pool, domain, trigger, passkey, SMS or external resource was created. Expected functionality only; no private report.
+
+## cont.145 (2026-09-30) — ACM ACME external-account persistence
+
+- SHIPPED #140 (exact-resource authorization plus current service contract): exact-EAB `acm:GetAcmeExternalAccountBindingCredentials` returns the key ID and MAC secret needed to register an attacker-held ACME account. Registration survives loss of the AWS session and EAB expiry/revocation; the account must be separately revoked.
+- Bounded the impact to ACM service-level persistence: certificate issuance remains limited by endpoint `VALID` domain scopes/key algorithms and the EAB role's `acm:RequestCertificate` policy, conditions, boundary and SCP. No role credentials/general AWS API access are returned, and client-key ACME certificates cannot attach to ELB, CloudFront or API Gateway.
+- Added complete endpoint/domain-validation/EAB/account enumeration, exact resource formats, the alternative CreateEAB + exact-role PassRole path, revocation guidance, explicit impact/stealth and expandable management/data-event telemetry.
+- Restricted A/B probes proved exact EAB scoping. A disposable public-CA endpoint reached `ACTIVE`; one-day EAB creation correctly failed because the lab administrator lacks `iam:PassRole` to `acm-acme.amazonaws.com`, so no secret/account/certificate was created and the end-to-end branch is not overclaimed.
+- Cleanup is complete: endpoint deletion reached exact not-found on the third poll, endpoint inventories are empty, the temporary role is absent, and the isolated 47 MB Certbot environment was removed. Expected functionality only; no private report.
+
+## cont.144 (2026-09-30) — Partner Central Revenue Measurement audit
+
+- SHIPPED #138: exact-parent Revenue Attribution reads plus optional wildcard discovery expose customer AWS account IDs, Marketplace offer or Partner Central opportunity identifiers/names, product metadata, percentage allocations and effective windows. This is bounded commercial/customer intelligence, not credentials, invoices or payout data.
+- SHIPPED #139: exact-attribution `StartRevenueAttributionAllocationsTask` can create/update up to 250 deal allocations; wildcard `CreateMarketplaceRevenueShareAllocation` and exact-share `UpdateMarketplaceRevenueShareAllocation` can alter partner-declared product revenue-share measurement. Impact is corrupted revenue attribution, dashboards and partner recognition/investment signals—not customer billing or Marketplace payout redirection.
+- Added the missing service inventory, global SigV4a endpoint, `partnercentral` IAM prefix, exact parent ARN formats, `partnercentral:Catalog` boundary and older-CLI caveat.
+- Restricted A/B probes proved exact-resource binding for attribution get/update/batch and Marketplace-share get/allocation-get/allocation-update. A production-only catalog condition denied Sandbox. The exact nonexistent batch passed IAM and stopped at the separate AWS Partner registration gate; no task was created.
+- CloudTrail indexed reads/writes under `partnercentral-prm.amazonaws.com` in `us-east-1`, even for `eu-west-1` Region input. Events retained catalog/target/write fields after IAM authorization but masked the submitted customer account ID; exact-resource denials omitted request parameters.
+- No create call was made because current attributions/shares have no delete API. Both catalogs remain empty through both allowed Region inputs; no Partner Central, Marketplace, IAM, task, tag or other state changed. Expected functionality only; no private report.
+
+## cont.141 (2026-09-30) — Recycle Bin deleted-snapshot restoration
+
+- SHIPPED #133 (live exact-resource minimum): `ec2:RestoreSnapshotFromRecycleBin` alone on the exact accountless ARN restored a genuinely retained snapshot without `DescribeSnapshots`. Optional wildcard `ListSnapshotsInRecycleBin` enumerates IDs and recovery metadata.
+- The restored snapshot retained its ID, source volume ID, size, description, encryption flag and user tags, reached `completed`, and was usable through normal snapshot paths. Plaintext access separately requires volume/attach or EBS direct permissions plus applicable KMS access.
+- Corrected an important negative: account-qualified snapshot ARNs are wrong, but an exact accountless live ARN works. Synthetic nonexistent-ID DryRun evaluated against `snapshot/*`; that behavior is not generalized to live resources.
+- Default management telemetry uses `rbin.amazonaws.com` for rules and `ec2.amazonaws.com` for delete/list/restore. Restore is low-stealth and visible even when the ID is already known and enumeration is skipped.
+- Three bounded cycles exercised first-rule propagation, full list/restore, and exact-live scoping. No rule was locked. All rules, volumes, active snapshots and recycled snapshots are independently absent; no AMI, instance, attachment, key, role or bucket was created. Expected functionality only; no private report.
+
+## cont.142 (2026-09-30) — Systems Manager for SAP foundational audit
+
+- SHIPPED #134: `ssm-sap:GetDatabase` on `*` exposes the configured Secrets Manager identifier for each SAP HANA `ADMIN` credential. With a separate exact-secret `secretsmanager:GetSecretValue` grant and applicable KMS access, this becomes SAP database-administrator credential recovery; it does not itself expose the value or grant AWS IAM/EC2 access.
+- SHIPPED #135: exact-application `ssm-sap:StopApplication` stops registered SAP processes and can include a connected HANA DBMS. EC2 shutdown is explicitly bounded by the caller-side `ec2:StopInstances` check; `StopApplication` alone is not presented as host-shutdown authority.
+- Added the missing service inventory for applications, components, database topology/ports/credential references, operation milestones, configuration checks, tags and RESTORE resource-permission relationships.
+- Live inventory in `us-east-1` and `eu-west-1` was empty and unsigned access failed. Restricted nonexistent-resource probes confirmed `GetDatabase` is wildcard-only. A fabricated application cannot validate exact `StopApplication` scope because unresolved IDs authorize as `*`; current AWS authorization/troubleshooting docs explicitly establish exact ARNs for real applications.
+- Rejected weak overclaims: RESTORE resource permission is only one prerequisite to a destructive AWS Backup restore; settings-based credential/database connection poisoning remains fixture-dependent; registration invokes fixed service documents rather than caller-selected code.
+- CloudTrail indexed every restricted probe: `GetDatabase` was a management read and `StopApplication` a management write, both retaining the target and STS session, including denials. Stop operations also generate direct EventBridge state changes and downstream SSM/optional EC2 evidence.
+- No application, EC2/SSM node, secret, key, AWS Backup object, role or other fixture was created. Both regional inventories remain empty and `AWSServiceRoleForAWSSSMForSAP` is absent. Expected functionality only; no private report.
+
+## cont.143 (2026-09-30) — Pricing Plan Manager financial-control audit
+
+- SHIPPED #136: exact-subscription `ApprovePaidSubscription`, `UpdateSubscription`, and `CancelSubscriptionChange` can respectively activate pending paid plans, immediately raise an active plan as high as Premium L6 ($10,000/month), or undo a scheduled cancellation/downgrade. Current-period paid commitments cannot be reverted; all branches require a current ETag.
+- SHIPPED #137: exact `UpdateSubscription` can request a lower tier and AWS documents immediate loss of higher-tier-exclusive features even while old-tier billing/allowances persist to period end. Cancellation returns resources to pay-as-you-go only after the period, and optional resource disassociation removes plan coverage without deleting the underlying service object.
+- Added current enumeration for tier, usage level, state, resource ARNs, scheduled change and ETag, plus the global `us-east-1` endpoint/CloudTrail boundary and CloudFront cross-link.
+- Found a beneficial documentation mismatch: the authorization table marks no action as resource-scopable and publishes a regionless ARN template, but restricted A/B probes proved exact request-ARN scoping for Get, Update, Approve and CancelChange. `ListSubscriptions` remains wildcard-only. Public guidance uses the API-returned ARN; no security-impact report.
+- CloudTrail indexed the restricted probes in `us-east-1`, retaining ARN, ETag, tier/usage level, session, errors and `AWS::PricingPlanManager::Subscription` resources. Exact A/B controls covered Get, Update, Approve, CancelChange, Cancel and Disassociate; unsigned access failed.
+- No subscription mutation was attempted because pending plans do not expire and active paid changes cannot be reverted in-period. Final global inventory is empty; no CloudFront, WAF, Route 53, KeyValueStore, IAM or billing resource changed. Expected functionality only; no private report.
+
+## cont.140 (2026-09-30) — Inspector Scan and Signer Data exclusions
+
+- CLOSED Inspector Scan as a reasoned exclusion. `inspector-scan:ScanSbom` is authenticated, wildcard-only and analyzes only a caller-supplied CycloneDX document; it has no victim-resource selector, persisted scan or cross-account surface. A restricted `Resource: "*"` session succeeded and a fabricated resource ARN failed.
+- A known-vulnerable Log4j component produced 2 critical, 2 high and 3 medium findings. Adding a forged reserved scanner property plus a link-local metadata URL as an external reference produced identical counts and latency, with no reflected/fetched data or suppression signal.
+- CLOSED Signer Data as a reasoned exclusion. Unsigned `GetRevocationStatus` failed, nonexistent identifiers returned an empty set rather than an existence oracle, and the ordinary `signer` and new `signer-data` clients behaved identically.
+- Signer's dual-resource IAM boundary held: job-only access was denied on the profile, profile-only access was denied on the job, and both exact resources were required. The API returns only revoked identifiers already supplied by the caller, not job/profile expansion or payload/certificate data.
+- After indexing delay, `ScanSbom` appeared as default management events under `inspector-scan.amazonaws.com`, including success and denial. `GetRevocationStatus` remained absent from Event History; the ledger records that bounded negative without generalizing it to every trail/future implementation. No persistent resource was created, modified or left behind; only synchronous calls and expiring restricted STS sessions were used. No book technique or private report.
+
+## cont.139 (2026-09-30) — SageMaker experiment metric poisoning
+
+- SHIPPED #132 (live exact-resource minimum): `sagemaker:BatchPutMetrics` alone on exact completed trial component A appended forged `validation:accuracy` points. The restricted session could not Describe A and was denied component B.
+- Verified additive semantics: a duplicate name/timestamp/step did not overwrite the baseline; `Count` became 2 and `Avg` reflected both values. A new higher step became the later `Last` point. `Completed` status did not freeze metric ingestion.
+- Bounded impact to SageMaker Studio/experiment charts and downstream humans or custom automation that trust Metrics Service data. It does not alter model artifacts or training code, and no claim is made that it automatically changes Hyperparameter Tuning's internal objective result.
+- `BatchPutMetrics`/`BatchGetMetrics` were absent from Event History and are opt-in `AWS::SageMaker::ExperimentTrialComponent` data events. Create/delete remained default SageMaker management events.
+- Two zero-compute trial components were the only fixtures. Both delete requests completed and exact-name lookups return `ResourceNotFound`; the filtered trial-component inventory is empty. No other resource or private report.
+
+## cont.138 (2026-09-30) — SageMaker Edge Manager EOL exclusion
+
+- Audited the still-shipped `sagemaker-edge` runtime model and legacy SageMaker fleet/package/deployment operations against AWS's current service state. AWS ended Edge Manager on April 26, 2024, deleted service-held fleet/device/package references and states that applications calling its APIs no longer work.
+- Live inert probes matched retirement: both allowed Regions' Edge Runtime hostnames timed out/unreachable; `ListDeviceFleets`, `ListEdgePackagingJobs` and `ListEdgeDeploymentPlans` returned terminal throttling even with retries disabled.
+- Excluded obsolete `GetDeviceRegistration`, `GetDeployments` and heartbeat-forgery ideas from the book. A current SDK model is not sufficient reason to publish an unusable technique.
+- Recorded the residual-resource boundary: old model artifacts, IoT things/certificates/role aliases, IAM roles and Greengrass components can remain, but must be assessed through their live owning services and existing S3/IoT/IAM/Greengrass coverage.
+- No create/register/deploy/heartbeat/delete action was called and no AWS resource or temporary infrastructure was created. No private report.
+
+## cont.137 (2026-09-30) — Amazon Augmented AI human-review output recovery
+
+- SHIPPED #131 (live exact-resource authorization plus documented output contract): exact-loop `sagemaker:DescribeHumanLoop` resolves the completed review's timestamped S3 `output.json`; independent `s3:GetObject` and optional `kms:Decrypt` recover original loop input, upstream AI request/response context, activation conditions, human answers, submission details and private-workforce metadata.
+- Added missing A2I inventory for flow definitions, task UIs, workteams and human loops. `ListHumanLoops` is wildcard-only and flow-ARN keyed; `DescribeHumanLoop` is exact `human-loop/<name>` scoped and does not itself return the output body.
+- Live minimum-permission controls: exact loop A reached not-found, the same session was denied loop B, and a no-action control was denied A. CloudTrail indexed all three as default read-only `sagemaker.amazonaws.com` management events containing the requested name/caller; response and error-message fields were null.
+- The account is not grandfathered into A2I: the correctly encoded harmless standalone task-UI request failed with the service's closed-new-customer validation. Both Regions had zero flows, UIs and workteams; exact final checks were empty.
+- Rejected worker spam/cost, stop/delete and caller-supplied-input loops as weak DoS rather than useful attacks. Task-template injection remains a private fixture-dependent hypothesis; no flow existed to test and it was not published.
+- Cleanup is complete: the failed request created no UI, workforce, loop, role, bucket, KMS/Cognito/EventBridge/logging resource or paid task. The deletion trap ran and exact inventory stayed empty. Expected functionality only; no private report.
+
+## cont.136 (2026-09-30) — SageMaker Job Runtime trajectory/reward poisoning
+
+- SHIPPED #130 (live exact-resource authorization plus current API contract): a compromised multi-turn RFT agent can use job-scoped `sagemaker:CompleteRollout` to prematurely seal a known active trajectory and `sagemaker:UpdateReward` to submit attacker-selected per-turn rewards, corrupting the corpus used to fine-tune or evaluate the target policy model. Optional `Sample`/streaming access can append attacker prompt/response turns.
+- Added the missing `AgentRFT` / `AgentRFTEvaluation` inventory using `ListJobs`/`DescribeJob`; these jobs are separate from legacy `ListTrainingJobs`. Both categories were empty in `us-east-1`, while `eu-west-1` returned unsupported-operation errors. No paid training fixture was launched.
+- Inspected the current official token generator and agent client. Bearer tokens are locally generated Region-bound SigV4 presigned artifacts with a maximum 12-hour lifetime and no embedded job ARN. Generation creates no AWS call.
+- SECURE NEGATIVE: bearer authorization is conjunctive. `CallWithBearerToken` alone was denied the operation; the token consumer also needed the underlying exact-job named action. Exact job A permission failed on B, and wrong-Region, expired and foreign-account controls failed.
+- Runtime operations are opt-in `AWS::SageMaker::Job` data events and absent from Event History/default trails; token generation is invisible. The resulting technique is High stealth by default and Medium when Job data events are enabled.
+- Cleanup is complete: inert nonexistent-job/trajectory probes created no SageMaker state and only temporary STS sessions were used. Telemetry preflight uncovered the stale `ht-nova-audit-20260929` trail and dedicated `ht-nova-ct-228478051196-20260929` bucket; both and all contained log objects were deleted, with exact not-found verification. Expected functionality only; no private report.
+
+## cont.135 (2026-09-30) — IAM Toolbox cross-principal denial snapshots
+
+- SHIPPED #129 (live exact-action authorization): `iam:GetRequestAuthorizationDetails` on `*` alone retrieved a different IAM principal's Access Troubleshooter snapshot from a known authorization ID. The inspector session was denied `iam:ListUsers`; a control session without the toolbox action was denied the snapshot.
+- The snapshot exposed the denied principal ARN/ID, source IP/user agent/time/Region, organization ID and root/OU path, exact action/resource/effect, matching statement ID, inline-policy attachment and every evaluated SCP identifier/type/root/OU/account attachment. It returned no policy JSON and did not grant the denied operation.
+- The first two reads returned not-found before asynchronous materialization; AWS guarantees at least 24-hour retention. After deleting the test access key, inline policy and user, a fresh exact-action session still retrieved the historical snapshot.
+- Bounded the technique to a high-entropy authorization ID from a supported denial, same-Region lookup and same account/organization. Cross-organization requests return only the reader organization's slice, and current supported service coverage is primarily IAM.
+- The default denied `GetUser` management event retained the full AccessDenied error and usable ID. A fresh session limited to `cloudtrail:LookupEvents` plus the toolbox read harvested the ID and retrieved the snapshot while remaining unable to list IAM users.
+- CloudTrail later indexed successful, not-yet-materialized and unauthorized toolbox reads as default `iam-toolbox.amazonaws.com` management events. Each retained the complete authorization ID and caller/error metadata but omitted the successful response body. Rated Medium stealth: compact and read-only, but unusual and exactly attributable.
+- Cleanup is complete: exact test user and access-key inventory return `NoSuchEntity`; no role, group, managed policy, login profile, MFA device, Organizations policy or non-IAM resource was created. Expected functionality only; no private report.
+
+## cont.134 (2026-09-30) — Agent Toolkit public-catalog exclusion
+
+- Audited the new `agent-toolkit` API and local AWS CLI skill-management surface. All six remote catalog operations are intentionally unsigned and expose the same curated skills published in AWS's public open-source repository; they reveal no account-specific state or victim identifiers.
+- Live unsigned list/metadata/file reads succeeded. The per-file SHA-256 endpoint matched the retrieved body, explicit version pinning is supported, and CloudTrail had no customer-account event for the public request.
+- SECURE NEGATIVE: raw, encoded, double-encoded and cross-skill path traversal probes against a harmless known file all failed with HTTP 403; an unlisted sibling returned 404.
+- Excluded from the public book as low-value noise: catalog access alone gives no cloud foothold or persistence, while skill installation requires existing local filesystem authority. No skill, agent configuration, AWS resource or credential was created or changed; no private report.
+
+## cont.133 (2026-09-30) — Amazon Nova Act foundational audit
+
+- SHIPPED #128: added foundational Nova Act coverage for workflow definitions, runs, sessions, acts, compatible model discovery, trace locations, CloudWatch log groups and same-account S3 Agent Trajectory Data exports.
+- Kept the execution boundary explicit: the control API returns browser/tool calls to a caller-managed SDK loop, while deployed scripts execute in separately provisioned Bedrock AgentCore Runtime/ECR/S3/IAM infrastructure. Nova Act control-plane access does not itself grant the browser or execution-role credentials.
+- Documented the high-value data surface: trajectories include prompts, screenshots and agent responses; visible secrets can be captured in screenshots. `exportConfig` needs independent same-account `s3:PutObject`, and a returned trace/artifact location does not grant object read access.
+- CloudTrail records definition/run/inventory operations as default management events, but `CreateSession`, `CreateAct`, `UpdateAct` and `InvokeActStep` are opt-in data events. Live empty inventory and model discovery succeeded in `us-east-1`; `eu-west-1` had no endpoint.
+- Rejected direct act injection, forged tool results, status falsification and attacker-bucket export as standalone book attacks: each lacked automatic victim-client execution, crossed no separate data boundary, or reduced to conditional state corruption/DoS. These remain recorded in the service ledger for fixture-based re-evaluation.
+- Cleanup is complete: the prior empty metrics-only Nova Act service-linked role deletion reached `SUCCEEDED`, exact role lookup now returns `NoSuchEntity`, and no workflow, run, AgentCore runtime, ECR repository, Nova Act export bucket, log group or IAM execution role was created. A later preflight found and deleted the separate stale `ht-nova-audit-20260929` trail, all of its log objects, and dedicated `ht-nova-ct-228478051196-20260929` bucket; exact identifiers now return not found. Expected functionality only; no private report.
+
+## cont.132 (2026-09-30) — AWS Support Authorization foundational audit
+
+- SHIPPED #126: added foundational `supportauthz` coverage for customer-signed Support permits, operator requests, the per-service action catalog, regional scope, immutable permit state, KMS grants, exact-resource reads/deletion and default CloudTrail/Service Event telemetry.
+- SHIPPED #127 (documented expected functionality plus live dependency gate): a permit may select `allActions` and `allResourcesInRegion` while omitting both expiry conditions and `supportCaseDisplayId`, leaving durable regional Support-access-plane authorization until deletion. Current live RDS actions include diagnostics that can access customer content, backup data and volume data.
+- Bounded the impact: the permit creator receives no bearer credential, cannot assume the Support service-linked role and cannot directly invoke a catalog action. An AWS Support operator must retrieve and use the signed authorization; attacker-controlled case/social-engineering activity requires separate Support permissions and human interaction.
+- A restricted `supportauthz:CreateSupportPermit`-only session reached the API with a broad synthetic request but failed before mutation on `kms:DescribeKey`. Successful creation additionally needs a same-Region customer-managed ECC P-384 signing key plus tightly conditioned `kms:DescribeKey`/`kms:CreateGrant` forward-access-session authorization.
+- Both allowed Regions had zero permits, requests and compatible signing keys. Sparse empty pagination terminated normally. No KMS key was created because it could not be deleted immediately; final permit inventories stayed empty and no Support case, RDS resource, grant, role, EventBridge or notification fixture exists.
+- CloudTrail retained the complete failed broad scope, key ARN, description and KMS authorization error. List calls were default read management events with responses omitted. AWS documents per-use `RetrieveSupportPermit`, KMS `Sign` and per-action/resource `StartSupportAction` evidence. Expected functionality only; no private AWS report.
+
+## cont.131 (2026-09-30) — EventBridge enhanced Custom Event Bus retained-event replay
+
+- SHIPPED #124: added foundational enumeration for the enhanced Custom Event Bus launched on 2026-09-24, separating its `eventsv2` CLI/endpoint from the shared `events:` IAM namespace and documenting buses, retention, policies/RAM shares, subscribers, event sources, target roles, replay positions, vended logs and `AWS/EventsV2` metrics.
+- SHIPPED #125 (live name-scoped creation minimum): `events:CreateSubscriber` on the exact bus and one future subscriber name pattern plus exact-role `iam:PassRole` created a `POINT_IN_TIME` / `HORIZON` subscriber. The session had no list, describe, publish, update, delete or SQS permission.
+- A synthetic canary published before any subscriber existed was delivered twice—once to the baseline subscriber and once to the restricted subscriber—with the same event ID and `SystemMetadata["aws:DeliveryType"]="REPLAY"`. Omitting an end point would leave the subscriber consuming live events after catch-up.
+- Bounded impact to retained and future bus contents: the default window is one day and the configured maximum is 365 days; the target and role must belong to the subscriber account, the passed role still needs target permission, and subscriber creation does not delete history, disrupt existing consumers, or itself grant target read access.
+- CloudTrail recorded `CreateSubscriber` as a default `eventsv2.amazonaws.com` management write with both bus/subscriber resources and the exact target, role, replay position, transformer and state. The publish call was absent from Event history; `AWS/EventsV2` publish/delivery metrics are always present, while subscriber delivery logs default to `OFF` and require separate vended-log wiring.
+- Cleanup is complete: subscriber and bus inventories are empty; the exact SQS queue and delivery role return not-found; no RAM, KMS, log-delivery, Classic EventBridge, Lambda, HTTP or external fixture was created. Expected functionality only; no private AWS report.
+
+## cont.130 (2026-09-30) — AWS Lambda Core network-connector audit
+
+- SHIPPED #122: added the missing Lambda Core inventory for reusable Lambda MicroVM VPC-egress connectors, including their subnets, security groups, protocol, stored operator role, ENI correlation, state/update diagnostics and management-event logging.
+- SHIPPED #123 (live exact-resource authorization): exact-connector `lambda:UpdateNetworkConnector` plus caller-side `ec2:DescribeSecurityGroups`, `DescribeSubnets` and `DescribeVpcs` replaced the complete subnet configuration and reached `LastUpdateStatus: Successful` while retaining the stored operator role. The session had no `iam:PassRole`; update-only without the EC2 describes was denied before mutation.
+- Bounded impact to MicroVM network posture: this can move workloads using the connector into another private subnet/security boundary allowed by the operator role, but does not itself run/control a MicroVM, grant its execution role, bypass TLS or prove useful private reachability. Existing-workload adoption remains a traffic-tested follow-up.
+- CloudTrail recorded create/update as `lambda.amazonaws.com` management writes with empty resources and full subnet/SG/protocol/operator-role request/response fields. Operator-role EC2 events showed both request-validation dry-run and actual managed ENI creation by `network-connectors.lambda.amazonaws.com` with connector tags and exact network resources.
+- Cleanup is complete: connector inventory and exact connector-tagged ENIs are empty; the operator managed policy was detached; the exact role returns `NoSuchEntity`. No MicroVM, image, function, workload, custom network, endpoint, NAT, database or traffic target was created. Expected functionality only; no private report.
+
+## cont.129 (2026-09-30) — AWS Agent Registry approval and discovery audit
+
+- SHIPPED #118: added missing foundational coverage for the GA `agent-registry-control` / `agent-registry` namespaces, including registries, records, approval state, discovery authorization, synchronized descriptor sources, auto-detection/provenance and the public-preview namespace retirement date.
+- SHIPPED #119 (live exact-resource authorization): `agent-registry:UpdateRegistryRecordStatus` alone on one exact pending record ARN approved a synthetic custom record and made it discoverable. The session had no create, update, read, registry-update or discovery permission.
+- Bounded the impact to the catalog/supply-chain plane: approval can publish a malicious MCP server, agent, skill or descriptor, but does not execute it, grant IAM privileges or force a consumer to connect/install/use it.
+- SHIPPED #120 persistence (live split-session authorization): exact-registry `UpdateRegistry` changed the approval configuration to `APPROVE_ALL`; a different exact-record submit-only session then moved an unreviewed replacement revision directly from draft to approved/discoverable. The setting persists for future submissions until changed.
+- SHIPPED #121 persistence (live exact-resource authorization): exact-registry `UpdateRegistry` replaced a `CUSTOM_JWT` registry's `allowedClients` value with a controlled client while retaining the issuer. This can preserve discovery/MCP access only for a valid token from that existing IdP; it does not grant control-plane access or AWS credentials.
+- NEGATIVE / secure boundary: exact-record `UpdateRegistryRecord` alone created a new `DRAFT`, while discovery continued returning the previous approved description/revision. Update-only access did not bypass curation.
+- CloudTrail indexed the restricted writes as default management events. `UpdateRegistryRecordStatus` retained the IDs and `APPROVED` target while redacting the reason, `UpdateRegistry` retained `APPROVE_ALL`, and the submit-only response retained `APPROVED`; record name/description/descriptor fields were also redacted as `HIDDEN_DUE_TO_SECURITY_REASONS`. Record events used the short record ID as `resources[].ResourceName`. Discovery APIs are opt-in data events, so lifecycle EventBridge events and status/configuration transitions are essential signals.
+- SECURE NEGATIVE / credential replay: exact-record update-only access could not reuse an IAM signing role (`iam:PassRole` was denied synchronously). OAuth URL/provider replacement first returned `UPDATING`, but asynchronous sync failed closed on missing workload-token, provider/token-vault and external-secret permissions; no restricted `/b` request occurred. An admin baseline proved the synthetic-token harness on `/a`. Accepted configuration is therefore not evidence of credential use.
+- SECURE NEGATIVE / cross-registry IDOR: mismatched short record IDs were resolved and authorized only under the registry supplied in the path; complete record ARNs with a different embedded registry were rejected explicitly. An exact-record read/update session for registry A could neither read nor change that record through registry B, and the source record remained unchanged.
+- SECURE NEGATIVE / JWT issuer replacement: the update model accepts a full authorizer object, but the service rejected a different OIDC `discoveryUrl` and never contacted the controlled replacement path. `authorizerType` is not updateable. Only claim restrictions at the existing issuer could be changed.
+- Cleanup is complete across all passes: all registries/records are absent, OAuth-provider and workload-identity inventories are empty, the synthetic external secret returns `ResourceNotFoundException`, and all test Lambda URLs/functions, explicit roles/policies and log groups are absent. Final Agent Registry role deletion task `c0ed0dd3-206d-4f72-9ea8-a5508ae7e774` had an immediately unavailable ephemeral task status; the exact service-linked role then returned `NoSuchEntity`.
+- Auto-detection provenance mutation, resource-policy account binding and search/content poisoning remain private controlled-fixture hypotheses. No unexpected AWS vulnerability report.
+- Retried the unrelated Network Security Manager and RTB Fabric no-cost service-linked-role cleanup tasks; both again failed with AWS internal errors and empty usage lists. No service resource remains behind either role.
+
+## cont.128 (2026-09-30) — AWS Network Security Manager foundational audit
+
+- SHIPPED #113: added the missing Network Security Manager inventory and security model for rules, templates, policies, scopes, deployments, immutable snapshots, synchronization diagnostics, administrator priorities and service-linked downstream authority.
+- SHIPPED #114 (live exact-resource authorization): `network-security-manager:UpdateRule` alone on one exact active rule, with a known current update token, changed a synthetic WAF default action from `Block` to `Allow` and published version 2. The restricted session had no getter, WAF, Shield, Config, IAM, Organizations or PassRole permission.
+- Public impact is deliberately conditional: downstream WAF change requires a mutable live reference, an active deployment and remediation-enabled policy; immutable pinned snapshots are unaffected. The default-action example changes only otherwise-unmatched traffic and does not itself grant AWS IAM privileges.
+- SHIPPED #115: exact-deployment `DeleteDeployment` stops central enforcement and, when policy cleanup is enabled, removes Network Security Manager-created protection resources. With cleanup disabled, existing firewalls may remain unmanaged, so immediate exposure is not overclaimed.
+- SHIPPED #116: management-account wildcard `DeleteAdminAccount` disables one regional administrator's multi-account scopes/deployments and cleans its managed protections.
+- SHIPPED #117 persistence: management-account `PutAdminAccount` can leave a controlled member account as a regional administrator, potentially priority 1 across delegated accounts/OUs/firewall types. This is network-protection-plane persistence, not general member-account IAM administration.
+- The current CLI model was exercised with temporary AWS CLI `2.37.6`; installed `2.34.45` predates the service. Empty live inventory succeeded for all five resource types and aggregate synchronization. Organization-admin listing first reported `ACCOUNT_NOT_ONBOARDED`, then—after first-use initialization—correctly restricted the member account because only the organization management account may list administrators.
+- CloudTrail later confirmed the exact create/update/delete events. The restricted update was a default management write with the exact rule in `resources`; it retained the URL-encoded ARN, old token, complete `Allow` configuration and publish flag in the request, and the new token/configuration/active version 2 in the response.
+- Both synthetic rules were deleted and all Network Security Manager resource inventories are empty. First use created `AWSServiceRoleForNetworkSecurityManager`; supported deletion currently fails with an AWS internal error and empty usage list. It is the only Network Security Manager cleanup debt, has no billable fixture behind it, and is under slow retry. No policy, scope, deployment, WAF/Shield protection, Config recorder, target or traffic was created.
+- Multi-admin scope/priority, cross-account visibility/IDOR, snapshot isolation, log-destination policy boundaries and live propagation remain controlled-fixture hypotheses. Shield Advanced creation was excluded because its subscription cost exceeds the authorized test budget. No private AWS vulnerability report.
+
+## cont.127 (2026-09-30) — AWS Security Agent email-MFA message retrieval
+
+- SHIPPED #112 (new 2026-09-25 API): exact-space `ListActorMessages` returns an actor inbox's sender, subject, receipt time and complete plain-text body, including an email OTP or verification link, during the documented 24-hour retention window.
+- Published exact prerequisites and bounded impact: a known pentest/actor and matching application first factor or active flow are generally still needed; the action is not generic source-mailbox or authenticator-app access, while an overly broad forwarding rule can expose unrelated forwarded content.
+- The authorization table lists only the exact Agent Space action and no KMS dependency. Added Medium stealth, an expandable CloudTrail/discovery/mail-provider/application-auth evidence table, the current-client version caveat and the enumeration command.
+- The installed CLI `2.34.45` predates the operation, but a manually SigV4-signed no-resource request reached the deployed `us-east-1` API and returned the expected `ResourceNotFoundException`. No Agent Space, pentest, actor, inbox or message was accessed or created; cleanup was empty by construction.
+- CloudTrail Event History had not indexed the failed read after the first bounded propagation wait. The official service contract says every Security Agent action is logged, so exact request/resource serialization remains a follow-up check. Cross-space/pentest IDOR, over-retention and response-body logging remain unproven private hypotheses; no AWS vulnerability report.
+
+## cont.126 (2026-09-30) — AWS Security Agent SSO membership persistence
+
+- SHIPPED #111 (current API/IAM/user-guide contract): exact-space `CreateMembership` can assign an existing controlled IAM Identity Center user to an SSO-configured Agent Space, preserving web-application access after the attacker's original AWS session is revoked.
+- Bounded the technique to service-level persistence: current memberships support only `USER` / `MEMBER`; the call does not create an Identity Center user, grant AWS IAM credentials or apply to IAM-only access, and effective activity remains constrained by the assigned space, connected resources and existing application role.
+- The authorization table lists no dependent `sso:*` or `iam:PassRole` action. The public API does not state that the opaque `membershipId` is always an Identity Store `UserId`, so the technique avoids that unsupported mapping and requires an identifier from the authorized assignment workflow.
+- Added minimum prerequisites, impact, Low stealth, an expandable CloudTrail/membership/SSO evidence table, removal guidance, the enum cross-reference and book navigation entry.
+- The training account still has zero Security Agent spaces/applications/integrations, so no live SSO assignment fixture was created. This is documented expected functionality backed by the current API, CLI, authorization table and user-guide access contract; exact identifier provenance remains a future controlled-fixture check. No AWS vulnerability report.
+- Retried supported deletion of the no-cost RTB Fabric service-linked role. Task `40ede7ee-5daf-4d5a-949f-1f30368d3e2f` again failed with AWS's internal-error reason and an empty usage list; the role remains the only tracked cleanup exception and no RTB gateway/network/test fixture exists.
+
+## cont.125 (2026-09-30) — AWS Security Agent assessment-data and action-boundary refresh
+
+- SHIPPED #110 (current API/IAM model): exact-space `GetArtifact` and `BatchGetFindings` can disclose uploaded architecture/configuration and detailed assessment material, including attack/verification scripts, script URLs/instructions, environment-variable values, code locations, reasoning and remediation repository/PR links.
+- Corrected the existing remediation claim: `StartCodeRemediation` selects existing findings and creates generated provider pull requests; the request does not accept attacker-supplied patch content, and protected-branch impact still requires a later merge/provider path.
+- Retrofitted remediation, intrusive pentest start, finding downgrade and pentest deletion with exact Agent Space minima, customer-KMS dependencies, explicit impact/stealth and expandable telemetry tables. `StartPentestJob` is now explicitly bounded to configured/verified targets rather than presented as an arbitrary scanner.
+- Expanded enumeration across memberships, integrated resources, artifacts, target domains, pentests/jobs/tasks/findings/endpoints, and documented the installed-client/current-API drift after the 2026 Agent Space migration.
+- CloudTrail confirmed empty `ListAgentSpaces` as default management reads in both Regions with null request/response elements and a wildcard regional Agent Space resource ARN.
+- Read-only live inventory succeeded in `us-east-1` and `eu-west-1`; both had zero spaces, applications and integrations. No Security Agent, IAM, KMS, S3, target, OAuth or third-party resource was created, so cleanup was empty by construction.
+- One-time login, membership persistence, integration-resource authorization, provider OAuth state binding and private-connection certificate replacement remain fixture-dependent private hypotheses. No AWS vulnerability report.
+
+## cont.124 (2026-09-30) — AWS RTB Fabric foundational audit
+
+- SHIPPED #107 (current API/IAM model plus live responder mutation): added RTB Fabric inventory and exact-responder `UpdateResponderGateway` coverage. Replacing a managed ASG/EKS backend can redirect future OpenRTB traffic, expose bid-request data, manipulate responses or cause an outage, subject to endpoint-role, reachability and health/discovery boundaries.
+- SHIPPED #108 (current API model): exact-link `UpdateLinkModuleFlow` can force no-bids, throttle TPS, filter OpenRTB attributes or inject headers. Published as application integrity/availability manipulation rather than IAM privilege escalation.
+- SHIPPED #109 (conditional): exact-requester `CreateOutboundExternalLink` stages a caller-selected public HTTP/HTTPS endpoint. Public coverage explicitly requires a separate application-selection step before claiming any traffic or data exposure.
+- NEGATIVE / secure tested boundary: a synthetic EKS managed-endpoint configuration accepted an API Gateway URI at responder creation and in a successful active-state update, but RTB made no HTTP request and exposed no authorization metadata. The only capture was the harness's own unauthenticated probe. An immediate URI-based SSRF/EKS-token leak is therefore not claimed.
+- CloudTrail confirmed create/update/delete as default management writes and get as a management read. The EKS URI, cluster/namespace/resource names and role ARN were visible in the update request, the CA chain was masked as `***`, and `resources` was null. Fifteen-second lifecycle polling generated a conspicuous volume of getter events.
+- Creation reached `ACTIVE` at check 49. Deletion took 77 15-second polls before the gateway disappeared; independent inventory then found zero gateways, RTB-managed ENIs, test Lambdas/APIs/log groups and temporary roles.
+- Cleanup exception under active retry: the test-created `AWSServiceRoleForRTBFabric` remains protected and has no dependencies, but supported deletion repeatedly returns an internal failure with an empty usage list. Direct IAM deletion is correctly blocked as `UnmodifiableEntity`. No chargeable/network fixture remains, no security impact is established, and no new RTB fixture will be created until this role is absent.
+- Expected functionality only; no private AWS vulnerability report.
+
+## cont.123 (2026-09-30) — Route 53 ARC readiness cross-account persistence
+
+- SHIPPED #106 (live authorization plus current API contract): wildcard-only
+  `route53-recovery-readiness:CreateCrossAccountAuthorization` stores an external account-root
+  authorization. The receiver can build readiness checks over known supported victim resource ARNs,
+  creating durable service-level configuration/state monitoring outside the victim account.
+- Live minimum-permission testing found the first-use dependency that the Service Authorization table
+  omits: if the readiness service-linked role is absent, the caller also needs narrowly scoped
+  `iam:CreateServiceLinkedRole`. The create-only action failed without it and succeeded with the
+  service name/resource constrained grant.
+- Published strict impact boundaries: no credentials, native service API access, workload data, or
+  mutation; receiver-side check creation also requires eligibility for the legacy readiness feature,
+  which is closed to new customers.
+- `cloudtrail:LookupEvents` remains SCP-denied in `us-west-2`, so the logs table uses AWS's documented
+  all-API logging contract and known request fields rather than claiming live payload serialization.
+- Cleanup was independently confirmed: empty authorization and readiness inventories, zero temporary
+  users, and no readiness service-linked role. No readiness checks or application infrastructure were
+  created. Expected functionality only; no AWS vulnerability report.
+
+## cont.122 (2026-09-30) — Route 53 ARC routing-control takeover
+
+- SHIPPED #105 (current API/IAM contract plus live ordinary state changes): exact-routing-control
+  `UpdateRoutingControlState(s)` can move application traffic between cells, and the same requests
+  accept `SafetyRulesToOverride` to bypass assertion/gating safeguards.
+- Published the critical permission boundary: an ordinary allow without a condition also leaves the
+  break-glass branch available. AWS documents
+  `route53-recovery-cluster:AllowSafetyRulesOverrides=false` for operators who may change safe
+  states but must not override rules. Failed rule evaluation itself reveals the blocking rule ARN.
+- Live fixtures confirmed cluster/control/assertion-rule lifecycle and successful batch state
+  initialization through a regional data-plane endpoint. Rule propagation exceeded the bounded
+  wait, so the restricted-operator override and false-condition denial remain explicitly recorded
+  as current documented behavior rather than live results.
+- `cloudtrail:LookupEvents` is SCP-denied in the required `us-west-2` Region; AWS documentation
+  confirms all ARC calls are management events and directs Event History review to `us-west-2`.
+- All three bounded fixture attempts were cleaned. Final independent inventories found zero
+  `ht-arc-*` clusters and zero `ht-arc-operator-*` roles; every exact rule/control was absent, and
+  no health check, DNS record, workload, network, or compute resource was ever created. Expected
+  functionality only; no AWS vulnerability report.
+
+## cont.121 (2026-09-30) — Oracle Database@AWS foundational audit
+
+- SHIPPED #103 (current API/IAM model): exact-database `odb:CreateAutonomousDatabaseWallet`
+  returns a caller-password-encrypted wallet archive containing Autonomous Database connection and
+  mTLS client material. It still needs an Oracle database credential and network reach; it does not
+  itself disclose the database password.
+- SHIPPED #104: exact-database `odb:UpdateAutonomousDatabase` can reset the Oracle `ADMIN`
+  password and can also replace the IP allowlist and disable mandatory mTLS. This escalates to
+  database-administrator privileges when the private endpoint is reachable, not to AWS IAM or full
+  OCI-tenancy administration.
+- Added service enumeration for networks, Exadata/VM clusters, Autonomous Databases, wallet state,
+  AWS RAM shares, License Manager entitlements, role integrations, and expected OCI-originated STS
+  identity-validation events.
+- The live account is not onboarded (`GetOciOnboardingStatus=NOT_STARTED` in `us-east-1`), and
+  `us-west-2` is SCP-denied. Marketplace acceptance and service initialization were deliberately
+  not performed because they change subscription/legal/billing state. The exact conditional
+  PassRole boundary and sensitive CloudTrail field serialization remain explicitly unclaimed.
+- No ODB, OCI, RAM, License Manager, IAM, secret, KMS, network, or compute resource was created, so
+  cleanup inventory was empty by construction. Expected documented functionality only; no AWS
+  vulnerability report.
+
+## cont.120 (2026-09-30) — AppStream SAML all-applications entitlement escalation
+
+- SHIPPED #101: exact-stack `appstream:CreateEntitlement` alone created an
+  `AppVisibility=ALL` grant matching `groups=ht-controlled`; no Describe, application, IdP, STS,
+  or PassRole permission was present, and a different stack ARN was denied.
+- SHIPPED #102 variant: exact-stack `appstream:UpdateEntitlement` changed a baseline
+  `ASSOCIATED`/selected-app entitlement and attribute into the same all-current-and-future-apps
+  grant without application permissions.
+- Published strict boundaries: this escalates only an already valid SAML identity with a matching
+  PrincipalTag and configured federation path; user-pool/API, Desktop-view, and Dynamic Application
+  Framework access ignore the entitlement plane.
+- Live testing corrected an API/documentation representation trap: the SAML assertion uses the
+  full `PrincipalTag:groups` URI, while the AppStream request stores `Name=groups`; passing the full
+  URI was rejected.
+- CloudTrail retained complete stack/name, visibility, description, and attribute values in the
+  requests and returned the full resulting entitlement. The invalid URI appeared as generic
+  `UnknownError`, while wrong-stack IAM denials had null request fields.
+- Both entitlements were deleted. One immediate stack deletion raced entitlement propagation, so a
+  bounded retry removed it; independent final inventories found zero matching entitlements or
+  stacks. No fleet, app, IdP, role, session, S3, network, or compute resource was created. Expected
+  functionality; no AWS report.
+
+## cont.119 (2026-09-30) — AppStream regional user-pool persistence
+
+- SHIPPED #99: global-scope `appstream:CreateUser` plus exact-stack
+  `BatchAssociateUserStack` created an enabled regional user-pool identity and durable stack
+  assignment without Describe or PassRole permissions; a different stack ARN was denied.
+- The usable attack needs a controlled mailbox for the welcome email and seven-day temporary
+  password. Tests used `MessageAction=SUPPRESS` with reserved `.invalid` addresses, so no mail was
+  delivered and no credential or portal session was created.
+- A fresh user briefly produced in-band `USER_NAME_NOT_FOUND` under an HTTP-successful batch
+  response; a bounded retry succeeded. Published the need to inspect the `errors` array.
+- SHIPPED #100 variant: `appstream:EnableUser` alone re-enabled a disabled controlled identity while
+  its stack assignment remained intact. This makes disable-only containment insufficient.
+- CloudTrail redacted email/name fields but retained authentication/message action, stack, and
+  notification flags; successful association was distinguishable by `responseElements.errors: []`.
+- Both assignments were explicitly removed, then both users/stacks were deleted. Independent final
+  inventories found zero matching users or stacks. No fleet, session, URL, role, S3, network, or
+  compute fixture existed. Expected functionality; no AWS report.
+
+## cont.118 (2026-09-30) — AppStream AgentAccess MCP headless desktop control
+
+- SHIPPED #98 (end-to-end): exact-stack `appstream:UpdateStack` enabled vision, computer input,
+  forwarded MCP tools, and `UserControlMode=DISABLED`; converting an ordinary stack required
+  deleting incompatible user and streaming-experience settings in the same call.
+- A separate operator with only exact stack+fleet `CreateStreamingURL` and stack-conditioned
+  `agentaccess-mcp:InvokeMcp`, `CheckConnectionStatus`, and `GetScreenshot` initialized a real
+  session and received a JPEG desktop screenshot. It had no Describe, input-tool, or PassRole
+  permission; the bearer URL and screenshot content were never printed or stored.
+- Published the conditional machine-role impact honestly: headless screen/input control exposes
+  the session, but AWS privilege escalation still needs a usable shell/application surface and an
+  existing fleet role. Forwarding exposes only MCP tools already configured in the image.
+- CloudTrail retained the full agent configuration in the default `UpdateStack` event and redacted
+  user/session/URL fields in `CreateStreamingURL`. Agent tool calls are optional CloudTrail data
+  events; CloudWatch provides operational metrics.
+- The session was explicitly expired. The one-instance On-Demand fleet reached STOPPED and was
+  disassociated/deleted; the stack and temporary documented AppStream service role were deleted.
+  Independent inventories found zero matching stacks, fleets, AppStream ENIs, or AppStream roles.
+  Expected functionality; no AWS report.
+
+## cont.117 (2026-09-30) — AppStream stack transfer-control weakening
+
+- SHIPPED #97: exact-stack `appstream:UpdateStack` enabled clipboard copy in both directions, file
+  upload/download, and local printing without Describe, fleet mutation, session, or caller-side
+  PassRole permissions.
+- The resulting stack can permit ingress and exfiltration for existing/future sessions, including
+  file-system redirection when upload and download are both enabled. It does not create a session
+  or bypass independent endpoint, network, EDR, or DLP controls.
+- The restricted caller succeeded only for the exact stack ARN; an authorization policy naming a
+  different stack was denied. The tested clipboard maximum was the documented 20 MiB.
+- CloudTrail recorded the default management write after propagation and retained the complete
+  settings and limits in both request and response. Streaming-channel transfers are not separate
+  AppStream control-plane API events.
+- The disposable stack was deleted by the test trap; an independent final inventory found zero
+  matching stacks. No fleet, session, application, URL, role, bucket, or network fixture was
+  created. Expected functionality; no AWS report.
+
+## cont.116 (2026-09-30) — AppStream rolling fleet-image takeover
+
+- SHIPPED #96 (conditional attacker image): exact-fleet `appstream:UpdateFleet` changed a stopped
+  On-Demand fleet between AWS-owned Windows Server 2022 images while preserving its existing
+  machine role without Describe or caller-side PassRole.
+- For a running same-OS fleet, documented behavior rolls new/replacement instances onto the new
+  image without interrupting active sessions. An attacker-controlled same-account or fleet-shared
+  image can therefore persist code and conditionally inherit the fleet role.
+- The AWS-owned public-image branch required only the exact fleet ARN. The public technique
+  conservatively includes exact target-image authorization for customer-owned/shared targets, as
+  exposed by the service-authorization model; that target class was unavailable live.
+- CloudTrail retained the target image ARN and returned the full resulting fleet, including the
+  unchanged role, state, type and zero capacity.
+- The fleet stayed at desired/running capacity zero and was never started. It and both disposable
+  roles were deleted; final fleet/AppStream-ENI inventories were zero. Expected functionality; no
+  AWS report.
+
+## cont.115 (2026-09-30) — AppStream Elastic-fleet SYSTEM session-script persistence
+
+- SHIPPED #95: exact-fleet `appstream:UpdateFleet` plus exact-object `s3:GetObject` set an Elastic
+  fleet's session-script archive while preserving its existing machine role without caller-side
+  PassRole.
+- A valid ZIP can run session-start/termination hooks as local SYSTEM or the streaming user. This is
+  fleet-level recurring persistence and conditionally recovers the retained
+  `appstream_machine_role` whenever later user sessions trigger it.
+- The exact fleet alone failed the S3 object-access check. Adding only exact-object GetObject
+  succeeded; `DescribeFleets` and a different fleet ARN were denied. No session was started.
+- CloudTrail retained the exact bucket/key and returned the full fleet, including role, VPC,
+  platform and capacity. Optional S3 data events and session-script output logs provide additional
+  evidence, but payload configuration can disable the latter.
+- The stopped Elastic fleet, placeholder object/bucket, harmless machine role, and temporary
+  AppStream service role were deleted. Final checks found zero matching fleets or AppStream ENIs,
+  and the bucket/roles were absent. Expected functionality; no AWS report.
+
+## cont.114 (2026-09-30) — AppStream Elastic-application launch poisoning
+
+- SHIPPED #94: exact-application `appstream:UpdateApplication` replaced an enabled Windows
+  application's launch path with PowerShell and stored attacker-controlled arguments. No Describe,
+  S3, fleet/app-block mutation, or caller-side PassRole permission was present.
+- This is user-triggered, durable code execution for an already associated Elastic-fleet
+  application. It can expose mapped user data, fleet network access, and an existing
+  `appstream_machine_role`; separate `CreateStreamingURL` access provides a self-trigger.
+- Exact boundary: only the application ARN was required for launch fields. A different application
+  and app-block-only policy were denied. Supplying `AppBlockArn` required both exact resources.
+- CloudTrail recorded the full executable path and launch arguments in the request and returned the
+  complete resulting application definition, giving defenders a high-fidelity detection point.
+- Two disposable applications/app blocks and their six harmless S3 objects were deleted. Both
+  exact buckets were absent and final matching application/app-block inventories were zero. No
+  fleet, stack, URL, session, machine role, instance, or network resource was created. Expected
+  functionality; no AWS report.
+
+## cont.113 (2026-09-30) — AppStream existing app-block-builder takeover
+
+- SHIPPED #93: exact-builder `appstream:CreateAppBlockBuilderStreamingURL` creates a bearer URL to
+  an existing running app-package builder without Describe, create/update, association, or
+  caller-side PassRole permissions.
+- The administrative Windows desktop can access the builder's existing `appstream_machine_role`.
+  When an APPSTREAM2 app block is associated, finishing a malicious package also creates a
+  conditional Elastic-fleet software-supply-chain path.
+- Live exact-resource proof reached builder-not-found only for the allowed ARN; another builder and
+  `DescribeAppBlockBuilders` were denied. A disposable associated builder then returned a real
+  60-second URL, which was never printed or redeemed.
+- CloudTrail recorded the successful call as a default management write, retained builder name and
+  validity, and replaced the returned URL with `HIDDEN_DUE_TO_SECURITY_REASONS`.
+- The builder was stopped, disassociated, and deleted. The app block, empty package bucket, and
+  temporary service role were deleted. Final inventories showed zero matching builders, app
+  blocks, associations, AppStream ENIs, bucket, or role. Expected functionality; no AWS report.
+
+## cont.112 (2026-09-30) — AppStream existing image-builder administrator URL
+
+- SHIPPED #92: exact-builder `appstream:CreateImageBuilderStreamingURL` gives direct access to an
+  existing running builder without create/update, Describe, or caller-side PassRole permissions.
+- Non-domain-joined Windows builders offer local Administrator; Linux automatically uses a root
+  `ImageBuilderAdmin` session. This exposes the golden-image filesystem/private network and any
+  existing `appstream_machine_role` credentials.
+- Domain-joined Windows credentials and configured streaming access endpoints are explicit
+  constraints; the public technique does not present every builder as automatically reachable.
+- Live least-privilege proof reached builder-not-found on one exact ARN; another builder and
+  `DescribeImageBuilders` were denied. The account had zero image builders.
+- CloudTrail recorded the call as a management write, retained builder name/validity, and replaced
+  the returned URL with `HIDDEN_DUE_TO_SECURITY_REASONS`.
+- No builder, image, URL, session, role, network resource, or other asset was created. Expected
+  functionality only; no AWS report.
+
+## cont.111 (2026-09-30) — AppStream existing-fleet streaming URL
+
+- SHIPPED #91: exact stack+fleet `appstream:CreateStreamingURL` creates a custom-user bearer session
+  into an existing fleet without user-pool/SAML setup, fleet mutation, or caller-side PassRole.
+- The URL can last seven days. A Desktop/shell-capable session inherits private-network/application
+  access and can recover the fleet's existing `appstream_machine_role` credentials; tightly locked
+  application-only fleets limit that escalation path.
+- Live least-privilege proof reached stack-not-found with only the exact two resource ARNs. Either
+  alternate resource and `DescribeStacks` were denied; the account had zero fleets/stacks.
+- CloudTrail recorded a management write, retained stack/fleet/application/validity, and redacted
+  the custom user, session context, and returned URL as `HIDDEN_DUE_TO_SECURITY_REASONS`.
+- No fleet, stack, user, URL, session, role, or other resource was created. Expected functionality
+  only; no AWS report.
+
+## cont.110 (2026-09-30) — AppStream image export to EC2 AMI
+
+- SHIPPED #90: `appstream:CreateExportImageTask` plus `iam:PassRole` materializes an owned private
+  WorkSpaces Applications image as a same-account EC2 AMI for normal launch/copy/share inspection.
+- The current export is limited to available Windows Server 2022/2025 images and strips the service
+  agent plus Microsoft license-included applications. The AMI is not automatically public or
+  cross-account, so separate EC2 authority remains necessary.
+- Live minimum proof showed the action alone stops at PassRole; exact-role PassRole with
+  `iam:PassedToService=appstream.amazonaws.com` reached image-not-found without List/Describe.
+- An exact image ARN did not authorize the action, while the Region/account `image/*` pseudo-resource
+  did. This useful scoping/documentation nuance was recorded but is not an AWS vulnerability.
+- CloudTrail retained image name, AMI name, and role ARN for the service-authorized failed call and
+  classified it as a management write. Private/shared image, export-task, and matching AMI
+  inventories remained empty; no role, task, AMI, snapshot, instance, or other resource was created.
+
+## cont.109 (2026-09-30) — AppStream private-image cross-account copying
+
+- SHIPPED #89: exact-image `appstream:UpdateImagePermissions` can grant a foreign account fleet use
+  or image-builder use of a private AppStream / WorkSpaces Applications golden image.
+- The image-builder branch lets the recipient obtain local-admin/root access and create an
+  independent image that survives owner-side revocation; the impact is durable disclosure of
+  proprietary applications, internal configuration, cached data, and accidentally baked secrets.
+- A live inline STS policy proved exact image-ARN scoping: the allowed synthetic image reached
+  resource-not-found, while a different image and `DescribeImages` were denied.
+- CloudTrail recorded the permitted failed probes as management writes and retained the image name,
+  recipient account, `allowFleet`, and `allowImageBuilder`. It represented the service's specific
+  failures as generic `UnknownError`, so detection should inspect the request fields.
+- Both private and shared image inventories were empty. Only impossible image names were used; no
+  image, permission, builder, fleet, IAM role, or billable resource was created. Expected
+  functionality only; no AWS report.
+
+## cont.102 (2026-09-30) — Marketplace Discovery private-offer reads
+
+- SHIPPED #84: the April 2026 Marketplace Discovery API can enumerate buyer-visible private offers
+  and offer sets, then disclose pricing, payment/renewal structure, custom legal-document URLs,
+  buyer notes and replacement-agreement relationships before agreement acceptance.
+- Verified the exact minimum for `ListPurchaseOptions` on the catalog purchase-option wildcard and
+  exact-offer `GetOfferTerms`; the same constrained role was denied unrelated `SearchListings`.
+- CloudTrail recorded every read under `discovery-marketplace.amazonaws.com`, retained the private
+  visibility/product filter or exact IDs, and omitted returned terms and presigned URLs.
+- The account had zero private purchase options. Public-offer reads validated all response classes
+  without subscribing, purchasing, deploying, or redeeming legal-document URLs. The temporary IAM
+  role and inline policy were deleted and independently verified absent. No AWS defect was found.
+
+## cont.103 (2026-09-30) — Chime SDK technique metadata completion
+
+- Added explicit minimum-permission/prerequisite blocks to every executable Chime SDK privilege
+  escalation, post-exploitation and persistence technique.
+- Corrected PassRole telemetry: `iam:PassRole` has no standalone CloudTrail event; the receiving
+  media-pipeline request records the role ARN and downstream service-role activity supplies the
+  execution evidence.
+- Replaced generic Voice/SIP and media-pipeline logging labels with the actual API families, and
+  normalized every expandable section to `Logs generated`. No new AWS calls or resources were
+  needed because the existing live authorization/CloudTrail matrix supported the corrections.
+
+## cont.104 (2026-09-30) — Pinpoint push-channel stored-credential boundary
+
+- Rejected `GetBaiduChannel` as a credential-disclosure technique: after storing synthetic API and
+  secret keys, both the update and subsequent getter omitted the `Credential` and secret values even
+  though the current SDK response model still documents a credential field.
+- GCM/FCM could not be proven with a fake key because `UpdateGcmChannel` contacted FCM and rejected
+  it as unregistered, even with the channel disabled. The account had no existing projects or GCM
+  channels, so no real third-party credential was introduced or accessed.
+- Both disposable Pinpoint projects were deleted; exact-ID reads returned `NotFoundException` and
+  the matching-name inventory was empty. No book technique or AWS vulnerability report was added.
+
+## cont.105 (2026-09-30) — Route 53 Domains cross-account registration takeover
+
+- SHIPPED #85 (documentation-validated): exact source-account
+  `route53domains:TransferDomainToAnotherAwsAccount` plus destination-account
+  `AcceptDomainTransferFromAnotherAwsAccount` moves a domain registration into an
+  attacker-controlled account after password-backed acceptance.
+- The source permission is global `Resource: "*"`; it requires no `ListDomains`, domain detail,
+  EPP-code retrieval, transfer-lock write, or PassRole action. The hosted zone remains in the source
+  account, but the recipient becomes registration owner and can later alter delegation or transfer
+  state using its own account permissions.
+- Retrofitted both older Route 53 Domains techniques with explicit minimum prerequisites, impact and
+  stealth, and corrected domain-registration CloudTrail event names to their lowercase-first-letter
+  form.
+- Safe live inventory found zero registered domains. No transfer was attempted, no fixture was
+  created, and cleanup was vacuous. Expected functionality only; no AWS report.
+
+## cont.106 (2026-09-30) — Amazon Q in Connect session traces
+
+- SHIPPED #86: `wisdom:ListMessages` can disclose customer/agent/bot text, citations, guardrail
+  state and tool results; `wisdom:ListSpans` can expose system instructions, LLM inputs/outputs,
+  reasoning, tool calls/results, prompt/model data, contact IDs and guardrail assessments.
+- Live least-privilege proof used an inline STS session policy. Both reads reached resource-not-found
+  on one exact synthetic Session ARN; another Session ARN and `GetSession` were denied. The reads
+  therefore require neither broad session access nor the metadata getter.
+- `SearchSessions` independently reached the service with `Resource: "*"`; its current filter is
+  exact `NAME EQUALS`, not unfiltered enumeration. The public page documents known-ID fallbacks,
+  impact, High/Medium stealth, and `qconnect.amazonaws.com` CloudTrail signals.
+- Event History retained the exact IDs/name filter and recorded each failed probe as a read-only
+  management event with `responseElements:null`; successful response-body logging remains unclaimed.
+- The allowed Region had zero assistants, and no assistant/session was created because sessions have
+  no delete API. Two preliminary IAM roles were cleaned and independently verified absent; the final
+  STS-policy test created no resources. Expected functionality only; no AWS report.
+
+## cont.107 (2026-09-30) — CodeBuild sandbox interactive connection
+
+- SHIPPED #87: exact-sandbox `codebuild:StartSandboxConnection` returns a Session Manager token and
+  stream URL for an interactive shell in a running sandbox, exposing in-container source/secrets and
+  the project role without caller-side PassRole, SSM, project mutation, or command-execution rights.
+- Live least-privilege proof used an inline STS session policy: the allowed synthetic sandbox ARN
+  reached `No sandbox found`, while another ARN and `ListSandboxes` were denied.
+- The account contained zero sandboxes, so no end-to-end shell/token was created. Public coverage
+  explicitly records the SSM Agent and project-service-role prerequisites and leaves successful
+  response logging unclaimed.
+- CloudTrail recorded the failed calls as management events with `readOnly:true` despite IAM's Write
+  classification; the allowed not-found call retained the exact sandbox ARN.
+- No CodeBuild, SSM, or IAM resource was created; cleanup was vacuous. Expected functionality only;
+  no AWS report.
+
+## cont.108 (2026-09-30) — Marketplace Deployment buyer-secret poisoning
+
+- SHIPPED #88: a compromised seller principal with product-scoped
+  `aws-marketplace:PutDeploymentParameter` can create or replace API keys, OAuth credentials,
+  external IDs, license keys or dynamic endpoint parameters in a buyer's Quick Launch managed secret.
+- The attack is bounded to a seller-owned product, valid agreement and buyer service-linked role; it
+  becomes supply-chain compromise only when the approved template/integration consumes the value.
+- Live exact-product authorization reached product-not-found with only `PutDeploymentParameter`.
+  Another product and `TagResource` were denied, confirming product scoping and the optional tagging
+  dependency.
+- CloudTrail recorded the calls as management writes, retained product/agreement/client-token/name,
+  and redacted `secretString` as `***`.
+- Only impossible synthetic identifiers and a non-secret string were sent. No deployment parameter,
+  secret, product, agreement, IAM role or other resource was created. Expected functionality only;
+  no AWS report.
+
+## Active 2026-09-26 checkpoint
+
+Research remains active. The September 24 saturation table below records that specific sweep, not completion of AWS research. Recent changes pushed to PR #413 include Account Access Manager role entitlement assignment, Sign-In account and organization console-denial paths, Lambda full-resource-policy code-update escalation, RAM share retention on organization departure, current Organizations departure controls, and stealth/CloudTrail corrections across IAM, Identity Center, Lambda, and Organizations pages. Each tested service has a per-service ledger with prerequisites, negative branches, and cleanup results.
+
+Current next checks: Sign-In network enforcement only in a disposable account; Identity Center applications-only instance effects; resource-share acceptance and retention without moving a production account; broader 2026 IAM/service action coverage. Do not publish unexpected security-impact candidates until separately validated and written in the local private AWS report folder.
+
+Latest verified expected technique: EMR Serverless `GetSessionEndpoint` exact-session permission returns a portable Spark Connect bearer token to a principal other than `session.createdBy`; that client used the existing session's execution role to read a canary it could not access directly. Requires no `iam:PassRole`, `StartSession`, `GetSession`, or `ListSessions`. Public technique and detailed `emr/session-endpoint-2026-09-26.md` evidence added; all disposable test cycles fully cleaned.
+
+Latest negative boundary test: CodeArtifact authorization tokens stayed repository-scoped and both already-issued and newly minted tokens honored a new explicit `ReadFromRepository` deny within 7.6 seconds. Secure result recorded under `codeartifact/`; empty domain/repositories and IAM role fully deleted.
+
+Latest S3 parser boundary test: a 34-case raw SigV4 presigned-POST multipart matrix produced zero objects outside the signed `allowed/` prefix. Duplicate auth/policy/key fields failed safely, traversal filenames stayed prefix-bound, size/SSE conditions held, and old/new forms honored an explicit IAM deny within 15.1 seconds. All 15 objects, bucket, and signer role deleted; zero multipart uploads and no versioning/Object Lock residue.
+
+Well-Architected invitation-recipient binding remains deferred: the safe two-local-user fixture is invalid because `CreateWorkloadShare` rejects a user from the sharer's own account. No invitation was created; workload, both keys/policies, and both users were deleted. Revisit only with an explicitly authorized second account.
+
+Latest documented expected technique: Systems Manager JIT `StartAccessRequest` + `GetAccessToken` vends constrained temporary credentials for an approved Session Manager shell without standing `StartSession` or PassRole. Added with exact prerequisites/impact/stealth/logs. Live test deferred because account preflight found JIT, unified-console setup, approval policies, and managed nodes all absent; no account-wide setting was changed.
+
+## 2026-09-24 sweep checkpoint (historical)
+
+| Axis | State | Notes |
+|---|---|---|
+| Privesc (existing services) | ✅ complete | impact + "Logs generated" retrofit done across the 28-page privesc tail |
+| Post-exploitation (existing) | ✅ complete | impact + logs retrofit done across the 17-page post-ex tail |
+| Persistence (existing) | ✅ complete | + Stealth rating on every persistence technique |
+| Privesc/post/persistence (net-new services) | ✅ saturated | 34 net-new pages/techniques; phase-2 zero-presence services swept |
+| Unauth / recon (all 433) | ✅ complete | 7 new pages + 7 cross-account resource-policy matrix rows; 8-slice manual pass |
+| Cross-account resource-policy matrix | ✅ complete | all 75 policy-setters across 433 enumerated; 65 matrix rows |
+| autonomous_research folder | 🟡 in progress | this scaffold; per-service checklists being seeded |
+
+**34 net-new pages/techniques + 27 format-fixed** cumulative. HEAD == origin `6f165c07e`. PR #413 body updated through the full unauth sweep.
+
+## The 7 convergent lenses
+
+privesc-PassRole · unauth-authtype · recon-output-shape · persistence · hijack-no-PassRole · per-service-ledger (`master_ledger.csv`) · 8-slice manual review. All converge on "no further clean net-new gap that clears the no-garbage bar." Remaining items are reasoned exclusions (niche/preview/deprecated/cost-blocked) — see each `<service>/tested.md` and `checklist.md`.
+
+## Standing irreversible residue (do NOT re-flag as a mistake)
+
+- `ht-audit-objlock-1790090581` — S3 bucket, one 12-byte object `auto.txt` under COMPLIANCE retain-until **2126-08-29**. Undeletable by any principal incl. account root & AWS Support, by design. ~$0 cost. Verified empirically. Leave it.
+- 2 customer KMS CMKs (`1bb73ce3…`, `acdd6d73…`) in PendingDeletion → self-delete 2026-09-29. **Reuse these for KMS tests** instead of creating new CMKs.
+
+Everything else removable in that 2026-09-24 residue sweep was removed. See the current checkpoint above for later test state.
+
+## Known content gaps still worth a page (tracked as per-service checklists)
+
+- ~~ElastiCache — no enum/privesc/post~~ **STALE/WRONG**: `aws-services/aws-elasticache.md` exists with enum + 2 post-ex techniques (ModifyUser password reset, CopySnapshot→S3 exfil) + persistence page. Only a distinct *privesc* framing might be marginally addable (low value).
+- MemoryDB — persistence only; no privesc/post.
+- ~~Glue — no dedicated enum/deep attack coverage.~~ **CLOSED 2026-09-27**: dedicated enum plus connection/data reads, catalog poisoning, five execution pivots, catalog-policy persistence and recurring-trigger persistence; current PassRole boundaries live-verified in `glue/`.
+- `aws-vpn-post-exploitation` — empty stub.
+- ~~SSO / Identity Center — persistence angle not yet a page.~~ **STALE/WRONG**: verified cont.66 — `aws-privilege-escalation/aws-sso-and-identitystore-privesc/README.md` comprehensively covers the persistence-relevant primitives (CreatePermissionSet + policy inject + CreateAccountAssignment, identitystore/sso-directory CreateUser, CreateGroupMembership, GetRoleCredentials cache theft, plus Detach/Delete defense-evasion variants). No separate persistence page needed.
+- ~~Redshift — privesc+post exist; no persistence/enum-deepen.~~ **CLOSED 2026-09-27**: provisioned and Serverless enumeration, Data API/session/snapshot/datashare coverage, role repointing, admin reset/network/endpoint persistence and deterministic unauthenticated endpoint recon in `redshift/`.
+
+## Net-new since the all-433 sweep
+
+- **AppFabric** (`aws-services/aws-appfabric-enum.md`, 2026-09-24) — zero prior coverage. Enum + `appfabric:CreateIngestionDestination` SaaS-audit-log redirect/exfil + SOC-blinding (authz gate verified, end-to-end doc-scoped due to SaaS-OAuth precondition). Defensive negative: AppFabric does NOT leak stored SaaS credentials via API. See appfabric/.
+
+## Open-idea backlog lives per service
+
+See `<service>/checklist.md`. When an idea is tested it moves to `<service>/tested.md` with the result, and — if it works and clears the no-garbage bar — into the public book.
+
+## Saturation update (cont.61, 2026-09-24)
+- Systematic zero-coverage sweep: ALL botocore services cross-referenced vs the whole book -> 133 zero-coverage services; signal-scanned the tail; only ssm-incidents yielded a net-new page. Rest = runtime/data-plane variants, deprecated, no-primitive, or already-deferred.
+- Newest 2024 services (bedrock-agentcore) confirmed ALREADY comprehensively covered (token-vault vending, execution-role pivots, sandbox escape, resource-policy) — no net-new.
+- This continuation net-new: CloudTrail Lake EDS anti-forensics; Deadline queue-role privesc (VERIFIED live); Incident Manager counter-IR. Cumulative ~40 net-new + 27 format-fixed.
+- Remaining threads are compute-gated (Deadline CreateJob->RCE, response-plan/replication-set end-to-end, AgentCore token-vault/payments) -> parked in per-service checklists for a compute-authorized run.
+
+## Saturation update (cont.62-66, 2026-09-24)
+- **Net-new this stretch (all pipelined to PR #413):**
+  - #42 MWAA classic token->DAG exec-as-execution-role (`airflow:CreateWebLoginToken`/`CreateCliToken`).
+  - #43 MWAA exec-role repoint (`airflow:UpdateEnvironment --execution-role-arn` + PassRole) — authz
+    VERIFIED. GOTCHA: MWAA IAM prefix is `airflow:`, not `mwaa:`.
+  - #44 IoT Core credential-provider role alias (`iot:CreateRoleAlias`/`UpdateRoleAlias` + PassRole ->
+    vend any credentials.iot-trusting role via X.509 cert at the cred-provider endpoint) — VERIFIED
+    END-TO-END, zero cost. Vend leaves NO CloudTrail event (stealth persistence).
+  - #45 Transfer Family role-choice (`transfer:CreateUser`/`UpdateUser`/`CreateAccess` + PassRole binds
+    a chosen role to an SFTP identity) — authz VERIFIED. Distinct from pre-existing ImportSshPublicKey.
+  - Deadline fleet-role privesc (VERIFIED live, no-compute CMF worker), earlier in stretch.
+- **Saturation CONFIRMED across the whole credential/role-vending seam:** Cognito identity pools (SetIdentityPoolRoles/unauth vend/RBAC), SSM CreateActivation, IAM Roles Anywhere (CreateTrustAnchor+Profile / UpdateTrustAnchor / STS privesc), App Runner (CreateService RCE + UpdateService + mutable-tag auto-deploy), Glue GetConnection creds, RDS IAM auth — ALL already documented. The generic PassRole-into-job family is exhaustively catalogued in aws-ml-dataaccess-passrole-privesc (MSK Connect, Braket, m2, Panorama, DAX, pcs, osis, timestream, chime, ... all listed). Net-new only comes from DISTINCT mechanisms the catalog doesn't model.
+- **Cumulative: ~45 net-new + 27 format-fixed. All test infra torn down + verified each cycle.**
+- **Primed threads for a compute-authorized run:** Transfer custom-IdP Lambda (attacker-controlled auth Lambda mints arbitrary Role/Policy per login); IoT provisioning-template role selection + UpdateCACertificate autoregistration persistence; MWAA end-to-end env exploitation; Deadline CreateJob->RCE-on-worker.
+
+## Saturation update (cont.68-70, 2026-09-25)
+- **#47 Lambda exec-role repoint** (`lambda:UpdateFunctionConfiguration --role` + PassRole + Invoke) — authz VERIFIED live (two-sided). Shipped: aws-lambda-privesc/README.md. PR #413. ~47 net-new.
+- **Repoint/attach-role lens CONFIRMED SATURATED:** Redshift already covers BOTH `ModifyClusterIamRoles` and serverless `UpdateNamespace` with two-sided PassRole proof; Batch covers RegisterJobDefinition PassRole + SubmitJob (live); CodeBuild/CloudFormation/App Runner/Step Functions all covered. Lambda was the last clean gap in this family.
+- **DEAD LENS — "Describe/List returns a stored password":** systematically scanned botocore for read-op output shapes with secret-like fields (password/secret/credential/token/privatekey). Empirically tested the two strongest candidates:
+  - AppStream `DescribeDirectoryConfigs.ServiceAccountCredentials` → **AccountPassword REDACTED**, only
+    `AccountName` (DOMAIN\user) returned. (appstream/tested.md)
+  - DMS `DescribeEndpoints` → **Password removed from output shape**; no value returned. (dms/tested.md)
+  - **Calibration:** botocore `sensitive:true` = scrub-from-logs, NOT returned-in-response. AWS redacts
+    stored passwords from Describe/List. The ONLY reliable secret vends are purpose-built
+    `Get*Credentials`/`GetSecretValue`/`GetAuthorizationToken`/`GetRoleCredentials`/`GetCredentialsForIdentity`/
+    `DownloadDefaultKeyPair`/`GetInstanceAccessDetails`/`GetTemporary*Credentials`/`GetDataAccess` — ALL
+    already documented (Lightsail, Lake Formation, S3 Access Grants, SSO, Cognito, ECR, CodeArtifact,
+    STS, EMR GetClusterSessionCredentials, Redshift GetClusterCredentials, Glue GetConnection).
+  - Remaining `sensitive` fields (EMR KerberosAttributes, RDS/docdb/neptune MasterUserPassword, storagegateway
+    CHAP, ds SharedSecret, cloudhsmv2 PreCoPassword, wickr OIDC) are the same redacted-in-Describe class →
+    not chased. If ever revisited, must be empirically re-tested, not assumed.
+- **Cumulative: ~47 net-new + 27 format-fixed.** All test infra torn down + verified each cycle.
+
+## Saturation update (cont.73-74, 2026-09-25)
+- **Verified net-new shipped this session:** #47 Lambda UpdateFunctionConfiguration --role repoint; #48 Amazon S3 Files (new page: CreateFileSystem+PassRole data-access + PutFileSystemPolicy cross-account matrix row [66] + mount-target exposure); #49 EKS UpdatePodIdentityAssociation repoint (role swap + target-role cross-account chaining + disable-session-tags ABAC bypass). All authz-verified two-sided.
+- **Lenses confirmed saturated/dead this session:**
+  - Update*+PassRole "repoint an existing resource's role": saturated after Lambda + EKS (Redshift both
+    cluster+serverless, Batch, ECS exhaustive, CodeBuild, App Runner, Step Functions, MWAA, Transfer,
+    Amplify all done). Remaining role-input Update ops = niche ML/legacy or no-vend-value (rds:ModifyDBProxy
+    role doesn't change configured secret; batch serviceRole limited; s3control:UpdateAccessGrantsLocation
+    = marginal Update of documented Create).
+  - Code/script injection into an existing execution path: Glue EXHAUSTIVE (StartJobRun --scriptLocation,
+    UpdateJob, s3:PutObject on script, workflow stored-authority, blueprints), CodeBuild/ECS/Lambda covered.
+  - Describe/List secret-disclosure: DEAD (AppStream/DMS redact; sensitive:true = log-scrub only).
+- **New-service frontier:** s3files shipped; iot-managed-integrations parked (irreversible RegisterCustomEndpoint onboarding gate); rest of 2024+ services = no security primitives.
+- **Cumulative: ~49 net-new + 28 format/matrix.** All test infra torn down + verified each cycle.
+
+## Saturation update (cont.75) — identity-provider / trusted-token-issuer lens
+- SHIPPED (doc-grounded) #50: `sso-admin:CreateTrustedTokenIssuer` rogue TTI → impersonate any Identity Center user via JWT-bearer grant / CreateTokenWithIAM into trusted-identity-propagation apps (Q Business, Redshift, QuickSight, S3 Access Grants). Commit c8980fe16 on research/aws-technique-audit; PR #413 bullet added; autonomous_research/aws/identity-center/{tested,checklist}.md.
+- Book-wide grep confirmed TTI/TTP was 0-hit (genuinely undocumented). Lab is Org MEMBER acct (no IdC instance) → doc-grounded per precondition exception; parked end-to-end verify for an IdC-enabled account.
+- Identity-provider lens status: IAM SAML/OIDC + Cognito IdP = already covered; TTI = the net-new gap, now shipped. iot:CreateAuthorizer / apigateway:CreateAuthorizer = low IAM-privesc value (app-scoped auth bypass), parked in checklist for possible enum-page mention.
+
+## Saturation update (cont.76) — Batch RegisterJobDefinition+PassRole
+- SHIPPED #51 (VERIFIED two-sided): batch:RegisterJobDefinition + iam:PassRole (+ SubmitJob) run-container-as-passed-role, new first section on aws-batch-privesc/README.md. Complements existing SubmitJob-only technique. Commit 6693993d7; PR #413 bullet added.
+- Repoint/compute-exec lens sweep: Glue UpdateJob/UpdateDevEndpoint, CodeBuild UpdateProject, Step Functions UpdateStateMachine, CodePipeline UpdatePipeline all covered. Batch's Register+PassRole was the one primary-path gap (only parenthetical before) - now closed.
+- Teardown verified: no ht-* roles, no ACTIVE ht-batch-probe defs (INACTIVE remain, no hard-delete available).
+
+## Saturation update (cont.77) — NEW SERVICE Bedrock AgentCore
+- SHIPPED #52 (NEW PAGE, 2 techniques VERIFIED two-sided): aws-bedrock-agentcore-privesc/README.md. CreateCodeInterpreter+PassRole (POS created READY interpreter); CreateAgentRuntime(+CreateAgentRuntimeEndpoint)+PassRole (POS advanced past PassRole to endpoint gate, NEG PassRole AccessDenied). + Update-repoint (doc), + data-plane cred vend GetWorkloadAccessToken->GetResourceApiKey/Oauth2Token plaintext (doc, sensitive:true). SUMMARY wired. Commit 1b5051e17; PR #413 bullet.
+- Found via comprehensive credential-vend sweep across all 423 botocore services (autonomous_research method). AgentCore = biggest net-new frontier surfaced.
+- Calibration reconfirmed: control-plane Get*CredentialProvider returns only Secrets Manager ARN; data-plane GetResourceApiKey returns plaintext (sensitive:true).
+- Teardown verified clean.
+
+## Saturation update (cont.78) — SES sending-authorization backdoor
+- SHIPPED #53 (doc+partial-verify): ses:PutIdentityPolicy / sesv2:PutEmailIdentityPolicy cross-account sending-authorization backdoor, new section on aws-ses-post-exploitation. Commit 1a0931630; PR #413 bullet.
+- Found via all-services resource-policy-setter sweep (Put*Policy/Add*Permission vs cross-account matrix). SES identity policy was a proper-section gap (matrix had only 1 line).
+- Other sweep candidates parked/rejected: s3control PutMultiRegionAccessPointPolicy (MRAP cross-account - candidate), signer AddProfilePermission (code-signing cross-account - niche), waf*/PutPermissionPolicy (rulegroup share - low), mediastore PutContainerPolicy (service EOL). Scaling/read policies discarded.
+
+## Saturation update (cont.79) — Budgets CreateBudgetAction privesc
+- SHIPPED #54 (NEW PAGE, PassRole gate VERIFIED two-sided): aws-budgets-privesc/README.md. CreateBudgetAction APPLY_IAM_POLICY/APPLY_SCP_POLICY/RUN_SSM_DOCUMENTS + iam:PassRole -> self-attach admin / org SCP / SSM code-exec via ExecutionRoleArn. Execution timing-gated (Standby->Pending on budget eval). Commit 346ff079c; PR #413 bullet.
+- Found via all-services Create*/Update* role-passing sweep. Filtered out variant-op noise (sagemaker 21 ops, comprehend/transcribe covered by aws-ml-dataaccess-passrole-privesc). Budgets = genuine net-new (only defensive coverage existed).
+- Parked from same sweep for later: kendra (post-exploit only, CreateIndex+PassRole), amplify computeRoleArn, proton (EOL) cross-account connection, ecs ExpressGatewayService (new), guardduty CreateMalwareProtectionPlan.
+
+## cont.80 (2026-09-25)
+- Saturation re-confirmed: EventBridge family, SSM CreateActivation (ssm+ecs pages), DataSync/Transfer/FIS/IoT/GameLift privesc, Kendra CreateDataSource+PassRole — all covered.
+- SHIPPED #55: AWS AppFlow CreateFlow attacker-defined transfer (aws-appflow-enum.md). Verified live S3->S3 exfil end-to-end; UpdateFlow endpoint-immutability verified; SaaS-connector-profile source doc-grounded. No PassRole (service-linked + connector authority). Residue zero.
+- Lens-sweep log cont.76-79 written (parked: s3control MRAP policy, signer AddProfilePermission, finspace-data/emr-containers cred-vends).
+
+## 2026-09-26 Lambda full-policy follow-up
+- VERIFIED end-to-end with a least-privilege disposable IAM user: the documented three policy-management permissions work when scoped to one exact function ARN; a PutResourcePolicy attempt against a different ARN was denied.
+- The same user was denied Invoke before the full policy and received a successful `200` invocation after the resource policy granted `lambda:InvokeFunction`, despite never having an identity-based invoke allow.
+- Teardown verified: function, execution role, IAM user, inline policy, access key, and temporary SDK environment are absent. Zero persistent residue.
+
+## 2026-09-26 S3 Access Grants canonicalization test
+- NEGATIVE / secure behavior: a 24-case `GetDataAccess` matrix did not escape an `allowed/*` grant into a sibling `denied/*` object. Accepted dot/encoding strings were scoped literally under `Minimal`; `Default` stayed at the matching `allowed/*` grant. Other variants were denied or rejected as invalid.
+- This is research-ledger-only, not public-book content. Full result:
+  `s3/access-grants-canonicalization-2026-09-26.md`.
+- Two test cycles fully torn down; Access Grants instance, bucket, objects, IAM user/key/policy, and location role/policy all verified absent.
+
+## Saturation update (cont.81) — AgentCore Harness direct shell
+- SHIPPED #56 (VERIFIED end to end, two-sided): `CreateHarness` + exact-role `iam:PassRole` + `InvokeAgentRuntimeCommand` produced UID 0 and the target execution-role STS ARN. The no-PassRole principal was explicitly denied. Added enumeration, impact, working boto3 call, logs table, and stealth rating to the AgentCore privesc page; also filled the missing stealth ratings on its four existing techniques.
+- Composite-create dependency discovery recorded extra live gates (`CreateAgentRuntimeEndpoint`, `CreateWorkloadIdentity`, `GetAgentRuntime`) and the first-use Runtime Identity service-linked role. Full harness ARN is the working command target; generated runtime ARN and short harness ID are not.
+- CloudTrail Event History verified `CreateHarness` request/response logging and exact PassRole denial. Runtime command telemetry attempted `logs:PutLogEvents` under the execution role; without that permission the command still succeeded while CloudWatch export failed.
+- Teardown verified: harness, generated managed resources, both IAM users/keys/policies, execution role, and Runtime Identity service-linked role all absent; deletion task `SUCCEEDED`.
+
+## Saturation update (cont.82) — CloudWatch Logs scheduled queries
+- SHIPPED #57 (VERIFIED end to end, both role gates isolated): `logs:CreateScheduledQuery` plus `iam:PassRole` on a query execution role and a separate S3 delivery role repeatedly queries log groups the creator cannot read and exports selected rows to S3. No-PassRole denied on the delivery role first; delivery-only PassRole then denied on the execution role; both exact roles with `iam:PassedToService=logs.amazonaws.com` succeeded.
+- One synthetic marker was delivered as JSON at the next minute boundary. Added the detailed technique to `aws-cloudwatch-enum.md` and a verified row to the analytics/data-access PassRole matrix.
+- CloudTrail verified `CreateScheduledQuery`, automatic `StartQuery`, and automatic `GetQueryResults` as default management events. Creation logs the full query, groups, schedule, bucket URI/owner, and both roles; executions are attributed to `assumed-role/<execution-role>/Logs` with `invokedBy=logs.amazonaws.com`.
+- Teardown verified zero scheduled queries, bucket/object, log group, IAM users/keys/policies, or roles.
+
+## cont.83 (2026-09-26) — Step Functions callback-token boundary audit
+- NEGATIVE / secure boundary: two isolated Activity cycles verified that callback tokens stayed bound to their original execution and Region; mutation, terminal replay, and expired-token use did not alter a live or closed execution. Exact matrix: `step-functions/callback-token-binding-2026-09-26.md`.
+- Two non-security quirks retained for regression: immediate post-success heartbeat replay briefly returned HTTP 200 before converging to `TaskTimedOut`; a one-character token mutation consistently returned `InternalFailure` and generated SDK retries instead of the documented `InvalidToken`. Neither crossed a boundary or changed state, so no AWS vulnerability report and no standalone public attack technique.
+- Minimum IAM clarification queued in the public callback technique: `SendTask*` has no resource type and therefore needs `Resource: "*"`; only `GetActivityTask` can be scoped to the Activity ARN.
+- Both test cycles torn down. Independent checks found zero matching Activities and IAM roles; deleted state machines entered the service's asynchronous `DELETING` state.
+
+## cont.84 (2026-09-26) — Step Functions dynamic HTTP Task credential capture
+- SHIPPED #58 (VERIFIED end to end): `states:StartExecution` alone redirected a fixed EventBridge Connection's API-key header to an account-owned HTTPS collector because the existing workflow sourced `ApiEndpoint` from execution input. The restricted caller's `DescribeStateMachine` was denied and it had no EventBridge, Secrets Manager, update, or PassRole access.
+- The execution role needed `states:InvokeHTTPEndpoint` on the exact state-machine ARN, `events:RetrieveConnectionCredentials` on the connection, and Get/Describe on its managed secret. A twenty-second IAM propagation wait was needed; early five-second attempts failed closed.
+- CloudTrail showed `StartExecution` with redacted input and a service-driven `GetSecretValue` under the execution role naming the connection secret. The attacker endpoint remained absent without optional `InvokeHTTPEndpoint` state-machine data events or endpoint-side logs.
+- Public StartExecution coverage now includes this high-value sink, minimum roles, impact, explicit stealth, logs, and the `states:HTTPEndpoint`/`states:HTTPMethod` mitigations.
+- Five disposable cycles fully torn down; final inventory showed no matching state machine, Connection or generated secret, Lambda/Function URL, log group, or IAM role.
+
+## cont.85 (2026-09-26) — TestState HTTP Connection oracle
+- SHIPPED #59 (VERIFIED two-sided): `states:TestState` plus exact-role `iam:PassRole` executed an arbitrary HTTP Task and delivered an EventBridge Connection API key to the account-owned collector even with `inspectionLevel=INFO` and `revealSecrets=false`.
+- `TestState` alone was denied specifically on PassRole. The positive caller had no `states:RevealSecrets`, EventBridge, Secrets Manager, Lambda, logs, or state-machine CRUD permission. The passed role's endpoint action was conditioned to the exact collector URL/method.
+- Added the Connection-specific path, minimum caller/passed-role permissions, impact, stealth, and expanded logging table to the existing Step Functions TestState+PassRole privesc technique.
+- Combined fixture torn down and independently verified absent: state machine/execution, Connection/generated secret, Lambda/Function URL, log group, all four roles, and policies.
+
+## cont.86 (2026-09-26) — S3 Tables replication
+- SHIPPED #60 (VERIFIED end to end, two-sided): `s3tables:PutTableBucketReplication` plus exact-role `iam:PassRole` configured continuous bucket-level table replication. Put without PassRole was denied on the exact role; initial Put with PassRole succeeded without Get and returned the version token.
+- Bucket-level behavior was confirmed across destination replacement: an existing table was created in the new destination while its old replica remained, and a later source table appeared only in the active destination. Deleting the configuration likewise retained both destinations' replicas.
+- Existing-rule replacement and deletion failed closed without the current version token. A caller that retained the token from its own previous write needed no Get permission. Empty/no-snapshot tables remained `pending`, so committed data-copy fidelity is explicitly doc-grounded rather than overclaimed as live-tested.
+- CloudTrail recorded replication APIs as default management events, but successful Put omitted the entire configuration, replication-role ARN, and destination ARN. Service-driven `CreateNamespace`/`CreateTable` events exposed destination identifiers under the replication role.
+- Four disposable cycles were cleaned; final inventory found no matching table bucket or IAM role. Cross-account policy setup is documented but was not live-tested without a second explicitly authorized account.
+
+## cont.87 (2026-09-26) — Transfer Family custom IdP takeover and password exposure
+- SHIPPED #61 (VERIFIED two independent end-to-end paths): exact-server `transfer:UpdateServer` alone repointed a Lambda custom IdP, and exact-function `lambda:UpdateFunctionCode` alone poisoned the already-wired IdP. Each accepted an attacker login and a real SFTP session read both protected marker prefixes through the high S3 role returned at authentication. Neither restricted caller had PassRole, Lambda Invoke, direct S3, or logs-read permission; the updater could not even DescribeServer.
+- SHIPPED #62 (VERIFIED exact synthetic canary): the Lambda IdP received the SFTP password in plaintext; after the handler intentionally logged its event, `logs:FilterLogEvents` recovered the exact value. Added a dedicated Transfer Family post-exploitation page and SUMMARY entry.
+- Filled all four existing Transfer privesc techniques' missing explicit stealth ratings and added the omitted `UpdateAccess` role-choice variant.
+- The `PUBLIC_KEY_AND_PASSWORD` matrix enforced both factors and IAM intersection. AWS uses the password response's role/policy/home when factor responses differ; malformed nonempty policies failed closed, password-response PublicKeys were rejected, and empty/omitted Policy intentionally used the base role. Because the trusted IdP already controls authorization, no independent security boundary was crossed; the result stays in the research ledger and no AWS vulnerability report was created.
+- Five short endpoint cycles were deleted immediately, never merely stopped. Final independent inventory was empty for matching Transfer servers, Lambdas, IAM roles, S3 buckets, and log groups.
+
+## cont.88 (2026-09-26) — API Gateway custom IdP takeover and test oracle
+- SHIPPED #63 (VERIFIED end to end): exact-resource `apigateway:PATCH` on the Transfer IdP's GET/200 integration response plus `apigateway:POST` on that REST API's deployment collection replaced the response template with an attacker-selected role/home. After deployment, a real password SFTP login read the protected S3 marker through that role. The caller had an explicit `iam:PassRole` deny and could not read the integration response.
+- SHIPPED #64 (VERIFIED exact-user scope): `transfer:TestIdentityProvider` on one exact user ARN, with `DescribeServer` denied, disclosed the IdP-selected role, home, and API URL. Its caller-controlled `SourceIp` satisfied an IdP allow rule even though a real SFTP login from the actual IP failed; the action creates no session and is documented as post-exploitation recon/password-oracle behavior.
+- CloudTrail later confirmed `UpdateIntegrationResponse` records the complete malicious template; `CreateDeployment` records API/stage/deployment; and `TestIdentityProvider` redacts the password but records the chosen source IP plus full IdP response. The latter appeared as `readOnly:false`.
+- Two API Gateway test cycles were fully deleted in `finally`, including both Transfer servers, REST APIs, roles/policies, bucket/objects, and access credentials. Combined Transfer custom-IdP inventory remained empty; no server was left stopped or billable.
+
+## cont.89 (2026-09-26) — S3 Express session boundary audit
+- SHIPPED #65 (VERIFIED expected data-access behavior): expanded the existing S3 Express `s3express:CreateSession` broker coverage with exact-bucket/minimum IAM, `ReadOnly`/`ReadWrite` impact, High stealth, and an expandable CloudTrail table. Session issuance and object calls are optional S3 Express data events, not default Event History management events.
+- NEGATIVE / secure boundary: an exact-bucket-A, `SessionMode=ReadOnly` caller read/listed A but could not write/delete, mint ReadWrite, mint for bucket B, or use its A tuple against B. Omitted mode fell back to ReadOnly as documented.
+- Session credential fields were indivisible: mutation, cross-bucket splices, same-bucket ReadOnly / privileged-ReadWrite token splices, and even a splice between two same-scope ReadOnly sessions all failed closed. An intact tuple replayed before expiry; a freshly signed request after its returned five-minute expiration was denied.
+- Raw REST required `x-amz-content-sha256` on the empty CreateSession GET. A session-authenticated HEAD against its own Zonal bucket returned 200 despite documentation preferring IAM credentials; the same tuple against bucket B returned 403, so this remains a compatibility note without security impact and no AWS vulnerability report.
+- Three complete two-bucket cycles and two preliminary header-diagnostic cycles ran through `finally`. Every object, directory bucket, inline policy, and test role was deleted; independent inventory for the `ht-s3e-` prefix was empty.
+
+## cont.90 (2026-09-26) — Aurora DSQL authentication-token boundaries
+- SHIPPED #66 (format + verified semantics): filled explicit impact, stealth, and expandable logs tables for all three existing Aurora DSQL techniques (`DbConnectAdmin`, `DbConnect`, and `PutClusterPolicy`). Added the verified fact that token generation is local/invisible while every new connection re-evaluates current IAM and IAM-to-database-role mapping state.
+- NEGATIVE / secure boundary across two live clusters: correct admin/custom tokens connected, while action/user swaps, an unmapped principal, cluster-A token on B, exact-A IAM scope on B, wrong-Region signing, action/host/signature/security-token mutations, and a duplicate Action parameter all failed.
+- Normal unchanged replay before expiry worked as documented. A 60-second token was rejected after 75 seconds. Revoking the database-role mapping immediately invalidated a still-live token, restoring the mapping restored that same token, and deleting `DbConnect` IAM authorization invalidated it again.
+- Token generation produced no AWS call. Connection attempts require optional `AWS::DSQL::Cluster` data events; SQL is not CloudTrail API activity. Default Event History contained both CreateCluster and both DeleteCluster fixture events.
+- Both empty clusters reached not-found, all mappings/database roles were removed best-effort, all three IAM roles/policies were deleted, and no Aurora DSQL service-linked role remained. Independent cluster and IAM inventories were empty. No AWS vulnerability report.
+
+## cont.91 (2026-09-26) — Transfer Family logging defense evasion
+- SHIPPED #67 (VERIFIED exact-server minimum): `transfer:UpdateServer` alone cleared both legacy `LoggingRole` and structured destinations on an ONLINE server. The restricted caller could not DescribeServer and had explicit denies on every `logs:*` action and `iam:PassRole`.
+- Individual clears preserved the other logger; a fresh server with both configured accepted `LoggingRole:""` plus `StructuredLogDestinations:[]` together in one call and immediately described with both empty while remaining ONLINE.
+- Published as post-exploitation/defense evasion, not persistence. It suppresses future Transfer CloudWatch protocol telemetry but does not erase history, hide the default `UpdateServer` management event, or disable independently enabled S3 data events.
+- Re-enabling a structured destination immediately after clearing it returned a delivery-conflict error for at least 150 seconds. This rollback lag is recorded as an operational caveat, not a new permission or security boundary.
+- CloudTrail retained the exact empty logging fields in the default `UpdateServer` management event (`readOnly:false`); no separate caller-attributed `DeleteDelivery` event was found after propagation.
+- Three disposable endpoint cycles were deleted, never stopped. Independent inventory was empty for matching servers, log deliveries/groups, IAM roles, and inline policies. Total cost remained far below the authorized ceiling.
+
+## cont.92 (2026-09-26) — Amazon Location API-key boundaries and persistence
+- SHIPPED #68 (VERIFIED exact-resource minimum): `geo:CreateKey` plus the exact delegated `geo-maps:GetTile` permission minted a no-expiry public bearer key that remained usable after its creator IAM role was deleted. `CreateKey` alone failed, and an update could not add Places access that the issuer lacked, so this is service-level persistence rather than privilege escalation.
+- SHIPPED #69 (format + verified semantics): corrected the Location unauthenticated-access page to explain that `AllowReferers` matches a caller-controlled header. Missing and confused referrers failed, while a custom client supplying the exact allowed value succeeded by design. Added explicit impact, High stealth, optional provider-data-event logging, and honest action/resource/Region negatives.
+- Secure parser/boundary results: wrong Region, cross-service Places, unauthorized static-map action, malformed key, uppercase parameter name, and header-only key all failed. Percent-decoded `k%65y` worked as the same logical name; duplicate query keys selected the last value without composing permissions, so no parser/authz desynchronization was found.
+- Recently used keys required documented `ForceUpdate`/`ForceDelete`. Tightening applied immediately. Three update-then-delete repetitions accepted one immediate request and rejected by two seconds; one earlier cycle lasted at least seven seconds. Recorded as a short distributed invalidation caveat, not a vulnerability, with broader timing tests left open.
+- Event History confirmed that `CreateKey` records complete actions/resources and `NoExpiry` but redacts the returned key as `***`; `UpdateKey` redacts referrer values while exposing actions, resources and `ForceUpdate`; `DeleteKey` records `forceDelete:true`.
+- Every disposable key was force-deleted; final `HTLocation*` inventory was empty and the test role did not exist. No maps, VPCs, compute, or logging fixtures were created. No private AWS report.
+
+## cont.93 (2026-09-26) — Transfer Family Secrets Manager identity poisoning
+- SHIPPED #70 (VERIFIED end to end): exact-secret `secretsmanager:PutSecretValue` replaced a legacy custom-IdP user's password and selected a high Transfer role. A real SFTP login read the protected marker while the baseline role had been denied it. The restricted caller could not Get the secret, pass a role, mutate Transfer/Lambda/API Gateway, or access S3 directly.
+- The successful new version automatically became `AWSCURRENT`; the old password stopped working. The escalation is limited to S3/EFS operations Transfer performs through the pre-existing trusted role and does not return STS credentials.
+- The AWS-managed `aws/secretsmanager` key needed no positive KMS grant, but a preliminary explicit `Deny kms:*` blocked `PutSecretValue` because Secrets Manager requests a data key on the caller's behalf. Customer-managed keys retain their KMS authorization gate.
+- Public coverage is explicitly limited to legacy/compatible IdPs that store authorization fields in the secret. The newer toolkit keeps Role/Policy/home in DynamoDB; that datastore mutation remains a separate open test.
+- Two disposable server cycles were deleted, never stopped. Final independent inventory was empty for matching Transfer servers, REST APIs, Lambda functions/log groups, secrets, S3 buckets, and roles. API Gateway account settings were never touched. Expected functionality; no private AWS report.
+
+## cont.94 (2026-09-26) — Timestream deferral and IVS Chat token boundaries
+- Timestream Query's unusually explicit `NextToken` principal/query/five-use/parent-child guarantees were converted into a bounded test plan. Preflight stopped cleanly because the account is not an existing LiveAnalytics customer; both `ListDatabases` and `DescribeEndpoints` returned the documented closed-new-customer AccessDenied. No Timestream or IAM resources were created.
+- NEGATIVE / secure boundary: an exact-room `ivschat:CreateChatToken` caller minted a synthetic token while List/Get and a different room ARN were denied. Sequential replay, mutation, wrong-Region use, and a duplicate while the first socket was live all failed with HTTP 400; the untouched first use returned HTTP 101.
+- Five independent eight-way races each produced exactly one HTTP 101 and seven HTTP 400 results, confirming atomic enforcement of the documented single-use property under the tested concurrency. Raw tokens were never logged, messages were not sent, and no AWS vulnerability report was created.
+- Filled the existing IVS Chat technique's missing explicit impact, stealth, minimum permission, and expandable log table. The disposable room and exact-room minter role/policy were removed; final IVS Chat and IAM inventories were empty.
+
+## cont.95 (2026-09-29) — Wickr stored credentials and invitation footholds
+- SHIPPED #71 (documented model + exact-resource authorization): `wickr:GetOpentdfConfig` directly returns an OpenTDF client ID and secret without Secrets Manager, KMS, or IdP permissions. Published the resulting client-credential access with explicit scope/entitlement limits.
+- Completed the existing `GetOidcInfo` coverage: the response contains distinct stored secret fields; optional access/ID/refresh-token output still requires a valid caller-supplied OAuth flow and was not presented as automatic token minting.
+- SHIPPED #72 (preview API, conditional): `wickr:ListUsers` exposes invite codes and invitation state. An unexpired pending code can provide a Wickr application foothold with the invited user's groups, but not that user's IAM identity.
+- Retrofitted the data-retention-bot challenge technique with exact-network minimum permission, explicit impact, Low stealth, and an expandable telemetry table.
+- Safe signed probes confirmed Wickr management-event telemetry. Observed requests recorded network identifiers but omitted tested OIDC parameters and response bodies; successful secret response logging remains deliberately unclaimed because the account had no configured network.
+- No networks existed in either allowed Region and no resources were created. Bot reset/admin session and three possible validation/request-relay paths remain private, fixture-dependent test ideas; no AWS vulnerability report was created.
+
+## cont.96 (2026-09-29) — API Gateway developer-portal boundaries
+- SHIPPED #73 (documented model + exact-resource authorization): `UpdatePortal` can replace Cognito authorization with `None`; `PublishPortal` makes the documentation/catalog internet-accessible. The minimum includes both exact-portal writes and dependent `GetPortalProduct` on included products, but no Cognito administrator action or `iam:PassRole`.
+- SHIPPED #74: documented unauthenticated public-portal recon, the conditional Cognito self-sign-up foothold, and the fact that **Try it** retains endpoint authorization and excludes private, mTLS, and private/self-signed-certificate APIs.
+- SHIPPED #75 (cross-account): an AWS RAM PortalProduct share lets a recipient add owner-maintained API documentation to its own portal. The live default permission was read-only and did not grant API invocation, source mutation, or re-sharing.
+- Safe reads found no portals/products in either allowed Region. Signed not-found requests generated API Gateway management events; no service, RAM, Cognito, or IAM resources were created.
+- Endpoint-page IDOR, Try-it request relay, `logoUri` confused-deputy, stored XSS, preview-link, and foreign-Cognito-pool ideas remain private fixture-dependent tests. No AWS vulnerability report.
+
+## cont.97 (2026-09-29) — AWS Artifact reports, agreements, and inquiries
+- SHIPPED #76 (verified exact-report minimum): `GetTermForReport` plus `GetReport` generates a short-lived AWS-owned S3 URL for a confidential compliance report without customer S3 permission. Public coverage includes watermark attribution, acceptance-type/ARN caveats, impact, and telemetry.
+- SHIPPED #77 (documented current APIs + safe reads): mapped the complete tokenized account-agreement acceptance and customer-agreement termination workflows. These can change durable legal/compliance state, potentially organization-wide only with the documented management-account prerequisites; no write was performed.
+- SHIPPED #78 (documented model): Assurance Assistant inquiry reads/export can disclose uploaded questionnaires, generated answers, citations, revisions, metadata/tags, and a presigned export. The account had no inquiries, so exact newer-event response logging remains explicitly unclaimed.
+- Inventory found 397 reports (63 explicit-acceptance), ten available account agreements, no accepted customer agreements, and no compliance inquiries. No document URL was redeemed and all disposable IAM roles/policies were deleted; final matching-role inventory was empty.
+
+## cont.98 (2026-09-29) — AWS Interconnect activation keys and Entity Resolution correction
+- SHIPPED #79 (exact-resource minimum verified): `interconnect:GetConnection` returns the sensitive partner activation key used to complete a pending multicloud/last-mile connection. Published the conditional network-path impact, partner-account/state gates, and explicit non-IAM limitations.
+- A role scoped to one synthetic connection reached `ResourceNotFoundException` while a different ID was denied. A separate list-only role returned empty inventory and could not call the getter. Both roles/policies and temporary scripts were deleted; final `ht-interconnect-*` inventory was empty.
+- Interconnect inventories were empty in both allowed Regions. Unsigned calls required SigV4; no connection, Direct Connect gateway, route, or provider workflow was created. CloudTrail confirmed read-only management events and the official example redacts activation keys.
+- Corrected Entity Resolution provider enumeration: current `provider-service-name` requires the full AWS-managed provider-service ARN, which can use a different catalog Region and has a blank account field. Added the provider credential **secret-ARN** disclosure boundary without implying secret-value access. Existing high-value Entity Resolution attacks remain complete; no AWS defect was found.
+
+## cont.99 (2026-09-29) — Backup Search export authorization correction
+- Corrected the existing export technique: omitting optional `RoleArn` requires only exact-job `backup-search:StartSearchResultExportJob`; the custom-role form additionally needs exact-role PassRole with `iam:PassedToService=backup-search.amazonaws.com`.
+- Kept role trust (`backup.amazonaws.com`) distinct from the PassRole context, documented optional tagging/KMS dependencies, exact export-job reads and the absence of presigned URLs/content access.
+- Both allowed Regions finished with zero search/export jobs and indexes; disposable IAM fixtures and scripts were deleted. Expected functionality only; no AWS report.
+
+## cont.100 (2026-09-29) — Security Incident Response account oracle and defense impairment
+- SHIPPED #80 (exact-resource model + failed-call telemetry):
+  `BatchGetMemberAccountDetails` classifies up to 100 already-known account IDs per request by organization and membership relationship without Organizations or membership-read permission.
+- Promoted exact-membership triage/OU-coverage impairment and immediate `CancelMembership` destruction, plus the Organizations management-account path for delegated Security IR membership termination. All are deliberately labeled with their documented/live confidence and noisy signals.
+- Corrected CloudTrail claims: sensitive case/contact/attachment fields are redacted and read responses do not log returned presigned URLs. Narrowed attachment poisoning to the self-managed customer workflow and documented the central-account/no-resource-policy boundary.
+- No paid membership or infrastructure was created. Both Regions remained empty; no AWS defect or private report resulted.
+
+## cont.101 (2026-09-29) — AWS DevOps Agent integration and persistence boundaries
+- SHIPPED #81: sanitized registered-service/association recon exposes endpoints, resource selection, roles, auth methods and provider identifiers without returning stored credentials.
+- SHIPPED #82: association overwrite/update can poison monitoring, resource and MCP-tool selection; webhook-capable association creation can additionally return a one-time external bearer credential that persists at agent-space level after the AWS session ends.
+- SHIPPED #83: private-connection certificate replacement gives an immediate outage path and, conditional on destination/network control, credential interception or malicious tool responses.
+- Corrected the stale IdP-swap page: `UpdateOperatorAppIdpConfig` only rotates the secret. Full IdP replacement requires noisy Disable+Enable plus PassRole to `aidevops.amazonaws.com`.
+- Both Regions had zero spaces/services/private connections; no resources or third-party requests were created. Provider credential-relay and private-connection SSRF ideas remain private, fixture-dependent hypotheses; no AWS defect or report.
+
+## cont.172 (2026-10-01) — AWS User Experience Customization defense evasion
+- SHIPPED #84 (VERIFIED minimum): wildcard-only `uxc:UpdateAccountCustomizations` changed the account color and replaced the account-wide visible-service/Region lists without any UXC read, target-service, IAM or other permission.
+- Published the result as bounded console defense evasion/operator confusion: it changes menus, search/favorites and the Region selector for every console user, but does not alter IAM, direct URLs, CLI/SDK/API access or target-service telemetry.
+- CloudTrail recorded each write as a default management event with the exact lists/color and resulting fields. `GetAccountCustomizations` is an optional UXC data event; a live `ListServices` request appeared as a management read.
+- The documented JSON-null reset was omitted by AWS CLI serialization and rejected by a raw signed request. Empty arrays restored the default behavior and are also the CloudFormation reset representation; recorded as a non-security compatibility/documentation issue.
+- Color propagation agreed immediately across both allowed Regions in a bounded retest. Final state was `none` plus empty/default lists, the disposable user/key/policy were deleted, and no `ht-uxc-*` IAM user remained. No AWS vulnerability report.
+
+## cont.173 (2026-10-01) — AWS Free Tier irreversible plan upgrade
+- SHIPPED #85 (VERIFIED authorization, documented outcome): wildcard-only `freetier:UpgradeAccountPlan` passed IAM and reached the account-plan state check without Billing or target-service permissions. On an enrolled Free account, AWS documents the `PAID` transition as irreversible and as removing the no-charge/service restriction boundary.
+- Bounded the impact to financial/account-lifecycle exposure: the API itself grants no IAM access or workload, and a direct upgrade normally preserves remaining credits. Existing or later authorized usage can continue past credits and become billable.
+- Current standalone `freetier:*` actions successfully read activities/usage without the adjacent legacy `aws-portal:ViewBilling` action. The legacy training account returned the expected no-plan state, so no irreversible mutation was performed.
+- CloudTrail recorded the write as a default `us-east-1` management event with `accountPlanType:"PAID"`; read responses were omitted. Both disposable IAM fixtures were deleted, no matching users remained, and the account still had no enhanced-plan state. Expected functionality; no AWS vulnerability report.
+
+## cont.174 (2026-10-01) — Service Catalog AppRegistry metadata security
+- SHIPPED #86 (documented existing-customer path): exact-group `servicecatalog:GetAttributeGroup` returns the complete arbitrary application-metadata JSON, including operational/contact/compliance context and any credentials an organization incorrectly stored there.
+- SHIPPED #87 (documented existing-customer path): exact-group `servicecatalog:UpdateAttributeGroup` replaces metadata for every associated application, enabling bounded owner/runbook/classification and downstream CMDB/governance poisoning without changing the actual AWS resources or IAM.
+- Expanded the minimal Service Catalog inventory with AppRegistry applications, resources, attribute groups, account configuration, exact ARN/IAM boundaries, RAM sharing, dependent tag permissions, maintenance-mode status and telemetry.
+- The training account was not grandfathered and `CreateApplication` stopped at AWS's July 30, 2026 new-customer gate. CloudTrail retained the full denied request/reason; successful list/config reads had null response elements.
+- No resource was created. Final matching application/attribute-group/user inventories were empty and configuration remained unchanged. Cross-account IDOR, stored XSS and account tag-query poisoning remain existing-customer fixture-dependent ideas; no AWS report.
+
+## cont.175 (2026-10-01) — AWS Marketplace Metering financial integrity
+
+- SHIPPED #88 (documented semantics + exact-action authorization): `aws-marketplace:BatchMeterUsage` on `*` can submit seller-reported quantities for valid known SaaS customers/licenses. A compromised metering role can inflate usage; during a legacy-to-license migration AWS explicitly documents that product-code and license-ARN records for the same customer/hour cause duplicate billing.
+- SHIPPED #89 (documented platform-bound path): a compromised supported buyer workload with `aws-marketplace:MeterUsage` can win the immutable first non-AgentCore record for its product/dimension/hour with an inflated quantity. AgentCore instead aggregates multiple unique-client-token records.
+- Public coverage explicitly retains the seller/product/customer/license/time and buyer workload/credential/Region gates. Neither path grants IAM privilege, and neither permits generic off-platform billing of an arbitrary account.
+- Exact `BatchMeterUsage` users reached both legacy product and current license validation, exact `ResolveCustomer` reached token validation, and exact `RegisterUsage` reached the platform gate. All inputs were intentionally invalid, `MeterUsage` used dry run, and the account had no buyer/seller agreement or seller container product, so no usage or commercial state was created.
+- AWS's documented `RegisterUsage` CloudTrail response includes the signed JWT. Cross-workload replay remains an unverified, vendor-integration-dependent research lead, not a public claim or AWS report.
+- Every disposable user/policy/key was deleted and final matching IAM inventory was empty. No subscription, agreement, product, workload, metering record or other infrastructure was created. Expected functionality only; no private report and no cleanup debt.
+
+## cont.176 (2026-10-01) — AWS Client VPN authorization escalation
+
+- SHIPPED #90 (VERIFIED exact-resource minimum): `ec2:AuthorizeClientVpnIngress` alone on one exact Client VPN endpoint ARN added an all-authenticated-users rule for an attacker-chosen CIDR. The same user could neither describe nor revoke rules and had no route, association, endpoint, IAM, ACM or PassRole permission.
+- Published as bounded network-plane authorization escalation: an attacker-controlled client identity must already authenticate, and useful traffic still needs a target-network association, matching route, security-group/NACL path and any application credentials. The action does not create an unauthenticated or IAM foothold.
+- An isolated mutual-certificate endpoint with no target association accepted the rule and transitioned it from `authorizing` to `active`, proving that route/association state is not a rule-creation dependency. No client could connect and no traffic was sent.
+- The rule was revoked and observed absent; the endpoint, both short-lived ACM certificates, IAM key/policy/user and local private-key material were deleted. Final tagged endpoint/certificate and matching-user inventories were empty. No subnet, VPC, association, route, ENI, public IP, log destination, directory, SAML provider or session was created, so there was no billable association/connection time.
+- Expected functionality only; no private AWS report and no cleanup debt for this authorization-rule technique. Route creation and target-network association remain queued; the separate CRL boundary is closed under cont.177.
+
+## cont.177 (2026-10-01) — AWS Client VPN revocation-boundary audit
+
+- A current unexpected security-impact issue in Client VPN certificate-revocation handling was confirmed with an end-to-end TLS control matrix. Exploit details remain only in the restricted local AWS report pending AWS disclosure; nothing about the bypass was added to the public book.
+- The validation used a positive non-revoked client, a negative revoked-client baseline, an exact-endpoint import-only IAM principal, multiple propagation probes and a restored-state request. No application/VPC data traffic was sent; OpenVPN used a null device with route and interface configuration disabled.
+- The legitimate state was restored immediately after confirmation, every client session was terminated, and the target association and endpoint were deleted. Independent final inventory found no exact/tagged endpoint, service-managed ENI/public IP, tagged ACM certificate, matching IAM user, OpenVPN process or local tunnel interface.
+- The pre-existing default VPC/subnet were not changed beyond the short-lived Client VPN association. Total association/connection time stayed far below the authorized cost ceiling and there is no cleanup debt.
+
+## cont.178 (2026-10-01) — AWS Site-to-Site VPN peer takeover
+
+- SHIPPED #91 (VERIFIED exact-resource minimum): `ec2:ModifyVpnConnection` on one exact VPN ARN repointed an existing connection to a second controlled customer gateway; no describe, create, route, VPC or gateway permissions were present.
+- SHIPPED #92 (VERIFIED exact-resource minimum): `ec2:ModifyVpnTunnelOptions` on the same exact VPN ARN installed a caller-selected PSK on one known tunnel. Admin-side configuration checks confirmed the replacement public IP, preserved credential after the gateway-only change, and new credential after the tunnel update.
+- Published as network-plane takeover plus service-level persistence, not IAM/account persistence. The attacker still needs control of the replacement public IP/appliance and a usable routing/security path; certificate and Secrets Manager credential modes remain separately bounded.
+- CloudTrail recorded both actions as default EC2 management writes with `readOnly:false`; endpoint reprovisioning made the chain especially noisy and interrupted both tunnels for the gateway swap and one tunnel for the PSK change.
+- A separate unexpected security-impact issue was confirmed while auditing log-content authorization. Its exploit details remain only in a restricted local AWS report pending disclosure and were not added to the public book.
+- The unattached VGW never carried a route or traffic. The VPN, both customer gateways, VGW, two EIPs, mutation user/key/policy and separate validation principal were deleted; independent final inventories were empty and there is no cleanup debt.
+
+## cont.179 (2026-10-01) — AWS Client VPN network attachment and routing
+
+- SHIPPED #93 (VERIFIED exact-resource minimum): `ec2:AssociateClientVpnTargetNetwork` on one exact endpoint plus one exact subnet selected the first VPC for a previously unattached Client VPN endpoint, made it `available`, created its managed association/ENI and installed the active full-VPC local route. Endpoint-only permission correctly failed on the subnet ARN.
+- SHIPPED #94 (VERIFIED exact-resource minimum): `ec2:CreateClientVpnRoute` on that same endpoint/subnet boundary added an attacker-chosen documentation CIDR and reached `active`, while describe, route-delete and target-disassociation controls remained denied.
+- Published as network-plane access plus service-level persistence, not authentication, authorization-rule or IAM bypass. Useful traffic still needs an accepted attacker client identity, matching Client VPN authorization rule, VPC/downstream route, SG/NACL path and application access; additional subnet associations are restricted to the endpoint's selected VPC.
+- CloudTrail recorded both default EC2 management writes with full resource/destination context and `readOnly:false`. Association billing, managed ENIs, route inventory and endpoint state make the path low-stealth.
+- The route and association were removed, then the endpoint, ACM certificate, IAM key/policy/user and local CA/server material were deleted. Final endpoint/certificate/user/ENI/local-directory inventories were empty; the default VPC/subnet were unchanged and there is no cleanup debt.
+
+## cont.180 (2026-10-01) — AWS Client VPN security-group rebinding
+
+- SHIPPED #95 (VERIFIED exact-resource minimum): `ec2:ApplySecurityGroupsToClientVpnTargetNetwork` on one exact endpoint, replacement SG and VPC replaced the endpoint's default group with the allowed caller-selected SG within five seconds. Endpoint describe was denied, and requesting the ungranted default SG was denied specifically on that SG ARN.
+- Published as network-plane authorization escalation plus service-level persistence: applications commonly trust the SG attached to Client VPN network interfaces, so rebinding to an existing privileged SG can satisfy downstream SG-reference rules without editing those applications.
+- Preserved the hard boundaries: the action changes no SG rule and does not bypass client authentication, Client VPN authorization rules/routes/association, NACL/downstream routing or application credentials. The safe fixture used an untrusted disposable SG and created no client certificate or authorization rule.
+- Both the denied and successful calls were default EC2 management writes with full endpoint/VPC/SG context and `readOnly:false`; durable endpoint/ENI inventory and data-plane logs make it low-stealth.
+- The association was removed and the endpoint, managed ENI, ACM certificate, replacement SG, IAM key/policy/user and local CA/server material were deleted. Final endpoint/certificate/user/SG/ENI/local-directory inventories were empty and there is no cleanup debt.
+
+## cont.181 (2026-10-01) — AWS Client VPN DNS/routing/logging takeover
+
+- SHIPPED #96 (VERIFIED exact-resource minimum): `ec2:ModifyClientVpnEndpoint` on one exact endpoint set a caller-chosen DNS server, changed split tunnel from enabled to disabled and disabled existing Client VPN connection logging in one accepted request. Endpoint describe remained denied and admin inventory observed all values within five seconds.
+- Published as service-level traffic-policy persistence plus defense evasion: DNS control can expose/poison queries, full-tunnel mode can force `0.0.0.0/0` client routing after reconnect, and logging disable suppresses future Client VPN session records. DNS/split changes reset active connections.
+- Preserved the hard boundaries: controlled DNS must be reachable; useful full-tunnel egress needs target association, route/authorization and VPC egress; DNS does not bypass TLS/application auth; previous logs, CloudTrail and independent network/service telemetry remain.
+- A separate unexpected audit-content completeness issue was confirmed while validating the management event. Its details remain only in a restricted local AWS report pending disclosure and were not added to the public book.
+- The endpoint, ACM certificate, empty CloudWatch log group/stream, IAM key/policy/user and local CA/server material were deleted. No association, ENI, route, client identity, session or traffic existed; final inventories were empty and there is no cleanup debt.
+
+## cont.182 (2026-10-01) — ElastiCache exact-user RBAC escalation
+
+- SHIPPED #97 (VERIFIED exact-resource minimum): `elasticache:ModifyUser` on one exact user ARN simultaneously replaced the password and changed a disabled/narrow access string to `on ~* +@all`. The restricted caller had no Describe, group/cache, Secrets Manager/KMS, PassRole, service-linked-role, or other ElastiCache permission.
+- Published the missing privilege-escalation consequence: when the target identity is already in a cache's attached user group, the action upgrades it to all commands/all keyspaces and installs an attacker-known data-plane credential without emitting a membership change. Cache membership, endpoint knowledge, network reachability and downstream protections remain explicit prerequisites.
+- The fixture deliberately had no user group or cache, so no data-plane authentication or traffic occurred and no paid resource was created. Admin inventory observed the user return to `active` with the unrestricted ACL, password authentication and one password.
+- CloudTrail recorded the complete permissive access string and password-authentication mode while redacting the password value; the response returned the resulting ACL and password count. The exact event ID and null top-level resources behavior are retained in the service ledger.
+- The access key/policy/IAM user, ElastiCache user and auto-created `AWSServiceRoleForElastiCache` were deleted. Because ElastiCache deletion is asynchronous, final cleanup was independently polled to actual absence; user, IAM and SLR inventories were empty and there is no cleanup debt.
+- Expected functionality only; no private AWS report.
+
+## cont.183 (2026-10-01) — ElastiCache legacy AUTH token addition
+
+- SHIPPED #98 (VERIFIED exact-resource minimum and data plane): exact-group `elasticache:ModifyReplicationGroup` with `AuthTokenUpdateStrategy=ROTATE` added a caller-chosen legacy AUTH token while preserving the original token. The restricted caller could not describe the group and had no cluster, RBAC, secret/KMS, EC2, Lambda, IAM or PassRole permission.
+- After the one-node TLS group returned to `available`, isolated in-VPC protocol probes proved that both the original and attacker tokens independently completed `AUTH` and `PING`. This makes `ROTATE` a lower-disruption credential plant than `SET`; useful access still requires the known group/endpoint and a permitted network path, and it does not apply to RBAC-only caches.
+- Published impact as cache data-plane access plus service-level persistence, not IAM escalation. The uncommon management mutation is visible and the secret is redacted; subsequent Valkey/Redis protocol actions are outside CloudTrail.
+- CloudTrail recorded the exact group, `ROTATE`, `applyImmediately:true` and redacted token; the response exposed endpoint/state and `authTokenStatus:"ROTATING"`, while the top-level resources array was null.
+- The cache node/group, probe function/role, restricted key/policy/user and fixture-created ElastiCache SLR were deleted. Four detached Lambda ENIs were exact-matched and explicitly deleted after the provider wait. Independent final group/cluster/ENI/function/user/role inventories were empty and there is no cleanup debt.
+- Expected functionality only; no private AWS report.
+
+## cont.184 (2026-10-01) — ElastiCache export and enumeration corrections
+
+- Corrected an unsafe overclaim in the existing snapshot-export page: current AWS documentation requires caller-side S3 access in addition to `CopySnapshot`, the node-based API rejects a bucket not owned by the authenticated account, and the ElastiCache SLR dependency belongs to serverless export. Direct cross-account export and action-alone minimum claims were removed.
+- Kept the real impact: a caller with the required cache and same-account S3 permissions can export the whole dataset without cache network access or an AUTH/RBAC credential. Serverless S3 dependencies are now conservative pending a dedicated live authorization matrix.
+- Refreshed enumeration with serverless caches/snapshots, global datastores, correct serverless-Memcached snapshot support, and Valkey 9+ internet-reachable public endpoints whose attached users must use IAM authentication and TLS 1.3.
+- Recorded the current AWS documentation conflict where the guide includes serverless Memcached export but the export API says Valkey/Redis only. The public attack page follows the narrower API contract. Read-only correction only; no AWS resources or cleanup debt.
+
+## cont.185 (2026-10-01) — ElastiCache authentication and user-group boundaries
+
+- CLOSED SAFE: exact-user `ModifyUser` could not transition a Redis no-password user to Valkey, with or without an explicit no-password mode, and could not transition a mismatched user ID/name pair to IAM authentication. All failed with precise `InvalidParameterCombinationException` reasons, left state unchanged and generated default management events.
+- VERIFIED/CORRECTED: `ModifyUserGroup` requires authorization on the exact group and every user ARN in the add/remove lists. Group-only permission failed on the attacker-user ARN; adding the exact attacker/victim ARNs succeeded; a later outsider addition failed on that outsider ARN; Describe remained denied.
+- Updated the existing persistence technique's minimum permissions and telemetry rather than adding a duplicate technique. Successful CloudTrail retained exact add/remove lists and pending changes; IAM denials redacted request fields but named the missing ARN in the error.
+- Both fixtures' RBAC users/groups, IAM callers/keys/policies and auto-created ElastiCache SLRs were deleted; all final inventories were empty. No cache, network, snapshot, object or paid resource existed. Expected/correctly enforced behavior only; no private AWS report and no cleanup debt.
+
+## cont.186 (2026-10-01) — ElastiCache exact-resource Describe isolation
+
+- CLOSED SAFE: exact-A `DescribeUsers` and `DescribeUserGroups` policies with exact request filters returned only A. Filtered B requests were denied on B's ARN, while unfiltered requests were denied on `user:*`/`usergroup:*`; no cross-resource metadata was returned.
+- Added the operational boundary to enumeration: exact-resource readers must know and filter by the identifier, and account-wide inventory requires wildcard resource permission.
+- The two groups, three RBAC users, IAM key/policy/user and auto-created SLR were deleted. The SLR deletion task was polled to `SUCCEEDED`; all final inventories were empty. No cache or paid/data-plane resource existed, no private report, and no cleanup debt.
+
+## cont.187 (2026-10-01) — ElastiCache prospective group authorization
+
+- VERIFIED/CORRECTED: `CreateUserGroup` authorizes the prospective exact group ARN and every initial user ARN. Future-group-only permission failed on the `default` user; adding the exact default/member users succeeded; a second future group with an ungranted outsider failed on the outsider ARN. Describe remained denied.
+- Updated the existing persistence technique's new-group minimum and telemetry. The successful event retained group ID, engine and full initial membership; denied events redacted request fields but named the missing exact user ARN.
+- The unattached group, three RBAC users, IAM key/policy/user and auto-created SLR were deleted; all final inventories were empty. No cache or paid/data-plane resource, no private report, and no cleanup debt.
+
+## cont.188 (2026-10-01) — ElastiCache failed-token telemetry
+
+- CLOSED SAFE: exact synthetic-group `ModifyReplicationGroup` with a unique AUTH-token marker passed IAM and stopped at `ServiceLinkedRoleNotFoundFault`. The default management write contained no marker; request/response/resources were all null.
+- This complements the successful rotation event, which explicitly replaced the token with `HIDDEN_DUE_TO_SECURITY_REASONS`. Public detection guidance now notes that early precondition failures may omit all attempted group/strategy context.
+- The IAM key/policy/user was deleted and final inventory was empty. No SLR or ElastiCache resource was created, no private report, and no cleanup debt.

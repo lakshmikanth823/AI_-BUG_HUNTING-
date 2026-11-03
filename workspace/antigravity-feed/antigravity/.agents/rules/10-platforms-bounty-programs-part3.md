@@ -1,0 +1,222 @@
+---
+trigger: model_decision
+description: "HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi program URLs and directories. Use when the task is finding or triaging a bug bounty program, checking scope, or picking a target. (part 3/5)"
+---
+
+# Security Research Link Corpus — Bug Bounty Platforms & Program Directories
+
+Part 3 of 5. 213 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://intigriti.com/programs/dpgm/humo/detail> — Humo
+- ✓ <https://intigriti.com/programs/dpgm/libelle/detail> — Libelle
+- ✓ <https://intigriti.com/programs/dpgm/trouw/detail> — Trouw
+- ✓ <https://intigriti.com/programs/dpgm/tweakers/detail> — Tweakers
+- ✓ <https://intigriti.com/programs/dpgm/vtmgo/detail> — VTM GO
+- ✓ <https://intigriti.com/programs/driessengroep/driessenvdp/detail> — Driessen Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/dropbox/dropbox-vdp/detail> — Dropbox Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/dropbox/dropbox/detail> — Dropbox Bug Bounty
+- ✓ <https://intigriti.com/programs/dstny/dstnybugbounty/detail> — Dstny
+- ✓ <https://intigriti.com/programs/eurid/eurid/detail> — EURid
+- ✓ <https://intigriti.com/programs/europeanspaceagency/europeanspaceagencyvdp/detail> — European Space Agency (ESA) VDP
+- ✓ <https://intigriti.com/programs/exact/exactvulnerabilitydisclosureprogram/detail> — Exact Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/exoscale/excoscalebugbounty/detail> — Exoscale Bug Bounty
+- ✓ <https://intigriti.com/programs/fluvius/fluvius/detail> — Fluvius
+- ✓ <https://intigriti.com/programs/freepik/freepikcompany/detail> — MAGNIFIC VDP
+- ✓ <https://intigriti.com/programs/grafanalabs/grafanalabsvdp/detail> — Grafana Labs - Vulnerability Disclosure Program (VDP)
+- ✓ <https://intigriti.com/programs/houseofhr/houseofhrvulnerabilitydisclosureprogram/detail> — House of HR Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/hrsgroup/hrsgroupvdp/detail> — HRS Group VDP
+- ✓ <https://intigriti.com/programs/ing/ing-responsible-disclosure/detail> — ING Responsible Disclosure
+- ✓ <https://intigriti.com/programs/innogames/innogames/detail> — InnoGames
+- ✓ <https://intigriti.com/programs/innovapost/innovapost/detail> — Canada Post - Responsible Disclosure Program
+- ✓ <https://intigriti.com/programs/intel/intelvulnerabilitydisclosureprogram/detail> — Intel® Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/intergamma/intergamma/detail> — Intergamma
+- ✓ <https://intigriti.com/programs/intigriti/challengebrp/detail> — BRP Challenge
+- ✓ <https://intigriti.com/programs/intigriti/intigriti/detail> — intigriti
+- ✓ <https://intigriti.com/programs/ivoai/ivovulnerabilitydisclosureprogram/detail> — Ivo: AI VDP
+- ✓ <https://intigriti.com/programs/kinepolis/website/detail> — Kinepolis Group
+- ✓ <https://intigriti.com/programs/kiwa/kiwavdp/detail> — Kiwa Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/kuleuven/huisvesting/detail> — Housing Application (huisvestingsapp) Bug Bounty Program
+- ✓ <https://intigriti.com/programs/kuleuven/kuleuvenrdp/detail> — KU Leuven Vulnerability Disclosure Program (VDP)
+- ✓ <https://intigriti.com/programs/kuleuven/onlineinschrijvingenbetalingstoepassing/detail> — Online enrollment for students Bug Bounty Program
+- ✓ <https://intigriti.com/programs/lansweeper/fing/detail> — Fing Bug Bounty Program
+- ✓ <https://intigriti.com/programs/lansweeper/lansweeper1/detail> — Lansweeper Bug Bounty Program
+- ✓ <https://intigriti.com/programs/liferay/liferay-vdp/detail> — Liferay VDP
+- ✓ <https://intigriti.com/programs/mateco/matecovdp/detail> — Mateco VDP
+- ✓ <https://intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail> — Monzo Public Bug Bounty Program
+- ✓ <https://intigriti.com/programs/mv/mobilevikings/detail> — Mobile Vikings
+- ✓ <https://intigriti.com/programs/nederlandseloterij/dutchlotteryvdp/detail> — Dutch Lottery VDP
+- ✓ <https://intigriti.com/programs/nestl%C3%A9/nestl%C3%A9vdp/detail> — Nestlé VDP
+- ✓ <https://intigriti.com/programs/nexo/nexo/detail> — Nexo
+- ✓ <https://intigriti.com/programs/nexuzhealth/nexuzhealth/detail> — Nexuzhealth
+- ✓ <https://intigriti.com/programs/nexuzhealth/nexuzhealthvdp/detail> — Nexuzhealth VDP
+- ✓ <https://intigriti.com/programs/nvidia/nvidiavdp/detail> — NVIDIA Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/orbia/orbiavdp/detail> — Orbia Responsible Disclosure
+- ✓ <https://intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail> — OURA Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/peoplecert/peoplecert/detail> — PeopleCert VDP
+- ✓ <https://intigriti.com/programs/personio/personio/detail> — Personio
+- ✓ <https://intigriti.com/programs/portofantwerp/nxtportvdp/detail> — NxtPort VDP
+- ✓ <https://intigriti.com/programs/portofantwerp/portofantwerp/detail> — Port of Antwerp-Bruges
+- ✓ <https://intigriti.com/programs/postenbringas/vdp/detail> — Posten Bring Responsible Disclosure
+- ✓ <https://intigriti.com/programs/posti/postibugbounty/detail> — Posti Bug Bounty
+- ✓ <https://intigriti.com/programs/proof/proofvdp/detail> — Proof.com VDP
+- ✓ <https://intigriti.com/programs/quadcode/qcvdp/detail> — QC VDP
+- ✓ <https://intigriti.com/programs/qualified/qualifiedresponsibledisclosureprogram/detail> — Qualified Responsible Disclosure Program
+- ✓ <https://intigriti.com/programs/randstad/bmc/detail> — BMC
+- ✓ <https://intigriti.com/programs/randstad/gulp/detail> — GULP
+- ✓ <https://intigriti.com/programs/randstad/randstad/detail> — Randstad
+- ✓ <https://intigriti.com/programs/randstad/tempo-team/detail> — Tempo-Team
+- ✓ <https://intigriti.com/programs/randstad/yacht/detail> — Yacht
+- ✓ <https://intigriti.com/programs/redbull/redbull/detail> — Red Bull
+- ✓ <https://intigriti.com/programs/revolut/revolutvdp/detail> — Revolut VDP
+- ✓ <https://intigriti.com/programs/rgfstaffing/rgfbe-vdp/detail> — RGF BE - VDP
+- ✓ <https://intigriti.com/programs/ripencc/ripencc/detail> — RIPE NCC
+- ✓ <https://intigriti.com/programs/rivian/rivianbugbounty/detail> — Rivian Bug Bounty
+- ✓ <https://intigriti.com/programs/saltosystems/saltovulnerabilitydisclosure/detail> — Salto Vulnerability Disclosure
+- ✓ <https://intigriti.com/programs/sbb/sbbglobal/detail> — SBB - Swiss Federal Railways
+- ✓ <https://intigriti.com/programs/showpad/vdp/detail> — VDP
+- ✓ <https://intigriti.com/programs/signicat/signicatresponsibledisclosure/detail> — Signicat Responsible Disclosure
+- ✓ <https://intigriti.com/programs/simscale/simscale/detail> — SimScale
+- ✓ <https://intigriti.com/programs/skodaauto/skodaautoprivatebugbountyprogram/detail> — Skoda Auto Bug Bounty Program
+- ✓ <https://intigriti.com/programs/socialdeal/socialdeal/detail> — Social Deal
+- ✓ <https://intigriti.com/programs/solarwinds/solarwindsvdp/detail> — SolarWinds VDP
+- ✓ <https://intigriti.com/programs/spacelift/spaceliftvdp/detail> — Spacelift VDP
+- ✓ <https://intigriti.com/programs/speakap/speakapresponsibledisclosure/detail> — Speakap Responsible Disclosure
+- ✓ <https://intigriti.com/programs/spp-storebrand/storebrand-rd/detail> — Storebrand Responsible Disclosure
+- ✓ <https://intigriti.com/programs/sqills/sqillscorporatewebsite/detail> — Sqills
+- ✓ <https://intigriti.com/programs/tccc/coca-cola/detail> — The Coca-Cola Company Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/tccc/cokeonenorthamerica/detail> — Coke One North America
+- ✓ <https://intigriti.com/programs/tekion/tekionvdp/detail> — Tekion VDP
+- ✓ <https://intigriti.com/programs/toast/toastvdp/detail> — Toast VDP
+- ✓ <https://intigriti.com/programs/tomorrowland/tomorrowland/detail> — Tomorrowland
+- ✓ <https://intigriti.com/programs/torfs/torfs/detail> — Torfs
+- ✓ <https://intigriti.com/programs/truelayer/truelayervdp/detail> — TrueLayer VDP
+- ✓ <https://intigriti.com/programs/ubisoft/ubisoftvdp/detail> — Ubisoft Responsible Disclosure Program
+- ✓ <https://intigriti.com/programs/universitatsspitalzurich/usz-vdp/detail> — Universitätsspital Zürich VDP
+- ✓ <https://intigriti.com/programs/universityofbasel/universityofbaselvdp/detail> — University of Basel VDP
+- ✓ <https://intigriti.com/programs/Uphold/upholdcom/detail> — Uphold
+- ✓ <https://intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail> — eHealth Hub VZN KUL
+- ✓ <https://intigriti.com/programs/uz%20leuven/nexuzhealthwebpacs/detail> — Nexuzhealth Web PACS
+- ✓ <https://intigriti.com/programs/uz%20leuven/uzleuven/detail> — UZ Leuven
+- ✓ <https://intigriti.com/programs/visma/VismaResponsibleDisclosure/detail> — Visma Responsible Disclosure
+- ✓ <https://intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail> — Vlerick Business School
+- ✓ <https://intigriti.com/programs/voi/voivulnerabilitydisclosureprogram/detail> — Voi Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/vrtnv/vrtnv/detail> — VRT
+- ✓ <https://intigriti.com/programs/wartsila/wartsila-vdp/detail> — Wärtsilä Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/waterlink/water-link/detail> — Water-Link
+- ✓ <https://intigriti.com/programs/waterlink/water-linkvdp/detail> — Water-Link VDP
+- ✓ <https://intigriti.com/programs/wpengine/wpengine/detail> — WP Engine VDP
+- ✓ <https://intigriti.com/programs/wpengine/wpenginebugbounty/detail> — WP Engine Bug Bounty
+- ✓ <https://intigriti.com/programs/yahoo/yahoobugbounty/detail> — Yahoo Bug Bounty
+- ✓ <https://intigriti.com/programs/zabkapolska/zabkagroup-vdp/detail> — Zabka Group Vulnerability Disclosure Program
+- ✓ <https://yeswehack.com> — YesWeHack
+- ~ <https://hackerone.com> — HackerOne
+- ~ <https://hackerone.com/1password> — 1Password - Enterprise Password Manager
+- ~ <https://hackerone.com/1win_com> — 1win
+- ~ <https://hackerone.com/23andme_bbp> — 23andMe Bug Bounty
+- ~ <https://hackerone.com/3cx> — 3CX
+- ~ <https://hackerone.com/6sense-vdp> — 6sense VDP
+- ~ <https://hackerone.com/8x8-bounty> — 8x8
+- ~ <https://hackerone.com/99designs> — 99designs
+- ~ <https://hackerone.com/abb> — ABB Information Systems Ltd
+- ~ <https://hackerone.com/abercrombie_fitch> — Abercrombie & Fitch Management Co.
+- ~ <https://hackerone.com/abercrombie_fitch_bbp> — Abercrombie & Fitch Bug Bounty
+- ~ <https://hackerone.com/abn_amro_vdp> — ABN AMRO Bank VDP
+- ~ <https://hackerone.com/acronis> — Acronis
+- ~ <https://hackerone.com/adevinta_vdp> — Adevinta
+- ~ <https://hackerone.com/adobe> — Adobe
+- ~ <https://hackerone.com/aegean_airlines_vdp> — Aegean Airlines Vulnerability Disclosure
+- ~ <https://hackerone.com/aeromexico_vdp> — Aeromexico VDP
+- ~ <https://hackerone.com/aesteral> — aesteral
+- ~ <https://hackerone.com/affirm> — Affirm
+- ~ <https://hackerone.com/agoda-public> — Agoda Public
+- ~ <https://hackerone.com/aig> — AIG
+- ~ <https://hackerone.com/airtable> — Airtable
+- ~ <https://hackerone.com/algolia> — Algolia
+- ~ <https://hackerone.com/alibaba_vdp> — Alibaba VDP
+- ~ <https://hackerone.com/allegion> — Allegion
+- ~ <https://hackerone.com/alohi> — Alohi
+- ~ <https://hackerone.com/alsco> — ALSCO
+- ~ <https://hackerone.com/alshaya> — Alshaya
+- ~ <https://hackerone.com/amazonvrp> — Amazon Vulnerability Research Program
+- ~ <https://hackerone.com/anduril_industries> — Anduril Industries
+- ~ <https://hackerone.com/anghami> — Anghami
+- ~ <https://hackerone.com/anthropic> — Anthropic
+- ~ <https://hackerone.com/anthropic-cyber-jailbreak> — Anthropic Cyber Jailbreak
+- ~ <https://hackerone.com/anywhererealestate> — Anywhere Real Estate
+- ~ <https://hackerone.com/aon> — Aon
+- ~ <https://hackerone.com/apnic> — APNIC
+- ~ <https://hackerone.com/arc-bbp> — Arc
+- ~ <https://hackerone.com/arkadiyt-projects> — arkadiyt-projects
+- ~ <https://hackerone.com/arkose_labs> — Arkose Labs
+- ~ <https://hackerone.com/assa_abloy_americas> — Assa Abloy Americas
+- ~ <https://hackerone.com/att> — AT&T
+- ~ <https://hackerone.com/audible> — Audible
+- ~ <https://hackerone.com/autodesk> — Autodesk
+- ~ <https://hackerone.com/automattic> — Automattic
+- ~ <https://hackerone.com/avalara> — Avalara
+- ~ <https://hackerone.com/aven_response> — Aven (Response)
+- ~ <https://hackerone.com/aws_vdp> — AWS VDP
+- ~ <https://hackerone.com/baird_vdp> — Baird
+- ~ <https://hackerone.com/banco_plata> — Banco Plata
+- ~ <https://hackerone.com/bankunited> — BankUnited
+- ~ <https://hackerone.com/basecamp> — Basecamp
+- ~ <https://hackerone.com/bcny> — The Browser Company of NYC
+- ~ <https://hackerone.com/beiersdorf> — Beiersdorf
+- ~ <https://hackerone.com/bestbuy> — Best Buy
+- ~ <https://hackerone.com/bill_vdp> — BILL VDP
+- ~ <https://hackerone.com/binary> — Binary.com
+- ~ <https://hackerone.com/binary_cashier> — Binary.com Cashier
+- ~ <https://hackerone.com/bithunt> — BitHunt
+- ~ <https://hackerone.com/bitwarden> — Bitwarden
+- ~ <https://hackerone.com/blackrock> — BlackRock
+- ~ <https://hackerone.com/blend-labs> — Blend Labs
+- ~ <https://hackerone.com/blockio> — Block.io
+- ~ <https://hackerone.com/blog/what-great-hackers-share> — How to Become a Successful Bug Bounty Hunter
+- ~ <https://hackerone.com/bookfresh> — Bookfresh
+- ~ <https://hackerone.com/bookingcom> — Booking.com
+- ~ <https://hackerone.com/boozt> — Boozt Fashion AB
+- ~ <https://hackerone.com/bose_vdp> — Bose (VDP)
+- ~ <https://hackerone.com/box_private> — Box BB
+- ~ <https://hackerone.com/brave> — Brave Software
+- ~ <https://hackerone.com/braze_inc> — Braze, Inc.
+- ~ <https://hackerone.com/brightspeed> — Brightspeed
+- ~ <https://hackerone.com/british_airways_vdp> — British Airways VDP
+- ~ <https://hackerone.com/bumba_bbp> — Bumba
+- ~ <https://hackerone.com/bumble> — Bumble
+- ~ <https://hackerone.com/bybit_fintech> — Bybit Fintech Ltd
+- ~ <https://hackerone.com/bykea> — Bykea
+- ~ <https://hackerone.com/c2fo> — C2FO
+- ~ <https://hackerone.com/callsign> — Callsign
+- ~ <https://hackerone.com/canada_goose_inc> — Canada Goose Inc.
+- ~ <https://hackerone.com/capital-one> — Capital One
+- ~ <https://hackerone.com/capital-one-bounty> — Capital One Bug Bounty
+- ~ <https://hackerone.com/caterpillar> — Caterpillar
+- ~ <https://hackerone.com/caviar> — Caviar
+- ~ <https://hackerone.com/cbre> — CBRE
+- ~ <https://hackerone.com/cedars-sinai> — Cedars-Sinai
+- ~ <https://hackerone.com/central-security-project> — Central Security Project
+- ~ <https://hackerone.com/cert> — CERT/CC
+- ~ <https://hackerone.com/certly> — Certly
+- ~ <https://hackerone.com/chainlink> — Chainlink
+- ~ <https://hackerone.com/chaturbate> — Chaturbate
+- ~ <https://hackerone.com/chia_network> — Chia Network
+- ~ <https://hackerone.com/circle-bbp> — Circle
+- ~ <https://hackerone.com/citi_group> — Citi Group
+- ~ <https://hackerone.com/city_of_los_angeles_vdp> — City of Los Angeles
+- ~ <https://hackerone.com/clarivate> — Clarivate
+- ~ <https://hackerone.com/clear> — CLEAR
+- ~ <https://hackerone.com/clear_street_vdp> — Clear Street Disclosure Program
+- ~ <https://hackerone.com/coalition> — Coalition, Inc.
+- ~ <https://hackerone.com/codeigniter> — CodeIgniter
+- ~ <https://hackerone.com/cognition> — Cognition
+- ~ <https://hackerone.com/cognizant> — Cognizant
+- ~ <https://hackerone.com/coindcx_vdp> — CoinDCX Vulnerability Disclosure
+- ~ <https://hackerone.com/coinmate> — CoinMate.io
+- ~ <https://hackerone.com/coinspace> — Coin.Space
+- ~ <https://hackerone.com/coinspot> — CoinSpot
+- ~ <https://hackerone.com/common_codes> — d-you App & German EUDI Wallet Ecosystem
+- ~ <https://hackerone.com/compass-bbp> — Compass
+- ~ <https://hackerone.com/concrete5> — concrete5
+- ~ <https://hackerone.com/corebridge_financial> — Corebridge Financial
+- ~ <https://hackerone.com/costco> — Costco
+- ~ <https://hackerone.com/coupang_tw> — Coupang Taiwan

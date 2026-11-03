@@ -1,0 +1,2617 @@
+{
+ "total_programs": 946,
+ "with_published_payout": 414,
+ "platform_counts": {
+  "Bugcrowd": 297,
+  "Intigriti": 143,
+  "YesWeHack": 56,
+  "HackerOne": 450
+ },
+ "paid_and_responsive": 0,
+ "top_by_payout": [
+  {
+   "name": "OpenSea Managed Bug Bounty Program",
+   "url": "https://bugcrowd.com/engagements/opensea",
+   "payout": 3000000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 11
+  },
+  {
+   "name": "Swiss Post - E-Voting",
+   "url": "https://yeswehack.com/programs?search=Swiss%20Post%20-%20E-Voting",
+   "payout": 230000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 5
+  },
+  {
+   "name": "Fireblocks MPC Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/fireblocks-mbb-og2",
+   "payout": 150000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "T-Mobile",
+   "url": "https://bugcrowd.com/engagements/t-mobile",
+   "payout": 133700,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 76
+  },
+  {
+   "name": "SpaceX/Starlink",
+   "url": "https://bugcrowd.com/engagements/spacex",
+   "payout": 100000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "Tesla",
+   "url": "https://bugcrowd.com/engagements/tesla",
+   "payout": 100000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 11
+  },
+  {
+   "name": "Sophos",
+   "url": "https://bugcrowd.com/engagements/sophos",
+   "payout": 80000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 18
+  },
+  {
+   "name": "Okta",
+   "url": "https://bugcrowd.com/engagements/okta",
+   "payout": 75000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 21
+  },
+  {
+   "name": "Auth0 by Okta",
+   "url": "https://bugcrowd.com/engagements/auth0-okta",
+   "payout": 50000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 26
+  },
+  {
+   "name": "Zendesk Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/zendesk",
+   "payout": 50000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 6
+  },
+  {
+   "name": "Doctolib",
+   "url": "https://yeswehack.com/programs?search=Doctolib",
+   "payout": 50000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 9
+  },
+  {
+   "name": "Kiteworks Public Bug Bounty Program",
+   "url": "https://yeswehack.com/programs?search=Kiteworks%20Public%20Bug%20Bounty%20Program",
+   "payout": 50000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 12
+  },
+  {
+   "name": "AXIS OS",
+   "url": "https://bugcrowd.com/engagements/axis-os-public",
+   "payout": 40000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "Aiven Managed Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/aiven-mbb-og",
+   "payout": 25000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 16
+  },
+  {
+   "name": "Bullish Exchange",
+   "url": "https://bugcrowd.com/engagements/bullish-exchange",
+   "payout": 25000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 2
+  },
+  {
+   "name": "Hypixel Studios Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/hypixel-studios-mbb-og",
+   "payout": 25000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 10
+  },
+  {
+   "name": "Kiteworks",
+   "url": "https://bugcrowd.com/engagements/kiteworks-public",
+   "payout": 25000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "Pinterest",
+   "url": "https://bugcrowd.com/engagements/pinterest",
+   "payout": 25000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 13
+  },
+  {
+   "name": "Chime Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/chime",
+   "payout": 20000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 19
+  },
+  {
+   "name": "FIS",
+   "url": "https://bugcrowd.com/engagements/fis",
+   "payout": 20000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 2
+  },
+  {
+   "name": "SAP Invitational Bug Bounty Program",
+   "url": "https://bugcrowd.com/engagements/sap-private-invite",
+   "payout": 20000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 25
+  },
+  {
+   "name": "Arm",
+   "url": "https://www.intigriti.com/programs/arm/arm/detail",
+   "payout": 20000,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 2
+  },
+  {
+   "name": "Cash App",
+   "url": "https://bugcrowd.com/engagements/cashapp",
+   "payout": 18000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 4
+  },
+  {
+   "name": "Square",
+   "url": "https://bugcrowd.com/engagements/square",
+   "payout": 18000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 8
+  },
+  {
+   "name": "Bitdefender",
+   "url": "https://bugcrowd.com/engagements/bitdefender",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 5
+  },
+  {
+   "name": "Bitpanda Ongoing Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/bitpanda-og-bb",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 10
+  },
+  {
+   "name": "Bitso Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/bitso-mbb-og",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 8
+  },
+  {
+   "name": "Canva",
+   "url": "https://bugcrowd.com/engagements/canva",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 18
+  },
+  {
+   "name": "eToro Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/etoro-mbb-og",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 8
+  },
+  {
+   "name": "KuCoin Managed Bug Bounty Program",
+   "url": "https://bugcrowd.com/engagements/kucoin",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 4
+  },
+  {
+   "name": "BMW Group Automotive",
+   "url": "https://www.intigriti.com/programs/bmw/bmwgroup-automotive/detail",
+   "payout": 15000,
+   "currency": "EUR",
+   "platform": "Intigriti",
+   "in_scope": 4
+  },
+  {
+   "name": "Capital.com",
+   "url": "https://www.intigriti.com/programs/capitalcom/capitalcom/detail",
+   "payout": 15000,
+   "currency": "EUR",
+   "platform": "Intigriti",
+   "in_scope": 12
+  },
+  {
+   "name": "Delen Private Bank",
+   "url": "https://www.intigriti.com/programs/delenprivatebank/privatebankdelen/detail",
+   "payout": 15000,
+   "currency": "EUR",
+   "platform": "Intigriti",
+   "in_scope": 19
+  },
+  {
+   "name": "Dropbox Bug Bounty",
+   "url": "https://www.intigriti.com/programs/dropbox/dropbox/detail",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 26
+  },
+  {
+   "name": "Yahoo Bug Bounty",
+   "url": "https://www.intigriti.com/programs/yahoo/yahoobugbounty/detail",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 36
+  },
+  {
+   "name": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
+   "url": "https://yeswehack.com/programs?search=FDJ%20United%20%28Online%20Betting%20and%20Gaming%29%20-%20Bug%20Bounty%20program",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 33
+  },
+  {
+   "name": "YesWeHack",
+   "url": "https://yeswehack.com/programs?search=YesWeHack",
+   "payout": 15000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 4
+  },
+  {
+   "name": "intigriti",
+   "url": "https://www.intigriti.com/programs/intigriti/intigriti/detail",
+   "payout": 13337,
+   "currency": "EUR",
+   "platform": "Intigriti",
+   "in_scope": 5
+  },
+  {
+   "name": "Monzo Public Bug Bounty Program",
+   "url": "https://www.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail",
+   "payout": 12500,
+   "currency": "GBP",
+   "platform": "Intigriti",
+   "in_scope": 6
+  },
+  {
+   "name": "OVHcloud",
+   "url": "https://yeswehack.com/programs?search=OVHcloud",
+   "payout": 12500,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 3
+  },
+  {
+   "name": "Atlassian",
+   "url": "https://bugcrowd.com/engagements/atlassian",
+   "payout": 12000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 50
+  },
+  {
+   "name": "Bullish.com",
+   "url": "https://bugcrowd.com/engagements/bullish",
+   "payout": 12000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 2
+  },
+  {
+   "name": "Fireblocks Web Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/fireblocks-mbb-og",
+   "payout": 12000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 3
+  },
+  {
+   "name": "Electroneum Legacy Blockchain: EOL",
+   "url": "https://bugcrowd.com/engagements/legacy-blockchain-mbb-og",
+   "payout": 12000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 2
+  },
+  {
+   "name": "Electroneum Smart Chain (ETN-SC) — EVM-Compatible Blockchain",
+   "url": "https://bugcrowd.com/engagements/smartchain-mbb-og",
+   "payout": 12000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 3
+  },
+  {
+   "name": "Trello",
+   "url": "https://bugcrowd.com/engagements/trello",
+   "payout": 12000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 13
+  },
+  {
+   "name": "Binance",
+   "url": "https://bugcrowd.com/engagements/binance",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 21
+  },
+  {
+   "name": "Blockchain.com Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/blockchain-dot-com",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 5
+  },
+  {
+   "name": "Bugcrowd",
+   "url": "https://bugcrowd.com/engagements/bugcrowd",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 8
+  },
+  {
+   "name": "Cisco Networking",
+   "url": "https://bugcrowd.com/engagements/cisconetworking",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 12
+  },
+  {
+   "name": "Etsy",
+   "url": "https://bugcrowd.com/engagements/etsy",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 10
+  },
+  {
+   "name": "Immutable Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/immutable",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 7
+  },
+  {
+   "name": "Indeed",
+   "url": "https://bugcrowd.com/engagements/indeed",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 17
+  },
+  {
+   "name": "Keeper Security Public Bounty Program",
+   "url": "https://bugcrowd.com/engagements/keepersecurity",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 22
+  },
+  {
+   "name": "SEEK",
+   "url": "https://bugcrowd.com/engagements/seek",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 18
+  },
+  {
+   "name": "Verisign Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/verisign",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 11
+  },
+  {
+   "name": "DigitalOcean",
+   "url": "https://www.intigriti.com/programs/digitalocean/digitalocean/detail",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 20
+  },
+  {
+   "name": "TeamViewer - Bounty Program",
+   "url": "https://yeswehack.com/programs?search=TeamViewer%20-%20Bounty%20Program",
+   "payout": 10000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 9
+  },
+  {
+   "name": "Orderly Network: Bug Bounty Program",
+   "url": "https://bugcrowd.com/engagements/orderlynetwork-mbb-og",
+   "payout": 9000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 3
+  },
+  {
+   "name": "Orderly Network Public Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/orderlynetwork-mbb-og2",
+   "payout": 9000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 3
+  },
+  {
+   "name": "ICI PARIS XL",
+   "url": "https://www.intigriti.com/programs/aswatson/iciparisxl/detail",
+   "payout": 8500,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 37
+  },
+  {
+   "name": "Kruidvat",
+   "url": "https://www.intigriti.com/programs/aswatson/kruidvat/detail",
+   "payout": 8500,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 50
+  },
+  {
+   "name": "Marionnaud",
+   "url": "https://www.intigriti.com/programs/aswatson/marionnaud/detail",
+   "payout": 8500,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 77
+  },
+  {
+   "name": "Superdrug",
+   "url": "https://www.intigriti.com/programs/aswatson/superdrug/detail",
+   "payout": 8500,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 28
+  },
+  {
+   "name": "The Perfume Shop",
+   "url": "https://www.intigriti.com/programs/aswatson/theperfumeshop/detail",
+   "payout": 8500,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 10
+  },
+  {
+   "name": "Watsons",
+   "url": "https://www.intigriti.com/programs/aswatson/watsons/detail",
+   "payout": 8500,
+   "currency": "USD",
+   "platform": "Intigriti",
+   "in_scope": 123
+  },
+  {
+   "name": "lululemon",
+   "url": "https://bugcrowd.com/engagements/lululemon",
+   "payout": 8000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 13
+  },
+  {
+   "name": "Skyscanner",
+   "url": "https://bugcrowd.com/engagements/skyscanner",
+   "payout": 8000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 10
+  },
+  {
+   "name": "Vinted Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/vinted-uab-mbb",
+   "payout": 8000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 12
+  },
+  {
+   "name": "Mon Espace Santé (MES)",
+   "url": "https://yeswehack.com/programs?search=Mon%20Espace%20Sant%C3%A9%20%28MES%29",
+   "payout": 8000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 43
+  },
+  {
+   "name": "CoinDesk Data - Data API",
+   "url": "https://bugcrowd.com/engagements/CCData-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 2
+  },
+  {
+   "name": "CoinDesk.com",
+   "url": "https://bugcrowd.com/engagements/coindesk-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "CoinDesk Mobile",
+   "url": "https://bugcrowd.com/engagements/coindesk-mobile-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 2
+  },
+  {
+   "name": "Consensus by CoinDesk",
+   "url": "https://bugcrowd.com/engagements/consensus-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "Fivetran",
+   "url": "https://bugcrowd.com/engagements/fivetran-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 5
+  },
+  {
+   "name": "Latitude Financial Services Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/latitude-financial-service-bugbounty",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 26
+  },
+  {
+   "name": "LaunchDarkly Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/launchdarkly-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 6
+  },
+  {
+   "name": "Lightspeed Hospitality",
+   "url": "https://bugcrowd.com/engagements/lightspeed-hospitality",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 3
+  },
+  {
+   "name": "Lightspeed Retail",
+   "url": "https://bugcrowd.com/engagements/lightspeed-retail",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 6
+  },
+  {
+   "name": "Linktree",
+   "url": "https://bugcrowd.com/engagements/linktree-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 18
+  },
+  {
+   "name": "MGM China Holdings Limited Managed Bug Bounty Program",
+   "url": "https://bugcrowd.com/engagements/mgmmacau-mbb-og",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 12
+  },
+  {
+   "name": "Monash University Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/monash-mbb",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 48
+  },
+  {
+   "name": "Safety Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/openai-safety",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 4
+  },
+  {
+   "name": "Rapyd",
+   "url": "https://bugcrowd.com/engagements/rapyd",
+   "payout": 7500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 10
+  },
+  {
+   "name": "Centers for Medicare & Medicaid Services - Public Bug Bounty Program 2026",
+   "url": "https://bugcrowd.com/engagements/cms-bbpublic",
+   "payout": 7000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 11
+  },
+  {
+   "name": "Glassdoor Managed Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/glassdoor-ogbb",
+   "payout": 7000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 15
+  },
+  {
+   "name": "Lime",
+   "url": "https://bugcrowd.com/engagements/lime",
+   "payout": 7000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 20
+  },
+  {
+   "name": "MATLAB Online - Ongoing Bug Bounty Engagement",
+   "url": "https://bugcrowd.com/engagements/matlab-online",
+   "payout": 7000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "Moovit Managed Bug Bounty Program",
+   "url": "https://bugcrowd.com/engagements/moovit-mbb-og",
+   "payout": 7000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 4
+  },
+  {
+   "name": "Infomaniak Bug Bounty program",
+   "url": "https://yeswehack.com/programs?search=Infomaniak%20Bug%20Bounty%20program",
+   "payout": 7000,
+   "currency": "USD",
+   "platform": "YesWeHack",
+   "in_scope": 53
+  },
+  {
+   "name": "SBB - Swiss Federal Railways",
+   "url": "https://www.intigriti.com/programs/sbb/sbbglobal/detail",
+   "payout": 6666,
+   "currency": "EUR",
+   "platform": "Intigriti",
+   "in_scope": 13
+  },
+  {
+   "name": "Asana",
+   "url": "https://bugcrowd.com/engagements/asana",
+   "payout": 6500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 10
+  },
+  {
+   "name": "Backblaze",
+   "url": "https://bugcrowd.com/engagements/backblaze",
+   "payout": 6500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 9
+  },
+  {
+   "name": "Bolt Technology OÜ",
+   "url": "https://bugcrowd.com/engagements/bolt-og",
+   "payout": 6500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 8
+  },
+  {
+   "name": "Entain Game Logic Flaws Bug Bounty Program",
+   "url": "https://bugcrowd.com/engagements/entain-glf-mbb-og",
+   "payout": 6500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 6
+  },
+  {
+   "name": "OneTrust",
+   "url": "https://bugcrowd.com/engagements/onetrust",
+   "payout": 6500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 1
+  },
+  {
+   "name": "OpenAI",
+   "url": "https://bugcrowd.com/engagements/openai",
+   "payout": 6500,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 13
+  },
+  {
+   "name": "Torfs",
+   "url": "https://www.intigriti.com/programs/torfs/torfs/detail",
+   "payout": 6500,
+   "currency": "EUR",
+   "platform": "Intigriti",
+   "in_scope": 7
+  },
+  {
+   "name": "Flourish",
+   "url": "https://bugcrowd.com/engagements/flourish",
+   "payout": 6000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 6
+  },
+  {
+   "name": "Gearset: Managed Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/gearset-mbb",
+   "payout": 6000,
+   "currency": "USD",
+   "platform": "Bugcrowd",
+   "in_scope": 5
+  }
+ ],
+ "top_h1_by_responsiveness": [
+  {
+   "name": "inDrive",
+   "url": "https://hackerone.com/indrive",
+   "resp_eff": 100,
+   "bounty_assets": 174,
+   "in_scope": 174,
+   "ttr_hours": 1587.0,
+   "ttb_hours": 165.0,
+   "ttr_days": 66.12,
+   "ttb_days": 6.88
+  },
+  {
+   "name": "Eternal",
+   "url": "https://hackerone.com/eternal",
+   "resp_eff": 100,
+   "bounty_assets": 32,
+   "in_scope": 34,
+   "ttr_hours": 158.0,
+   "ttb_hours": 5.0,
+   "ttr_days": 6.58,
+   "ttb_days": 0.21
+  },
+  {
+   "name": "Airbnb",
+   "url": "https://hackerone.com/airbnb",
+   "resp_eff": 100,
+   "bounty_assets": 27,
+   "in_scope": 27,
+   "ttr_hours": 890.0,
+   "ttb_hours": 141.0,
+   "ttr_days": 37.08,
+   "ttb_days": 5.88
+  },
+  {
+   "name": "HackerOne",
+   "url": "https://hackerone.com/security",
+   "resp_eff": 100,
+   "bounty_assets": 25,
+   "in_scope": 26,
+   "ttr_hours": 175.0,
+   "ttb_hours": 1574.0,
+   "ttr_days": 7.29,
+   "ttb_days": 65.58
+  },
+  {
+   "name": "Crypto.com",
+   "url": "https://hackerone.com/crypto",
+   "resp_eff": 100,
+   "bounty_assets": 24,
+   "in_scope": 24,
+   "ttr_hours": null,
+   "ttb_hours": 121.0,
+   "ttr_days": null,
+   "ttb_days": 5.04
+  },
+  {
+   "name": "8x8",
+   "url": "https://hackerone.com/8x8-bounty",
+   "resp_eff": 100,
+   "bounty_assets": 20,
+   "in_scope": 117,
+   "ttr_hours": 562.0,
+   "ttb_hours": 29.0,
+   "ttr_days": 23.42,
+   "ttb_days": 1.21
+  },
+  {
+   "name": "Crowdstrike",
+   "url": "https://hackerone.com/crowdstrike",
+   "resp_eff": 100,
+   "bounty_assets": 20,
+   "in_scope": 20,
+   "ttr_hours": null,
+   "ttb_hours": 21.0,
+   "ttr_days": null,
+   "ttb_days": 0.88
+  },
+  {
+   "name": "Bykea",
+   "url": "https://hackerone.com/bykea",
+   "resp_eff": 100,
+   "bounty_assets": 16,
+   "in_scope": 16,
+   "ttr_hours": null,
+   "ttb_hours": 21.0,
+   "ttr_days": null,
+   "ttb_days": 0.88
+  },
+  {
+   "name": "Krisp",
+   "url": "https://hackerone.com/krisp",
+   "resp_eff": 100,
+   "bounty_assets": 12,
+   "in_scope": 15,
+   "ttr_hours": 3405.0,
+   "ttb_hours": 37.0,
+   "ttr_days": 141.88,
+   "ttb_days": 1.54
+  },
+  {
+   "name": "hostinger",
+   "url": "https://hackerone.com/hostinger",
+   "resp_eff": 100,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": 753.0,
+   "ttb_hours": 105.0,
+   "ttr_days": 31.38,
+   "ttb_days": 4.38
+  },
+  {
+   "name": "1win",
+   "url": "https://hackerone.com/1win_com",
+   "resp_eff": 100,
+   "bounty_assets": 11,
+   "in_scope": 11,
+   "ttr_hours": 1017.0,
+   "ttb_hours": 361.0,
+   "ttr_days": 42.38,
+   "ttb_days": 15.04
+  },
+  {
+   "name": "Trendyol",
+   "url": "https://hackerone.com/trendyol",
+   "resp_eff": 100,
+   "bounty_assets": 11,
+   "in_scope": 11,
+   "ttr_hours": 781.0,
+   "ttb_hours": 102.0,
+   "ttr_days": 32.54,
+   "ttb_days": 4.25
+  },
+  {
+   "name": "Semrush",
+   "url": "https://hackerone.com/semrush",
+   "resp_eff": 100,
+   "bounty_assets": 10,
+   "in_scope": 14,
+   "ttr_hours": 856.0,
+   "ttb_hours": 160.0,
+   "ttr_days": 35.67,
+   "ttb_days": 6.67
+  },
+  {
+   "name": "Chia Network",
+   "url": "https://hackerone.com/chia_network",
+   "resp_eff": 100,
+   "bounty_assets": 9,
+   "in_scope": 9,
+   "ttr_hours": null,
+   "ttb_hours": 354.0,
+   "ttr_days": null,
+   "ttb_days": 14.75
+  },
+  {
+   "name": "Matomo",
+   "url": "https://hackerone.com/matomo",
+   "resp_eff": 100,
+   "bounty_assets": 9,
+   "in_scope": 11,
+   "ttr_hours": 222.0,
+   "ttb_hours": 245.0,
+   "ttr_days": 9.25,
+   "ttb_days": 10.21
+  },
+  {
+   "name": "Enjin",
+   "url": "https://hackerone.com/enjin",
+   "resp_eff": 100,
+   "bounty_assets": 5,
+   "in_scope": 6,
+   "ttr_hours": null,
+   "ttb_hours": 168.0,
+   "ttr_days": null,
+   "ttb_days": 7.0
+  },
+  {
+   "name": "Brave Software",
+   "url": "https://hackerone.com/brave",
+   "resp_eff": 100,
+   "bounty_assets": 5,
+   "in_scope": 5,
+   "ttr_hours": null,
+   "ttb_hours": 96.0,
+   "ttr_days": null,
+   "ttb_days": 4.0
+  },
+  {
+   "name": "Inditex",
+   "url": "https://hackerone.com/inditex",
+   "resp_eff": 100,
+   "bounty_assets": 4,
+   "in_scope": 4,
+   "ttr_hours": null,
+   "ttb_hours": 110.0,
+   "ttr_days": null,
+   "ttb_days": 4.58
+  },
+  {
+   "name": "Mergify",
+   "url": "https://hackerone.com/mergify",
+   "resp_eff": 100,
+   "bounty_assets": 2,
+   "in_scope": 2,
+   "ttr_hours": 207.0,
+   "ttb_hours": 59.0,
+   "ttr_days": 8.62,
+   "ttb_days": 2.46
+  },
+  {
+   "name": "ALSCO",
+   "url": "https://hackerone.com/alsco",
+   "resp_eff": 100,
+   "bounty_assets": 2,
+   "in_scope": 2,
+   "ttr_hours": null,
+   "ttb_hours": null,
+   "ttr_days": null,
+   "ttb_days": null
+  },
+  {
+   "name": "Nextcloud",
+   "url": "https://hackerone.com/nextcloud",
+   "resp_eff": 100,
+   "bounty_assets": 0,
+   "in_scope": 94,
+   "ttr_hours": 2968.0,
+   "ttb_hours": 4178.0,
+   "ttr_days": 123.67,
+   "ttb_days": 174.08
+  },
+  {
+   "name": "CoinMate.io",
+   "url": "https://hackerone.com/coinmate",
+   "resp_eff": 100,
+   "bounty_assets": 0,
+   "in_scope": 0,
+   "ttr_hours": 1608.0,
+   "ttb_hours": 5.0,
+   "ttr_days": 67.0,
+   "ttb_days": 0.21
+  },
+  {
+   "name": "Remitly",
+   "url": "https://hackerone.com/remitly",
+   "resp_eff": 99,
+   "bounty_assets": 72,
+   "in_scope": 72,
+   "ttr_hours": 3161.0,
+   "ttb_hours": 3571.0,
+   "ttr_days": 131.71,
+   "ttb_days": 148.79
+  },
+  {
+   "name": "Goldman Sachs",
+   "url": "https://hackerone.com/goldmansachs",
+   "resp_eff": 99,
+   "bounty_assets": 38,
+   "in_scope": 39,
+   "ttr_hours": 3756.0,
+   "ttb_hours": 193.0,
+   "ttr_days": 156.5,
+   "ttb_days": 8.04
+  },
+  {
+   "name": "Slack",
+   "url": "https://hackerone.com/slack",
+   "resp_eff": 99,
+   "bounty_assets": 19,
+   "in_scope": 19,
+   "ttr_hours": null,
+   "ttb_hours": 128.0,
+   "ttr_days": null,
+   "ttb_days": 5.33
+  },
+  {
+   "name": "Faraday, Inc.",
+   "url": "https://hackerone.com/faraday_inc",
+   "resp_eff": 99,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": 68.0,
+   "ttb_hours": 66.0,
+   "ttr_days": 2.83,
+   "ttb_days": 2.75
+  },
+  {
+   "name": "Scopely",
+   "url": "https://hackerone.com/scopely",
+   "resp_eff": 99,
+   "bounty_assets": 12,
+   "in_scope": 24,
+   "ttr_hours": 1779.0,
+   "ttb_hours": 2107.0,
+   "ttr_days": 74.12,
+   "ttb_days": 87.79
+  },
+  {
+   "name": "KOHO",
+   "url": "https://hackerone.com/koho",
+   "resp_eff": 99,
+   "bounty_assets": 11,
+   "in_scope": 11,
+   "ttr_hours": 3925.0,
+   "ttb_hours": 18.0,
+   "ttr_days": 163.54,
+   "ttb_days": 0.75
+  },
+  {
+   "name": "OKG",
+   "url": "https://hackerone.com/okg",
+   "resp_eff": 99,
+   "bounty_assets": 10,
+   "in_scope": 10,
+   "ttr_hours": null,
+   "ttb_hours": 546.0,
+   "ttr_days": null,
+   "ttb_days": 22.75
+  },
+  {
+   "name": "PortSwigger Web Security",
+   "url": "https://hackerone.com/portswigger",
+   "resp_eff": 99,
+   "bounty_assets": 10,
+   "in_scope": 10,
+   "ttr_hours": null,
+   "ttb_hours": 530.0,
+   "ttr_days": null,
+   "ttb_days": 22.08
+  },
+  {
+   "name": "Hyatt Hotels",
+   "url": "https://hackerone.com/hyatt",
+   "resp_eff": 98,
+   "bounty_assets": 60,
+   "in_scope": 60,
+   "ttr_hours": 2318.0,
+   "ttb_hours": 114.0,
+   "ttr_days": 96.58,
+   "ttb_days": 4.75
+  },
+  {
+   "name": "Marriott Bug Bounty Program",
+   "url": "https://hackerone.com/marriott",
+   "resp_eff": 98,
+   "bounty_assets": 56,
+   "in_scope": 59,
+   "ttr_hours": 818.0,
+   "ttb_hours": 277.0,
+   "ttr_days": 34.08,
+   "ttb_days": 11.54
+  },
+  {
+   "name": "Vimeo",
+   "url": "https://hackerone.com/vimeo",
+   "resp_eff": 98,
+   "bounty_assets": 30,
+   "in_scope": 30,
+   "ttr_hours": 5032.0,
+   "ttb_hours": 36.0,
+   "ttr_days": 209.67,
+   "ttb_days": 1.5
+  },
+  {
+   "name": "MoonPay",
+   "url": "https://hackerone.com/moonpay",
+   "resp_eff": 98,
+   "bounty_assets": 21,
+   "in_scope": 21,
+   "ttr_hours": 15.0,
+   "ttb_hours": 90.0,
+   "ttr_days": 0.62,
+   "ttb_days": 3.75
+  },
+  {
+   "name": "Early Warning",
+   "url": "https://hackerone.com/early_warning",
+   "resp_eff": 98,
+   "bounty_assets": 17,
+   "in_scope": 17,
+   "ttr_hours": 1736.0,
+   "ttb_hours": 50.0,
+   "ttr_days": 72.33,
+   "ttb_days": 2.08
+  },
+  {
+   "name": "Deriv.com",
+   "url": "https://hackerone.com/deriv",
+   "resp_eff": 98,
+   "bounty_assets": 15,
+   "in_scope": 18,
+   "ttr_hours": 72.0,
+   "ttb_hours": 95.0,
+   "ttr_days": 3.0,
+   "ttb_days": 3.96
+  },
+  {
+   "name": "Vodafone Oman",
+   "url": "https://hackerone.com/vodafone_oman",
+   "resp_eff": 98,
+   "bounty_assets": 7,
+   "in_scope": 7,
+   "ttr_hours": 171.0,
+   "ttb_hours": 10.0,
+   "ttr_days": 7.12,
+   "ttb_days": 0.42
+  },
+  {
+   "name": "PornBox",
+   "url": "https://hackerone.com/pornbox",
+   "resp_eff": 98,
+   "bounty_assets": 4,
+   "in_scope": 4,
+   "ttr_hours": 235.0,
+   "ttb_hours": 164.0,
+   "ttr_days": 9.79,
+   "ttb_days": 6.83
+  },
+  {
+   "name": "Exodus",
+   "url": "https://hackerone.com/exodus",
+   "resp_eff": 97,
+   "bounty_assets": 27,
+   "in_scope": 28,
+   "ttr_hours": 93.0,
+   "ttb_hours": 367.0,
+   "ttr_days": 3.88,
+   "ttb_days": 15.29
+  },
+  {
+   "name": "FanDuel",
+   "url": "https://hackerone.com/fanduel",
+   "resp_eff": 97,
+   "bounty_assets": 19,
+   "in_scope": 19,
+   "ttr_hours": null,
+   "ttb_hours": 202.0,
+   "ttr_days": null,
+   "ttb_days": 8.42
+  },
+  {
+   "name": "Basecamp",
+   "url": "https://hackerone.com/basecamp",
+   "resp_eff": 97,
+   "bounty_assets": 13,
+   "in_scope": 17,
+   "ttr_hours": 11116.0,
+   "ttb_hours": 206.0,
+   "ttr_days": 463.17,
+   "ttb_days": 8.58
+  },
+  {
+   "name": "Banco Plata",
+   "url": "https://hackerone.com/banco_plata",
+   "resp_eff": 97,
+   "bounty_assets": 7,
+   "in_scope": 7,
+   "ttr_hours": 5938.0,
+   "ttb_hours": 627.0,
+   "ttr_days": 247.42,
+   "ttb_days": 26.12
+  },
+  {
+   "name": "HYPR",
+   "url": "https://hackerone.com/hypr-corp",
+   "resp_eff": 97,
+   "bounty_assets": 6,
+   "in_scope": 6,
+   "ttr_hours": 552.0,
+   "ttb_hours": 565.0,
+   "ttr_days": 23.0,
+   "ttb_days": 23.54
+  },
+  {
+   "name": "Stripchat",
+   "url": "https://hackerone.com/stripchat",
+   "resp_eff": 97,
+   "bounty_assets": 2,
+   "in_scope": 2,
+   "ttr_hours": null,
+   "ttb_hours": 247.0,
+   "ttr_days": null,
+   "ttb_days": 10.29
+  },
+  {
+   "name": "Booking.com",
+   "url": "https://hackerone.com/bookingcom",
+   "resp_eff": 96,
+   "bounty_assets": 49,
+   "in_scope": 49,
+   "ttr_hours": 1573.0,
+   "ttb_hours": 775.0,
+   "ttr_days": 65.54,
+   "ttb_days": 32.29
+  },
+  {
+   "name": "Anthropic",
+   "url": "https://hackerone.com/anthropic",
+   "resp_eff": 96,
+   "bounty_assets": 14,
+   "in_scope": 14,
+   "ttr_hours": 1219.0,
+   "ttb_hours": 153.0,
+   "ttr_days": 50.79,
+   "ttb_days": 6.38
+  },
+  {
+   "name": "3CX",
+   "url": "https://hackerone.com/3cx",
+   "resp_eff": 96,
+   "bounty_assets": 13,
+   "in_scope": 14,
+   "ttr_hours": 2932.0,
+   "ttb_hours": 67.0,
+   "ttr_days": 122.17,
+   "ttb_days": 2.79
+  },
+  {
+   "name": "Walt.io",
+   "url": "https://hackerone.com/walt_io",
+   "resp_eff": 96,
+   "bounty_assets": 10,
+   "in_scope": 10,
+   "ttr_hours": 225.0,
+   "ttb_hours": 121.0,
+   "ttr_days": 9.38,
+   "ttb_days": 5.04
+  },
+  {
+   "name": "MercadoLibre",
+   "url": "https://hackerone.com/mercadolibre",
+   "resp_eff": 95,
+   "bounty_assets": 71,
+   "in_scope": 79,
+   "ttr_hours": 1589.0,
+   "ttb_hours": 139.0,
+   "ttr_days": 66.21,
+   "ttb_days": 5.79
+  },
+  {
+   "name": "Live Nation",
+   "url": "https://hackerone.com/live_nation",
+   "resp_eff": 95,
+   "bounty_assets": 25,
+   "in_scope": 25,
+   "ttr_hours": 1055.0,
+   "ttb_hours": 103.0,
+   "ttr_days": 43.96,
+   "ttb_days": 4.29
+  },
+  {
+   "name": "Vercel",
+   "url": "https://hackerone.com/vercel",
+   "resp_eff": 95,
+   "bounty_assets": 25,
+   "in_scope": 25,
+   "ttr_hours": 949.0,
+   "ttb_hours": 685.0,
+   "ttr_days": 39.54,
+   "ttb_days": 28.54
+  },
+  {
+   "name": "Box BB",
+   "url": "https://hackerone.com/box_private",
+   "resp_eff": 95,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": 1925.0,
+   "ttb_hours": 719.0,
+   "ttr_days": 80.21,
+   "ttb_days": 29.96
+  },
+  {
+   "name": "Greenhouse.io",
+   "url": "https://hackerone.com/greenhouse",
+   "resp_eff": 95,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": 547.0,
+   "ttb_hours": 330.0,
+   "ttr_days": 22.79,
+   "ttb_days": 13.75
+  },
+  {
+   "name": "WisdomTree, Inc.",
+   "url": "https://hackerone.com/wisdomtree",
+   "resp_eff": 95,
+   "bounty_assets": 6,
+   "in_scope": 6,
+   "ttr_hours": 257.0,
+   "ttb_hours": 0.0,
+   "ttr_days": 10.71,
+   "ttb_days": 0.0
+  },
+  {
+   "name": "Urban Company",
+   "url": "https://hackerone.com/urbancompany",
+   "resp_eff": 95,
+   "bounty_assets": 6,
+   "in_scope": 6,
+   "ttr_hours": 947.0,
+   "ttb_hours": 1536.0,
+   "ttr_days": 39.46,
+   "ttb_days": 64.0
+  },
+  {
+   "name": "Bumba",
+   "url": "https://hackerone.com/bumba_bbp",
+   "resp_eff": 95,
+   "bounty_assets": 1,
+   "in_scope": 1,
+   "ttr_hours": null,
+   "ttb_hours": null,
+   "ttr_days": null,
+   "ttb_days": null
+  },
+  {
+   "name": "Coupang Taiwan",
+   "url": "https://hackerone.com/coupang_tw",
+   "resp_eff": 94,
+   "bounty_assets": 47,
+   "in_scope": 47,
+   "ttr_hours": 1238.0,
+   "ttb_hours": 403.0,
+   "ttr_days": 51.58,
+   "ttb_days": 16.79
+  },
+  {
+   "name": "Tools for Humanity",
+   "url": "https://hackerone.com/toolsforhumanity",
+   "resp_eff": 94,
+   "bounty_assets": 22,
+   "in_scope": 22,
+   "ttr_hours": 815.0,
+   "ttb_hours": 740.0,
+   "ttr_days": 33.96,
+   "ttb_days": 30.83
+  },
+  {
+   "name": "Privy (Bounty)",
+   "url": "https://hackerone.com/privy-bbp",
+   "resp_eff": 94,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": null,
+   "ttb_hours": 342.0,
+   "ttr_days": null,
+   "ttb_days": 14.25
+  },
+  {
+   "name": "Omarchy",
+   "url": "https://hackerone.com/omarchy",
+   "resp_eff": 94,
+   "bounty_assets": 1,
+   "in_scope": 1,
+   "ttr_hours": null,
+   "ttb_hours": null,
+   "ttr_days": null,
+   "ttb_days": null
+  },
+  {
+   "name": "PayPal",
+   "url": "https://hackerone.com/paypal",
+   "resp_eff": 93,
+   "bounty_assets": 41,
+   "in_scope": 42,
+   "ttr_hours": 4609.0,
+   "ttb_hours": 2210.0,
+   "ttr_days": 192.04,
+   "ttb_days": 92.08
+  },
+  {
+   "name": "Snapchat",
+   "url": "https://hackerone.com/snapchat",
+   "resp_eff": 93,
+   "bounty_assets": 40,
+   "in_scope": 40,
+   "ttr_hours": 1701.0,
+   "ttb_hours": 575.0,
+   "ttr_days": 70.88,
+   "ttb_days": 23.96
+  },
+  {
+   "name": "Credit Karma",
+   "url": "https://hackerone.com/creditkarma",
+   "resp_eff": 93,
+   "bounty_assets": 14,
+   "in_scope": 14,
+   "ttr_hours": null,
+   "ttb_hours": 455.0,
+   "ttr_days": null,
+   "ttb_days": 18.96
+  },
+  {
+   "name": "Redox",
+   "url": "https://hackerone.com/redox_bbp",
+   "resp_eff": 93,
+   "bounty_assets": 9,
+   "in_scope": 9,
+   "ttr_hours": null,
+   "ttb_hours": 26.0,
+   "ttr_days": null,
+   "ttb_days": 1.08
+  },
+  {
+   "name": "Braze, Inc.",
+   "url": "https://hackerone.com/braze_inc",
+   "resp_eff": 93,
+   "bounty_assets": 3,
+   "in_scope": 3,
+   "ttr_hours": 2472.0,
+   "ttb_hours": 2802.0,
+   "ttr_days": 103.0,
+   "ttb_days": 116.75
+  },
+  {
+   "name": "AT&T",
+   "url": "https://hackerone.com/att",
+   "resp_eff": 93,
+   "bounty_assets": 1,
+   "in_scope": 1,
+   "ttr_hours": null,
+   "ttb_hours": 1952.0,
+   "ttr_days": null,
+   "ttb_days": 81.33
+  },
+  {
+   "name": "Playtika",
+   "url": "https://hackerone.com/playtika",
+   "resp_eff": 92,
+   "bounty_assets": 63,
+   "in_scope": 65,
+   "ttr_hours": 2780.0,
+   "ttb_hours": 1.0,
+   "ttr_days": 115.83,
+   "ttb_days": 0.04
+  },
+  {
+   "name": "EXNESS",
+   "url": "https://hackerone.com/exness",
+   "resp_eff": 92,
+   "bounty_assets": 11,
+   "in_scope": 14,
+   "ttr_hours": 740.0,
+   "ttb_hours": 131.0,
+   "ttr_days": 30.83,
+   "ttb_days": 5.46
+  },
+  {
+   "name": "Files.com",
+   "url": "https://hackerone.com/files",
+   "resp_eff": 92,
+   "bounty_assets": 10,
+   "in_scope": 10,
+   "ttr_hours": 112.0,
+   "ttb_hours": 26.0,
+   "ttr_days": 4.67,
+   "ttb_days": 1.08
+  },
+  {
+   "name": "Ripio",
+   "url": "https://hackerone.com/ripio",
+   "resp_eff": 91,
+   "bounty_assets": 23,
+   "in_scope": 24,
+   "ttr_hours": 103.0,
+   "ttb_hours": 13.0,
+   "ttr_days": 4.29,
+   "ttb_days": 0.54
+  },
+  {
+   "name": "Coinbase",
+   "url": "https://hackerone.com/coinbase",
+   "resp_eff": 91,
+   "bounty_assets": 14,
+   "in_scope": 16,
+   "ttr_hours": null,
+   "ttb_hours": 1175.0,
+   "ttr_days": null,
+   "ttb_days": 48.96
+  },
+  {
+   "name": "Plaid",
+   "url": "https://hackerone.com/plaid",
+   "resp_eff": 91,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": null,
+   "ttb_hours": 246.0,
+   "ttr_days": null,
+   "ttb_days": 10.25
+  },
+  {
+   "name": "Abercrombie & Fitch Bug Bounty",
+   "url": "https://hackerone.com/abercrombie_fitch_bbp",
+   "resp_eff": 91,
+   "bounty_assets": 8,
+   "in_scope": 8,
+   "ttr_hours": 535.0,
+   "ttb_hours": 62.0,
+   "ttr_days": 22.29,
+   "ttb_days": 2.58
+  },
+  {
+   "name": "Agoda Public",
+   "url": "https://hackerone.com/agoda-public",
+   "resp_eff": 91,
+   "bounty_assets": 3,
+   "in_scope": 3,
+   "ttr_hours": null,
+   "ttb_hours": 348.0,
+   "ttr_days": null,
+   "ttb_days": 14.5
+  },
+  {
+   "name": "Superhuman (formerly Grammarly)",
+   "url": "https://hackerone.com/superhuman",
+   "resp_eff": 90,
+   "bounty_assets": 29,
+   "in_scope": 29,
+   "ttr_hours": 4956.0,
+   "ttb_hours": 98.0,
+   "ttr_days": 206.5,
+   "ttb_days": 4.08
+  },
+  {
+   "name": "Circle",
+   "url": "https://hackerone.com/circle-bbp",
+   "resp_eff": 90,
+   "bounty_assets": 22,
+   "in_scope": 22,
+   "ttr_hours": 3178.0,
+   "ttb_hours": 2509.0,
+   "ttr_days": 132.42,
+   "ttb_days": 104.54
+  },
+  {
+   "name": "23andMe Bug Bounty",
+   "url": "https://hackerone.com/23andme_bbp",
+   "resp_eff": 90,
+   "bounty_assets": 18,
+   "in_scope": 18,
+   "ttr_hours": 1292.0,
+   "ttb_hours": 304.0,
+   "ttr_days": 53.83,
+   "ttb_days": 12.67
+  },
+  {
+   "name": "Notion Labs, Inc.",
+   "url": "https://hackerone.com/notion",
+   "resp_eff": 90,
+   "bounty_assets": 13,
+   "in_scope": 13,
+   "ttr_hours": 1328.0,
+   "ttb_hours": 386.0,
+   "ttr_days": 55.33,
+   "ttb_days": 16.08
+  },
+  {
+   "name": "Polygon Technology",
+   "url": "https://hackerone.com/polygon-technology",
+   "resp_eff": 90,
+   "bounty_assets": 8,
+   "in_scope": 8,
+   "ttr_hours": 691.0,
+   "ttb_hours": 198.0,
+   "ttr_days": 28.79,
+   "ttb_days": 8.25
+  },
+  {
+   "name": "Compass",
+   "url": "https://hackerone.com/compass-bbp",
+   "resp_eff": 90,
+   "bounty_assets": 3,
+   "in_scope": 3,
+   "ttr_hours": null,
+   "ttb_hours": 430.0,
+   "ttr_days": null,
+   "ttb_days": 17.92
+  },
+  {
+   "name": "FetLife",
+   "url": "https://hackerone.com/fetlife",
+   "resp_eff": 90,
+   "bounty_assets": 3,
+   "in_scope": 3,
+   "ttr_hours": 553.0,
+   "ttb_hours": 64.0,
+   "ttr_days": 23.04,
+   "ttb_days": 2.67
+  },
+  {
+   "name": "Flutter UK&I",
+   "url": "https://hackerone.com/flutteruki",
+   "resp_eff": 89,
+   "bounty_assets": 44,
+   "in_scope": 44,
+   "ttr_hours": null,
+   "ttb_hours": 16.0,
+   "ttr_days": null,
+   "ttb_days": 0.67
+  },
+  {
+   "name": "Superbet",
+   "url": "https://hackerone.com/superbet",
+   "resp_eff": 89,
+   "bounty_assets": 28,
+   "in_scope": 28,
+   "ttr_hours": null,
+   "ttb_hours": 131.0,
+   "ttr_days": null,
+   "ttb_days": 5.46
+  },
+  {
+   "name": "Netflix",
+   "url": "https://hackerone.com/netflix",
+   "resp_eff": 89,
+   "bounty_assets": 26,
+   "in_scope": 30,
+   "ttr_hours": 2446.0,
+   "ttb_hours": 226.0,
+   "ttr_days": 101.92,
+   "ttb_days": 9.42
+  },
+  {
+   "name": "Trip.com",
+   "url": "https://hackerone.com/trip_com",
+   "resp_eff": 89,
+   "bounty_assets": 15,
+   "in_scope": 16,
+   "ttr_hours": 453.0,
+   "ttb_hours": 281.0,
+   "ttr_days": 18.88,
+   "ttb_days": 11.71
+  },
+  {
+   "name": "Unico IDtech",
+   "url": "https://hackerone.com/unico_idtech",
+   "resp_eff": 89,
+   "bounty_assets": 14,
+   "in_scope": 14,
+   "ttr_hours": 2971.0,
+   "ttb_hours": 398.0,
+   "ttr_days": 123.79,
+   "ttb_days": 16.58
+  },
+  {
+   "name": "Wolt",
+   "url": "https://hackerone.com/wolt",
+   "resp_eff": 89,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": 2.0,
+   "ttb_hours": 418.0,
+   "ttr_days": 0.08,
+   "ttb_days": 17.42
+  },
+  {
+   "name": "Databricks",
+   "url": "https://hackerone.com/databricks",
+   "resp_eff": 89,
+   "bounty_assets": 8,
+   "in_scope": 9,
+   "ttr_hours": 8874.0,
+   "ttb_hours": 312.0,
+   "ttr_days": 369.75,
+   "ttb_days": 13.0
+  },
+  {
+   "name": "Grab",
+   "url": "https://hackerone.com/grab",
+   "resp_eff": 88,
+   "bounty_assets": 32,
+   "in_scope": 32,
+   "ttr_hours": null,
+   "ttb_hours": 408.0,
+   "ttr_days": null,
+   "ttb_days": 17.0
+  },
+  {
+   "name": "GoCardless Bug Bounty Program",
+   "url": "https://hackerone.com/gocardless_bbp",
+   "resp_eff": 88,
+   "bounty_assets": 10,
+   "in_scope": 18,
+   "ttr_hours": 327.0,
+   "ttb_hours": 193.0,
+   "ttr_days": 13.62,
+   "ttb_days": 8.04
+  },
+  {
+   "name": "Whatnot",
+   "url": "https://hackerone.com/whatnot",
+   "resp_eff": 88,
+   "bounty_assets": 7,
+   "in_scope": 7,
+   "ttr_hours": null,
+   "ttb_hours": 736.0,
+   "ttr_days": null,
+   "ttb_days": 30.67
+  },
+  {
+   "name": "Temu",
+   "url": "https://hackerone.com/temu",
+   "resp_eff": 88,
+   "bounty_assets": 6,
+   "in_scope": 6,
+   "ttr_hours": 1028.0,
+   "ttb_hours": 410.0,
+   "ttr_days": 42.83,
+   "ttb_days": 17.08
+  },
+  {
+   "name": "Doppler",
+   "url": "https://hackerone.com/doppler",
+   "resp_eff": 88,
+   "bounty_assets": 6,
+   "in_scope": 6,
+   "ttr_hours": 273.0,
+   "ttb_hours": null,
+   "ttr_days": 11.38,
+   "ttb_days": null
+  },
+  {
+   "name": "XVIDEOS",
+   "url": "https://hackerone.com/xvideos",
+   "resp_eff": 88,
+   "bounty_assets": 5,
+   "in_scope": 5,
+   "ttr_hours": 1545.0,
+   "ttb_hours": 379.0,
+   "ttr_days": 64.38,
+   "ttb_days": 15.79
+  },
+  {
+   "name": "CoinSpot",
+   "url": "https://hackerone.com/coinspot",
+   "resp_eff": 88,
+   "bounty_assets": 4,
+   "in_scope": 4,
+   "ttr_hours": null,
+   "ttb_hours": 53.0,
+   "ttr_days": null,
+   "ttb_days": 2.21
+  },
+  {
+   "name": "Sheer",
+   "url": "https://hackerone.com/sheer_bbp",
+   "resp_eff": 88,
+   "bounty_assets": 2,
+   "in_scope": 2,
+   "ttr_hours": 242.0,
+   "ttb_hours": 242.0,
+   "ttr_days": 10.08,
+   "ttb_days": 10.08
+  },
+  {
+   "name": "Cloudflare Public Bug Bounty",
+   "url": "https://hackerone.com/cloudflare",
+   "resp_eff": 87,
+   "bounty_assets": 52,
+   "in_scope": 52,
+   "ttr_hours": null,
+   "ttb_hours": 825.0,
+   "ttr_days": null,
+   "ttb_days": 34.38
+  },
+  {
+   "name": "Ubiquiti Inc.",
+   "url": "https://hackerone.com/ui",
+   "resp_eff": 87,
+   "bounty_assets": 40,
+   "in_scope": 52,
+   "ttr_hours": 1175.0,
+   "ttb_hours": 800.0,
+   "ttr_days": 48.96,
+   "ttb_days": 33.33
+  },
+  {
+   "name": "Reddit",
+   "url": "https://hackerone.com/reddit",
+   "resp_eff": 87,
+   "bounty_assets": 27,
+   "in_scope": 27,
+   "ttr_hours": 1310.0,
+   "ttb_hours": 483.0,
+   "ttr_days": 54.58,
+   "ttb_days": 20.12
+  },
+  {
+   "name": "KAYAK",
+   "url": "https://hackerone.com/kayak",
+   "resp_eff": 87,
+   "bounty_assets": 12,
+   "in_scope": 12,
+   "ttr_hours": 445.0,
+   "ttb_hours": 387.0,
+   "ttr_days": 18.54,
+   "ttb_days": 16.12
+  }
+ ],
+ "largest_attack_surface": [
+  {
+   "name": "Fiserv",
+   "url": "https://hackerone.com/fiserv",
+   "in_scope": 10923,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "CBRE",
+   "url": "https://hackerone.com/cbre",
+   "in_scope": 8691,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Clarivate",
+   "url": "https://hackerone.com/clarivate",
+   "in_scope": 5026,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "John Deere",
+   "url": "https://hackerone.com/john-deere",
+   "in_scope": 2050,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "ION Group",
+   "url": "https://hackerone.com/ion",
+   "in_scope": 1444,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "DIB-VDP",
+   "url": "https://hackerone.com/dib-vdp",
+   "in_scope": 1094,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "ABB Information Systems Ltd",
+   "url": "https://hackerone.com/abb",
+   "in_scope": 1063,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "AWS VDP",
+   "url": "https://hackerone.com/aws_vdp",
+   "in_scope": 554,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "MTN Group",
+   "url": "https://hackerone.com/mtn_group",
+   "in_scope": 498,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Essity",
+   "url": "https://hackerone.com/essity",
+   "in_scope": 480,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Esteé  Lauder",
+   "url": "https://hackerone.com/estee-lauder",
+   "in_scope": 471,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "NBA Public Bug Bounty",
+   "url": "https://hackerone.com/nba-public",
+   "in_scope": 460,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Ferrero",
+   "url": "https://hackerone.com/ferrero",
+   "in_scope": 416,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Mondelēz International",
+   "url": "https://hackerone.com/mondelez",
+   "in_scope": 371,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Aegean Airlines Vulnerability Disclosure",
+   "url": "https://hackerone.com/aegean_airlines_vdp",
+   "in_scope": 292,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Equifax-vdp",
+   "url": "https://hackerone.com/equifax",
+   "in_scope": 283,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Daimler Truck",
+   "url": "https://hackerone.com/daimler_truck",
+   "in_scope": 272,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Henkel",
+   "url": "https://hackerone.com/henkel_vdp",
+   "in_scope": 266,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Aon",
+   "url": "https://hackerone.com/aon",
+   "in_scope": 257,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "PepsiCo VDP",
+   "url": "https://hackerone.com/pepsico_vdp",
+   "in_scope": 227,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "HPE VDP",
+   "url": "https://hackerone.com/hpe_vdp",
+   "in_scope": 207,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "MOD Supply Chain VDP",
+   "url": "https://hackerone.com/mod_supply_chain_vdp",
+   "in_scope": 185,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Alshaya",
+   "url": "https://hackerone.com/alshaya",
+   "in_scope": 184,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "inDrive",
+   "url": "https://hackerone.com/indrive",
+   "in_scope": 174,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Optus Managed Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/optus-mbb-og",
+   "in_scope": 168,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Visa",
+   "url": "https://hackerone.com/visa",
+   "in_scope": 168,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "TransUnion LLC",
+   "url": "https://hackerone.com/transunion",
+   "in_scope": 154,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Itaú Unibanco",
+   "url": "https://hackerone.com/itau_unibanco",
+   "in_scope": 137,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Allegion",
+   "url": "https://hackerone.com/allegion",
+   "in_scope": 135,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "OPPO",
+   "url": "https://hackerone.com/oppo_bbp",
+   "in_scope": 133,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Watsons",
+   "url": "https://www.intigriti.com/programs/aswatson/watsons/detail",
+   "in_scope": 123,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Amazon Vulnerability Research Program",
+   "url": "https://hackerone.com/amazonvrp",
+   "in_scope": 121,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Atlassian-Built Apps",
+   "url": "https://bugcrowd.com/engagements/atlassianapps",
+   "in_scope": 119,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "8x8",
+   "url": "https://hackerone.com/8x8-bounty",
+   "in_scope": 117,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Mars",
+   "url": "https://hackerone.com/mars",
+   "in_scope": 112,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Nextcloud",
+   "url": "https://hackerone.com/nextcloud",
+   "in_scope": 94,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Epic Games VDP",
+   "url": "https://hackerone.com/epicgames-vdp",
+   "in_scope": 91,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Opera Public Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/opera",
+   "in_scope": 89,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Mateco VDP",
+   "url": "https://www.intigriti.com/programs/mateco/matecovdp/detail",
+   "in_scope": 89,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Logitech",
+   "url": "https://hackerone.com/logitech",
+   "in_scope": 86,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Twilio",
+   "url": "https://hackerone.com/twilio",
+   "in_scope": 85,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Epic Games",
+   "url": "https://hackerone.com/epicgames",
+   "in_scope": 85,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Citymesh Responsible Vulnerability Disclosure Program",
+   "url": "https://www.intigriti.com/programs/citymesh/responsiblevulnerabilitydisclosureprogram/detail",
+   "in_scope": 82,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Kubernetes",
+   "url": "https://hackerone.com/kubernetes",
+   "in_scope": 82,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "MercadoLibre",
+   "url": "https://hackerone.com/mercadolibre",
+   "in_scope": 79,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Marionnaud",
+   "url": "https://www.intigriti.com/programs/aswatson/marionnaud/detail",
+   "in_scope": 77,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Expedia Group Bug Bounty",
+   "url": "https://hackerone.com/expediagroup_bbp",
+   "in_scope": 77,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "T-Mobile",
+   "url": "https://bugcrowd.com/engagements/t-mobile",
+   "in_scope": 76,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Fifth Third Bank VDP",
+   "url": "https://hackerone.com/fifth_third_bank_vdp",
+   "in_scope": 73,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Remitly",
+   "url": "https://hackerone.com/remitly",
+   "in_scope": 72,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "LATAM Airlines",
+   "url": "https://hackerone.com/latamairlines",
+   "in_scope": 71,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Vodafone",
+   "url": "https://hackerone.com/vodafone",
+   "in_scope": 67,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Xiaomi",
+   "url": "https://hackerone.com/xiaomi",
+   "in_scope": 66,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Dyson",
+   "url": "https://hackerone.com/dyson",
+   "in_scope": 66,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Playtika",
+   "url": "https://hackerone.com/playtika",
+   "in_scope": 65,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "ResMed",
+   "url": "https://hackerone.com/resmed",
+   "in_scope": 63,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "ForeScout Technologies",
+   "url": "https://hackerone.com/forescout_technologies",
+   "in_scope": 63,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "KKR-VDP",
+   "url": "https://hackerone.com/kkr_vdp",
+   "in_scope": 60,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Hyatt Hotels",
+   "url": "https://hackerone.com/hyatt",
+   "in_scope": 60,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "PNI Media - Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/pnimedia-bb",
+   "in_scope": 59,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Marriott Bug Bounty Program",
+   "url": "https://hackerone.com/marriott",
+   "in_scope": 59,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "European Space Agency (ESA) VDP",
+   "url": "https://www.intigriti.com/programs/europeanspaceagency/europeanspaceagencyvdp/detail",
+   "in_scope": 58,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "SIX Group",
+   "url": "https://hackerone.com/six-group",
+   "in_scope": 57,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Zebra VDP",
+   "url": "https://hackerone.com/zebra_vdp",
+   "in_scope": 55,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Infomaniak Bug Bounty program",
+   "url": "https://yeswehack.com/programs?search=Infomaniak%20Bug%20Bounty%20program",
+   "in_scope": 53,
+   "platform": "YesWeHack",
+   "offers": true
+  },
+  {
+   "name": "Stripe",
+   "url": "https://hackerone.com/stripe",
+   "in_scope": 52,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Ubiquiti Inc.",
+   "url": "https://hackerone.com/ui",
+   "in_scope": 52,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Cloudflare Public Bug Bounty",
+   "url": "https://hackerone.com/cloudflare",
+   "in_scope": 52,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Klaviyo Managed Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/klaviyo-og",
+   "in_scope": 51,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Kinepolis Group",
+   "url": "https://www.intigriti.com/programs/kinepolis/website/detail",
+   "in_scope": 51,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Atlassian",
+   "url": "https://bugcrowd.com/engagements/atlassian",
+   "in_scope": 50,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Kruidvat",
+   "url": "https://www.intigriti.com/programs/aswatson/kruidvat/detail",
+   "in_scope": 50,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Bumble",
+   "url": "https://hackerone.com/bumble",
+   "in_scope": 50,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "USAA",
+   "url": "https://bugcrowd.com/engagements/usaa",
+   "in_scope": 49,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Port of Antwerp-Bruges",
+   "url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+   "in_scope": 49,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Booking.com",
+   "url": "https://hackerone.com/bookingcom",
+   "in_scope": 49,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Monash University Bug Bounty",
+   "url": "https://bugcrowd.com/engagements/monash-mbb",
+   "in_scope": 48,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "HCL Software Inc.",
+   "url": "https://hackerone.com/hcl_software",
+   "in_scope": 48,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Resolution",
+   "url": "https://bugcrowd.com/engagements/resolutionde",
+   "in_scope": 47,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Coupang Taiwan",
+   "url": "https://hackerone.com/coupang_tw",
+   "in_scope": 47,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Spotify",
+   "url": "https://hackerone.com/spotify",
+   "in_scope": 45,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Flutter UK&I",
+   "url": "https://hackerone.com/flutteruki",
+   "in_scope": 44,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Oportun",
+   "url": "https://hackerone.com/oportun_vdp",
+   "in_scope": 44,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Posti Bug Bounty",
+   "url": "https://www.intigriti.com/programs/posti/postibugbounty/detail",
+   "in_scope": 43,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Mon Espace Santé (MES)",
+   "url": "https://yeswehack.com/programs?search=Mon%20Espace%20Sant%C3%A9%20%28MES%29",
+   "in_scope": 43,
+   "platform": "YesWeHack",
+   "offers": true
+  },
+  {
+   "name": "Semtech",
+   "url": "https://hackerone.com/semtech",
+   "in_scope": 43,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Zurich Insurance",
+   "url": "https://hackerone.com/zurich-insurance",
+   "in_scope": 43,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Global Payments",
+   "url": "https://hackerone.com/global-payments",
+   "in_scope": 43,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "PayPal",
+   "url": "https://hackerone.com/paypal",
+   "in_scope": 42,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Axel Springer National Media & Tech",
+   "url": "https://www.intigriti.com/programs/axelspringerse/nmt/detail",
+   "in_scope": 41,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Finnair Vulnerability Disclosure",
+   "url": "https://hackerone.com/finnair_vdp",
+   "in_scope": 41,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Snapchat",
+   "url": "https://hackerone.com/snapchat",
+   "in_scope": 40,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "Cedars-Sinai",
+   "url": "https://hackerone.com/cedars-sinai",
+   "in_scope": 39,
+   "platform": "HackerOne",
+   "offers": false
+  },
+  {
+   "name": "Goldman Sachs",
+   "url": "https://hackerone.com/goldmansachs",
+   "in_scope": 39,
+   "platform": "HackerOne",
+   "offers": true
+  },
+  {
+   "name": "The Trade Desk",
+   "url": "https://bugcrowd.com/engagements/thetradedesk-mbb",
+   "in_scope": 38,
+   "platform": "Bugcrowd",
+   "offers": null
+  },
+  {
+   "name": "Storebrand Responsible Disclosure",
+   "url": "https://www.intigriti.com/programs/spp-storebrand/storebrand-rd/detail",
+   "in_scope": 38,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Atolls Vulnerability Disclosure Program (VDP)",
+   "url": "https://www.intigriti.com/programs/atolls/atollsvdp/detail",
+   "in_scope": 37,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "ICI PARIS XL",
+   "url": "https://www.intigriti.com/programs/aswatson/iciparisxl/detail",
+   "in_scope": 37,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Yahoo Bug Bounty",
+   "url": "https://www.intigriti.com/programs/yahoo/yahoobugbounty/detail",
+   "in_scope": 36,
+   "platform": "Intigriti",
+   "offers": true
+  },
+  {
+   "name": "Assa Abloy Americas",
+   "url": "https://hackerone.com/assa_abloy_americas",
+   "in_scope": 36,
+   "platform": "HackerOne",
+   "offers": false
+  }
+ ]
+}

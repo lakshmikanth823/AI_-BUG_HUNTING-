@@ -1,0 +1,145 @@
+---
+trigger: model_decision
+description: "Android/iOS, REST/GraphQL API, AWS/Azure/GCP/Kubernetes, IoT firmware and ICS/OT specific resources. Use for domain-specific testing guidance."
+---
+
+# Security Research Link Corpus — Mobile, API, Cloud, IoT & OT Security
+
+Part 1 of 1. 136 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <http://amandroid.sireum.org> — Amandroid
+- ✓ <http://android-permissions.org> — Stowaway
+- ✓ <http://androidtcpdump.com> — Tcpdump
+- ✓ <http://app-ray.co> — Fraunhofer App-ray
+- ✓ <http://appanalysis.org> — Taintdroid
+- ✓ <http://benf.org/other/cfr> — CFR
+- ✓ <http://charlesproxy.com> — Charles Proxy
+- ✓ <http://comdroid.org> — Comdroid
+- ✓ <http://cycript.org> — cycript
+- ✓ <http://cydia.radare.org> — keychaindumper
+- ✓ <http://cydia.saurik.com/package/kr.typostudio.tsprotector8> — tsProtector
+- ✓ <http://cydiaimpactor.com> — Cydia Impactor
+- ✓ <http://cydiasubstrate.com> — Cydia Substrate
+- ✓ <http://decompileandroid.com> — Android APK Decompiler
+- ✓ <http://fasteque.com:80/android-reverse-engineering-101-part-1>
+- ✓ <http://forum.xda-developers.com/xposed/xposed-installer-versions-changelog-t2714053> — Xposed Framework
+- ✓ <http://ida.liu.se/labs/rtslab/publications/2011/spsm11-burguera.pdf> — Crowdroid
+- ✓ <http://julioverne.github.io> — JailProtect
+- ✓ <http://kharon.gforge.inria.fr/dataset> — Kharon Malware Dataset
+- ✓ <http://malgenomeproject.org> — Android Malware Genome Project
+- ✓ <http://mobile-sandbox.com> — Mobile-Sandbox
+- ✓ <http://newosxbook.com/bonus/iBoot.pdf> — iOS Internals vol 2
+- ✓ <http://pag.arguslab.org/argus-saf> — Amandroid – A Static Analysis Framework
+- ✓ <http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html> — Dalvik opcodes
+- ✓ <http://radare.org> — Radare2
+- ✓ <http://stevenygard.com/projects/class-dump> — class-dump
+- ✓ <http://unix.com/man-page/osx/1/otool> — otool
+- ✓ <http://vantagepoint.sg/blog/83-mobile-reverse-engineering-unleashed> — Mobile Reverse Engineering Unleashed
+- ✓ <https://androidcookbook.com> — Android Cookbook
+- ✓ <https://androidobservatory.org/upload> — Android Observatory APK Scan
+- ✓ <https://androzoo.uni.lu> — AndroZoo
+- ✓ <https://app.any.run> — ANY.RUN
+- ✓ <https://app.gitbook.com/s/-L_2uGJGU7AVNRcqRvEi/welcome/hacktricks-values-and-faq> — HackTricks Values & FAQ
+- ✓ <https://appknox.com> — Appknox
+- ✓ <https://appsec-labs.com/AppUse> — AppUse
+- ✓ <https://appsec-labs.com/cydia> — iNalyzer
+- ✓ <https://appsweep.guardsquare.com> — AppSweep by Guardsquare
+- ✓ <https://apress.com/gp/book/9781484223543> — iOS Penetration Testing
+- ✓ <https://arxiv.org/pdf/1910.06192.pdf> — AndrODet: An adaptive Android obfuscation detector
+- ✓ <https://beta.pithus.org> — Pithus
+- ✓ <https://beta.pithus.org/about> — here
+- ✓ <https://bitbucket.org/aseemjakhar/indroid> — Indroid
+- ✓ <https://blog.digital-forensics.it> — Checkra1n Era - series
+- ✓ <https://blog.elcomsoft.com/2019/10/how-to-extract-screen-time-passcodes-and-voice-memos-from-icloud> — How to Extract Screen Time Passcodes and Voice Memos from iCloud
+- ✓ <https://blog.elcomsoft.com/2019/12/bfu-extraction-forensic-analysis-of-locked-and-disabled-iphones> — BFU Extraction: Forensic Analysis of Locked and Disabled iPhones
+- ✓ <https://blog.oversecured.com/Android-Access-to-app-protected-components> — Android: Access to app protected components
+- ✓ <https://blog.oversecured.com/Android-arbitrary-code-execution-via-third-party-package-contexts> — Android: arbitrary code execution via third-party package contexts
+- ✓ <https://blog.oversecured.com/Evernote-Universal-XSS-theft-of-all-cookies-from-all-sites-and-more> — Evernote: Universal-XSS, theft of all cookies from all sites, and more
+- ✓ <https://blog.oversecured.com/Gaining-access-to-arbitrary-Content-Providers> — Android: Gaining access to arbitrary* Content Providers
+- ✓ <https://blog.oversecured.com/Interception-of-Android-implicit-intents> — Interception of Android implicit intents
+- ✓ <https://blog.oversecured.com/Oversecured-automatically-discovers-persistent-code-execution-in-the-Google-Play-Core-Library> — Persistent arbitrary code execution in Android's Google Play Core Libr…
+- ✓ <https://blog.oversecured.com/Oversecured-detects-dangerous-vulnerabilities-in-the-TikTok-Android-app> — TikTok: three persistent arbitrary code executions and one theft of ar…
+- ✓ <https://blog.ropnop.com/configuring-burp-suite-with-android-nougat> — Configuring Burp Suite With Android Nougat
+- ✓ <https://blog.securelayer7.net/a-run-time-approach-for-pen-testing-ios-applications-part-ii-objection-in-action> — A run-time approach for pentesting iOS applications
+- ✓ <https://blog.umangis.me/a-deep-dive-into-ios-code-signing> — A Deep Dive into iOS Code Signing
+- ✓ <https://blogs.uni-paderborn.de/sse/tools/flowdroid> — FlowDroid
+- ✓ <https://bytecodeviewer.com> — ByteCodeViewer - Android APK Reverse Engineering Suite (Decompiler, Ed…
+- ✓ <https://code.google.com/p/androguard/wiki/DatabaseAndroidMalwares> — androguard - Database Android Malware wiki
+- ✓ <https://code.google.com/p/droidbox> — DroidBox - Dynamic analysis of Android applications
+- ✓ <https://code.google.com/p/iphonetunnel-usbmuxconnectbyport/downloads/list> — itunnel
+- ✓ <https://codeshare.frida.re> — Frida CodeShare
+- ✓ <https://coursera.org/learn/ios-app-design-development> — App Design and Development for iOS
+- ✓ <https://cyberduck.io> — Cyberduck
+- ✓ <https://cydia.saurik.com/api/latest/3> — Cycript
+- ✓ <https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift> — Develop iOS Apps (Swift)
+- ✓ <https://devknox.io> — Devknox
+- ✓ <https://docs.docker.com/reference/cli/docker/compose/up> — Docker Compose up reference
+- ✓ <https://docs.docker.com/reference/cli/docker/container/run> — Docker container run reference
+- ✓ <https://docs.google.com/presentation/d/1pYB522E71hXrp4m3fL3E3fnAaOIboJKqpbyE5gSsOes/edit> — Android Malware Adventures
+- ✓ <https://docs.google.com/presentation/d/1sFGAERaNRuEORaH06MmZKeFRqpJo1ol1xFieUa1X_OA/edit> — Chasing the Joker
+- ✓ <https://drive.google.com/file/d/1JccmMLi6YTnyRrp_rk6vzKrUX3oXK_Yw/view> — Mobile Pentesting With Frida
+- ✓ <https://evilsocket.net/2017/04/27/Android-Applications-Reversing-101> — Android Applications Reversing 101
+- ✓ <https://git-scm.com/docs/git-checkout> — Git checkout documentation
+- ✓ <https://git-scm.com/docs/git-clone> — Git clone documentation
+- ✓ <https://git-scm.com/docs/git-pull> — Git pull documentation
+- ✓ <https://habo.qq.com> — habo
+- ✓ <https://i.blackhat.com/eu-19/Thursday/eu-19-Hussain-Side-Channel-Attacks-In-4G-And-5G-Cellular-Networks.pdf> — Side Channel Attacks in 4G and 5G Cellular Networks-Slides
+- ✓ <https://immuniweb.com/mobile> — Immuniweb
+- ✓ <https://insights.sei.cmu.edu/library/didfail> — Droid Intent Data Flow Analysis for Information Leakage
+- ✓ <https://itunes.apple.com/app/apple-configurator-2/id1037126344> — Apple configurator 2
+- ✓ <https://itunes.apple.com/us/app/iweppro/id578135585?mt=8> — iWep Pro - wireless suite of useful applications used to turn your iOS…
+- ✓ <https://koodous.com> — Koodous
+- ✓ <https://libimobiledevice.org> — Libimobiledevice - library to communicate with the services of the App…
+- ✓ <https://maddiestone.github.io/AndroidAppRE> — Android App Reverse Engineering 101
+- ✓ <https://media.ccc.de/v/36c3-10497-messenger_hacking_remotely_compromising_an_iphone_through_imessage> — Messenger Hacking: Remotely Compromising an iPhone through iMessage
+- ✓ <https://media.ccc.de/v/36c3-10806-ktrw_the_journey_to_build_a_debuggable_iphone> — KTRW: The journey to build a debuggable iPhone
+- ✓ <https://media.ccc.de/v/36c3-11034-tales_of_old_untethering_ios_11> — Tales of old: untethering iOS 11-Spoiler: Apple is bad at patching
+- ✓ <https://media.ccc.de/v/36c3-11238-the_one_weird_trick_securerom_hates> — The One Weird Trick SecureROM Hates
+- ✓ <https://metadefender.opswat.com> — OPSWAT
+- ✓ <https://mobexler.com> — MOBEXLER - A Mobile Application Penetration Testing Platform
+- ✓ <https://mobileiron.com/en/blog/magisk-android-rooting> — Magisk Systemless Root - Detection and Remediation
+- ✓ <https://nightowl131.github.io/AAPG> — AAPG - Android application penetration testing guide
+- ✓ <https://notsosecure.com/pentesting-android-apps-using-frida> — Pentesting Android Apps Using Frida
+- ✓ <https://nowsecure.com/blog/2014/09/09/introducing-vialab-community-edition> — ViaLab Community Edition
+- ✓ <https://nowsecure.com/blog/2016/09/19/announcing-nowsecure-lab-automated> — NowSecure Lab Automated
+- ✓ <https://ostorlab.co> — Ostorlab
+- ✓ <https://ostorlab.co/scan/mobile> — Ostor Lab
+- ✓ <https://oversecured.com> — Oversecured
+- ✓ <https://pentesteracademy.com/course?id=2> — Pentesting iOS Applications
+- ✓ <https://plugins.jetbrains.com/plugin/3847-findbugs-idea> — FindBugs-IDEA Static byte code analysis to look for bugs in Java code
+- ✓ <https://plv.colorado.edu/projects/thresher> — Thresher – To check heap reachability properties
+- ✓ <https://pnfsoftware.com> — Android Decompiler
+- ✓ <https://rossmarks.uk/blog/fridalab> — FridaLab
+- ✓ <https://rust-lang.github.io/mdBook/cli/serve.html> — mdBook serve command
+- ✓ <https://sensepost.com/blog/2019/mettle-your-ios-with-frida> — Mettle your iOS with FRIDA
+- ✓ <https://spaceraccoon.dev/low-hanging-apples-hunting-credentials-and-secrets-in-ios-apps> — Low-Hanging Apples: Hunting Credentials and Secrets in iOS Apps
+- ✓ <https://types.cs.washington.edu/checker-framework> — Checker Framework
+- ✓ <https://unb.ca/cic/datasets/android-adware.html> — Android Adware and General Malware Dataset
+- ✓ <https://varaneckas.com/jad> — Jad
+- ✓ <https://veracode.com/sites/default/files/Resources/Tools/iRETTool.zip> — iRET (iOS Reverse Engineering Toolkit)
+- ✓ <https://wireshark.org/download.html> — Wireshark
+- ✓ <https://zetetic.net/sqlcipher/sqlcipher-for-android> — SQL Cipher
+- ~ <http://code.google.com/p/android4me/downloads/detail?name=AXMLPrinter2.jar> — AXMLPrinter2
+- ~ <http://findbugs.sourceforge.net/downloads.html> — Findbugs – Find Bugs in Java Programs
+- ~ <http://foresafe.com/scan> — Foresafe
+- ~ <http://i-funbox.com> — iFunbox
+- ~ <http://mcafee.com/us/downloads/free-tools/hacme-bank-android.aspx> — Hackme Bank
+- ~ <http://proguard.sourceforge.net> — Proguard
+- ~ <http://undroid.av-comparatives.info> — AVC UnDroid
+- ~ <http://visualthreat.com/UIupload.action> — Visual Threat
+- ~ <https://amazon.in/Mobile-Application-Hackers-Handbook-ebook/dp/B00TSA6KLG> — The Mobile Application Hacker's Handbook
+- ~ <https://apkpure.com> — Apkpure
+- ~ <https://approver.talos-sec.com> — approver
+- ~ <https://filezilla-project.org/download.php?show_all=1> — FileZilla
+- ~ <https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445> — Magisk v20.2 - Root & Universal Systemless Interface
+- ~ <https://forum.xda-developers.com/xposed/xposed-installer-versions-changelog-t2714053> — Xposed
+- ~ <https://ios.jjolano.me> — Shadow
+- ~ <https://malab.bitbaan.com> — BitBaan
+- ~ <https://nccgroup.com/us/our-research/intent-sniffer> — IntentSniffer
+- ~ <https://pentestlab.blog/2017/02/12/android-webview-vulnerabilities> — Android WebView Vulnerabilities
+- ~ <https://resources.infosecinstitute.com/practical-android-phone-forensics> — Practical Android Phone Forensics
+- ~ <https://sourceforge.net/projects/dedexer> — Dedexer
+- ~ <https://tthtlc.wordpress.com/2011/09/01/static-analysis-of-android-applications> — A good collection of static analysis papers
+- ~ <https://undroid.av-comparatives.org/index.php> — AVC Undroid
+- ~ <https://virusbulletin.com/virusbulletin/2019/11/dexofuzzy-android-malware-similarity-clustering-method-using-opcode-sequence> — Dexofuzzy: Android malware similarity clustering method using opcode s…
+- ~ <https://visualthreat.com> — Visual Threat

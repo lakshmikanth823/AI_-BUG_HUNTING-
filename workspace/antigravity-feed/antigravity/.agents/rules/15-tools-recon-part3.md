@@ -1,0 +1,284 @@
+---
+trigger: model_decision
+description: "Subdomain enumeration, crawling, parameter mining, secret scanning, wordlists, OSINT and internet-wide search engines. Use when building a recon pipeline or discovering attack surface. (part 3/5)"
+---
+
+# Security Research Link Corpus — Recon & Asset Discovery Tools
+
+Part 3 of 5. 275 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://landmatrix.org> — LandMatrix
+- ✓ <https://lastpass.com> — Lastpass
+- ✓ <https://latinobarometro.org> — Latinobarometro
+- ✓ <https://leafletjs.com> — Leaflet
+- ✓ <https://leakcheck.io> — LeakCheck
+- ✓ <https://leakradar.io> — LeakRadar
+- ✓ <https://lens.google.com> — Google Lens
+- ✓ <https://lenso.ai> — Lenso.ai
+- ✓ <https://lesma.eu> — lesma.eu
+- ✓ <https://lib.stat.cmu.edu/DASL> — The Data and Story Library
+- ✓ <https://lib.utexas.edu/maps> — Perry Castaneda Library
+- ✓ <https://librewolf.net> — LibreWolf
+- ✓ <https://limacharlie.io> — Limacharlie
+- ✓ <https://linkedin.com> — Linkedin Groups
+- ✓ <https://linkode.org> — Linkode(alpha)
+- ✓ <https://linkurio.us> — Linkuroius
+- ✓ <https://lionic.com/monitoring> — LIONIC Cyber Threat Map
+- ✓ <https://listify.okfnlabs.org> — Listify
+- ✓ <https://livethreatmap.radware.com> — Radware Live Cyber Threat Map
+- ✓ <https://livingatlas.arcgis.com/en/browse> — ArcGIS
+- ✓ <https://lizard-labs.com/event_log_observer.aspx> — Event Log Observer
+- ✓ <https://lizard-labs.com/log_parser_lizard.aspx> — Log Parser Lizard
+- ✓ <https://localfocus.nl> — LocalFocus
+- ✓ <https://lockbin.com> — Lockbin
+- ✓ <https://logpasta.com> — Logpasta
+- ✓ <https://lookup-id.com> — Lookup-ID.com
+- ✓ <https://lookup.icann.org/en/lookup> — Icann Lookup
+- ✓ <https://losangeles.craigslist.org> — Craiglist
+- ✓ <https://lycos.com> — Lycos
+- ✓ <https://maecproject.github.io>
+- ✓ <https://magnetforensics.com/free-tool-magnet-ram-capture> — Magnet RAM Capture
+- ✓ <https://magnetforensics.com/magnet-acquire> — Magnet ACQUIRE
+- ✓ <https://magnetforensics.com/resources/magnet-dumpit-for-windows> — MAGNET DumpIt
+- ✓ <https://mailbox.org> — Mailbox
+- ✓ <https://mailtester.com> — MailTester
+- ✓ <https://majestic.com> — Majestic
+- ✓ <https://majestic.com/reports/majestic-million>
+- ✓ <https://maldatabase.com>
+- ✓ <https://malpedia.caad.fkie.fraunhofer.de>
+- ✓ <https://malpedia.caad.fkie.fraunhofer.de/actors> — Malpedia
+- ✓ <https://malwagon.com> — Malwagon
+- ✓ <https://malware-traffic-analysis.net>
+- ✓ <https://malwareintel.es> — MalwareIntel
+- ✓ <https://malwarepatrol.net>
+- ✓ <https://map.baidu.com> — Baidu Maps
+- ✓ <https://mapalist.com> — MapAList
+- ✓ <https://mapbox.com> — MapBox
+- ✓ <https://mapchart.net> — Mapchart.net
+- ✓ <https://mapchecking.com> — MapChecking
+- ✓ <https://maphub.net> — MapHub
+- ✓ <https://mapillary.com/app> — Mapillary
+- ✓ <https://mapline.com> — Mapline
+- ✓ <https://maps.co> — Map Maker
+- ✓ <https://maps.yahoo.com> — Yahoo Maps
+- ✓ <https://masterpasswordapp.com> — Master Password
+- ✓ <https://mattw.io/youtube-geofind> — YouTube Geofind
+- ✓ <https://mattw.io/youtube-metadata> — YouTube Metadata
+- ✓ <https://maxmind.com> — MaxMind
+- ✓ <https://maxthon.com> — Maxthon
+- ✓ <https://medevel.com/cyphon> — Cyphon
+- ✓ <https://meedan.com/check> — Check
+- ✓ <https://merklemap.com> — Merklemap
+- ✓ <https://metadefender.com> — Metadefender Cloud
+- ✓ <https://metaproductsrevolver.com> — Resolver
+- ✓ <https://mgmaps.com/kml> — View in Google Earth
+- ✓ <https://microsoft.com/en-us/windows/microsoft-edge/microsoft-edge> — Edge
+- ✓ <https://microsystools.com/products/website-download> — A1 Website Download
+- ✓ <https://minervaosint.com> — Minerva OSINT
+- ✓ <https://ministryofcyberaffairs.com/lers> — LERS Portal Directory (Ministry of Cyber Affairs)
+- ✓ <https://misp-galaxy.org/360net> — MISP Galaxy
+- ✓ <https://mixi.jp> — Mixi (Japan)
+- ✓ <https://mmnt.ru> — Mamont
+- ✓ <https://modestmaps.com> — Modest Maps
+- ✓ <https://mojeek.com> — Mojeek
+- ✓ <https://monkey.org/~jose/software/rfi-sandbox> — RFISandbox
+- ✓ <https://mozilla.org> — Firefox
+- ✓ <https://mugshots.com> — Mugshots
+- ✓ <https://mullvad.net/en/browser> — Mullvad Browser
+- ✓ <https://multirbl.valli.org/dnsbl-lookup> — Multirbl
+- ✓ <https://mustbepresent.com> — MustBePresent
+- ✓ <https://mxtoolbox.com> — mxtoolbox
+- ✓ <https://myallsearch.com> — Myallsearch
+- ✓ <https://mywot.com> — WOT
+- ✓ <https://n0paste.eu> — n0paste
+- ✓ <https://nachricht.co> — Nachricht
+- ✓ <https://najdi.si> — Najdi (Slovenia)
+- ✓ <https://namecheckup.com> — Name Checkup
+- ✓ <https://narcoscope.com> — NarcoScope
+- ✓ <https://nationalarchives.gov.uk> — The National Archives (UK)
+- ✓ <https://nationmaster.com/statistics> — Nation Master
+- ✓ <https://naver.com> — Naver (South Korea)
+- ✓ <https://nccgroup.github.io/Scout2> — Scout2
+- ✓ <https://nekobin.com> — nekobin
+- ✓ <https://nerdydata.com> — NerdyData
+- ✓ <https://netresec.com/?page=Blog&month=2017-04&post=Domain-Whitelist-Benchmark%3a-Alexa-vs-Umbrella>
+- ✓ <https://netvibes.com> — Netvibes
+- ✓ <https://news.google.com> — Google News
+- ✓ <https://news.google.com/newspapers> — Google News Print Archive
+- ✓ <https://news.yahoo.com> — Yahoo News
+- ✓ <https://newsblur.com> — Newsblur
+- ✓ <https://newsinshorts.com> — Newsinshorts
+- ✓ <https://newsnow.co.uk> — News Now
+- ✓ <https://newspapermap.com> — Newspaper Map
+- ✓ <https://newswhip.com> — NewsWhip
+- ✓ <https://ning.com> — Ning
+- ✓ <https://nodebox.net> — Nodebox
+- ✓ <https://nopaste.boris.sh> — NoPaste
+- ✓ <https://nopaste.net> — nopaste.net
+- ✓ <https://noscript.net> — NoScript
+- ✓ <https://notey.com> — Notey
+- ✓ <https://novasense-threats.com>
+- ✓ <https://oasis-open.github.io/cti-documentation>
+- ✓ <https://oasis-open.org/committees/tc_home.php?wg_abbrev=openc2>
+- ✓ <https://objective-see.com/products/knockknock.html> — Knockknock
+- ✓ <https://obsidian.md> — Obsidian
+- ✓ <https://obstracts.com>
+- ✓ <https://ocsf.io>
+- ✓ <https://odcrawler.xyz> — ODCrawler
+- ✓ <https://offendersearch.app> — Offendersearch
+- ✓ <https://offshore.cat/?page=vpn> — OffShore.cat
+- ✓ <https://offshoreleaks.icij.org> — Offshore Leak Database
+- ✓ <https://ok.ru> — Odnoklassniki (Russia)
+- ✓ <https://onelook.com/reverse-dictionary.shtml> — One Look Reverse Dictionary
+- ✓ <https://onet.pl> — Onet.pl (Poland)
+- ✓ <https://onion.ail-project.org> — onion-lookup
+- ✓ <https://online-barcode-reader.inliteresearch.com> — Barcode Reader
+- ✓ <https://onlinenewspapers.com> — OnlineNewspapers
+- ✓ <https://onwebchange.com> — OnWebChange
+- ✓ <https://open-search.aleph-networks.eu> — Aleph Open Search
+- ✓ <https://open.canada.ca/en> — Government of Canada Open Data
+- ✓ <https://opencorporates.com> — OpenCorporates
+- ✓ <https://opencti.io/en>
+- ✓ <https://opengrey.eu> — Open Grey
+- ✓ <https://openhunting.io/threat-library> — OPENHUNTING.IO
+- ✓ <https://openlayers.org> — OpenLayers
+- ✓ <https://openlinkprofiler.org> — OpenLinkProfiler
+- ✓ <https://openphish.com/phishing_feeds.html>
+- ✓ <https://opensanctions.org/search> — OpenSanctions
+- ✓ <https://openstreetmap.org> — Open Street Map
+- ✓ <https://opensyllabusproject.org> — The Open Syllabus Project
+- ✓ <https://opera.com> — Opera
+- ✓ <https://opinioncrawl.com> — OpinionCrawl
+- ✓ <https://opswat.com/developers/threat-intelligence-feed>
+- ✓ <https://orange.fr> — Orange (France)
+- ✓ <https://oscobo.co.uk> — Oscobo Search Engine
+- ✓ <https://osint-steam.vercel.app/en> — OSINT-Steam
+- ✓ <https://osint-tool.com> — OSINT-Tool
+- ✓ <https://osintcat.net> — OsintCat
+- ✓ <https://osintcurio.us> — OSINTCurious
+- ✓ <https://osintdojo.com/resources> — OSINT Dojo
+- ✓ <https://osintteam.com> — OSINT Team
+- ✓ <https://osinttechniques.com/blog> — OSINT Techniques
+- ✓ <https://osintupdates.com> — OSINT Updates - a free weekly newsletter for OSINTers
+- ✓ <https://osquery.io> — osquery
+- ✓ <https://osti.gov/servlets/purl/1524844> — The Tularosa Study: An Experimental Design and Implementation to Quant…
+- ✓ <https://oti-labs.com/domain-intelligence-api> — Domain Intelligence
+- ✓ <https://otvet.mail.ru> — Ответы
+- ✓ <https://outwit.com> — Outwit
+- ✓ <https://overhead24.com> — Overhead24
+- ✓ <https://paaster.io> — paaster
+- ✓ <https://packet.guru> — packet.guru
+- ✓ <https://pagepress.org> — Open Access Scientific Journals
+- ✓ <https://paloaltonetworks.com/cortex/xsoar> — CORTEX XSOAR
+- ✓ <https://panopticlick.eff.org> — Panopticlick
+- ✓ <https://parseek.com> — Parseek (Iran)
+- ✓ <https://paste.cash> — Paste.Cash
+- ✓ <https://paste.centos.org> — CentOS Pastebin Service
+- ✓ <https://paste.debian.net> — paste.debian
+- ✓ <https://paste.in.ua> — paste.in.ua
+- ✓ <https://paste.monster> — Paste.Monster
+- ✓ <https://paste.sh> — paste.sh
+- ✓ <https://paste1.com> — New Paste
+- ✓ <https://pastebin.cz/en> — Pastebin.cz
+- ✓ <https://pastebin.fi> — Etusivu
+- ✓ <https://pastequest.com> — Paste.Quest
+- ✓ <https://pastesite.net> — PasteSite.Net
+- ✓ <https://paulhensel.org/dataintl.html> — Paul Hensel’s General Informational Data Page
+- ✓ <https://pcr.uu.se/research/UCDP> — Upsala Conflict Data Program
+- ✓ <https://pecl.php.net/package/funcall> — funcall
+- ✓ <https://peekyou.com> — PeekYou
+- ✓ <https://pelock.com/products/steganography-online-codec> — Steganography Online Codec
+- ✓ <https://pentest-tools.com/information-gathering/google-hacking> — Pentest-Tools.com
+- ✓ <https://pewinternet.org/datasets> — Pew Research Center
+- ✓ <https://philogb.github.io/jit> — Java Infovis Toolkit
+- ✓ <https://phindai.org> — Phind
+- ✓ <https://phishtank.com/developer_info.php>
+- ✓ <https://phonevalidator.com/index.aspx> — Phone Validator
+- ✓ <https://photobucket.com> — PhotoBucket
+- ✓ <https://pic2map.com> — Pic2Map
+- ✓ <https://pictriev.com> — PicTriev
+- ✓ <https://pidgin.im> — Pidgin
+- ✓ <https://piktochart.com> — Piktochart
+- ✓ <https://pimeyes.com> — PimEyes
+- ✓ <https://pingroupie.com> — Pingroupie
+- ✓ <https://pinterest.com> — Pinterest
+- ✓ <https://pipl.com> — Pipl
+- ✓ <https://pixsy.com> — Pixsy
+- ✓ <https://pixxa.com> — Pixxa
+- ✓ <https://platform.dfir-lab.ch> — DFIR Platform
+- ✓ <https://plot.ly> — Plotly
+- ✓ <https://plunkettresearchonline.com> — Plunkett Research
+- ✓ <https://polished.app/email-permutator> — Email Permutator
+- ✓ <https://polymaps.org> — Polymaps
+- ✓ <https://preceden.com> — Preceden
+- ✓ <https://predictasearch.com> — Predicta Search
+- ✓ <https://pressreader.com> — Press Reader
+- ✓ <https://privacy.com> — Privacy.com
+- ✓ <https://privazer.com> — Privazer
+- ✓ <https://prnewswire.com> — PR Newswire
+- ✓ <https://proxy-offline-browser.com/download.html> — WebAssistant
+- ✓ <https://public.tableau.com> — Tableau Public
+- ✓ <https://pushshift.io> — Pushshift API
+- ✓ <https://qfeeds.com>
+- ✓ <https://qgis.org> — QGIS
+- ✓ <https://qsensei.com> — FeedBooster
+- ✓ <https://quadrigram.com> — Quadrigram
+- ✓ <https://quantcast.com> — Quantcast
+- ✓ <https://quetzal-search.info> — Quetzal Search
+- ✓ <https://quickcode.io> — QuickCode
+- ✓ <https://qwant.com> — Qwant
+- ✓ <https://qzone.qq.com> — Qzone (China)
+- ✓ <https://randomtools.io> — Find my Facebook ID
+- ✓ <https://randomtools.io/reddit-comment-search> — Reddit Comment Lookup
+- ✓ <https://raqet.github.io> — RaQet
+- ✓ <https://raw.densitydesign.org> — RAW
+- ✓ <https://reacher.email> — Reacher
+- ✓ <https://recordedfuture.com>
+- ✓ <https://recruitin.net> — RecruitEm
+- ✓ <https://redditcommentsearch.com> — Reddit Comment Search
+- ✓ <https://redditmetis.com> — RedditMetis
+- ✓ <https://redirectdetective.com> — RedirectDetective
+- ✓ <https://reederapp.com> — Reeder
+- ✓ <https://relatedrepos.com> — Related Repos
+- ✓ <https://rentry.co> — Rentry
+- ✓ <https://report.cs.rutgers.edu/mrtg/drop/dropstat.cgi?start=-86400>
+- ✓ <https://researcherid.com> — ReseacherID
+- ✓ <https://response.pagerduty.com> — PagerDuty Incident Response Documentation
+- ✓ <https://reverse.it> — Reverse.IT
+- ✓ <https://reverseimage.app> — Reverse Image Search Anywhere
+- ✓ <https://reverseimagelocation.com> — ReverseImageLocation
+- ✓ <https://riccardoscalco.github.io/textures> — Textures.js
+- ✓ <https://ricks-apps.com/osx/sitesucker/index.html> — SiteSucker
+- ✓ <https://ritetag.com> — RiteTag
+- ✓ <https://rssowl.org> — RSSOwl
+- ✓ <https://rstcloud.net>
+- ✓ <https://rug.nl/research/ggdc/data/pwt/pwt-8.1> — Penn World Table
+- ✓ <https://ryanstillions.blogspot.nl/2014/04/the-dml-model_21.html>
+- ✓ <https://sameid.net> — SameID
+- ✓ <https://sapo.pt> — SAPO (Portugal)
+- ✓ <https://sasgis.org/sasplaneta> — SAS Planet
+- ✓ <https://scanmalware.com> — ScanMalware
+- ✓ <https://scholarspace.manoa.hawaii.edu/items/88cd00a5-914f-456e-a322-01c22fd5b7d7> — 'It's Not Paranoia If They're Really After You': When Announcing Decep…
+- ✓ <https://scirp.org> — SCIRP
+- ✓ <https://scoot.co.uk> — Scoot
+- ✓ <https://scribblemaps.com> — Scribble Maps
+- ✓ <https://scrt.link> — scrt.link
+- ✓ <https://search.aol.com> — Aol
+- ✓ <https://search.carrot2.org> — Carrot2
+- ✓ <https://search.com> — Search.com
+- ✓ <https://search.disconnect.me> — Disconnect Search
+- ✓ <https://search.fb.com> — Facebook Search
+- ✓ <https://search.odin.io> — ODIN
+- ✓ <https://search.onyphe.io> — ONYPHE
+- ✓ <https://search4faces.com> — Search4faces
+- ✓ <https://searchcode.com> — SearchCode
+- ✓ <https://searchfiles.de> — SearchFiles.de
+- ✓ <https://searxng.org> — SearXNG
+- ✓ <https://sebsauvage.net/paste> — ZeroBin
+- ✓ <https://securesha.re> — Securesha
+- ✓ <https://selfoss.aditu.de> — Selfoss
+- ✓ <https://semrush.com> — SEMrush
+- ✓ <https://sentinel-hub.com/explore/sentinelplayground> — Sentinel Hub
+- ✓ <https://seotoolsforexcel.com> — SEOTools for Excel
+- ✓ <https://serpapi.com> — SerpApi
+- ✓ <https://serpstat.com> — Serpstat

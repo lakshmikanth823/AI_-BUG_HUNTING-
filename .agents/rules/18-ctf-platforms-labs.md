@@ -1,0 +1,122 @@
+---
+trigger: model_decision
+description: "HackTheBox, TryHackMe, PortSwigger Labs, picoCTF, pwn.college, Root-Me, OverTheWire and similar. Use when recommending practice environments or skills drills."
+---
+
+# Security Research Link Corpus — CTF Platforms & Training Ranges
+
+Part 1 of 1. 113 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://academy.hackthebox.com> — HackTheBox Academy
+- ✓ <https://app.hackthebox.com/challenges> — HackTheBox Challenges
+- ✓ <https://app.hackthebox.com/home> — HackTheBox - machines
+- ✓ <https://blueteamlabs.online> — Blue Team Labs Online
+- ✓ <https://capturetheflag.withgoogle.com> — Google CTF
+- ✓ <https://cmdchallenge.com> — cmdchallenge
+- ✓ <https://cryptohack.org> — CryptoHack
+- ✓ <https://ctflearn.com> — CTFLearn
+- ✓ <https://ctftime.org> — CTFtime - event calendar & writeups
+- ✓ <https://cyberdefenders.org> — CyberDefenders
+- ✓ <https://defendtheweb.net> — Defend the Web
+- ✓ <https://exploit.education> — Exploit Education
+- ✓ <https://hackthebox.com> — HackTheBox
+- ✓ <https://hackthebox.com/blog> — HTB retired machines walkthroughs
+- ✓ <https://holidayhackchallenge.com> — SANS Holiday Hack Challenge
+- ✓ <https://io.netgarage.org> — Hacker100 / io.netgarage
+- ✓ <https://letsdefend.io> — LetsDefend
+- ✓ <https://overthewire.org/wargames> — OverTheWire wargames index
+- ✓ <https://overthewire.org/wargames/natas> — Natas wargames (OverTheWire)
+- ✓ <https://pentesterlab.com> — PentesterLab
+- ✓ <https://pentesterlab.com/exercises> — PentesterLab - exercises
+- ✓ <https://picoctf.org> — picoCTF
+- ✓ <https://pwn.college> — pwn.college writeups
+- ✓ <https://pwnable.kr> — pwnable.kr
+- ✓ <https://pwnable.tw> — Pwnable.tw
+- ✓ <https://rangeforce.com> — RangeForce
+- ✓ <https://ringzer0ctf.com/challenges> — RingZer0 CTF
+- ✓ <https://root-me.org/-Challenges-?lang=en> — Root-Me - challenges
+- ✓ <https://root-me.org/?lang=en> — Root-Me - challenges
+- ✓ <https://ropemporium.com> — ROP Emporium
+- ✓ <https://ropemporium.com/guide.html> — ROP Emporium solutions
+- ✓ <https://tryhackme.com> — TryHackMe
+- ✓ <https://underthewire.tech> — Under the Wire (PowerShell wargames)
+- ✓ <https://vulnhub.com> — VulnHub - downloadable vulnerable VMs
+- ~ <https://dojo.pwn.college> — pwn.college (free curriculum)
+- ~ <https://picoctf.org/learning_guides> — picoCTF learning guides
+- ~ <https://stationx.net> — StationX
+- ~ <https://tryhackme.com/hacktivities> — TryHackMe - guided rooms
+- ~ <https://tryhackme.com/hacktivities?tab=path> — TryHackMe - learning paths
+- ✓ <http://ctfs.github.io/resources> — CTF Resources
+- ✓ <http://exiv2.org/manpage.html> — Exiv2
+- ✓ <http://exploit.education> — Exploit.Education
+- ✓ <http://hopperapp.com> — HopperApp
+- ✓ <http://ibotpeaches.github.io/Apktool> — ApkTool
+- ✓ <http://imagemagick.org/script/convert.php> — Convert
+- ✓ <http://io.netgarage.org> — IO
+- ✓ <http://javadecompilers.com> — Java Decompilers
+- ✓ <http://libpng.org/pub/png/apps/pngcheck.html> — Pngcheck
+- ✓ <http://metasploit.com> — Metasploit
+- ✓ <http://nirsoft.net/utils/resources_extract.html> — ResourcesExtract
+- ✓ <http://ntcore.com/exsuite.php> — CFF Explorer
+- ✓ <http://overthewire.org/wargames> — Over The Wire
+- ✓ <http://overthewire.org/wargames/drifter> — OverTheWire - Drifter
+- ✓ <http://overthewire.org/wargames/krypton> — OverTheWire - Krypton
+- ✓ <http://overthewire.org/wargames/semtex> — OverTheWire - Semtex
+- ✓ <http://overthewire.org/wargames/vortex> — OverTheWire - Vortex
+- ✓ <http://pentoo.ch> — Pentoo
+- ✓ <http://pwnable.kr> — pwnable.kr
+- ✓ <http://relentless-coding.org/projects/jsdetox/install> — Detox
+- ✓ <http://reverse.lostrealm.com/tools/xocopy.html> — Xocopy
+- ✓ <http://sno.phy.queensu.ca/~phil/exiftool> — Exif Tool
+- ✓ <http://swftools.org> — Swftools
+- ✓ <http://urix.us> — URIX OS
+- ✓ <http://wifislax.com> — Wifislax
+- ✓ <http://windbg.org> — WinDbg
+- ✓ <https://accessdata.com/product-download/registry-viewer-2-0-0> — Registry Viewer®
+- ✓ <https://aperisolve.fr> — AperiSolve
+- ✓ <https://backbox.org> — BackBox
+- ✓ <https://bamboofox.github.io> — Bamboofox
+- ✓ <https://binary.ninja> — Binary Ninja
+- ✓ <https://bitbucket.org/Alexander_Hanel/xxxswf> — Xxxswf
+- ✓ <https://comparitech.com/net-admin/metasploit-cheat-sheet> — Cheatsheet
+- ✓ <https://crackmes.one> — Crackmes
+- ✓ <https://ctf.viblo.asia> — Viblo CTF
+- ✓ <https://echoctf.red> — echoCTF.RED
+- ✓ <https://endgame.com/blog/how-get-started-ctf> — How to Get Started in CTF
+- ✓ <https://freebsd.org/cgi/man.cgi?query=outguess+&apropos=0&sektion=0&manpath=FreeBSD+Ports+5.1-RELEASE&format=html> — Outguess
+- ✓ <https://georgeom.net/StegOnline/upload> — StegOnline
+- ✓ <https://holidayhackchallenge.com/past-challenges> — SANS HHC
+- ✓ <https://hoppersroppers.org/courseCTF.html> — Intro. to CTF Course
+- ✓ <https://incoherency.co.uk/image-steganography> — Image Steganography Online
+- ✓ <https://learn.duffandphelps.com/kape> — Kroll Artifact Parser and Extractor (KAPE)
+- ✓ <https://magnetforensics.com/downloadaxiom> — Magnet AXIOM
+- ✓ <https://microcorruption.com> — Microcorruption
+- ✓ <https://nirsoft.net/utils/offline_registry_view.html> — OfflineRegistryView
+- ✓ <https://pwnable.xyz> — Pwnable.xyz
+- ✓ <https://quipqiup.com> — QuipQuip
+- ✓ <https://remnux.org> — REMnux
+- ✓ <https://requestbin.com> — Request Bin
+- ✓ <https://ringzer0team.com> — Ringzer0Team
+- ✓ <https://root-me.org> — Root-me.org
+- ✓ <https://stylesuxx.github.io/steganography> — SteganographyOnline
+- ✓ <https://teambi0s.gitlab.io/bi0s-wiki> — bi0s Wiki
+- ✓ <https://tools.kali.org/password-attacks/hydra> — Hydra
+- ✓ <https://uppusaikiran.github.io/hacking/Capture-the-Flag-CheatSheet> — CTF Cheatsheet
+- ✓ <https://w3challs.com> — W3Challs
+- ~ <http://cow.cat/cswsh.html> — CSWSH
+- ~ <http://extundelete.sourceforge.net> — Extundelete
+- ~ <http://foremost.sourceforge.net> — Foremost
+- ~ <http://linux.die.net/man/8/fsck.ext3> — Fsck.ext4
+- ~ <http://malzilla.sourceforge.net/downloads.html> — PDF Streams Inflater
+- ~ <http://ophcrack.sourceforge.net> — Ophcrack
+- ~ <http://sourceforge.net/projects/audacity> — Audacity
+- ~ <http://sourceforge.net/projects/ophcrack/files/samdump2> — Bkhive and Samdump2
+- ~ <http://steghide.sourceforge.net> — Steghide
+- ~ <http://xsser.sourceforge.net> — XSSer
+- ~ <https://linoxide.com/monitoring-2/monit-linux> — Monit
+- ~ <https://linux.die.net/man/1/exiftool> — Exiftool
+- ~ <https://linux.die.net/man/1/stegbreak> — Stegbreak
+- ~ <https://openhub.net/p/steganabara> — Steganabara
+- ~ <https://packages.debian.org/sid/pngtools> — Pngtools
+- ~ <https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool> — Pin
+- ~ <https://sourceforge.net/projects/image-steg> — Image Steganography

@@ -1,0 +1,239 @@
+---
+trigger: model_decision
+description: "GitHub security orgs, awesome-lists and repositories worth cloning. Use when sourcing or recommending a codebase. (part 2/9)"
+---
+
+# Security Research Link Corpus — GitHub Security Repos & Awesome Lists
+
+Part 2 of 9. 230 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://books2read.com/u/4jDWoZ> — How to Investigate Like a Rockstar
+- ✓ <https://books2read.com/u/bWzdBx> — How to Hack Like a Pornstar
+- ✓ <https://caine-live.net> — CAINE
+- ✓ <https://carolinacon.org> — CarolinaCon
+- ✓ <https://cipherdyne.org/fwknop> — fwknop
+- ✓ <https://cisofy.com/lynis> — Lynis
+- ✓ <https://cloudsplaining.readthedocs.io> — Cloudsplaining
+- ✓ <https://code.google.com/archive/p/cms-explorer> — cms-explorer
+- ✓ <https://code.google.com/archive/p/reaver-wps> — Reaver
+- ✓ <https://code.google.com/p/androguard> — androguard
+- ✓ <https://code.kryo.se/iodine> — Iodine
+- ✓ <https://codebutler.github.io/firesheep> — Firesheep
+- ✓ <https://corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows> — Corelan Team's Exploit writing tutorial
+- ✓ <https://cr0mll.github.io/cyberclopaedia> — The Cyberclopaedia
+- ✓ <https://cspscanner.com> — CSP Scanner
+- ✓ <https://dan.me.uk/dnsbl> — DNS Blacklists
+- ✓ <https://dan.me.uk/tornodes> — TOR Node List
+- ✓ <https://databunker.org> — databunker
+- ✓ <https://decompiler.com> — Decompiler.com
+- ✓ <https://deepsec.net> — DeepSec
+- ✓ <https://derbycon.com> — DerbyCon
+- ✓ <https://dlrobertson.github.io/sylkie> — sylkie
+- ✓ <https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite> — Sysinternals Suite
+- ✓ <https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools> — WDK/WinDbg
+- ✓ <https://domgo.at/cxss/intro> — Client XSS Introduction
+- ✓ <https://dradis.com> — Dradis
+- ✓ <https://drkeithjones.com> — DrKeithJones.com
+- ✓ <https://elevenpaths.com/labstools/foca> — FOCA (Fingerprinting Organizations with Collected Archives)
+- ✓ <https://elixir.bootlin.com/linux/latest/source/Documentation/networking/packet_mmap.rst> — PACKET_MMAP/TPACKET/AF_PACKET
+- ✓ <https://elsevier.com/books/no-tech-hacking/mitnick/978-1-59749-215-7> — No Tech Hacking by Johnny Long & Jack Wiles, 2008
+- ✓ <https://elsevier.com/books/professional-penetration-testing/wilhelm/978-1-59749-993-4> — Professional Penetration Testing by Thomas Wilhelm, 2013
+- ✓ <https://elsevier.com/books/the-basics-of-hacking-and-penetration-testing/engebretson/978-1-59749-655-1> — The Basics of Hacking and Penetration Testing by Patrick Engebretson, …
+- ✓ <https://elsevier.com/books/violent-python/unknown/978-1-59749-957-6> — Violent Python by TJ O'Connor, 2012
+- ✓ <https://endgame.readthedocs.io> — Endgame
+- ✓ <https://eternal-todo.com/tools/peepdf-pdf-analysis-tool> — peepdf
+- ✓ <https://events.ccc.de/congress> — CCC
+- ✓ <https://facebook.com/HackwithGithub> — HackwithGithub
+- ✓ <https://falco.org> — Falco
+- ✓ <https://fbb-git.gitlab.io/stealth> — Stealth
+- ✓ <https://fing.com/products/fing-app> — Fing
+- ✓ <https://fuzzy.land> — fuzzy.land
+- ✓ <https://gchq.github.io/CyberChef> — CyberChef
+- ✓ <https://getgophish.com> — Gophish
+- ✓ <https://geti2p.net> — I2P
+- ✓ <https://ghostproject.fr> — GhostProject
+- ✓ <https://github.com/0vercl0k/rp> — rp++
+- ✓ <https://github.com/0x00-0x00/shellpop> — shellpop
+- ✓ <https://github.com/0x09AL/raven> — raven
+- ✓ <https://github.com/0x48piraj/jiraffe> — jiraffe
+- ✓ <https://github.com/0x4D31/awesome-threat-detection> — Awesome Threat Detection and Hunting
+- ✓ <https://github.com/0x4D31/galah> — galah
+- ✓ <https://github.com/0x4D31/honeybits> — Honeybits
+- ✓ <https://github.com/0x4D31/honeyku> — honeyku
+- ✓ <https://github.com/0x4D31/honeylambda> — Honeyλ (HoneyLambda)
+- ✓ <https://github.com/0x742/noia> — Noia
+- ✓ <https://github.com/0x90/wifi-arsenal> — wifi-arsenal
+- ✓ <https://github.com/0xBallpoint/trapster-community> — Trapster Commmunity
+- ✓ <https://github.com/0xd4d/antinet> — antinet
+- ✓ <https://github.com/0xd4d/de4dot> — de4dot
+- ✓ <https://github.com/0xd4d/dnSpy> — dnSpy
+- ✓ <https://github.com/0xInfection/Awesome-WAF/blob/master/papers/Beyond%20SQLi%20-%20Obfuscate%20and%20Bypass%20WAFs.txt> — Directory Traversal
+- ✓ <https://github.com/0xInfection/XSRFProbe> — XSRFProbe
+- ✓ <https://github.com/0xmachos/iOS-Security-Guides> — iOS-Security-Guides
+- ✓ <https://github.com/0xnr/awesome-analytics> — Awesome Analytics
+- ✓ <https://github.com/0xsobky/HackVault/wiki/Unleashing-an-Ultimate-XSS-Polyglot> — XSS Polyglot Payloads #1
+- ✓ <https://github.com/1aN0rmus/TekDefense-Automater>
+- ✓ <https://github.com/1N3/Sn1per> — Sn1per
+- ✓ <https://github.com/3nock/SpiderSuite> — SpiderSuite
+- ✓ <https://github.com/3nock/sub3suite> — Sub3 Suite
+- ✓ <https://github.com/504ensicsLabs/LiME> — LiME
+- ✓ <https://github.com/504ensicsLabs/LiME.git> — LiME
+- ✓ <https://github.com/51j0/Android-Storage-Extractor> — Android Storage Extractor
+- ✓ <https://github.com/99designs/aws-vault> — aws-vault
+- ✓ <https://github.com/aau-network-security/haaukins> — Haaukins
+- ✓ <https://github.com/AbdaullahAG/Threat_Intel_Project> — ThreatLens
+- ✓ <https://github.com/abhi-r3v0/Adhrit> — Adhrit - Android Security Suite for in-depth reconnaissance and static…
+- ✓ <https://github.com/abhinavbom/Threat-Intelligence-Hunter>
+- ✓ <https://github.com/aboul3la/Sublist3r> — Sublist3r
+- ✓ <https://github.com/aboutsecurity/rastrea2r>
+- ✓ <https://github.com/abrignoni/iLEAPP> — iLEAPP - iOS Logs, Events, And Preferences Parser
+- ✓ <https://github.com/abusesa/abusehelper>
+- ✓ <https://github.com/ac-pm/Inspeckage> — Inspeckage
+- ✓ <https://github.com/ac-pm/SSLUnpinning_Xposed> — Xposed Module: SSLUnpinning
+- ✓ <https://github.com/acama/xrop> — xrop
+- ✓ <https://github.com/AccentuSoft/LinkScope_Client> — LinkScope Client
+- ✓ <https://github.com/adaptivethreat/Bloodhound/wiki> — Bloodhound
+- ✓ <https://github.com/adi0x90/attifyos> — AttifyOS
+- ✓ <https://github.com/aelth/ddospot> — ddospot
+- ✓ <https://github.com/aflgo/aflgo> — AFLGo
+- ✓ <https://github.com/aflnet/aflnet> — AFLNet
+- ✓ <https://github.com/AFLplusplus/LibAFL> — LibAFL
+- ✓ <https://github.com/ahmadouniass/Subdomains-finder-subhunt> — Subhunt
+- ✓ <https://github.com/ahmedkhlief/APT-Hunter> — APT Hunter
+- ✓ <https://github.com/ahoernecke/ensnare> — Ensnare
+- ✓ <https://github.com/aim4r/VolDiff> — VolDiff
+- ✓ <https://github.com/airbnb/streamalert> — StreamAlert
+- ✓ <https://github.com/ajackal/arctic-swallow> — arctic-swallow
+- ✓ <https://github.com/AJMartel/IRTriage> — IRTriage
+- ✓ <https://github.com/ajvb/awesome-tor> — awesome-tor
+- ✓ <https://github.com/akamhy/waybackpy> — waybackpy
+- ✓ <https://github.com/Akdeniz/mitmsocks4j> — mitmsocks4j
+- ✓ <https://github.com/AlanQuatermain/appencryptor> — AppEncryptor
+- ✓ <https://github.com/alebcay/awesome-shell> — Shell Scripting
+- ✓ <https://github.com/aleff-github/wayparam> — wayparam
+- ✓ <https://github.com/AlessandroZ/LaZagne> — LaZagne
+- ✓ <https://github.com/alexbredo/honeypot-camera> — honeypot-camera
+- ✓ <https://github.com/alexbredo/honeypot-ftp> — honeypot-ftp
+- ✓ <https://github.com/Alfresco/prowler> — prowler
+- ✓ <https://github.com/allyshka/pwngitmanager> — pwngitmanager
+- ✓ <https://github.com/allyshka/Rogue-MySql-Server> — Rogue-MySQL-Server
+- ✓ <https://github.com/AlmCo/Panorama> — Panorama
+- ✓ <https://github.com/AloneMonkey/frida-ios-dump> — Frida-iOS-Dump
+- ✓ <https://github.com/alphasoc/flightsim> — Network Flight Simulator
+- ✓ <https://github.com/alpine-sec/SPECTR3> — SPECTR3
+- ✓ <https://github.com/ALSchwalm/foresight> — foresight
+- ✓ <https://github.com/amnottdevv/atdork> — AtDork
+- ✓ <https://github.com/amocrenco/owasp-testing-checklist-v4-markdown/blob/master/README.md> — here
+- ✓ <https://github.com/ampotos/dynStruct> — dynStruct
+- ✓ <https://github.com/amv42/sshd-honeypot> — ssh-honeypot
+- ✓ <https://github.com/AnarchoTechNYC/meta/wiki/InfoSec> — InfoSec § Hacking challenges
+- ✓ <https://github.com/andresriancho/w3af> — w3af
+- ✓ <https://github.com/andrettv/WSTG/tree/master/WSTG-ru> — Russian
+- ✓ <https://github.com/andrew-morris/kippo_detect> — kippo_detect
+- ✓ <https://github.com/andrewmichaelsmith/bluepot> — Bluepot
+- ✓ <https://github.com/andrewmichaelsmith/flux> — flux
+- ✓ <https://github.com/andrewmichaelsmith/honeypot-setup-script> — Honeypot (Dionaea and kippo) setup script
+- ✓ <https://github.com/andrewmichaelsmith/manuka> — Manuka
+- ✓ <https://github.com/AndroBugs/AndroBugs_Framework> — AndroBugs
+- ✓ <https://github.com/androguard/androguard> — Androguard
+- ✓ <https://github.com/AndroidDumps/Firmware_extractor> — Firmware Extractor
+- ✓ <https://github.com/AndroidHooker/hooker> — Android Hooker - Opensource project for dynamic analyses of Android ap…
+- ✓ <https://github.com/AndroidVTS/android-vts> — Android Vulnerability Test Suite
+- ✓ <https://github.com/anestisb/melkor-android> — An Android port of the Melkor ELF fuzzer
+- ✓ <https://github.com/anestisb/radamsa-android> — Radamsa Fuzzer
+- ✓ <https://github.com/ANG13T/SatIntel> — SatIntel
+- ✓ <https://github.com/AngelKitty/stegosaurus> — stegosaurus
+- ✓ <https://github.com/angr/angr> — Angr
+- ✓ <https://github.com/ansjdnakjdnajkd/iOS> — Most usable tools for iOS penetration testing
+- ✓ <https://github.com/ant4g0nist/sloth> — Sloth
+- ✓ <https://github.com/antirez/hping> — hping3
+- ✓ <https://github.com/antojoseph/diff-gui> — GUI tool
+- ✓ <https://github.com/antojoseph/droid-ff> — Droid-FF - Android File Fuzzing Framework
+- ✓ <https://github.com/antonio-morales/Fuzzing101> — Fuzzing-101
+- ✓ <https://github.com/antoniobianchi333/virtualsocket> — virtualsocket
+- ✓ <https://github.com/antonioCoco/SharPyShell> — SharPyShell
+- ✓ <https://github.com/antonsatt/ssh-radar> — SSH-Radar
+- ✓ <https://github.com/Anugrahsr/Awesome-web3-Security> — Web3 Security
+- ✓ <https://github.com/aoh/radamsa> — radamsa
+- ✓ <https://github.com/aol/moloch> — Moloch
+- ✓ <https://github.com/Aorimn/dislocker> — dislocker
+- ✓ <https://github.com/apache/incubator-metron> — Apache Metron (incubating)
+- ✓ <https://github.com/apache/incubator-spot> — Apache Spot (incubating)
+- ✓ <https://github.com/APKLab/APKLab> — APKLab
+- ✓ <https://github.com/aplura/Tango> — Tango
+- ✓ <https://github.com/appknox/AFE> — Android Framework for Exploitation
+- ✓ <https://github.com/apps/guardrails> — GuardRails
+- ✓ <https://github.com/aquynh/capstone> — Capstone
+- ✓ <https://github.com/Areizen/Android-Malware-Sandbox> — Android Malware Sandbox
+- ✓ <https://github.com/ariary/QueenSono> — QueenSono
+- ✓ <https://github.com/armbues/ioc_parser>
+- ✓ <https://github.com/arthaud/git-dumper> — git-dumper
+- ✓ <https://github.com/ArthurHeitmann/arctic_shift> — Arctic Shift
+- ✓ <https://github.com/ASCIT31/Dark-Moon> — Darkmoon
+- ✓ <https://github.com/ascribe/image-match> — image-match
+- ✓ <https://github.com/ashishb/android-malware> — Android Malware GitHub repo
+- ✓ <https://github.com/ashishb/osx-and-ios-security-awesome> — osx-security-awesome - OSX and iOS related security tools
+- ✓ <https://github.com/ashmckenzie/go-sshoney> — go-sshoney
+- ✓ <https://github.com/assetnote/nowafpls> — nowafpls
+- ✓ <https://github.com/atenreiro/opensquat> — openSquat
+- ✓ <https://github.com/atiilla/geospy> — GeoSpyer
+- ✓ <https://github.com/atiilla/OsintEye> — OSINTEye
+- ✓ <https://github.com/avast-tl/retdec> — retdec
+- ✓ <https://github.com/awesome-foss/awesome-sysadmin> — Awesome Sysadmin
+- ✓ <https://github.com/awesome-selfhosted/awesome-selfhosted> — Awesome Self-Hosted
+- ✓ <https://github.com/axmaier/tme-s> — Tme-s
+- ✓ <https://github.com/aydinnyunus/exiflooter> — ExifLooter
+- ✓ <https://github.com/ayrus/afterglow-cloud> — Afterglow Cloud
+- ✓ <https://github.com/AzeemIdrisi/PhoneSploit-Pro> — PhoneSploit-Pro
+- ✓ <https://github.com/b-mueller/android_app_security_checklist> — android app security checklist
+- ✓ <https://github.com/b-mueller/apkx> — One Step Decompiler
+- ✓ <https://github.com/b17zr/ntlm_challenger> — ntlm_challenger
+- ✓ <https://github.com/baalmor/cve-ape> — cve-ape
+- ✓ <https://github.com/bad-antics/marshall-extensions> — Marshall Extensions
+- ✓ <https://github.com/bad-antics/nullkia> — NullKia
+- ✓ <https://github.com/bad-antics/nullsec-linux> — NullSec Linux
+- ✓ <https://github.com/bad-antics/nullsec-logreaper> — NullSec LogReaper
+- ✓ <https://github.com/baidu/openrasp> — OpenRASP
+- ✓ <https://github.com/bajinsheng/SGFuzz> — SGFuzz
+- ✓ <https://github.com/Balasys/dheater> — D(HE)ater
+- ✓ <https://github.com/balte/TelnetHoney> — TelnetHoney
+- ✓ <https://github.com/bartnv/portlurker> — portlurker
+- ✓ <https://github.com/batchmcnulty/Malbait> — Malbait
+- ✓ <https://github.com/bayandin/awesome-awesomeness> — Awesome Awesomeness
+- ✓ <https://github.com/BC-SECURITY/Empire> — Empire
+- ✓ <https://github.com/Bearer/bearer> — Bearer
+- ✓ <https://github.com/beautify-web/js-beautify> — JS Beautifier
+- ✓ <https://github.com/bee13oy/AV_Kernel_Vulns/tree/master/Zer0Con2017> — Attacking Antivirus Software's Kernel Driver
+- ✓ <https://github.com/beefproject/beef> — Browser Exploitation Framework (BeEF)
+- ✓ <https://github.com/belane/CloudHunter> — CloudHunter
+- ✓ <https://github.com/Belluxx/Aleph> — Aleph
+- ✓ <https://github.com/Berchez/OSINT-steam> — open-source
+- ✓ <https://github.com/betheroot/pghoney> — pghoney
+- ✓ <https://github.com/betheroot/sticky_elephant> — sticky_elephant
+- ✓ <https://github.com/bettercap/bettercap> — Bettercap
+- ✓ <https://github.com/betterleaks/betterleaks> — Betterleaks
+- ✓ <https://github.com/beurtschipper/Depix> — Depix
+- ✓ <https://github.com/Bevigil/BeVigil-OSINT-CLI> — BeVigil-CLI
+- ✓ <https://github.com/bibanon/tubeup> — Tubuep
+- ✓ <https://github.com/biggiesmallsAG/nightHawkResponse> — nightHawk
+- ✓ <https://github.com/BinaryAnalysisPlatform/bap> — bap
+- ✓ <https://github.com/BinaryAnalysisPlatform/qira> — Qira
+- ✓ <https://github.com/BinaryDefense/artillery> — Artillery
+- ✓ <https://github.com/BinaryDefense/goatrider>
+- ✓ <https://github.com/binspector/binspector> — binspector
+- ✓ <https://github.com/BishopFox/GadgetProbe> — GadgetProbe
+- ✓ <https://github.com/bjeborn/basic-auth-pot> — basic-auth-pot (bap)
+- ✓ <https://github.com/BlackFan/client-side-prototype-pollution>
+- ✓ <https://github.com/BlackFan/content-type-research/blob/master/XSS.md>
+- ✓ <https://github.com/blackfoxxx/Mobix> — Mobix
+- ✓ <https://github.com/blackploit/hash-identifier> — hash-identifier
+- ✓ <https://github.com/blaverick62/SIREN> — SIREN
+- ✓ <https://github.com/BlessedRebuS/Krawl> — Krawl
+- ✓ <https://github.com/bocajspear1/honeyhttpd> — honeyhttpd
+- ✓ <https://github.com/BoomerangDecompiler/boomerang> — Boomerang
+- ✓ <https://github.com/bountyyfi/lonkero> — Lonkero
+- ✓ <https://github.com/brainfuckSec/kalitorify> — kalitorify
+- ✓ <https://github.com/brannondorsey/whonow> — Whonow DNS Server
+- ✓ <https://github.com/brendan-rius/c-jwt-cracker> — JWT Cracker
+- ✓ <https://github.com/brexhq/substation> — Substation
+- ✓ <https://github.com/bridgecrewio/checkov> — Checkov

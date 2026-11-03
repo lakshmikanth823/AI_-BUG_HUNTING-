@@ -1,0 +1,173 @@
+---
+trigger: model_decision
+description: "HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi program URLs and directories. Use when the task is finding or triaging a bug bounty program, checking scope, or picking a target. (part 5/5)"
+---
+
+# Security Research Link Corpus — Bug Bounty Platforms & Program Directories
+
+Part 5 of 5. 164 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ~ <https://hackerone.com/productboard> — ProductBoard, Inc.
+- ~ <https://hackerone.com/projectplace> — Projectplace
+- ~ <https://hackerone.com/prudential-financial> — Prudential Financial
+- ~ <https://hackerone.com/pubg> — PUBG
+- ~ <https://hackerone.com/publitas> — Publitas
+- ~ <https://hackerone.com/qinetiq> — QinetiQ Response
+- ~ <https://hackerone.com/qiwi> — QIWI
+- ~ <https://hackerone.com/quora> — Quora
+- ~ <https://hackerone.com/r3> — R3
+- ~ <https://hackerone.com/rails> — Ruby on Rails
+- ~ <https://hackerone.com/razorpay> — Razorpay
+- ~ <https://hackerone.com/recreation_gov_vdp> — Recreation.gov
+- ~ <https://hackerone.com/reddit> — Reddit
+- ~ <https://hackerone.com/redis-vdp> — Redis VDP
+- ~ <https://hackerone.com/redox_bbp> — Redox
+- ~ <https://hackerone.com/regions_financial> — Regions Financial
+- ~ <https://hackerone.com/rei_bbp> — REI BBP
+- ~ <https://hackerone.com/rei_vdp> — REI VDP
+- ~ <https://hackerone.com/remitly> — Remitly
+- ~ <https://hackerone.com/render> — Render
+- ~ <https://hackerone.com/resmed> — ResMed
+- ~ <https://hackerone.com/respondly> — Respondly
+- ~ <https://hackerone.com/revive_adserver> — Revive Adserver
+- ~ <https://hackerone.com/ridewithvia> — Via
+- ~ <https://hackerone.com/ring> — Ring
+- ~ <https://hackerone.com/ripio> — Ripio
+- ~ <https://hackerone.com/ro> — Ro
+- ~ <https://hackerone.com/robinhood> — Robinhood Markets Bounty
+- ~ <https://hackerone.com/robinhood_markets> — Robinhood Markets
+- ~ <https://hackerone.com/roblox> — Roblox
+- ~ <https://hackerone.com/rockstargames> — Rockstar Games
+- ~ <https://hackerone.com/romit> — Romit
+- ~ <https://hackerone.com/ruby> — Ruby
+- ~ <https://hackerone.com/rubygems> — RubyGems
+- ~ <https://hackerone.com/s-pankki> — S-Pankki
+- ~ <https://hackerone.com/sandbox> — Sandbox Escape
+- ~ <https://hackerone.com/scopely> — Scopely
+- ~ <https://hackerone.com/secret> — Secret
+- ~ <https://hackerone.com/security> — HackerOne
+- ~ <https://hackerone.com/semrush> — Semrush
+- ~ <https://hackerone.com/semtech> — Semtech
+- ~ <https://hackerone.com/servicenow-disclosure> — ServiceNow Disclosure
+- ~ <https://hackerone.com/sheer_bbp> — Sheer
+- ~ <https://hackerone.com/shein> — SHEIN
+- ~ <https://hackerone.com/shutterfly_vdp> — Shutterfly VDP
+- ~ <https://hackerone.com/simple_poll> — Simple Poll
+- ~ <https://hackerone.com/singlestore> — SingleStore
+- ~ <https://hackerone.com/six-group> — SIX Group
+- ~ <https://hackerone.com/smtp2go> — SMTP2GO BBP
+- ~ <https://hackerone.com/snapchat> — Snapchat
+- ~ <https://hackerone.com/sony> — Sony
+- ~ <https://hackerone.com/sorare> — Sorare
+- ~ <https://hackerone.com/spotify> — Spotify
+- ~ <https://hackerone.com/square> — Square
+- ~ <https://hackerone.com/square-open-source> — Square Open Source
+- ~ <https://hackerone.com/stagingdoteverydotorg> — Staging.every.org
+- ~ <https://hackerone.com/starbucks_china> — Starbucks China
+- ~ <https://hackerone.com/starbucks_japan> — Starbucks Japan
+- ~ <https://hackerone.com/starling_bank> — Starling Bank VDP
+- ~ <https://hackerone.com/start-hacking> — Hackerone
+- ~ <https://hackerone.com/stellar> — Stellar.org
+- ~ <https://hackerone.com/stopthehacker> — StopTheHacker
+- ~ <https://hackerone.com/streak_com> — Streak
+- ~ <https://hackerone.com/stripchat> — Stripchat
+- ~ <https://hackerone.com/stripe> — Stripe
+- ~ <https://hackerone.com/stripo> — Stripo Inc
+- ~ <https://hackerone.com/sucuri> — Sucuri
+- ~ <https://hackerone.com/supabase> — Supabase
+- ~ <https://hackerone.com/superbet> — Superbet
+- ~ <https://hackerone.com/superhuman> — Superhuman (formerly Grammarly)
+- ~ <https://hackerone.com/syfe_bbp> — Syfe
+- ~ <https://hackerone.com/taptalk> — Taptalk
+- ~ <https://hackerone.com/taxwell-vdp> — Taxwell VDP
+- ~ <https://hackerone.com/tbs-sct> — Treasury Board of Canada Secretariat/Secrétariat du Conseil du Trésor …
+- ~ <https://hackerone.com/td-bank> — TD Bank Group
+- ~ <https://hackerone.com/temu> — Temu
+- ~ <https://hackerone.com/tenable> — Tenable
+- ~ <https://hackerone.com/tesco> — Tesco
+- ~ <https://hackerone.com/thisdata> — ThisData
+- ~ <https://hackerone.com/thnks> — Thnks
+- ~ <https://hackerone.com/thomsonreuters-public> — Thomson Reuters
+- ~ <https://hackerone.com/tiktok> — TikTok
+- ~ <https://hackerone.com/tinder> — Tinder
+- ~ <https://hackerone.com/tines_automation_vdp> — Tines (VDP)
+- ~ <https://hackerone.com/tomtom> — TomTom
+- ~ <https://hackerone.com/toolsforhumanity> — Tools for Humanity
+- ~ <https://hackerone.com/top_echelon_software> — Top Echelon Software
+- ~ <https://hackerone.com/torproject> — Tor
+- ~ <https://hackerone.com/toyota> — Toyota
+- ~ <https://hackerone.com/toytalk> — ToyTalk
+- ~ <https://hackerone.com/transunion> — TransUnion LLC
+- ~ <https://hackerone.com/trellix> — Trellix
+- ~ <https://hackerone.com/trello> — Trello
+- ~ <https://hackerone.com/trendyol> — Trendyol
+- ~ <https://hackerone.com/trip_com> — Trip.com
+- ~ <https://hackerone.com/tron_dao> — TRON DAO
+- ~ <https://hackerone.com/truist_financial> — Truist Financial
+- ~ <https://hackerone.com/tucows_vdp> — Tucows (VDP)
+- ~ <https://hackerone.com/twilio> — Twilio
+- ~ <https://hackerone.com/twitter> — Twitter
+- ~ <https://hackerone.com/ubnt> — Ubiquiti Networks
+- ~ <https://hackerone.com/udemy> — Udemy
+- ~ <https://hackerone.com/ui> — Ubiquiti Inc.
+- ~ <https://hackerone.com/unico_idtech> — Unico IDtech
+- ~ <https://hackerone.com/unitigroup> — Uniti
+- ~ <https://hackerone.com/ups> — UPS VDP
+- ~ <https://hackerone.com/urbancompany> — Urban Company
+- ~ <https://hackerone.com/urbandictionary> — Urban Dictionary
+- ~ <https://hackerone.com/us-department-of-state> — U.S. Department of State
+- ~ <https://hackerone.com/usps> — USPS - United States Postal Service
+- ~ <https://hackerone.com/uzbey> — Uzbey
+- ~ <https://hackerone.com/valve> — Valve
+- ~ <https://hackerone.com/vanguard> — Vanguard
+- ~ <https://hackerone.com/varonis> — Varonis
+- ~ <https://hackerone.com/vectra_ai_vdp> — Vectra AI, Inc. (Response)
+- ~ <https://hackerone.com/veeam> — Veeam
+- ~ <https://hackerone.com/vendasta> — Vendasta
+- ~ <https://hackerone.com/vercel> — Vercel
+- ~ <https://hackerone.com/verily_life_sciences> — Verily Life Sciences
+- ~ <https://hackerone.com/verisk_vdp> — Verisk VDP
+- ~ <https://hackerone.com/versioncake> — Version Cake
+- ~ <https://hackerone.com/vf-corporation-vdp> — VF Corporation - VDP
+- ~ <https://hackerone.com/vimeo> — Vimeo
+- ~ <https://hackerone.com/visa> — Visa
+- ~ <https://hackerone.com/vkcom> — VK.com
+- ~ <https://hackerone.com/vodafone> — Vodafone
+- ~ <https://hackerone.com/vodafone_oman> — Vodafone Oman
+- ~ <https://hackerone.com/vulnerscom> — vulners.com
+- ~ <https://hackerone.com/wakatime> — WakaTime
+- ~ <https://hackerone.com/walt_io> — Walt.io
+- ~ <https://hackerone.com/wealthsimple> — Wealthsimple
+- ~ <https://hackerone.com/weblate> — Weblate
+- ~ <https://hackerone.com/wellhive> — WellHive
+- ~ <https://hackerone.com/wellsfargo-bbp> — Wells Fargo Bounty
+- ~ <https://hackerone.com/wepay> — WePay
+- ~ <https://hackerone.com/whatnot> — Whatnot
+- ~ <https://hackerone.com/whisper> — Whisper
+- ~ <https://hackerone.com/who-covid-19-mobile-app> — WHO COVID-19 Mobile App
+- ~ <https://hackerone.com/whoop_bug_bounty> — Whoop Bug Bounty
+- ~ <https://hackerone.com/wickr> — Wickr
+- ~ <https://hackerone.com/wisdomtree> — WisdomTree, Inc.
+- ~ <https://hackerone.com/withinsecurity> — withinsecurity
+- ~ <https://hackerone.com/wolt> — Wolt
+- ~ <https://hackerone.com/wordpoints> — WordPoints
+- ~ <https://hackerone.com/wordpress> — WordPress
+- ~ <https://hackerone.com/worklytics> — Worklytics
+- ~ <https://hackerone.com/worldpay> — Worldpay
+- ~ <https://hackerone.com/wp-api> — WP API
+- ~ <https://hackerone.com/x> — X / xAI
+- ~ <https://hackerone.com/xiaomi> — Xiaomi
+- ~ <https://hackerone.com/xp_inc_vdp> — XP Inc Vulnerability Disclosure
+- ~ <https://hackerone.com/xvideos> — XVIDEOS
+- ~ <https://hackerone.com/yahoo> — Yahoo
+- ~ <https://hackerone.com/yelp> — Yelp
+- ~ <https://hackerone.com/yoti> — Yoti
+- ~ <https://hackerone.com/yuga_labs> — Yuga Labs
+- ~ <https://hackerone.com/zaption> — Zaption
+- ~ <https://hackerone.com/zebra_vdp> — Zebra VDP
+- ~ <https://hackerone.com/zendesk> — Zendesk
+- ~ <https://hackerone.com/zomato> — Zomato
+- ~ <https://hackerone.com/zooplus> — Zooplus
+- ~ <https://hackerone.com/zopim> — Zopim
+- ~ <https://hackerone.com/zurich-insurance> — Zurich Insurance
+- ~ <https://openbugbounty.org/blog/leonmugen/ssrf-reading-local-files-from-downnotifier-server> — SSRF reading local files from downnotifier server

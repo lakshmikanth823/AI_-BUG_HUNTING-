@@ -1,0 +1,240 @@
+---
+trigger: model_decision
+description: "GitHub security orgs, awesome-lists and repositories worth cloning. Use when sourcing or recommending a codebase. (part 7/9)"
+---
+
+# Security Research Link Corpus — GitHub Security Repos & Awesome Lists
+
+Part 7 of 9. 231 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://github.com/r0hi7/BinExp> — Understanding the basics of Linux Binary Exploitation
+- ✓ <https://github.com/r0hi7/HoneySMB> — SMB Honeypot
+- ✓ <https://github.com/r0oth3x49/ghauri> — Ghauri
+- ✓ <https://github.com/R0rt1z2/kaeru> — ARMv7 payload that provides arbitrary code execution on MediaTek bootl…
+- ✓ <https://github.com/r3dy/capsulecorp-pentest> — Capsulecorp Pentest
+- ✓ <https://github.com/rabbitstack/fibratus> — Fibratus
+- ✓ <https://github.com/radare/radare2> — radare2
+- ✓ <https://github.com/radareorg/r2con-2017> — slides
+- ✓ <https://github.com/rafael-santiago/pig> — pig
+- ✓ <https://github.com/rafaeltoledo/android-security> — Android-security
+- ✓ <https://github.com/RaffaDNDM/HacknDroid> — HacknDroid
+- ✓ <https://github.com/rafigk2v9c/APKdevastate> — APKdevastate
+- ✓ <https://github.com/Raikia/FiercePhish> — FiercePhish
+- ✓ <https://github.com/ralphje/imagemounter> — imagemounter
+- ✓ <https://github.com/rapid7/metasploit-framework/wiki/How-to-obfuscate-JavaScript-in-Metasploit> — Metasploit JavaScript Obfuscator
+- ✓ <https://github.com/rasta-mouse/Sherlock> — Sherlock
+- ✓ <https://github.com/rasta-mouse/Watson> — Watson
+- ✓ <https://github.com/rastrea2r/rastrea2r> — rastrea2r
+- ✓ <https://github.com/Raz0r/waftester> — WAFTester
+- ✓ <https://github.com/redcanaryco/atomic-red-team> — Atomic Red Team (ART)
+- ✓ <https://github.com/redhuntlabs/Awesome-Asset-Discovery> — Asset Discovery
+- ✓ <https://github.com/redhuntlabs/RedHunt-OS> — RedHunt-OS
+- ✓ <https://github.com/redshiftzero/awesome-threat-modeling> — Awesome Threat Modeling
+- ✓ <https://github.com/referefref/aiocrioc>
+- ✓ <https://github.com/referefref/canarytokendetector> — canarytokendetector
+- ✓ <https://github.com/referefref/honeydet> — honeydet
+- ✓ <https://github.com/referefref/honeyfs> — honeyfs
+- ✓ <https://github.com/referefref/modpot> — modpot
+- ✓ <https://github.com/ReFirmLabs/binwalk> — Binwalk
+- ✓ <https://github.com/remiflavien1/awesome-anti-forensic> — Awesome Anti Forensics
+- ✓ <https://github.com/renatahodovan/fuzzinator> — Fuzzinator
+- ✓ <https://github.com/renatahodovan/grammarinator> — grammarinator
+- ✓ <https://github.com/renkagod/tg-chat-dump> — tg-chat-dump
+- ✓ <https://github.com/rep/hpfeeds> — HPFeeds
+- ✓ <https://github.com/Repello-AI/whistleblower> — WhistleBlower
+- ✓ <https://github.com/ResolverFuzz/ResolverFuzz> — ResolverFuzz
+- ✓ <https://github.com/retracedhq/retraced> — BoxyHQ
+- ✓ <https://github.com/RevengeComing/DemonHunter> — DemonHunter
+- ✓ <https://github.com/reverse-shell/routersploit> — routersploit
+- ✓ <https://github.com/reyammer/shellnoob> — shellnoob
+- ✓ <https://github.com/rfunix/Pompem> — Pompem
+- ✓ <https://github.com/ridgelinecyberdefence/vanguard> — VanGuard
+- ✓ <https://github.com/ring0lab/catphish> — Catphish
+- ✓ <https://github.com/RIPE-NCC/hadoop-pcap> — hadoop-pcap
+- ✓ <https://github.com/rizinorg/cutter> — Cutter
+- ✓ <https://github.com/rizinorg/rizin> — Rizin
+- ✓ <https://github.com/rmusser01/Infosec_Reference> — Infosec_Reference
+- ✓ <https://github.com/robertdavidgraham/pemcrack> — pemcrack
+- ✓ <https://github.com/robertdavidgraham/telnetlogger> — telnetlogger
+- ✓ <https://github.com/rockbruno/swiftshield> — Swiftshield
+- ✓ <https://github.com/rocky/python-uncompyle6> — uncompyle6
+- ✓ <https://github.com/RootUp/BFuzz> — BFuzz
+- ✓ <https://github.com/RootUp/PHDays9> — Fuzzing 101 - PHDays
+- ✓ <https://github.com/rough007/CCF-VM> — CCF-VM
+- ✓ <https://github.com/rough007/CDQR> — Cold Disk Quick Response
+- ✓ <https://github.com/RPISEC/MBE> — Modern Binary Exploitation ( RPISEC ) - Chapter 15
+- ✓ <https://github.com/rshipp/slipm-honeypot> — slipm-honeypot
+- ✓ <https://github.com/rspamd/rspamd> — rspamd
+- ✓ <https://github.com/RUB-NDS/PRET> — Printer Exploitation Toolkit (PRET)
+- ✓ <https://github.com/rub-syssec/kafl> — kAFL
+- ✓ <https://github.com/RUB-SysSec/redqueen> — REDQUEEN
+- ✓ <https://github.com/rubenespadas/DionaeaFR> — DionaeaFR
+- ✓ <https://github.com/ruby/ruby/pull/1777> — Potential command injection in resolv.rb
+- ✓ <https://github.com/run41/honey_ports> — honey_ports
+- ✓ <https://github.com/Rurik/Noriben> — Noriben
+- ✓ <https://github.com/rusty-ferris-club/shellclear> — shellclear
+- ✓ <https://github.com/ryhanson/phishery> — phishery
+- ✓ <https://github.com/S03D4-164/Hiryu>
+- ✓ <https://github.com/s0md3v/AwesomeXSS> — AwesomeXSS
+- ✓ <https://github.com/s0md3v/JShell> — JShell
+- ✓ <https://github.com/s0md3v/nano> — nano
+- ✓ <https://github.com/s0md3v/Orbit> — Orbit
+- ✓ <https://github.com/s0md3v/Zen> — Zen
+- ✓ <https://github.com/S2-Lab/AHA-fuzz> — AHA-Fuzz
+- ✓ <https://github.com/s3team/Squirrel> — Squirrel
+- ✓ <https://github.com/sa7mon/miniprint> — miniprint
+- ✓ <https://github.com/Sab0tag3d/SIET> — Smart Install Exploitation Tool (SIET)
+- ✓ <https://github.com/Sable/soot> — Soot – A Java Optimization Framework
+- ✓ <https://github.com/Safe3/uusec-waf> — UUSEC WAF
+- ✓ <https://github.com/safe6Sec/Fastjson>
+- ✓ <https://github.com/sagishahar/lpeworkshop> — Windows / Linux Local Privilege Escalation Workshop
+- ✓ <https://github.com/sahilm/hived> — hived
+- ✓ <https://github.com/samanL33T/Awesome-Mainframe-Hacking> — Mainframe Hacking
+- ✓ <https://github.com/samhocevar/zzuf> — zzuf
+- ✓ <https://github.com/Samuirai/gracker> — Gracker
+- ✓ <https://github.com/samyk/pwnat> — pwnat
+- ✓ <https://github.com/Samyrrrrrr990/openleads> — OpenLeads
+- ✓ <https://github.com/sandialabs/scot> — Sandia Cyber Omni Tracker (SCOT)
+- ✓ <https://github.com/SAP/cloud-active-defense?tab=readme-ov-file> — Cloud Active Defense
+- ✓ <https://github.com/sashs/Ropper> — ropper
+- ✓ <https://github.com/SatelliteApplicationsCatapult/tribble> — Tribble
+- ✓ <https://github.com/satta/awesome-suricata> — Suricata
+- ✓ <https://github.com/sattyamjjain/zerotrust> — ZeroTrust
+- ✓ <https://github.com/schmalle/medpot> — medpot
+- ✓ <https://github.com/schmalle/MysqlPot> — MysqlPot
+- ✓ <https://github.com/schmalle/Nodepot> — Nodepot
+- ✓ <https://github.com/schmalle/servletpot> — Servletpot
+- ✓ <https://github.com/scottyab/rootbeer> — RootBeer
+- ✓ <https://github.com/scottyab/secure-preferences> — Secure Preferences
+- ✓ <https://github.com/script-or-script/FlutterTap> — FlutterTap
+- ✓ <https://github.com/Sdogruyol/awesome-ruby> — Ruby Programming by @Sdogruyol
+- ✓ <https://github.com/sec51/honeymail> — honeymail
+- ✓ <https://github.com/secdev/awesome-scapy> — Scapy
+- ✓ <https://github.com/secdev/scapy> — scapy
+- ✓ <https://github.com/SECFORCE/droidground> — DroidGround
+- ✓ <https://github.com/seclab-fudan/SyzDirect> — SyzDirect
+- ✓ <https://github.com/seclab-fudan/TEFuzz> — TEFuzz
+- ✓ <https://github.com/seclab-ucr/SyzGen_setup> — SyzGen
+- ✓ <https://github.com/seclab-ucr/SyzSpec> — SyzSpec
+- ✓ <https://github.com/secrary/Andromeda> — Andromeda
+- ✓ <https://github.com/secsysresearch/DRFuzz> — DR.FUZZ
+- ✓ <https://github.com/SecTheTech/AMDH> — Android Mobile Device Hardening
+- ✓ <https://github.com/secure-software-engineering/FlowDroid> — Flow Droid – Static Data Flow Tracker
+- ✓ <https://github.com/SecureSkyTechnology/BadLibrary> — BadLibrary
+- ✓ <https://github.com/securestate/king-phisher> — King Phisher
+- ✓ <https://github.com/securesystemslab/periscope> — PeriScope
+- ✓ <https://github.com/SecureThisShit/WinPwn> — WinPwn
+- ✓ <https://github.com/secureworks/dcept> — dcept
+- ✓ <https://github.com/securing/IOSSecuritySuite> — iOS Security Suite - an advanced and easy-to-use platform security & a…
+- ✓ <https://github.com/Security-Onion-Solutions/security-onion> — Security Onion
+- ✓ <https://github.com/SecurityBrewery/catalyst> — Catalyst
+- ✓ <https://github.com/SecurityCompass/AndroidLabs> — Android Security Labs
+- ✓ <https://github.com/SecurityCompass/iPhoneLabs> — iPhoneLabs
+- ✓ <https://github.com/securitygeneration/Honeyport> — Honeyport
+- ✓ <https://github.com/securityscorecard/SSC-Threat-Intel-IoCs>
+- ✓ <https://github.com/SecurityTW/delilah> — Delilah
+- ✓ <https://github.com/seekr-osint/seekr> — Seekr
+- ✓ <https://github.com/seemoo-lab/internalblue> — Internal Blue
+- ✓ <https://github.com/seemoo-lab/VirtFuzz> — VirtFuzz
+- ✓ <https://github.com/sefcom/honeyplc> — HoneyPLC
+- ✓ <https://github.com/sefcom/Witcher> — Witcher
+- ✓ <https://github.com/segmentio/chamber> — chamber
+- ✓ <https://github.com/SekoiaLab/Fastir_Collector> — FastIR Collector
+- ✓ <https://github.com/SekoiaLab/Fastir_Collector_Linux> — FastIR Collector Linux
+- ✓ <https://github.com/sektioneins/pcc/wiki/PHP-htaccess-injection-cheat-sheet> — PHP htaccess Injection Cheat Sheet
+- ✓ <https://github.com/selefra/selefra> — Selefra
+- ✓ <https://github.com/sensepost/DET> — DET
+- ✓ <https://github.com/sensepost/ruler> — Ruler
+- ✓ <https://github.com/SentryPeer/SentryPeer> — SentryPeer
+- ✓ <https://github.com/serval-snt-uni-lu/DroidRA> — DroidRA
+- ✓ <https://github.com/sethsec/celerystalk> — celerystalk
+- ✓ <https://github.com/SeUniVr/RestTestGen> — RestTestGen
+- ✓ <https://github.com/sh4hin/Androl4b> — AndroL4b - Android security virtual machine based on ubuntu-mate
+- ✓ <https://github.com/sh4hin/MobileApp-Pentest-Cheatsheet> — Mobile Application Penetration Testing Cheat Sheet
+- ✓ <https://github.com/shadawck/glit> — Glit
+- ✓ <https://github.com/shahenshah99/VulnDroid> — VulnDroid
+- ✓ <https://github.com/ShaneK2/inVtero.net> — inVtero.net
+- ✓ <https://github.com/ShawnDEvans/smbmap> — smbmap
+- ✓ <https://github.com/shbhmsingh72/Honeypot-Research-Papers> — Honeypot research papers
+- ✓ <https://github.com/shellphish/driller> — Driller
+- ✓ <https://github.com/shieldfy/API-Security-Checklist> — API Security Checklist
+- ✓ <https://github.com/shinvou/decrypt0r> — decrypt0r - automatically download and decrypt SecureRom stuff
+- ✓ <https://github.com/shiva-spampot/shiva> — Shiva
+- ✓ <https://github.com/shouc/corbfuzz> — CorbFuzz
+- ✓ <https://github.com/shroudedcode/apk-mitm> — apk-mitm - a CLI application that prepares Android APK files for HTTPS…
+- ✓ <https://github.com/SigmaHQ/sigma> — Sigma
+- ✓ <https://github.com/SigPloiter/SigPloit> — SigPloit
+- ✓ <https://github.com/silascutler/MalPipe>
+- ✓ <https://github.com/SimplySecurity/SimplyEmail> — SimplyEmail
+- ✓ <https://github.com/simsong/bulk_extractor> — bulk_extractor
+- ✓ <https://github.com/simsong/tcpflow> — tcpflow
+- ✓ <https://github.com/sindresorhus/awesome> — sindresorhus/awesome
+- ✓ <https://github.com/sindresorhus/awesome-nodejs> — Node.js Programming by @sindresorhus
+- ✓ <https://github.com/siyuanzhao/python3-in-one-pic> — Python Cheat Sheet #1
+- ✓ <https://github.com/sjhilt/GasPot> — GasPot
+- ✓ <https://github.com/sjinks/mysql-honeypotd> — mysql-honeypotd
+- ✓ <https://github.com/sjinks/ssh-honeypotd> — ssh-honeypotd
+- ✓ <https://github.com/sk3ptre/AndroidMalware_2018> — Popular Android Malware 2018
+- ✓ <https://github.com/sk3ptre/AndroidMalware_2019> — Popular Android Malware 2019
+- ✓ <https://github.com/sk3ptre/AndroidMalware_2020> — Popular Android Malware 2020
+- ✓ <https://github.com/sk4ld/gridpot> — gridpot
+- ✓ <https://github.com/skeeto/endlessh> — endlessh
+- ✓ <https://github.com/skizap/dos-over-tor> — dos-over-tor
+- ✓ <https://github.com/sleuthkit/sleuthkit> — sleuthkit
+- ✓ <https://github.com/slimm609/checksec> — checksec
+- ✓ <https://github.com/slimm609/checksec.sh> — checksec.sh
+- ✓ <https://github.com/Smaash/snitch> — snitch
+- ✓ <https://github.com/snare/voltron> — Voltron
+- ✓ <https://github.com/SneakersInc/HoneyMalt> — HoneyMalt
+- ✓ <https://github.com/snooppr/shotstars> — Shotstars
+- ✓ <https://github.com/snooppr/snoop/blob/master/README.en.md> — Snoop
+- ✓ <https://github.com/snort3/snort3> — snort
+- ✓ <https://github.com/snovvcrash/usbrip> — USBRip
+- ✓ <https://github.com/snuspl/fluffy> — Fluffy
+- ✓ <https://github.com/sobolevn/awesome-cryptography> — Cryptography
+- ✓ <https://github.com/SoftSec-KAIST/CodeAlchemist> — CodeAlchemist
+- ✓ <https://github.com/SoftSec-KAIST/IMF> — IMF
+- ✓ <https://github.com/SoftSec-KAIST/NTFuzz> — NTFuzz
+- ✓ <https://github.com/sonyxperiadev/ApkAnalyser> — APK Analyzer – Static and Virtual Analysis Tool
+- ✓ <https://github.com/sophron/wifiphisher> — wifiphisher
+- ✓ <https://github.com/sorrycc/awesome-javascript> — JavaScript Programming
+- ✓ <https://github.com/soxoj/maigret> — Maigret
+- ✓ <https://github.com/soxrok2212/PSKracker> — PSKracker
+- ✓ <https://github.com/SpaceNaN/fuzzjit> — FuzzJIT
+- ✓ <https://github.com/spacepatcher/FireHOL-IP-Aggregator>
+- ✓ <https://github.com/spacepatcher/softrace>
+- ✓ <https://github.com/SpectralOps/keyscope> — Keyscope
+- ✓ <https://github.com/spectralops/netz> — Netz
+- ✓ <https://github.com/spectralops/preflight> — Preflight
+- ✓ <https://github.com/spectralops/teller> — Teller
+- ✓ <https://github.com/spender-sandbox/cuckoo-modified> — Cuckoo-modified
+- ✓ <https://github.com/SpiderLabs/cribdrag> — cribdrag
+- ✓ <https://github.com/SpiderLabs/ikeforce> — IKEForce
+- ✓ <https://github.com/SpiderLabs/Responder> — Responder
+- ✓ <https://github.com/spidersuite/SpiderSuite> — SpiderSuite
+- ✓ <https://github.com/spmedia/Crypto-Scam-and-Crypto-Phishing-Threat-Intel-Feed> — Crypto Scam & Crypto Phishing URL Threat Intel Feed
+- ✓ <https://github.com/spmedia/PhishingSecLists> — PhishingSecLists
+- ✓ <https://github.com/spmedia/Telegram-Channel-Joiner> — Telegram Channel Joiner
+- ✓ <https://github.com/spmedia/Threat-Actor-Usernames-Scrape> — Threat Actor Usernames Scrape
+- ✓ <https://github.com/spotbugs/spotbugs> — Spotbugs
+- ✓ <https://github.com/spring-projects/spring-framework/blob/9cf7b0e230af83e08efa73a43334c75f6110988f/spring-expression/src/main/java/org/springframework/expression/spel/standard/Tokenizer.java> — src link
+- ✓ <https://github.com/spyre-project/spyre> — Spyre
+- ✓ <https://github.com/sqlmapproject/sqlmap/tree/master/data/udf/postgresql>
+- ✓ <https://github.com/sqlmapproject/sqlmap/wiki/Usage>
+- ✓ <https://github.com/sqren/fb-sleep-stats> — Fb-sleep-stats
+- ✓ <https://github.com/sreinhardt/Docker-Honeynet> — Docker honeynet
+- ✓ <https://github.com/sroberts/awesome-iocs> — IOC
+- ✓ <https://github.com/sroberts/cacador>
+- ✓ <https://github.com/sroberts/jager>
+- ✓ <https://github.com/sslab-gatech/freedom> — FreeDom
+- ✓ <https://github.com/sslab-gatech/hydra> — Hydra
+- ✓ <https://github.com/sslab-gatech/janus> — Janus
+- ✓ <https://github.com/sslab-gatech/krace> — KRACE
+- ✓ <https://github.com/sslab-gatech/MALintent> — MALintent
+- ✓ <https://github.com/sslab-gatech/qsym> — QSYM
+- ✓ <https://github.com/sslab-gatech/winnie> — WINNIE
+- ✓ <https://github.com/StackExchange/blackbox> — blackbox
+- ✓ <https://github.com/stamparm/hontel> — Hontel
+- ✓ <https://github.com/stamparm/identywaf> — IdentYwaf
+- ✓ <https://github.com/stanfrbd/cyberbro> — Cyberbro
+- ✓ <https://github.com/starkandwayne/safe> — Safe

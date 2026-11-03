@@ -1,0 +1,117 @@
+---
+trigger: model_decision
+description: "CTF writeup archives by event/year/challenge plus CTFtime. Use when looking for worked solutions to pwn/web/crypto/rev challenges. (part 2/5)"
+---
+
+# Security Research Link Corpus — CTF Writeups & Archives
+
+Part 2 of 5. 108 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/man-250/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/man-250/squash.txt> — squash.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/man-250/zip.txt> — zip.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/matrix-100/matrix-9f75eeb8895ac547c2e43c8000d1c08faa4ec2649f36fe805c00eacb8e6d4d27.7z> — matrix-9f75eeb8895ac547c2e43c8000d1c08faa4ec2649f36fe805c00eacb8e6d4d2…
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/matrix-100/matrix.py> — matrix.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/matrix-100/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/md5-10/md5me> — md5me
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/md5-10/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/missing-page-50/mypasswords.pdf> — mypasswords.pdf
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/missing-page-50/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/capture.pcap> — capture.pcap
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/flag.txt> — flag.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream0.raw> — stream0.raw
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream16> — stream16
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream2.raw> — stream2.raw
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream3> — stream3
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream4%20-%20Copy%20-%20Copy.raw> — stream4 - Copy - Copy.raw
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream4%20-%20Copy.raw> — stream4 - Copy.raw
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream4.raw> — stream4.raw
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mobyflag-150/stream5> — stream5
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/capture.pcap> — capture.pcap
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/lol.py> — lol.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/output.txt> — output.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/stream1.csv> — stream1.csv
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/stream1.raw> — stream1.raw
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/summary.txt> — summary.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/morser-250/times.txt> — times.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default.zip> — fk1onhl4.default.zip
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/.parentlock> — .parentlock
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/addons.json> — addons.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/addonStartup.json.lz4> — addonStartup.json.lz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/AlternateServices.txt> — AlternateServices.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/blocklist.xml> — blocklist.xml
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/bookmarkbackups/bookmarks-2017-09-20_14_JayhlH7qwlDVILJa4rWeTA%3D%3D.jsonlz4> — bookmarks-2017-09-20_14_JayhlH7qwlDVILJa4rWeTA==.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/cert8.db> — cert8.db
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/compatibility.ini> — compatibility.ini
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/containers.json> — containers.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/content-prefs.sqlite> — content-prefs.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/cookies.sqlite> — cookies.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/crashes/store.json.mozlz4> — store.json.mozlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505510080016.0ebea0ee-67b6-d04d-87bf-177a9a6a2946.main.jsonlz4> — 1505510080016.0ebea0ee-67b6-d04d-87bf-177a9a6a2946.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505510568853.a9d94e42-3a77-4a41-bcee-3f02e2928722.modules.jsonlz4> — 1505510568853.a9d94e42-3a77-4a41-bcee-3f02e2928722.modules.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505511430110.437cfcb9-9796-3e42-b3db-5ab129ba8109.new-profile.jsonlz4> — 1505511430110.437cfcb9-9796-3e42-b3db-5ab129ba8109.new-profile.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505534447578.64ec6362-f428-d844-81de-5b064d675ac0.main.jsonlz4> — 1505534447578.64ec6362-f428-d844-81de-5b064d675ac0.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505620995555.429ccd59-8ca8-a746-8b6a-2a39acc2611f.main.jsonlz4> — 1505620995555.429ccd59-8ca8-a746-8b6a-2a39acc2611f.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505648395524.3370c1fc-064e-2b4b-a083-0688554c7718.main.jsonlz4> — 1505648395524.3370c1fc-064e-2b4b-a083-0688554c7718.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505943445763.64555275-e5ac-3547-88b7-99ef8a3aaf37.main.jsonlz4> — 1505943445763.64555275-e5ac-3547-88b7-99ef8a3aaf37.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505943812902.3cbfbef2-94e1-904e-bd05-73030c5f13ce.main.jsonlz4> — 1505943812902.3cbfbef2-94e1-904e-bd05-73030c5f13ce.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505966444574.350886c5-2821-bd42-a09f-552ba3149ebf.main.jsonlz4> — 1505966444574.350886c5-2821-bd42-a09f-552ba3149ebf.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505968839107.d3ef6584-585a-df41-a2a7-23fff45b0312.main.jsonlz4> — 1505968839107.d3ef6584-585a-df41-a2a7-23fff45b0312.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/archived/2017-09/1505971195553.c6c88dd5-8232-1a49-92a4-423d7b26e76e.main.jsonlz4> — 1505971195553.c6c88dd5-8232-1a49-92a4-423d7b26e76e.main.jsonlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/session-state.json> — session-state.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/datareporting/state.json> — state.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/downloads.sqlite> — downloads.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/extensions.json> — extensions.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/favicons.sqlite> — favicons.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bc1d15c9e-f52f-cb40-870b-2eca8369cabb%7D/clicktoplay-rollout%40mozilla.org.xpi> — clicktoplay-rollout@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bc1d15c9e-f52f-cb40-870b-2eca8369cabb%7D/e10srollout%40mozilla.org.xpi> — e10srollout@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bc1d15c9e-f52f-cb40-870b-2eca8369cabb%7D/followonsearch%40mozilla.com.xpi> — followonsearch@mozilla.com.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bc1d15c9e-f52f-cb40-870b-2eca8369cabb%7D/onboarding%40mozilla.org.xpi> — onboarding@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bc1d15c9e-f52f-cb40-870b-2eca8369cabb%7D/screenshots%40mozilla.org.xpi> — screenshots@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bed248c31-36ac-4347-8c1f-15a92aeffa03%7D/clicktoplay-rollout%40mozilla.org.xpi> — clicktoplay-rollout@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bed248c31-36ac-4347-8c1f-15a92aeffa03%7D/e10srollout%40mozilla.org.xpi> — e10srollout@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bed248c31-36ac-4347-8c1f-15a92aeffa03%7D/followonsearch%40mozilla.com.xpi> — followonsearch@mozilla.com.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bed248c31-36ac-4347-8c1f-15a92aeffa03%7D/onboarding%40mozilla.org.xpi> — onboarding@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/features/%7Bed248c31-36ac-4347-8c1f-15a92aeffa03%7D/screenshots%40mozilla.org.xpi> — screenshots@mozilla.org.xpi
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/formhistory.sqlite> — formhistory.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/gmp-gmpopenh264/1.6/gmpopenh264.info> — gmpopenh264.info
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/gmp-gmpopenh264/1.6/libgmpopenh264.dylib> — libgmpopenh264.dylib
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/gmp-widevinecdm/1.4.8.903/libwidevinecdm.dylib> — libwidevinecdm.dylib
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/gmp-widevinecdm/1.4.8.903/manifest.json> — manifest.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/handlers.json> — handlers.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/key3.db> — key3.db
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/kinto.sqlite> — kinto.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/localstore.rdf> — localstore.rdf
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/permissions.sqlite> — permissions.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/places.sqlite> — places.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/pluginreg.dat> — pluginreg.dat
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/prefs.js> — prefs.js
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/revocations.txt> — revocations.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/search.json.mozlz4> — search.json.mozlz4
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/secmod.db> — secmod.db
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/SecurityPreloadState.txt> — SecurityPreloadState.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/sessionCheckpoints.json> — sessionCheckpoints.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/sessionstore-backups/previous.js> — previous.js
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/sessionstore-backups/upgrade.js-20170824053838> — upgrade.js-20170824053838
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/sessionstore.js> — sessionstore.js
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/shield-preference-experiments.json> — shield-preference-experiments.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/SiteSecurityServiceState.txt> — SiteSecurityServiceState.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage.sqlite> — storage.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage/permanent/chrome/.metadata> — .metadata
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage/permanent/chrome/.metadata-v2> — .metadata-v2
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage/permanent/chrome/idb/2029012401EexhtceanCspiuotnrSat.sqlite> — 2029012401EexhtceanCspiuotnrSat.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage/permanent/chrome/idb/2918063365piupsah.sqlite> — 2918063365piupsah.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage/permanent/moz-safe-about%2Bhome/.metadata> — .metadata
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage/permanent/moz-safe-about%2Bhome/.metadata-v2> — .metadata-v2
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/storage/permanent/moz-safe-about%2Bhome/idb/818200132aebmoouht.sqlite> — 818200132aebmoouht.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/times.json> — times.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/webappsstore.sqlite> — webappsstore.sqlite
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/fk1onhl4.default/xulstore.json> — xulstore.json
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/flag.txt> — flag.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/extract/mypasswords.pdf> — mypasswords.pdf
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/fat.fs> — fat.fs
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/mountcarve-aa86d04a2a1c3fa0af0b60fde4e12f9fc159e6786e400470430be7a3dace451e.7z> — mountcarve-aa86d04a2a1c3fa0af0b60fde4e12f9fc159e6786e400470430be7a3dac…
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/mount-image-20/testdisk.log> — testdisk.log

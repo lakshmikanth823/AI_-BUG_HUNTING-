@@ -1,0 +1,180 @@
+---
+trigger: model_decision
+description: "DEF CON, Black Hat, Recon and other conference media, YouTube channels, podcasts, newsletters. Use when recommending a talk or written deep-dive. (part 2/2)"
+---
+
+# Security Research Link Corpus — Talks, Conferences, Video & Podcasts
+
+Part 2 of 2. 171 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://youtube.com/playlist?list=PLH15HpR5qRsXtpLirwYHPWyqcEFPbr-uB> — BlackHat Europe 2017
+- ✓ <https://youtube.com/playlist?list=PLHlFrzuFU1EU2vGbM2siqEGJ-_ogPPgoM> — ZeroNights 2015
+- ✓ <https://youtube.com/playlist?list=PLHlFrzuFU1EXZPuaVAIBswXKBwe0sFMus> — ZeroNights 2017
+- ✓ <https://youtube.com/playlist?list=PLIjpAcwszL0p7pDewIOQrwFIuk3Cruj0x> — RECON 2017
+- ✓ <https://youtube.com/playlist?list=PLIK9nm3mu-S5InvR-myOS7hnae8w4EPFV> — LevelUp 2017
+- ✓ <https://youtube.com/playlist?list=PLJ7_KHVHtAm9YhIzWa_2A61dmFv8cTDO2> — HITB AMS SecConfg 2015
+- ✓ <https://youtube.com/playlist?list=PLjIhlLNy_Y9O62rjwYD48pVER0EVh1-aU> — R2Con
+- ✓ <https://youtube.com/playlist?list=PLjIhlLNy_Y9Oe-nfcPEpaki0_En5dhQ5S> — R2Con 2017
+- ✓ <https://youtube.com/playlist?list=PLjpIlpOLoRNTG3td7JfV1LDinNFLSHJqM> — BSidesLV 2016
+- ✓ <https://youtube.com/playlist?list=PLKAaMVNxvLmAkqBkzFaOxqs3L66z2n8LA> — Live Recon VODs
+- ✓ <https://youtube.com/playlist?list=PLKpjtdatAwij7ajFwQSkmxFm43N9U_T3E> — SyScan 2015
+- ✓ <https://youtube.com/playlist?list=PLkZHdEqkqk-8magBq-86P0Zbu00BH5VRk> — BSides Cape Town 2015
+- ✓ <https://youtube.com/playlist?list=PLLEf-wPc7TyY6I8AtHvrSEAj3UNjRnpOZ> — SkyDogCon 2015
+- ✓ <https://youtube.com/playlist?list=PLljFlTO9rB15Tve-LhV5k_5_0HH37eALe> — Security Onion 2016
+- ✓ <https://youtube.com/playlist?list=PLLVBUs9CnYAcaDxfgdjhdHuI5K1CERGhu> — SecAppDev 2015
+- ✓ <https://youtube.com/playlist?list=PLLVBUs9CnYAdarhS_XovtGONbng3928Et> — SecAppDev 2017
+- ✓ <https://youtube.com/playlist?list=PLLWzQe8KOh5k0FGZjVQJpE0eetc9kwaNP> — LASCON 2014
+- ✓ <https://youtube.com/playlist?list=PLLWzQe8KOh5lBO_ji5qbJoghj-lLBClx_> — LASCON 2016
+- ✓ <https://youtube.com/playlist?list=PLLWzQe8KOh5luDX7Ig9yVMEVnb1waAS9w> — LACON 2015
+- ✓ <https://youtube.com/playlist?list=PLmfJypsykTLWIg62DKE8EebU-2ZWIT-C6> — SteelCon 2017
+- ✓ <https://youtube.com/playlist?list=PLmfJypsykTLX9mDeChQ7fovybwYzQgr6j> — SteelCon 2015
+- ✓ <https://youtube.com/playlist?list=PLmfJypsykTLXdowhmaHaDJGlxmOBAGMYA> — SteelCon 2016
+- ✓ <https://youtube.com/playlist?list=PLmv8T5-GONwRtCwz33lrnCGV4V_rb3sCk> — HITBSecConf 2016
+- ✓ <https://youtube.com/playlist?list=PLmv8T5-GONwSh0Gc70yAfSzULQ82JoVwB> — HITBSecConf CommSec 2016
+- ✓ <https://youtube.com/playlist?list=PLmv8T5-GONwSuEm2XTeIVi6toZ8stS6J2> — HITB SecConf 2015
+- ✓ <https://youtube.com/playlist?list=PLn8ut0t_rVT89PJEnacaOYrmRJQc0TeiQ> — DerbyCon 5.0
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm-L0fEgmLzf3Rmyt45M5qw0> — BSides Columbus 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm-siqxRQBzDzSnAJUpnQmZs> — CircleCityCon 2017
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm-wLsEAL9FIXAhC3WY1YvrW> — SecureWV 2016
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm-yD8mrM2dnP1dxrIMThfTe> — Bsides Tampa
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm86xYFgU3fRB84vvii9oAh0> — Louisville Infosec 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm87UHyX3fVU_NnSRjM8CUUw> — BSides Cleveland 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm88_x7IQKSFzhtp9ileHB72> — GrrCON 2016
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm8SFdoqtYpwvknOjMOdSIMY> — Secure West Virgina 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm95e9Z5mvkAk5H3eEBFuVSf> — BSides NOVA
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm97gwg__BfWirG5NnkAAENL> — BSides Detroit 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm9EMEAOlWO40tv4A-2JERPb> — BSides San Francisco 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm9TV35bUYvhjUpdAR8iPT5R> — CircleCityCon 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm9zsNKfwujM4JgEk1wOc44m> — ShowMeCon 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm_4V8VDudQyBFp8b91rBHTj> — BSides Augusta 2016
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm_by2u3gZUlcPPU0IQtvRTS> — BSides Tampa 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm_fAztb-LmQapZiEM08cV-6> — CircleCityCon 2016
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm_gTMJmDNjUcN15HK6-p4H4> — Shmoocon Firetalks 2016
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm_tRDcxhP9vldVoJhTkwdnt> — BSides Augusta 2015
+- ✓ <https://youtube.com/playlist?list=PLNhlcxQZJSm_wpMC42BKPCknT-JhnZGos> — BSidesLV 2015
+- ✓ <https://youtube.com/playlist?list=PLnwq8gv9MEKj6p8VtgCwFdh8uthLp75M3> — DefCamp 2015
+- ✓ <https://youtube.com/playlist?list=PLoApmOGyM5MXj5CRKZ9mlKlHaMFNLBHLv> — Camp++ 2017
+- ✓ <https://youtube.com/playlist?list=PLpAqWs_9UQkvsUhUy0fYxhwPB7am3FGMU> — BSidesCincy 2014
+- ✓ <https://youtube.com/playlist?list=PLpr-xdpM8wG-Kf1_BOnT2LFZU8_SXfpKL> — AppSecEU 2016
+- ✓ <https://youtube.com/playlist?list=PLpr-xdpM8wG-xWNB98Q2uLN7O8E91xJzK> — OWASP AppSec California 2015
+- ✓ <https://youtube.com/playlist?list=PLpr-xdpM8wG-ZTcHhFfAeBthNVZVEtkg9> — OWASP AppSec EU 2015
+- ✓ <https://youtube.com/playlist?list=PLpr-xdpM8wG8DPozMmcbwBjFn15RtC75N> — AppSecUSA 2016
+- ✓ <https://youtube.com/playlist?list=PLpr-xdpM8wG8fNc1gwXz4SXKTRB4yZB5v> — OWASP AppSec California 2016
+- ✓ <https://youtube.com/playlist?list=PLpr-xdpM8wG8RHOguwOZhUHkKiDeWpvFp> — AppSecEU 2017
+- ✓ <https://youtube.com/playlist?list=PLpr-xdpM8wG93dG_L9QKs0W1cD-esQEzU> — OWASP AppSec USA 2015
+- ✓ <https://youtube.com/playlist?list=PLqjUlpQ6EnByc0mpipwGU0dyPRdC1dC-k> — Securi-Tay 2017
+- ✓ <https://youtube.com/playlist?list=PLREOJpYTa6C5Mia5gJawJyx0WnEPvaudE> — SAS Global Forum 2015
+- ✓ <https://youtube.com/playlist?list=PLrP-faxXRgggF2VVXMGYxmj2yeuV8003j> — ShmooCon 2015
+- ✓ <https://youtube.com/playlist?list=PLrwRJhfJmJRjDYmKTU9DY7XsG09QOBhwl> — BSidesCincy 2016
+- ✓ <https://youtube.com/playlist?list=PLs4eo9Tja8bj3jJvv42LxOkhc2_ylpS9y> — SANS OSINT Summit 2021 (Playlist)
+- ✓ <https://youtube.com/playlist?list=PLsEd7GTJqlRA2M6hwNzxbwPN04pf0F73U> — BSides Charleston 2015
+- ✓ <https://youtube.com/playlist?list=PLSNlEg26NNpzyo5SOikogTjmACDFghLQP> — FloCon 2015
+- ✓ <https://youtube.com/playlist?list=PLtb1FJdVWjUencZ-SBtamJiwB7zc_IlgU> — BruCON 0x09
+- ✓ <https://youtube.com/playlist?list=PLtb1FJdVWjUfCe1Vcj67PG5Px8u1VY3YD> — BruCON 2016
+- ✓ <https://youtube.com/playlist?list=PLtb1FJdVWjUfZ9fWxPPCrOO7LUquB3WrB> — BruCon 2015
+- ✓ <https://youtube.com/playlist?list=PLTmfTMRCZvynGaHqbvALoJ2hGJvKvCJ9V> — Cyberwarfare & Computer Security Playlist
+- ✓ <https://youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD> — Youtube Playlist of various fuzzing talks and presentations
+- ✓ <https://youtube.com/playlist?list=PLu1bAtIWt2VbXiy4kNWdtVkWiRWvPoeD6> — BSides Orlando
+- ✓ <https://youtube.com/playlist?list=PLuUtcRxSUZUpg-z0MkDrFrwMiiFMVr1yI> — NorthSec 2016
+- ✓ <https://youtube.com/playlist?list=PLuUtcRxSUZUpQAa54H6PKkfX6A48ruzhh> — NorthSec Montreal 2015
+- ✓ <https://youtube.com/playlist?list=PLuUtcRxSUZUpv2An-RNhjuZSJ5fjY7ghe> — NorthSec 2017
+- ✓ <https://youtube.com/playlist?list=PLwZycuzv10iLBFwRIWNAR-s4iuuUMRuEB> — BSides Augusta 2017
+- ✓ <https://youtube.com/playlist?list=PLXF21PFPPXTOwoXWKlCJDMvEAUNoVLtnR> — Wild West Hacking Fest
+- ✓ <https://youtube.com/playlist?list=PLXoRjc8jI5RQ5Rr--h0BnuYh17fuQyJwv> — DEFCON/OWASP Lucknow InfoSec Conference
+- ✓ <https://youtube.com/playlist?list=PLxRWg8ULebmwAZzzYyY23SPAV_Y0S_9DV> — HackIT 2017
+- ✓ <https://youtube.com/playlist?list=PLxRWg8ULebmzPnxjryZTcf6SS6TIK5vwV> — HackIT 2016
+- ✓ <https://youtube.com/playlist?list=PLxRWg8ULebmzT4O36FwxCXr9dilrQD2h0> — HackIT 2015
+- ✓ <https://youtube.com/playlist?list=PLxyG_Sh7NFechTfZb2DLQEUvy3FbaR3gD> — BSides Winnipeg 2015
+- ✓ <https://youtube.com/playlist?list=PLyHRd2YK1T4x0NPjX_uZ32w5EqqOxcZoB> — BalCCon 2019 (2k19)
+- ✓ <https://youtube.com/playlist?list=PLyzOVJj3bHQuiujH1lpn8cA9dsyulbYRv> — Hackers tools
+- ✓ <https://youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J> — Shells
+- ✓ <https://youtube.com/user/ISC2TV> — (ISC)2 YouTube channel
+- ✓ <https://youtube.com/user/OWASPGLOBAL> — AppSec USA 17
+- ✓ <https://youtube.com/user/RSAConference/playlists> — RSA Keynotes, Lectures, and Sessions
+- ✓ <https://youtube.com/user/TROOPERScon> — TROOPERS16
+- ✓ <https://youtube.com/watch?v=--6PiuvBGAU> — .NET Roulette: Exploiting Insecure Deserialization in Telerik UI
+- ✓ <https://youtube.com/watch?v=05Uy0R7UdFw> — WAFs FTW! A modern devops approach to security testing your WAF
+- ✓ <https://youtube.com/watch?v=07VqX4bbXTI> — Analyzing and Attacking Apple Kernel Drivers
+- ✓ <https://youtube.com/watch?v=1XavjjmfZAY> — Unleashing D* on Android Kernel Drivers
+- ✓ <https://youtube.com/watch?v=3asW-nBU-JU> — Android security architecture
+- ✓ <https://youtube.com/watch?v=5eJYCucZ-Tc> — Android FakeID Vulnerability Walkthrough
+- ✓ <https://youtube.com/watch?v=5rE8xEg5tXk&list=PLSkhUfcCXvqG6FRTCCxIfoMK6rw3NZvb6> — Fuzz Theory
+- ✓ <https://youtube.com/watch?v=6P7zE33y-Xg&list=PL1eoQr97VfJmWSoFiLSgJ0PY7oqLMor1-> — Breaking IoT Track
+- ✓ <https://youtube.com/watch?v=71YP65UANP0> — Scary Code in the Heart of Android
+- ✓ <https://youtube.com/watch?v=7UNeUT_sRos> — Demystifying the Secure Enclave Processor
+- ✓ <https://youtube.com/watch?v=8cOx7vfszZU&feature=youtu.be> — Attacking iPhone XS Max
+- ✓ <https://youtube.com/watch?v=_YRs28yBYuI> — Data to Go
+- ✓ <https://youtube.com/watch?v=bDcx4UNpKNc> — The Future of Incident Response
+- ✓ <https://youtube.com/watch?v=BkmPZhgLmRo> — Evading Deep Inspection Systems for Fun and Shell
+- ✓ <https://youtube.com/watch?v=BLGFriOKz6U> — Behind the Scenes of iOS Security
+- ✓ <https://youtube.com/watch?v=bP5VP7vLLKo> — Remotely Compromising iOS via Wi-Fi and Escaping the Sandbox
+- ✓ <https://youtube.com/watch?v=C8m4ACOndCo&list=PL8fFmUArVzKjUO3iajhQFmQeRqe4CscE4> — Botconf 2015
+- ✓ <https://youtube.com/watch?v=cak2lQvBRAo> — Installing Damn Vulnerable Web Application (DVWA) on Windows 10
+- ✓ <https://youtube.com/watch?v=CHtllIi8zKw&list=PLyHRd2YK1T4wrBlx1LQBVtkP5qtITDkJr> — BalCCon 2017 (2k17)
+- ✓ <https://youtube.com/watch?v=cJ3LhQXzrXw> — Bypassing Intrusion Detection Systems
+- ✓ <https://youtube.com/watch?v=DFQT1YxvpDo> — Fuzzing with AFL
+- ✓ <https://youtube.com/watch?v=dgqUcHprolc> — Building Your Own WAF as a Service and Forgetting about False Positive…
+- ✓ <https://youtube.com/watch?v=DJFxhShJ6Ns> — HackPac Hacking Pointer Authentication in iOS User Space
+- ✓ <https://youtube.com/watch?v=dMFJLicdaC0> — Web Application Firewall - Analysis of Detection Logic
+- ✓ <https://youtube.com/watch?v=DNW6Im31lQo> — iOS 10 Kernel Heap Revisited
+- ✓ <https://youtube.com/watch?v=DqP0qKduTNI&list=PLyHRd2YK1T4wDxHtYcruSlzS3o0tiZ2W> — BalCCon 2016 (2k16)
+- ✓ <https://youtube.com/watch?v=dWLpw-7_pa8> — Bypassing Modern WAF's Exemplified At XSS by Rafay Baloch
+- ✓ <https://youtube.com/watch?v=EBta0rsVjO4&list=PL8fFmUArVzKilTXVlGV1y5Ahx8edlmo5w> — Botconf 2016
+- ✓ <https://youtube.com/watch?v=eDfGpu3iE4Q> — Attacking .NET deserialization
+- ✓ <https://youtube.com/watch?v=EkL1sDMXRVk> — Honey, I Shrunk the Attack Surface – Adventures in Android Security Ha…
+- ✓ <https://youtube.com/watch?v=EpS-ks1vf9A&list=PLTOzjw9-RQ72F83cpmN73TlTqTLmIC73M> — BSides Raleigh 2013
+- ✓ <https://youtube.com/watch?v=F7pYHN9iC9I> — Amazing mind reader reveals his ‘gift’
+- ✓ <https://youtube.com/watch?v=fzd3zkAI_o4> — 102 Deep Dive in the Dark Web OSINT Style Kirby Plessas
+- ✓ <https://youtube.com/watch?v=Go77RsVYujc&list=PLp3eqXqiGKwZ7OHGpk-a2VZ2xH2OyGtyf> — Popular SANS Institute & Security Videos
+- ✓ <https://youtube.com/watch?v=hajOlvLhYJY> — Hide Android Applications in Images
+- ✓ <https://youtube.com/watch?v=ixb-L5JWJgI> — WTF - WAF Testing Framework
+- ✓ <https://youtube.com/watch?v=jDC60dJ5a2Q&list=PL1eoQr97VfJnTbh6pq7_NgVD5Qpnta98U> — IPv6 Track
+- ✓ <https://youtube.com/watch?v=JVIMa-wZ8P4&list=PL1eoQr97VfJlS5hmN561lJPffIdUG9ML7> — Attack and Reasearch Track
+- ✓ <https://youtube.com/watch?v=KtOXPHyA0Ko&list=PL1eoQr97VfJnAdq1dcMJ8WQjvBqzIGeNN> — Defense & Management Track
+- ✓ <https://youtube.com/watch?v=L3AniAxp_G4> — One Step Ahead of Cheaters -- Instrumenting Android Emulators
+- ✓ <https://youtube.com/watch?v=lWoxAjvgiHs> — Bypass OWASP CRS && CWAF (WAF Rule Testing - Unrestricted File Upload)
+- ✓ <https://youtube.com/watch?v=mB_xGSNm8Z0> — The Death of a Web App Firewall
+- ✓ <https://youtube.com/watch?v=ohjTWylMGEA> — Chaosdata - Ghost in the Droid: Possessing Android Applications with P…
+- ✓ <https://youtube.com/watch?v=p512McKXukU> — Recreating An iOS 0-Day Jailbreak Out Of Apple's Security Updates
+- ✓ <https://youtube.com/watch?v=P5R4KeCzO-Q> — Bypassing Browser Security Policies for Fun & Profit
+- ✓ <https://youtube.com/watch?v=PHC-W7ttzl4&list=PLyHRd2YK1T4ypek_YcnTux1xC_Pu9JZzF> — BalCCon 2015 (2k15)
+- ✓ <https://youtube.com/watch?v=PirzSHPANLY&list=PL1eoQr97VfJk4WGnv3Ge2FGU0wOc9xfIS> — Hands-On IoT Track
+- ✓ <https://youtube.com/watch?v=PVVG4rCFZGU> — Confessions of a WAF Developer: Protocol-Level Evasion of Web App Fire…
+- ✓ <https://youtube.com/watch?v=q_HibdrbIxo> — Fuzzing Android: A Recipe For Uncovering Vulnerabilities Inside System…
+- ✓ <https://youtube.com/watch?v=QBQXfOUahz4&list=PLbZzXF2qC3RvlcHIxrqrsN1XhwHX8SQ-g> — Bsides SF
+- ✓ <https://youtube.com/watch?v=QpYHiNElzZI&list=UUIvfe0KAXCjxIXWabrfn2tA&index=10> — Bsides Vancouver 2015
+- ✓ <https://youtube.com/watch?v=R2brQvQeTvM> — Vulnerable Out of the Box: An Evaluation of Android Carrier Devices
+- ✓ <https://youtube.com/watch?v=R30DSJKszeM&list=PLyHRd2YK1T4wwdG_skqRgAHENsqLTjJoR> — BalCCon 2018 (2k18)
+- ✓ <https://youtube.com/watch?v=rdwB_p0KZXM> — Adventures with the WAF
+- ✓ <https://youtube.com/watch?v=REPggZ6-jYI&list=PL1eoQr97VfJnyYYD5Sea8h9250dRtO2q9> — Special Track
+- ✓ <https://youtube.com/watch?v=Rn4Rupla11M> — See how easily freaks can take over your life
+- ✓ <https://youtube.com/watch?v=s0Tqi7fuOSU> — Unpacking the Packed Unpacker: Reverse Engineering an Android Anti-Ana…
+- ✓ <https://youtube.com/watch?v=s95CQNntunQ&list=PLH15HpR5qRsWx4qw9ZlgmisHOcKG4ZcRS> — Black Hat Asia 2017
+- ✓ <https://youtube.com/watch?v=SD7ForrwUMY> — Web Application Firewall Bypassing
+- ✓ <https://youtube.com/watch?v=SngK4W4tVc0> — Adventures in Fuzzing
+- ✓ <https://youtube.com/watch?v=TDk2RId8LFo> — Remotely Compromising Android and iOS via a Bug in Broadcom's Wi-Fi Ch…
+- ✓ <https://youtube.com/watch?v=tSf_IXfuzXk> — WAF Bypass Techniques Using HTTP Standard and Web Servers Behavior
+- ✓ <https://youtube.com/watch?v=uqFn9aczF_o&list=PL1eoQr97VfJl3u2USITgaNIQUd5mu9Fze> — Building IoT Track
+- ✓ <https://youtube.com/watch?v=wd5OU9NvxjU> — Rock appround the clock: Tracking malware developers by Android
+- ✓ <https://youtube.com/watch?v=wKgVdYKkhIY&list=PLEJJRQNh3v_PQEsZ8R7H6xKe9Bkg_KnVC> — BSides Amsterdam 2017
+- ✓ <https://youtube.com/watch?v=WkyDxNJkgQ4> — Installing DVWA on Kali running in VirtualBox
+- ✓ <https://youtube.com/watch?v=x5ZVL5Uf7ck&list=PL1eoQr97VfJlhuVFjAuLzBsocwxIatDCV> — SAP Security Track
+- ✓ <https://youtube.com/watch?v=YJOMTAREFtY&list=PLH15HpR5qRsUyGhBVRDKGrHyQC5G4jQyd> — Black Hat 2017
+- ✓ <https://youtube.com/watch?v=yU1BrY1ZB2o> — The Smarts Behind Hacking Dumb Devices
+- ✓ <https://youtube.com/watch?v=zfBT7Kc57xs> — Web Application Firewall Bypassing WorkShop
+- ✓ <https://youtube.com/watch?v=Zq2JycGDCPM> — WebSec sponsorship video
+- ✓ <https://zombiehelp54.blogspot.com/2015/09/how-i-found-xss-vulnerability-in-google.html> — How I found XSS Vulnerability in Google
+- ✓ <https://zombiehelp54.blogspot.com/2017/02/sql-injection-in-update-query-bug.html> — SQLI in Update Query Bug
+- ~ <http://blackhat.com> — Black Hat
+- ~ <http://hitcon.org/2016/pacific/agenda.htm> — slides
+- ~ <http://sector.ca/presentations> — Sector 2015
+- ~ <https://blackhat.com/asia-17/briefings.html> — slides
+- ~ <https://blackhat.com/html/bh-us-09> — BlackHat USA 09
+- ~ <https://blackhat.com/html/bh-us-12> — BlackHat USA 12
+- ~ <https://blackhat.com/html/bh-us-13> — BlackHat US 13
+- ~ <https://blackhat.com/html/bh-us-16> — BlackHat US 16
+- ~ <https://blackhat.com/us-16/training> — Blackhat Training
+- ~ <https://blackhat.com/us-17/briefings.html> — slides
+- ~ <https://hitcon.org/2017/CMT/agenda> — slides
+- ~ <https://rsaconference.com/videos?conference=25&keywords=&page=1> — RSA Conference 2018
+- ~ <https://slideshare.net/HackIT-ukraine/presentations> — slides

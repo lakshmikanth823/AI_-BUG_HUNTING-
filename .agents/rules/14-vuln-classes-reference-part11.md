@@ -1,0 +1,85 @@
+---
+trigger: model_decision
+description: "Per-vulnerability technique docs and payload collections: SQLi, XSS, SSRF, IDOR, SSTI, deserialization, request smuggling, race conditions, auth bypass. Use when constructing or explaining a specific vulnerability class. (part 11/11)"
+---
+
+# Security Research Link Corpus — Vulnerability Class Reference & Payloads
+
+Part 11 of 11. 76 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/visual-studio-vsix-extension-abuse> — visual-studio-vsix-extension-abuse
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/abusing-auto-updaters-and-ipc> — abusing-auto-updaters-and-ipc
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/access-tokens> — access-tokens
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/acls-dacls-sacls-aces> — acls-dacls-sacls-aces
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/appenddata-addsubdirectory-permission-over-service-registry> — appenddata-addsubdirectory-permission-over-service-registry
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/arbitrary-kernel-rw-token-theft> — arbitrary-kernel-rw-token-theft
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/cloud-files-placeholder-name-toctou> — cloud-files-placeholder-name-toctou
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/com-hijacking> — com-hijacking
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/create-msi-with-wix> — create-msi-with-wix
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/dll-hijacking/advanced-html-staged-dll-sideloading> — advanced-html-staged-dll-sideloading
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/dll-hijacking/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/dll-hijacking/windows-cpython-build-landmark-sys-path-hijacking> — windows-cpython-build-landmark-sys-path-hijacking
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/dll-hijacking/writable-sys-path-dll-hijacking-privesc> — writable-sys-path-dll-hijacking-privesc
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/dpapi-extracting-passwords> — dpapi-extracting-passwords
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/from-high-integrity-to-system-with-name-pipes> — from-high-integrity-to-system-with-name-pipes
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/integrity-levels> — integrity-levels
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/juicypotato> — juicypotato
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/kernel-mode-file-access-check-bypass> — kernel-mode-file-access-check-bypass
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/kernel-race-condition-object-manager-slowdown> — kernel-race-condition-object-manager-slowdown
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/leaked-handle-exploitation> — leaked-handle-exploitation
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/local-ntlm-reflection-via-smb-arbitrary-port> — local-ntlm-reflection-via-smb-arbitrary-port
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/msi-wrapper> — msi-wrapper
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/named-pipe-client-impersonation> — named-pipe-client-impersonation
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/notepad-plus-plus-plugin-autoload-persistence> — notepad-plus-plus-plugin-autoload-persistence
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/privilege-escalation-abusing-tokens> — privilege-escalation-abusing-tokens
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/privilege-escalation-with-autorun-binaries> — privilege-escalation-with-autorun-binaries
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/roguepotato-and-printspoofer> — roguepotato-and-printspoofer
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/secure-desktop-accessibility-registry-propagation-regpwn> — secure-desktop-accessibility-registry-propagation-regpwn
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/sedebug-%2B-seimpersonate-copy-token> — sedebug-+-seimpersonate-copy-token
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/seimpersonate-from-high-to-system> — seimpersonate-from-high-to-system
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/semanagevolume-perform-volume-maintenance-tasks> — semanagevolume-perform-volume-maintenance-tasks
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/service-triggers> — service-triggers
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/telephony-tapsrv-arbitrary-dword-write-to-rce> — telephony-tapsrv-arbitrary-dword-write-to-rce
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/uiaccess-admin-protection-bypass> — uiaccess-admin-protection-bypass
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/windows-c-payloads> — windows-c-payloads
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/windows-kernel-rootkits-and-dkom> — windows-kernel-rootkits-and-dkom
+- ~ <https://book.hacktricks.wiki/en/src/windows-hardening/windows-local-privilege-escalation/windows-registry-hive-exploitation> — windows-registry-hive-exploitation
+- ~ <https://cloudbric.zendesk.com>
+- ~ <https://darkreading.com/Default.asp> — Dark Reading
+- ~ <https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f> — Cache poisoning and other dirty tricks
+- ~ <https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa> — Neatly bypassing CSP
+- ~ <https://lab.wallarm.com/xxe-that-can-bypass-waf-protection-98f679452ce0> — XXE that can Bypass WAF
+- ~ <https://news.webamooz.com/wp-content/uploads/bot/offsecmag/147.pdf> — CSV Injection -> Meterpreter on Pornhub
+- ~ <https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution> — Exploiting Node.js deserialization bug for Remote Code Execution
+- ~ <https://opsecx.com/index.php/author/ajinabraham> — OpSecX
+- ~ <https://paper.seebug.org/910> — WebLogic RCE (CVE-2019-2725) Debug Diary
+- ~ <https://pentestacademy.wordpress.com> — PENETRATION ACADEMY
+- ~ <https://pentestacademy.wordpress.com/2017/09/20/nfs/?t=1&cn=ZmxleGlibGVfcmVjc18y&refsrc=email&iid=b34422ce15164e99a193fea0ccc7a02f&uid=1959680352&nid=244+289476616> — NFS | PENETRATION TESTING ACADEMY
+- ~ <https://secjuice.com> — @Secjuice
+- ~ <https://secjuice.com/author/paul-dannewitz> — Paul Dannewitz
+- ~ <https://secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor> — Finding The Real Origin IPs Hiding Behind CloudFlare or TOR
+- ~ <https://secjuice.com/php-rce-bypass-filters-sanitization-waf> — How To Exploit PHP Remotely To Bypass Filters & WAF Rules
+- ~ <https://secjuice.com/web-application-firewall-waf-evasion> — Web Application Firewall (WAF) Evasion Techniques #3
+- ~ <https://skavans.ru> — skavans
+- ~ <https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port> — XXE OOB extracting via HTTP+FTP using single opened port
+- ~ <https://slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm> — ORM2Pwn: Exploiting injections in Hibernate ORM
+- ~ <https://slideshare.net/miaoski> — Philippe Lin
+- ~ <https://slideshare.net/miaoski/osint-x-uccu-workshop-on-open-source-intelligence> — OSINT x UCCU Workshop on Open Source Intelligence
+- ~ <https://slideshare.net/simone.onofri/orm-injection> — ORM Injection
+- ~ <https://slideshare.net/x00mario> — Mario Heiderich
+- ~ <https://slideshare.net/x00mario/es6-en> — ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, San…
+- ~ <https://slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks> — JavaScript MVC and Templating Frameworks
+- ~ <https://sneakymonkey.net> — Mark Robinson
+- ~ <https://sneakymonkey.net/2017/04/23/infosec-newbie> — Infosec Newbie
+- ~ <https://start.me/p/QRENnO/databases> — Databases - start.me
+- ~ <https://theregister.co.uk> — The Register
+- ~ <https://umich.edu> — University of Michigan
+- ~ <https://usenix.com> — @UseNix
+- ~ <https://usenix.org/conference/woot12> — UseNix Woot'12
+- ~ <https://usenix.org/conference/woot12/workshop-program/presentation/schmitt> — Fingerprinting Filter Rules of Web Application Firewalls - Side Channe…
+- ~ <https://voidsec.com> — voidsec
+- ~ <https://voidsec.com/vpn-leak> — TL:DR: VPN leaks users’ IPs via WebRTC. I’ve tested seventy VPN provid…
+- ~ <https://w3.org/TR/html5> — <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_lo…
+- ~ <https://wallarm.com> — Wallarm
+- ~ <https://zhuanlan.zhihu.com/p/32716181> — Neat tricks to bypass CSRF-protection

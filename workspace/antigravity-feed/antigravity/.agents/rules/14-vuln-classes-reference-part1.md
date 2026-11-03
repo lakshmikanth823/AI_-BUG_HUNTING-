@@ -1,0 +1,223 @@
+---
+trigger: model_decision
+description: "Per-vulnerability technique docs and payload collections: SQLi, XSS, SSRF, IDOR, SSTI, deserialization, request smuggling, race conditions, auth bypass. Use when constructing or explaining a specific vulnerability class. (part 1/11)"
+---
+
+# Security Research Link Corpus — Vulnerability Class Reference & Payloads
+
+Part 1 of 11. 214 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://book.hacktricks.wiki/en> — HackTricks
+- ✓ <https://book.hacktricks.wiki/en/generic-methodologies-and-resources/index.html> — HackTricks - methodology
+- ✓ <https://book.hacktricks.wiki/en/real-world-apps/index.html> — Tom H (hacktricks) writeups
+- ✓ <https://bugbountyguide.com> — Bug Bounty Hunting methodology (bugbountyguide.com)
+- ✓ <https://cloud.google.com/support/bulletins> — Google Cloud Security Bulletins
+- ✓ <https://cloud.hacktricks.wiki/en> — HackTricks Cloud
+- ✓ <https://cs253.stanford.edu> — Stanford CS253 Web Security (free lectures)
+- ✓ <https://ctf-wiki.org/en> — CTF Wiki (comprehensive)
+- ✓ <https://docs.projectdiscovery.io> — ProjectDiscovery docs
+- ✓ <https://docs.projectdiscovery.io/templates/introduction> — Nuclei template docs
+- ✓ <https://docs.projectdiscovery.io/tools/nuclei/overview> — nuclei + templates workflow
+- ✓ <https://gtfobins.github.io> — GTFOBins (unix binary exploitation)
+- ✓ <https://html5sec.org> — HTML5 Security Cheatsheet
+- ✓ <https://inteltechniques.com> — IntelTechniques
+- ✓ <https://labs.detectify.com> — Detectify Labs (research articles)
+- ✓ <https://lolbas-project.github.io> — LOLBAS (Living Off The Land Binaries and Scripts)
+- ✓ <https://osintframework.com> — OSINT Framework
+- ✓ <https://portswigger.net/bappstore> — PortSwigger BApp store (extensions)
+- ✓ <https://portswigger.net/burp> — PortSwigger Burp Suite
+- ✓ <https://portswigger.net/burp/communitydownload> — Burp Suite Community/Pro
+- ✓ <https://portswigger.net/burp/documentation> — PortSwigger Burp Suite Documentation
+- ✓ <https://portswigger.net/burp/documentation/collaborator> — Burp Collaborator
+- ✓ <https://portswigger.net/research> — PortSwigger Research (exploit techniques)
+- ✓ <https://portswigger.net/web-security> — PortSwigger Web Security Academy (free)
+- ✓ <https://portswigger.net/web-security/all-labs> — PortSwigger Web Security Academy labs
+- ✓ <https://portswigger.net/web-security/certification> — Burp Suite Certified Practitioner
+- ✓ <https://portswigger.net/web-security/cross-site-scripting/cheat-sheet> — XSS cheat sheet (PortSwigger)
+- ✓ <https://seedsecuritylabs.org> — ASU CSE466 / SEED Labs
+- ✓ <https://seedsecuritylabs.org/labs.html> — SEED Labs
+- ✓ <https://swisskyrepo.github.io/PayloadsAllTheThings> — PayloadsAllTheThings
+- ✓ <https://threatmodelingbook.com> — Threat Modeling book site
+- ✓ <https://zaproxy.org> — OWASP Zed Attack Proxy (ZAP)
+- ✓ <https://zaproxy.org/docs> — OWASP ZAP docs
+- ✓ <http://albinowax.skeletonscribe.net> — James Kettle
+- ✓ <http://amzn.to/2iqFTxf> — Inside Windows Debugging
+- ✓ <http://amzn.to/2iusXRW> — Practical Reverse Engineering
+- ✓ <http://amzn.to/2iWPJDd> — Malware Analyst's Cookbook
+- ✓ <http://amzn.to/2jlgioK> — The Rootkit Arsenal
+- ✓ <http://amzn.to/2jljYqE> — Practical Malware Analysis
+- ✓ <http://amzn.to/2jllIAi> — Gray Hat Hacking
+- ✓ <http://amzn.to/2jlnBwX> — Reversing: Secrets of Reverse Engineering
+- ✓ <http://amzn.to/2jlo9mA> — Windows Internals Part 1
+- ✓ <http://amzn.to/2jlxTNp> — The Art of Assembly Language
+- ✓ <http://amzn.to/2jMJQs0> — The Art of Memory Forensics
+- ✓ <http://amzn.to/2jMLCth> — Part 2
+- ✓ <http://amzn.to/2jn9G99> — The Antivirus Hacker's Handbook
+- ✓ <http://amzn.to/2jnkV19> — Hacking: The Art of Exploitation
+- ✓ <http://amzn.to/2jTicOg> — The IDA Pro Book
+- ✓ <http://cerbero-blog.com/?p=1311> — Cerbero Profiler
+- ✓ <http://challenges.re> — Reverse Engineering Challenges
+- ✓ <http://danlec.com> — Daniel LeCheminant
+- ✓ <http://danlec.com/blog/xss-via-a-spoofed-react-element> — XSS via a spoofed React element
+- ✓ <http://decalage.info/python/oletools> — Ole Tools
+- ✓ <http://en.hackdig.com> — HackDig
+- ✓ <http://flare-on.com> — Flare-on Challenges
+- ✓ <http://flaws.cloud> — FLAWS
+- ✓ <http://fumalwareanalysis.blogspot.sg/p/malware-analysis-tutorials-reverse.html> — Dr. Fu's Malware Analysis
+- ✓ <http://help.365cyd.com/cyd-error-help.html?code=403>
+- ✓ <http://hexworkshop.com> — Hex Workshop
+- ✓ <http://hiew.ru> — Hiew
+- ✓ <http://hping.org> — HPing3
+- ✓ <http://html5sec.org> — Reference
+- ✓ <http://hyp3rlinx.altervista.org> — @hyp3rlinx
+- ✓ <http://inetsim.org> — iNetSim
+- ✓ <http://iphistory.ch/en> — IP History
+- ✓ <http://jsfuck.com> — JSFuck
+- ✓ <http://kalitut.com/2016/12/best-ethical-hacking-books.html> — Top Hacking Books
+- ✓ <http://kalitut.com/2017/01/Best-Java-Programming-Books.html> — Top Java Books
+- ✓ <http://kalitut.com/2017/01/Best-reverse-engineering-books.html> — Top Reverse Engineering Books
+- ✓ <http://kalitut.com/2017/01/Top-Programming-Books.html> — Top 5 books Programming Books
+- ✓ <http://labs.detectify.com> — labs.detectify.com
+- ✓ <http://litespeedtech.com/error-page>
+- ✓ <http://lldb.llvm.org> — lldb
+- ✓ <http://malshare.com> — Malshare
+- ✓ <http://mfukar.github.io/2014/03/19/dtrace.html> — dtrace recipes
+- ✓ <http://msreverseengineering.com/research> — Mobius Resources
+- ✓ <http://newdefend.com/feedback/misinformation>
+- ✓ <http://nirsoft.net/utils/smsniff.html> — SmartSniff
+- ✓ <http://ntinfo.biz> — Detect It Easy
+- ✓ <http://ollydbg.de/version2.html> — OllyDbg v2.01
+- ✓ <http://osintframework.com> — OSINT Framework
+- ✓ <http://portswigger.net/burp> — burpsuite
+- ✓ <http://rafaybaloch.com> — Rafay Bloch
+- ✓ <http://researchcenter.paloaltonetworks.com/tag/idapython> — Using IDAPython to Make your Life Easier
+- ✓ <http://rohitab.com/apimonitor> — API Monitor
+- ✓ <http://schemas.xmlsoap.org/soap/envelope>
+- ✓ <http://sweetscape.com/010editor> — 010 Editor
+- ✓ <http://tempuri.org>
+- ✓ <http://utf-8.jp/public/jjencode.html> — JJEncode
+- ✓ <http://uva.nl> — University of Amsterdam
+- ✓ <http://virusshare.com> — Virusshare.com
+- ✓ <http://vxvault.net> — vxvault
+- ✓ <http://winitor.com> — PeStudio
+- ✓ <http://woodmann.com/collaborative/tools/images/Bin_LordPE_2010-6-29_3.9_LordPE_1.41_Deluxe_b.zip> — LordPE
+- ✓ <http://woodmann.com/TiGa> — TiGa's Video Tutorials
+- ✓ <http://xorpd.net/pages/xchg_rax/snip_00.html> — xorpd Advanced Assembly Exercises
+- ✓ <http://xss-quiz.int21h.jp> — XSS Challenges
+- ✓ <http://yara.readthedocs.org/en/v3.4.0/writingrules.html> — Yara docs
+- ✓ <https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce> — Altus iX Developer XAML Deserialization RCE
+- ✓ <https://0day.today> — 0Day Inject0r DB
+- ✓ <https://0x09al.github.io/waf/bypass/ssl/2018/07/02/web-application-firewall-bypass.html> — Bypassing Web-Application Firewalls by abusing SSL/TLS
+- ✓ <https://10degres.net> — Gwen
+- ✓ <https://10degres.net/aws-takeover-through-ssrf-in-javascript> — AWS takeover through SSRF in JavaScript
+- ✓ <https://aivist.dev/the-200-that-proved-nothing> — The 200 That Proved Nothing
+- ✓ <https://alf.nu/alert1> — alert(1) to win
+- ✓ <https://ambionics.io/blog/drupal-services-module-rce> — DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE
+- ✓ <https://app.slack.com/client/T04T40NHX/CJ2QDHLRJ> — channel, #testing-guide
+- ✓ <https://aptive.co.uk> — APTIVE
+- ✓ <https://baimaohui.net> — BAIMAOHUI
+- ✓ <https://beefproject.com> — beefproject
+- ✓ <https://bekchy.com/report>
+- ✓ <https://belfercenter.org> — Belfer Center for Science and International Affairs
+- ✓ <https://benf.org/other/cfr> — CFR
+- ✓ <https://bitvijays.github.io> — The Magic of Learning
+- ✓ <https://blog.0daylabs.com> — 0Day Labs
+- ✓ <https://blog.bentkowski.info> — Michał Bentkowski
+- ✓ <https://blog.bentkowski.info/2018/06/setting-arbitrary-request-headers-in.html> — Setting arbitrary request headers in Chromium via CRLF injection
+- ✓ <https://blog.blackfan.ru> — Sergey Bobrov
+- ✓ <https://blog.h3xstream.com/2014/02/hql-for-pentesters.html> — HQL for pentesters
+- ✓ <https://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html> — Trend Micro Threat Discovery Appliance - Session Generation Authentica…
+- ✓ <https://blog.netspi.com/forcing-xxe-reflection-server-error-messages> — Forcing XXE Reflection through Server Error Messages
+- ✓ <https://blog.netspi.com/hacking-with-jsp-shells> — Hacking with JSP Shells
+- ✓ <https://blog.orange.tw/posts/2017-07-how-i-chained-4-vulnerabilities-on> — How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execut…
+- ✓ <https://blog.ret2.io> — RET2 SYSTEMS, INC
+- ✓ <https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development> — A Methodical Approach to Browser Exploitation
+- ✓ <https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server> — Remote Code Execution on a Facebook server
+- ✓ <https://blogger.com/profile/10856178524811553475> — Gareth Heyes
+- ✓ <https://blogs.securiteam.com> — SecuriTeam Secure Disclosure (SSD)
+- ✓ <https://blogs.securiteam.com/index.php/archives/3379> — SSD Advisory – Chrome Turbofan Remote Code Execution
+- ✓ <https://book.hacktricks.wiki/en/welcome/hacktricks-values-and-faq.html> — HackTricks Values & FAQ
+- ✓ <https://bounty.github.com/researchers/iblue.html> — GitHub Enterprise Remote Code Execution
+- ✓ <https://brokenbrowser.com> — Broken Browser
+- ✓ <https://bsidesmcr.org.uk> — BSides Manchester
+- ✓ <https://buckets.grayhatwarfare.com> — grayhatwarfare
+- ✓ <https://bunkerweb.io> — BunkerWeb
+- ✓ <https://chaitin.com> — chaitin
+- ✓ <https://charlesproxy.com> — Charles Proxy
+- ✓ <https://claude.com/claude-code> — Claude Code
+- ✓ <https://cloudrity.com.vn>
+- ✓ <https://cloudrity.com.vn/customer>
+- ✓ <https://code-white.com> — CODE WHITE
+- ✓ <https://coreruleset.org> — OWASP CRS team
+- ✓ <https://cossacklabs.com> — @cossacklabs
+- ✓ <https://crowdsec.net> — CrowdSec
+- ✓ <https://csoonline.com/author/J.M.-Porup> — J.M Porup
+- ✓ <https://csp-generator.shakiltech.com> — Laravel CSP Generator
+- ✓ <https://csper.io> — Csper
+- ✓ <https://csper.io/evaluator> — csp evaluator
+- ✓ <https://cuckoosandbox.org> — Cuckoo
+- ✓ <https://cure53.de> — Cure53
+- ✓ <https://cure53.de/m> — cure53.de/m
+- ✓ <https://datarift.blogspot.tw> — Scrutiny
+- ✓ <https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob> — Why Facebook's api starts with a for loop
+- ✓ <https://developer.apple.com/library/watchos/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/index.html> — User Guide
+- ✓ <https://developer.apple.com/xcode/download> — XCode Instruments
+- ✓ <https://doar-e.github.io> — Diary of a reverse-engineer
+- ✓ <https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime> — CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime.
+- ✓ <https://docs.google.com/document/d/1cbL-X0kV_tQ5rL8XJ3lXkV-j0pt_CfTu5ZSzYrncPDc> — How do we Stop Spilling the Beans Across Origins?
+- ✓ <https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit> — SSRF bible. Cheatsheet
+- ✓ <https://docs.google.com/presentation/d/1VpRT8dFyTaFpQa9jhehtmGaC7TqQniMSYbUdlHN6VrY/edit?usp=sharing> — The Bug Hunters Methodology v2.1
+- ✓ <https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview> — TCPView
+- ✓ <https://drweb.ru> — Доктор Веб
+- ✓ <https://elevenpaths.com/index.html> — ElevenPaths
+- ✓ <https://epi052.gitlab.io/notes-to-self> — epi
+- ✓ <https://epi052.gitlab.io/notes-to-self/blog/2019-03-07-how-to-test-saml-a-methodology> — How to Hunt Bugs in SAML; a Methodology - Part I
+- ✓ <https://epi052.gitlab.io/notes-to-self/blog/2019-03-13-how-to-test-saml-a-methodology-part-two> — How to Hunt Bugs in SAML; a Methodology - Part II
+- ✓ <https://epi052.gitlab.io/notes-to-self/blog/2019-03-16-how-to-test-saml-a-methodology-part-three> — How to Hunt Bugs in SAML; a Methodology - Part III
+- ✓ <https://excess-xss.com> — C.XSS Guide
+- ✓ <https://facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater> — IE11 Information disclosure - local file detection
+- ✓ <https://first.org/resources/papers/conference2014/first_2014_-_schuster-_andreas_-_yara_basic_and_advanced_20140619.pdf> — Yara First Presentation
+- ✓ <https://fofa.so/?locale=en> — FOFA
+- ✓ <https://free-decompiler.com/flash> — JPEXS Flash Decompiler
+- ✓ <https://georgemauer.net> — George Mauer
+- ✓ <https://georgemauer.net/2017/10/07/csv-injection.html> — The Absurdly Underestimated Dangers of CSV Injection
+- ✓ <https://gitbook.com/book/radare/radare2book/details> — Radare2 Book
+- ✓ <https://github.blog/2016-04-12-githubs-csp-journey> — GitHub's CSP journey
+- ✓ <https://github.blog/2017-01-19-githubs-post-csp-journey> — GitHub's post-CSP journey
+- ✓ <https://google.com> — Google Search
+- ✓ <https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation> — Automating local DTD discovery for XXE exploitation
+- ✓ <https://grayhatwarfare.com> — grayhatwarfare
+- ✓ <https://groups.google.com/a/owasp.org/forum> — Google Group
+- ✓ <https://habr.com/en/company/drweb/blog/452076> — Breaking UC Browser
+- ✓ <https://hackxor.net> — Hackxor
+- ✓ <https://hex-rays.com/contests> — IDA Plugin Contest
+- ✓ <https://hex-rays.com/products/ida/support/idadoc/162.shtml> — IDC Functions Doc
+- ✓ <https://hudsonrock.com> — Hudson Rock
+- ✓ <https://hudsonrock.com/threat-intelligence-cybercrime-tools> — Hudson Rock
+- ✓ <https://imperva.com> — Imperva
+- ✓ <https://imperva.com/lg/lgw_trial.asp?pid=483> — WAF Testing Framework
+- ✓ <https://jameshfisher.com> — jameshfisher
+- ✓ <https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method> — The inception bar: a new phishing method
+- ✓ <https://kloudle.com/blog/piercing-the-cloud-armor-the-8kb-bypass-in-google-cloud-platform-waf> — bypass Google Cloud Platform WAF
+- ✓ <https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss> — CSP: bypassing form-action with reflected XSS
+- ✓ <https://labs.detectify.com/2017/07/27/how-we-invented-the-tesla-dom-doom-xss> — How we invented the Tesla DOM XSS
+- ✓ <https://labs.detectify.com/2018/01/12/how-i-exploited-acme-tls-sni-01-issuing-lets-encrypt-ssl-certs-for-any-domain-using-shared-hosting> — How I exploited ACME TLS-SNI-01 issuing Let's Encrypt SSL-certs for an…
+- ✓ <https://leavesongs.com> — leavesongs
+- ✓ <https://leavesongs.com/SHARE/some-tricks-from-my-secret-group.html> — Some Tricks From My Secret Group
+- ✓ <https://linkedin.com/in/daniel-stelter-gliese-170a70a2> — Daniel Stelter-Gliese
+- ✓ <https://maintenance.blackbaud.com>
+- ✓ <https://mbsd.jp> — Mitsui Bussan Secure Directions, Inc.
+- ✓ <https://mbsd.jp/Whitepaper/rpo.pdf> — MBSD Technical Whitepaper - A few RPO exploitation techniques
+- ✓ <https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf> — XML Out-Of-Band Data Retrieval
+- ✓ <https://mh-nexus.de/en/hxd> — HxD
+- ✓ <https://mohemiv.com> — Arseniy Sharoglazov
+- ✓ <https://mohemiv.com/all/evil-xml> — Evil XML with two encodings
+- ✓ <https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files> — Exploiting XXE with local DTD files
+- ✓ <https://msdn.microsoft.com/en-us/windows/hardware/hh852365.aspx> — WinDbg
+- ✓ <https://netsparker.com> — Netsparker
+- ✓ <https://netspi.com> — NETSPI
+- ✓ <https://noncombatant.org/2017/11/07/problems-of-urls> — Some Problems Of URLs
+- ✓ <https://noncombatant.org/about> — Chris Palmer
+- ✓ <https://nti.nsfocus.com> — NSFOCUS
+- ✓ <https://objective-see.com/products.html> — Objective-See Utilities
+- ✓ <https://onofri.org> — Simone Onofri

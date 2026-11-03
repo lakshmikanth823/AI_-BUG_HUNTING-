@@ -1,0 +1,125 @@
+---
+trigger: model_decision
+description: "Juice Shop, DVWA, WebGoat, vulhub, crAPI, CloudGoat, Kubernetes Goat, mobile vulnerable apps. Use when setting up a safe local lab to reproduce a vulnerability class."
+---
+
+# Security Research Link Corpus — Vulnerable Apps & Practice Labs
+
+Part 1 of 1. 116 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <http://itsecgames.com> — bWAPP - buggy web application
+- ✓ <https://github.com/appsecco/dvja> — DVJA - Damn Vulnerable Java Application
+- ✓ <https://github.com/appsecco/dvna> — DVNA - Damn Vulnerable Node Application
+- ✓ <https://github.com/BishopFox/iam-vulnerable> — IAM Vulnerable - AWS privilege escalation lab
+- ✓ <https://github.com/bridgecrewio/terragoat> — Terraform Goat - IaC security lab
+- ✓ <https://github.com/digininja/DVWA> — DVWA - Damn Vulnerable Web Application
+- ✓ <https://github.com/erev0s/VAmPI> — VAmPI - vulnerable Flask API
+- ✓ <https://github.com/interference-security/DVWS> — DVWS - Damn Vulnerable Web Sockets
+- ✓ <https://github.com/juice-shop/juice-shop> — OWASP Juice Shop (GitHub)
+- ✓ <https://github.com/m6a-UdS/dvca> — Damn Vulnerable Cloud Application
+- ✓ <https://github.com/madhuakula/kubernetes-goat> — Kubernetes Goat
+- ✓ <https://github.com/nccgroup/sadcloud> — SadCloud - insecure AWS stack
+- ✓ <https://github.com/optiv/insecureshop> — InsecureShop - Android vulnerable app
+- ✓ <https://github.com/Orange-Cyberdefense/GOAD> — GOAD - Game of Active Directory attack lab
+- ✓ <https://github.com/OWASP/crAPI> — crAPI - completely ridiculous API
+- ✓ <https://github.com/OWASP/DVSA> — Damn Vulnerable Serverless App
+- ✓ <https://github.com/OWASP/iGoat-Swift> — OWASP iGoat - vulnerable iOS app
+- ✓ <https://github.com/OWASP/railsgoat> — OWASP RailsGoat - insecure Rails app
+- ✓ <https://github.com/payatu/diva-android> — DIVA - Damn Insecure & Vulnerable App for Android
+- ✓ <https://github.com/prateek147/DVIA-v2> — Damn Vulnerable iOS App (DVIA) v2
+- ✓ <https://github.com/rapid7/metasploitable3> — Metasploitable3
+- ✓ <https://github.com/satishpatnayak/AndroGoat> — AndroGoat - vulnerable Android app
+- ✓ <https://github.com/topics/vulnerable-application> — VAmPI / API security labs index
+- ✓ <https://github.com/we45/DVFaaS-Damn-Vulnerable-Functions-as-a-Service> — DVFaaS - Damn Vulnerable Functions as a Service
+- ✓ <https://github.com/WebGoat/WebGoat> — OWASP WebGoat (GitHub)
+- ✓ <https://madhuakula.com/kubernetes-goat> — Kubernetes Goat docs
+- ✓ <https://mas.owasp.org> — OWASP MAS - Mobile Application Security Verification Standard
+- ✓ <https://mas.owasp.org/MASTG> — OWASP MASTG - Mobile App Security Testing Guide
+- ✓ <https://owasp.org/www-project-juice-shop> — OWASP Juice Shop
+- ✓ <https://owasp.org/www-project-modsecurity> — Behinder / WebGoat alternative: OWASP ModSecurity
+- ✓ <https://owasp.org/www-project-pygoat> — OWASP PyGoat
+- ✓ <https://owasp.org/www-project-security-shepherd> — OWASP Security Shepherd
+- ✓ <https://owasp.org/www-project-webgoat> — OWASP WebGoat
+- ✓ <https://owasp.org/www-project-wrongsecrets> — OWASP WrongSecrets
+- ✓ <https://pentesteracademy.com> — Pentester Academy
+- ✓ <https://pwning.owasp-juice.shop> — browse the full content online
+- ✓ <https://vulhub.org> — vulhub documentation
+- ~ <https://sourceforge.net/projects/metasploitable/files/Metasploitable2> — Metasploitable2
+- ✓ <http://hardwear.io>
+- ✓ <http://nodejs.org> — node.js
+- ✓ <http://payatu.com>
+- ✓ <https://apachefriends.org> — XAMPP
+- ✓ <https://bestpractices.dev/projects/223/badge> — ![OpenSSF Best Practices
+- ✓ <https://dashboard.cypress.io/badge/simple/3hrkhu/develop&style=flat&logo=cypress>
+- ✓ <https://docker.com> — Docker
+- ✓ <https://docker.com/support> — tell Docker
+- ✓ <https://docs.docker.com/engine/install> — installation guide
+- ✓ <https://docs.docker.com/engine/install/fedora> — Fedora
+- ✓ <https://docs.docker.com/engine/install/ubuntu> — Ubuntu
+- ✓ <https://getcomposer.org> — Composer
+- ✓ <https://getcomposer.org/doc/00-intro.md>
+- ✓ <https://github.com/advisories/GHSA-fprp-p869-w6q2> — LangChain vulnerable to code injection - CVE-2023-29374
+- ✓ <https://github.com/appknox/vulnerable-application> — AppKnox Vulnerable Application
+- ✓ <https://github.com/cpeoples/dvma> — Damn Vulnerable Mobile App (DVMA)
+- ✓ <https://github.com/CSPF-Founder/DodoVulnerableBank> — DodoVulnerableBank
+- ✓ <https://github.com/dan7800/VulnerableAndroidAppOracle> — VulnerableAndroidAppOracle
+- ✓ <https://github.com/davevs/dvxte> — Damn Vulnerable Xebia Training Environment
+- ✓ <https://github.com/digininja/DVWA.git>
+- ✓ <https://github.com/digininja/DVWA/archive/master.zip> — download a ZIP of the files
+- ✓ <https://github.com/digininja/DVWA/pkgs/container/dvwa> — the prebuilt Docker images
+- ✓ <https://github.com/htbridge/pivaa> — Purposefully Insecure and Vulnerable Android Application (PIIVA)
+- ✓ <https://github.com/IamCarron/DVWA-Script> — DVWA-Script repository
+- ✓ <https://github.com/juice-shop/juice-shop.git>
+- ✓ <https://github.com/juice-shop/juice-shop/fork> — your own fork
+- ✓ <https://github.com/juice-shop/juice-shop/releases/latest> — latest release
+- ✓ <https://github.com/kaiiyer/awesome-vulnerable> — awesome-vulnerable
+- ✓ <https://github.com/Lance0312/VulnApp> — Vulnerable Android Application
+- ✓ <https://github.com/lirantal/is-website-vulnerable> — is-website-vulnerable
+- ✓ <https://github.com/logicalhacking/DVHMA> — Damn Vulnerable Hybrid Mobile App (DVHMA)
+- ✓ <https://github.com/oversecured/ovaa> — Oversecured Vulnerable Android App (OVAA)
+- ✓ <https://github.com/OWASP/igoat> — OWASP iGoat
+- ✓ <https://github.com/prateek147/DVIA> — Damn Vulnerable iOS App (DVIA) v1
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/artifactregistry/gcloud-vuln-scan-missing.yaml> — gcloud-vuln-scan-missing.yaml
+- ✓ <https://github.com/snoopysecurity/dvws> — DVWS
+- ✓ <https://github.com/snoopysecurity/dvws-node>
+- ✓ <https://github.com/snoopysecurity/dvws-node.git>
+- ✓ <https://github.com/Sukelluskello/VectorAttackScanner> — Vector Attack Scanner – To search vulnerable points to attack
+- ✓ <https://github.com/tunz/js-vuln-db> — js-vuln-db
+- ✓ <https://google.com/recaptcha/admin/create>
+- ✓ <https://hub.docker.com/r/bkimminich/juice-shop> — OWASP Juice Shop
+- ✓ <https://hub.docker.com/r/citizenstig/dvwa> — Damn Vulnerable Web Application (DVWA)
+- ✓ <https://hub.docker.com/r/danmx/docker-owasp-webgoat> — OWASP WebGoat Project docker image
+- ✓ <https://hub.docker.com/r/jeroenwillemsen/wrongsecrets> — OWASP WrongSecrets
+- ✓ <https://hub.docker.com/r/vulnerables/cve-2017-7494> — Vulnerability as a service: SambaCry
+- ✓ <https://hub.docker.com/r/webgoat/webgoat-7.1> — OWASP WebGoat Project 7.1 docker image
+- ✓ <https://leanpub.com/juice-shop> — <img alt="Pwning OWASP Juice Shop back cover" src="https://raw.githubu…
+- ✓ <https://mas.owasp.org/contact> — Contact Us
+- ✓ <https://mas.owasp.org/contributing> — Contribute!
+- ✓ <https://mas.owasp.org/crackmes> — Play with our Crackmes
+- ✓ <https://mas.owasp.org/MASTG/0x02b-MASVS-MASTG-Adoption> — Learn more
+- ✓ <https://mas.owasp.org/MASTG/0x02c-Acknowledgements> — Learn more
+- ✓ <https://mas.owasp.org/MASVS> — OWASP MASVS
+- ✓ <https://mas.owasp.org/MASWE> — OWASP MASWE
+- ✓ <https://owasp-juice.shop>
+- ✓ <https://owasp.org/index.php/OWASP_iGoat_Tool_Project> — OWASP iGoat
+- ✓ <https://owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project> — OWASP Vulnerable Web Applications Directory Project (Offline)
+- ✓ <https://php.net/manual/en/mysqli.requirements.php>
+- ✓ <https://pwning.owasp-juice.shop/companion-guide/latest/part1/running.html> — the _Running OWASP Juice Shop_ documentation
+- ✓ <https://pwning.owasp-juice.shop/companion-guide/latest/part3/donations.html>
+- ✓ <https://pwning.owasp-juice.shop/companion-guide/latest/part4/ctf.html> — CTF-support
+- ✓ <https://pwning.owasp-juice.shop/companion-guide/latest/part4/customization.html> — custom re-branding
+- ✓ <https://pwning.owasp-juice.shop/companion-guide/latest/part4/trainers.html> — trainer's guide
+- ✓ <https://pwning.owasp-juice.shop/companion-guide/latest/part4/troubleshooting.html> — our existing _Troubleshooting_
+- ✓ <https://pwning.owasp-juice.shop/companion-guide/snapshot/part1/running.html> — _Setting up external dependencies_ documentation
+- ✓ <https://secure.php.net/manual/en/errorfunc.configuration.php> — [display_startup_errors
+- ✓ <https://secure.php.net/manual/en/filesystem.configuration.php> — [allow_url_include
+- ✓ <https://vagrantup.com/downloads.html> — Vagrant
+- ✓ <https://virtualbox.org> — VirtualBox
+- ✓ <https://virtualbox.org/wiki/Downloads> — Virtualbox
+- ✓ <https://vmware.com> — VMware
+- ~ <http://demo.owasp-juice.shop>
+- ~ <http://dvwa.co.uk> — Damn Vulnerable Web Application
+- ~ <https://book.hacktricks.wiki/en/src/pentesting-web/ssrf-server-side-request-forgery/ssrf-vulnerable-platforms> — ssrf-vulnerable-platforms
+- ~ <https://mariadb.com/resources/blog/how-to-migrate-from-mysql-to-mariadb-on-linux-in-five-steps>
+- ~ <https://ryadel.com/en/fix-mysql-server-gone-away-packets-order-similar-mysql-related-errors>
+- ~ <https://stickeryou.com/products/owasp-juice-shop/794> — StickerYou.com

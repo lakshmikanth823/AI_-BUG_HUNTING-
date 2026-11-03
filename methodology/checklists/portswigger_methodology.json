@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "source": "PortSwigger Web Security Academy & Research",
+  "methodology": {
+    "reconnaissance": [
+      {
+        "phase": "Passive Recon",
+        "actions": [
+          "Enumerate subdomains via certificate transparency logs and search index dumps",
+          "Identify technology stack, framework footprints, and reverse proxies",
+          "Collect archived URLs via Wayback Machine and Common Crawl"
+        ]
+      },
+      {
+        "phase": "Active Recon & Mapping",
+        "actions": [
+          "Spider application routes, single page application (SPA) client-side routes, and JS chunk manifests",
+          "Extract hidden API endpoints from client-side JavaScript bundles and Swagger/OpenAPI specs",
+          "Map multi-tenant role hierarchies and identify user-state transitions"
+        ]
+      }
+    ],
+    "vulnerability_playbooks": {
+      "SQL_Injection": {
+        "detection_strategy": "Submit single quote, double quote, arithmetic expressions (e.g., 2-1), and sleep functions in each parameter.",
+        "subtypes": [
+          "In-band UNION SQLi: Determine column count with ORDER BY n, match data types, extract DB version/user",
+          "Boolean Blind SQLi: Submit TRUE condition (1=1) and FALSE condition (1=2), compare response length and status",
+          "Time Blind SQLi: Submit database-specific delays (SLEEP(5), pg_sleep(5), WAITFOR DELAY '0:0:5')",
+          "Out-of-band (OAST): Submit DNS/HTTP lookup payloads (xp_dirtree, UTL_INADDR)"
+        ],
+        "kill_rules": "Do not report database 500 error alone without data extraction or boolean differential proof."
+      },
+      "Cross_Site_Scripting": {
+        "detection_strategy": "Inject unique alphanumeric canary strings (e.g. z9y8x7) to inspect reflection context (HTML tag, attribute, JS variable).",
+        "subtypes": [
+          "Reflected: Payload in GET/POST echoed immediately in response HTML",
+          "Stored: Payload saved to backend database and rendered to subsequent viewers",
+          "DOM-based: Source (location.search, hash) passes into dangerous sink (innerHTML, eval) without sanitization"
+        ],
+        "poc_standard": "Must pop alert(document.domain) or demonstrate token access; no theoretical payloads without execution context."
+      },
+      "Server_Side_Request_Forgery": {
+        "detection_strategy": "Inject collaborator/burpcollaborator/webhook URLs into parameter accepting remote resources.",
+        "subtypes": [
+          "Basic SSRF: Server makes request and returns response body to user",
+          "Blind SSRF: Server makes request but does not reflect response (requires OAST DNS/HTTP confirmation)",
+          "Cloud Metadata SSRF: Access 169.254.169.254 or internal RFC 1918 addresses"
+        ],
+        "kill_rules": "Blind DNS ping without access to internal services or metadata is not eligible for bounty unless chained."
+      },
+      "Broken_Object_Level_Auth": {
+        "detection_strategy": "Register two separate user accounts (User A, User B). Attempt to read or modify User B's resources using User A's session.",
+        "subtypes": [
+          "Horizontal IDOR: User A accesses User B's private resources at the same privilege tier",
+          "Vertical IDOR: User A invokes administrative or higher-tier endpoints without privilege"
+        ],
+        "poc_standard": "Provide two request-response transcripts showing unauthorized access to second account's data."
+      }
+    }
+  }
+}

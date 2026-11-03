@@ -1,0 +1,198 @@
+---
+trigger: model_decision
+description: "DEF CON, Black Hat, Recon and other conference media, YouTube channels, podcasts, newsletters. Use when recommending a talk or written deep-dive. (part 1/2)"
+---
+
+# Security Research Link Corpus — Talks, Conferences, Video & Podcasts
+
+Part 1 of 2. 189 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://bsides.org> — BSides events
+- ✓ <https://cansecwest.com> — CanSecWest
+- ✓ <https://conference.hitb.org> — HITB
+- ✓ <https://googleprojectzero.blogspot.com> — Google Project Zero blog
+- ✓ <https://nullcon.net> — Nullcon
+- ✓ <https://powerofcommunity.net> — POC (Power of Community)
+- ✓ <https://recon.cx> — Recon
+- ✓ <https://youtube.com/@BugBountyReportsExplained> — Bug Bounty Reports Explained (YouTube)
+- ✓ <https://youtube.com/@InsiderPhD> — InsiderPhD - API bug bounty methodology
+- ✓ <https://youtube.com/@ippsec> — IppSec YouTube (HTB walkthroughs)
+- ✓ <https://youtube.com/@LiveOverflow> — LiveOverflow YouTube channel
+- ✓ <https://youtube.com/@LoiLiangYang> — Loi Liang Yang (bug bounty)
+- ✓ <https://youtube.com/@Nahamsec> — NahamSec YouTube
+- ✓ <https://youtube.com/@STOK> — STOK YouTube
+- ✓ <https://youtube.com/@TCMSecurityAcademy> — The Cyber Mentor YouTube
+- ✓ <https://youtube.com/playlist?list=PLbyZQYCXbWvVQYBnZlQOZkPnGmQvJqZ0L> — Bug Bounty Reports Explained - playlist
+- ✓ <https://youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN> — LiveOverflow CTF videos
+- ✓ <https://youtube.com/playlist?list=PLKAHLKWn8QFZ2xwQkYvQqGqYwBnQmZKxL> — NahamSec - Bug Bounty 101
+- ✓ <https://youtube.com/watch?v=uKWu6yhnhnQ> — Jason Haddix - TBH (The Bug Hunter's Methodology)
+- ~ <https://44con.com> — 44Con
+- ~ <https://blackhat.com> — Black Hat
+- ~ <https://blackhat.com/us-24/briefings/schedule> — Black Hat Briefings archive
+- ~ <https://media.defcon.org> — DEF CON Media Server (free talks)
+- ✓ <http://androidcracking.blogspot.com/2011/03/original-smalihook-java-source.html> — smalihook
+- ✓ <http://contagiodump.blogspot.com> — Contagio
+- ✓ <http://contagiominidump.blogspot.com> — Contagio Mobile Malware Mini Dump
+- ✓ <http://devseccon.com/london-2016/london-2016-videos> — DevSecCon London 2016
+- ✓ <http://files.brucon.org/2017> — slides
+- ✓ <http://hack.lu> — hack.lu CTF
+- ✓ <http://infosecninja.blogspot.com>
+- ✓ <http://irongeek.com> — IronGeek
+- ✓ <http://irongeek.com/i.php?page=videos/bloomcon2017/mainlist> — Bloomcon
+- ✓ <http://irongeek.com/i.php?page=videos/bsidescolumbus2017/mainlist> — BSides Columbus 2017
+- ✓ <http://irongeek.com/i.php?page=videos/bsideshuntsville2016/mainlist> — BSides Huntsville 2016
+- ✓ <http://irongeek.com/i.php?page=videos/bsidesindy2016/mainlist> — BSides Cleveland 2016
+- ✓ <http://irongeek.com/i.php?page=videos/bsidesnashville2016/mainlist> — BSides Nashville 2016
+- ✓ <http://irongeek.com/i.php?page=videos/bsidesnashville2017/mainlist> — BSides Nashville
+- ✓ <http://irongeek.com/i.php?page=videos/bsidesphilly2016/mainlist> — BSides Philadelphia 2016
+- ✓ <http://irongeek.com/i.php?page=videos/bsidessf2016/mainlist> — BSides San Francisco 2016
+- ✓ <http://irongeek.com/i.php?page=videos/centralohioinfosec2016/mainlist> — Central Ohio ISSA 2016
+- ✓ <http://irongeek.com/i.php?page=videos/cyphercon2/mainlist> — Cyphercon 2.0
+- ✓ <http://irongeek.com/i.php?page=videos/cyphercon2016/mainlist> — CypherCon 2016
+- ✓ <http://irongeek.com/i.php?page=videos/derbycon6/mainlist> — DerbyCon 6.0
+- ✓ <http://microsoftrnd.co.il/bluehat/Pages/Presentations.aspx> — Blue Hat IL
+- ✓ <http://nullcon.net>
+- ✓ <http://nullcon.net/website> — Nullcon
+- ✓ <https://2015.appsec.eu/presentations> — slides
+- ✓ <https://2016.appsec.eu/?page_id=914> — slides
+- ✓ <https://2017.zeronights.ru/materials> — slides
+- ✓ <https://2020udemycoupons.blogspot.com>
+- ✓ <https://3xpl01tc0d3r.blogspot.com/2019/09/security-testing-for-android-app-part1.html> — Security Testing for Android Cross Platform Application
+- ✓ <https://archive.org/details/shmoocon-2016> — Shmoocon 2016
+- ✓ <https://archive.org/details/ShmooCon2017> — ShmooCon 2017
+- ✓ <https://artsploit.blogspot.com/2016/01/paypal-rce.html> — Paypal RCE
+- ✓ <https://blackhat.com/docs/asia-16/materials/asia-16-Baloch-Bypassing-Browser-Security-Policies-For-Fun-And-Profit-wp.pdf> — Bypassing Mobile Browser Security For Fun And Profit
+- ✓ <https://blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf> — DON'T TRUST THE DOM: BYPASSING XSS MITIGATIONS VIA SCRIPT GADGETS
+- ✓ <https://blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf> — A New Era of SSRF - Exploiting URL Parser in Trending Programming Lang…
+- ✓ <https://botconf.eu/botconf-2015/final-programme> — slides
+- ✓ <https://bugbaba.blogspot.com/2017/08/xss-because-of-wrong-content-type-header.html> — XSS because of wrong content type header
+- ✓ <https://bugbaba.blogspot.com/2018/02/exploiting-cors-miss-configuration.html> — Explpoiting CORS misconfiguration
+- ✓ <https://codewhitesec.blogspot.com/2018/05/poor-richfaces.html> — Poor RichFaces
+- ✓ <https://cybersectory.com> — Cybersectory
+- ✓ <https://cybristerboy.blogspot.com/2018/05/how-i-found-5-store-xss-on-private.html> — How I found 5 stored XSS on a private program
+- ✓ <https://dotdotpwn.blogspot.com> — DotDotPwn
+- ✓ <https://evanricafort.blogspot.com/2019/08/ssrf-vulnerability-in.html> — SSRF vulnerability
+- ✓ <https://flex0geek.blogspot.com/2020/02/using-csrf-i-got-weird-account-takeover.html> — Using CSRF I got weird account takeover
+- ✓ <https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html> — A year of Windows kernel font fuzzing Part-1 the results
+- ✓ <https://googleprojectzero.blogspot.com/2016/07/a-year-of-windows-kernel-font-fuzzing-2.html> — A year of Windows kernel font fuzzing Part-2 the techniques
+- ✓ <https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html> — Deep dive into iOS Exploit chains found in the wild - Project Zero
+- ✓ <https://googleprojectzero.blogspot.com/2019/08/the-fully-remote-attack-surface-of.html> — The Fully Remote Attack Surface of the iPhone - Project Zero
+- ✓ <https://googleprojectzero.blogspot.com/2020/04/fuzzing-imageio.html> — Fuzzing ImageIO
+- ✓ <https://hack.lu> — Hack.lu
+- ✓ <https://httpsonly.blogspot.com/2016/08/turning-self-xss-into-good-xss-v2.html> — Turning self XSS into good XSS v2
+- ✓ <https://insomnihack.ch/?p=668> — slides
+- ✓ <https://irongeek.com/i.php?page=videos/bsidescolumbus2016/mainlist> — BSides Columbus 2016
+- ✓ <https://jin0ne.blogspot.com/2019/11/bugbounty-simple-ssrf.html> — Bugbounty simple SSRF
+- ✓ <https://josipfranjkovic.blogspot.com/2013/07/sql-injections-in-nokia-sites.html> — SQLI in Nokia Sites
+- ✓ <https://josipfranjkovic.blogspot.com/2014/09/step-by-step-exploiting-sql-injection.html> — Step by Step Exploiting SQLI in Oculus
+- ✓ <https://josipfranjkovic.blogspot.com/2015/04/race-conditions-on-facebook.html> — Race condition bugs on Facebook
+- ✓ <https://mahmoudsec.blogspot.com/2018/07/sql-injection-and-silly-waf.html> — SQLI amd silly WAF
+- ✓ <https://mahmoudsec.blogspot.com/2019/04/handlebars-template-injection-and-rce.html> — Handlebars Tempelate Injection and RCE
+- ✓ <https://media.ccc.de> — C3TV page
+- ✓ <https://media.ccc.de/b/congress/2016> — Chaos Communication Congress 2016 (33C3)
+- ✓ <https://media.ccc.de/c/30c3> — Chaos Communication Congress 2013 (30C3)
+- ✓ <https://media.ccc.de/c/34c3> — Chaos Communication Congress 2017 (34C3)
+- ✓ <https://media.ccc.de/c/denog7> — DENOG 7
+- ✓ <https://media.ccc.de/c/eh15> — Easterhegg 2015
+- ✓ <https://media.ccc.de/c/froscon2014> — FrOSCon 9
+- ✓ <https://media.ccc.de/c/froscon2015> — FrOSCon 10
+- ✓ <https://media.ccc.de/c/SHA2017> — SHA2017
+- ✓ <https://nileshsapariya.blogspot.com/2016/11/zero-to-hero-mobile-application-testing.html> — Zero to Hero - Mobile Application Testing - Android Platform
+- ✓ <https://psc2015videos.projectbullrun.org> — Post-Snowden Cryptography 2015
+- ✓ <https://recon.cx/2015/recordings> — REcon 2015
+- ✓ <https://recon.cx/2015/training.html> — REcon Training
+- ✓ <https://recon.cx/2017/montreal/recordings> — Recon 2017
+- ✓ <https://recon.cx/2017/montreal/slides> — slides
+- ✓ <https://recon.cx/2018/brussels/slides> — slides
+- ✓ <https://ricercasecurity.blogspot.com/2021/11/armored-coresight-towards-efficient.html> — ARMored CoreSight: Towards Efficient Binary-only Fuzzing
+- ✓ <https://twitch.tv/nahamsec> — Nahamsec on Twitch
+- ✓ <https://video.fosdem.org/2017> — Fosdem 2017
+- ✓ <https://vimeo.com> — Vimeo
+- ✓ <https://vimeo.com/109380793> — Browser bug hunting - Memoirs of a last man standing
+- ✓ <https://vimeo.com/231806976> — Reverse Engineering the iOS Simulator’s SpringBoard
+- ✓ <https://vimeo.com/335948808> — Get the Ultimate Privilege of Android Phone
+- ✓ <https://vimeo.com/5236104> — NYU Poly ( see videos for more )
+- ✓ <https://vimeo.com/5237484> — Fuzzing 101 (Part 2)
+- ✓ <https://vimeo.com/7574602> — Fuzzing 101 (2009)
+- ✓ <https://vimeo.com/album/3070225> — 44CON 2014
+- ✓ <https://vimeo.com/user18478112/videos/sort:date> — Infiltrate 2015
+- ✓ <https://w00tsec.blogspot.com/2018/04/abusing-mysql-local-infile-to-read.html> — VolgaCTF 2018 - Corp Monitoring
+- ✓ <https://youtu.be/C-kig5qrPSA?si=_a4Bop505-1tXb_F> — Fixing DVWA Setup Issues
+- ✓ <https://youtu.be/C-kig5qrPSA?si=_a4Bop505-1tXb_F&t=444> — Video Help
+- ✓ <https://youtu.be/C-kig5qrPSA?si=_a4Bop505-1tXb_F&t=630> — Video Help
+- ✓ <https://youtu.be/C-kig5qrPSA?si=_a4Bop505-1tXb_F&t=973> — Video Help
+- ✓ <https://youtu.be/C-kig5qrPSA?si=wTS3Aj8fycW3Idfr&t=141> — Video Help
+- ✓ <https://youtu.be/C-kig5qrPSA?si=wTS3Aj8fycW3Idfr&t=243> — Video Help
+- ✓ <https://youtu.be/qTTwqFRD1H8> — Effective File Format Fuzzing
+- ✓ <https://youtu.be/TXAztSpYpvE?t=26m35s> — Actually the most bug-free vulnerable application in existence!
+- ✓ <https://youtu.be/V4MATqtdxss> — Finding and Exploiting Reflected XSS
+- ✓ <https://youtu.be/Yzksa_WjnY0> — Installing DVWA on Windows using XAMPP
+- ✓ <https://youtube.com> — YouTube
+- ✓ <https://youtube.com/c/Bendobrown> — Bendobrown
+- ✓ <https://youtube.com/channel/UC1mLiimOTqZFK98VwM8Ke4w> — BSides Manchester
+- ✓ <https://youtube.com/channel/UC3iAdvT7XGI7LtZxu4qHgRg> — HP Security Research Playlist
+- ✓ <https://youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA> — IppSec
+- ✓ <https://youtube.com/channel/UCdPXW0LcFUEOdj9ROkZMp4w> — NAVAJA NEGRA CONFERENCE
+- ✓ <https://youtube.com/channel/UCEBHO0kD1WFvIhf9wBCU-VQ> — Fools of Security
+- ✓ <https://youtube.com/channel/UCEiHGeWgdIoLCzTLm_izCoQ/videos> — Saint Con 2015
+- ✓ <https://youtube.com/channel/UCGD1Qt2jgnFRjrfAITGdNfQ> — Fuzzing Labs - Patrick Ventuzelo
+- ✓ <https://youtube.com/channel/UCgQUxiK2oYU4kQOy9oJnMpQ/videos?sort=dd&view=0&shelf_id=0> — Neoquest 2017 (Russian only)
+- ✓ <https://youtube.com/channel/UCIdV7bE97mSPTH1mOi_yUrw> — USENIX Enigma Conference 2016
+- ✓ <https://youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w> — LiveOverFlow
+- ✓ <https://youtube.com/channel/UCU03OcR9FzCUTc2V1OYLZqg> — BSides Boston
+- ✓ <https://youtube.com/channel/UCuJ0qrx-oNq2hxrUX5IYd9A/videos> — BSides SLC 2015
+- ✓ <https://youtube.com/channel/UCxzs-N2sHnXFwi0XjDIMTPg> — Brian McHenry
+- ✓ <https://youtube.com/channel/UCzpfaWiZaT9_msL3jdY_FDw> — OWASP EEE (Eastern European Event)
+- ✓ <https://youtube.com/NahamSec> — Nahamsec on YouTube
+- ✓ <https://youtube.com/playlist?list=PL-XyPQsyOrNEoJ4xC4Q5OY24Y5I-lUTRz> — Code Blue 2015
+- ✓ <https://youtube.com/playlist?list=PL-XyPQsyOrNFzTh7UGhzaRw5s3634z0YZ> — Code Blue 2013
+- ✓ <https://youtube.com/playlist?list=PL-XyPQsyOrNH6yjMad_XNH4Bo-I133jag> — Code Blue 2014
+- ✓ <https://youtube.com/playlist?list=PL02T0JOKYEq52plvmxiJ1cSbwUgHHvP7H> — BSides Toronto 2015
+- ✓ <https://youtube.com/playlist?list=PL091tVBWhjdRWx-ifdfpEh_r7F4ZgPmj4> — FSec 2016
+- ✓ <https://youtube.com/playlist?list=PL0n_p9YGRhHi9jDb6codB-TocS-mDU2TS> — Hackito Ergo Sum 2015
+- ✓ <https://youtube.com/playlist?list=PL7_XhIpUqISnG5c83yw1OGmwfngzpvlld> — GreHack 2016
+- ✓ <https://youtube.com/playlist?list=PL7_XhIpUqISnoe1hpTZrnbSYbM76WUQBF> — Grehack 2015
+- ✓ <https://youtube.com/playlist?list=PL7D3STHEa66R0nWbixrTo3O7haiMmA71T> — ShellCon
+- ✓ <https://youtube.com/playlist?list=PL8fFmUArVzKi06Ad5VFihn0csUwZ3xEGG> — Botconf 2014
+- ✓ <https://youtube.com/playlist?list=PL9fPq3eQfaaA4qJEQQyXDYtTIfxCNA0wB> — DEF CON 27
+- ✓ <https://youtube.com/playlist?list=PL9fPq3eQfaaBuHqVvDzPoWxznYYmyx5UX> — DEF CON 23
+- ✓ <https://youtube.com/playlist?list=PL_IxoDz1Nq2b99U-g1iPLclDCsmqJKB82> — Chaos Communication Congress 2014 (31C3)
+- ✓ <https://youtube.com/playlist?list=PL_IxoDz1Nq2YahR4DU9q5GWsSTle-mETW> — Chaos Communication Congress 2015 (32C3)
+- ✓ <https://youtube.com/playlist?list=PLaIv9WEAzYZM7l9SEY8cKtSLWwV8e50aL> — Ekoparty 2016
+- ✓ <https://youtube.com/playlist?list=PLaS1tu_LcHA8yOrGuyvBIJjEO87-vXQG2> — Hack in Paris 2017
+- ✓ <https://youtube.com/playlist?list=PLaXanmjyAPzE1IdtfIevH0CS7mofDkq2f> — Hackfest 2015
+- ✓ <https://youtube.com/playlist?list=PLaXanmjyAPzF_Sa1JHpgZlHWz0_MDYTe2> — Hackfest 2016
+- ✓ <https://youtube.com/playlist?list=PLaXanmjyAPzH5atgS2urpAW1-dv85_M4A> — Hackfest 2014
+- ✓ <https://youtube.com/playlist?list=PLBA0WdWrcrCHpBtNgK-H64_S6-xBpzILR> — DeepSec 2015
+- ✓ <https://youtube.com/playlist?list=PLbDDsIuMYNGxcXjY9gGY4j_fgm8pRsXSl> — RuhrSec 2017 Day 2
+- ✓ <https://youtube.com/playlist?list=PLbDDsIuMYNGxVOEGpyVzgDUgxZqCoTf2F> — RuhrSec 2018 Day 2
+- ✓ <https://youtube.com/playlist?list=PLbDDsIuMYNGxx4DHwYYZ-Kfnk4uDLGUcx> — RuhrSec 2019 Day 2
+- ✓ <https://youtube.com/playlist?list=PLbDDsIuMYNGyUPEUZnvu-cWcgHfiBHQ8H> — RuhrSec 2019 Day 1
+- ✓ <https://youtube.com/playlist?list=PLbDDsIuMYNGyVsuOhgE4n4sOMwIXEUjgP> — RuhrSec 2017 Day 1
+- ✓ <https://youtube.com/playlist?list=PLbDDsIuMYNGzNPUVQa7PLfLz3eC6EaqC9> — RuhrSec 2018 Day 1
+- ✓ <https://youtube.com/playlist?list=PLbRoZ5Rrl5lfeRixThHzgGYj1wu80JOh3> — USENIX Security 2015
+- ✓ <https://youtube.com/playlist?list=PLbuNP88_wbNzN2AMGH8-rm8GwiZOfPk7Q> — BSides Lisbon 2016
+- ✓ <https://youtube.com/playlist?list=PLbZzXF2qC3Rsv-7uUugKLaz5CzQUnuAk8> — BSides San Francisco 2017
+- ✓ <https://youtube.com/playlist?list=PLcAhMYXnWf9vFXSUKUwB44t6BbVpwLrlJ> — Insomni’hack
+- ✓ <https://youtube.com/playlist?list=PLcgqQkap1lNqN1uv4xj8tcJq5QOzg3ROY> — BSides Manchester 2016
+- ✓ <https://youtube.com/playlist?list=PLcgqQkap1lNqshXNFLodW959hNipK7Px2> — BSides Manchester 2014
+- ✓ <https://youtube.com/playlist?list=PLcgqQkap1lNrcjRNqx0nddoHE75fCM6If> — BSides Manchester 2015
+- ✓ <https://youtube.com/playlist?list=PLcrUMxzVpi6waVMFpbc2MFrbE5uB_EPJU> — BSides London 2015
+- ✓ <https://youtube.com/playlist?list=PLCxOaebc_2yNlOGhuOjInlJvr0Ktb_FYz> — Hack.lu
+- ✓ <https://youtube.com/playlist?list=PLdh5UOMgeDvkWYaZcUrFagUY2zUtfMafR> — Carolina Con 2015
+- ✓ <https://youtube.com/playlist?list=PLdIqs92nsIzQvvbTiWLLjZOVE7jPBDomw> — Passwords 2015
+- ✓ <https://youtube.com/playlist?list=PLdIqs92nsIzT2ao_wAJ2GCRKl_3zaebgb> — PasswordsCon 2016
+- ✓ <https://youtube.com/playlist?list=PLeeS-3Ml-rpoNWewUnljPP7QN4USn4c7H> — Crypto 2015
+- ✓ <https://youtube.com/playlist?list=PLEl1NAXHTFNzlKjae0e_-lIktpPeTRR7e> — Positive Hack Days V
+- ✓ <https://youtube.com/playlist?list=PLEl1NAXHTFNzYUBqKQFJ7ZuZN0YxrY2AH> — Positive HackDays VI
+- ✓ <https://youtube.com/playlist?list=PLEM-Gz73yUqWL97CHshZdVChxNXUpruDz> — Cairo Security Camp 2015
+- ✓ <https://youtube.com/playlist?list=PLeUGLKUYzh_hr2_j0RNVSD6wZQIhdfoGe> — RSA 2015 (Keynotes)
+- ✓ <https://youtube.com/playlist?list=PLeUGLKUYzh_ixxt6PoRiWoJsoGtS-JmKR> — RSAC
+- ✓ <https://youtube.com/playlist?list=PLeUGLKUYzh_j1Q75yeae8upX-T1FLmZWf> — RSA Conference 2017
+- ✓ <https://youtube.com/playlist?list=PLfouvuAjspToHlyi9rnayB1WXFVmH037C> — Cyber Threat Intelligence Summit 2015
+- ✓ <https://youtube.com/playlist?list=PLFvh_k-n27CnvMIYBLGAjQ7ekaC10t9y4> — BSidesCincy 2015
+- ✓ <https://youtube.com/playlist?list=PLghf5UNZbzG0zLarfwpw4PxPTS0IWo8vB> — CERT.pl Secure 2015
+- ✓ <https://youtube.com/playlist?list=PLH15HpR5qRsVd9jdTWUB5s16fmr2VCQyS> — Black Hat Europe 2015
+- ✓ <https://youtube.com/playlist?list=PLH15HpR5qRsWLd417eaJNy7CCEDyA53Pz> — Black Hat Asia 2016
+- ✓ <https://youtube.com/playlist?list=PLH15HpR5qRsXF78lrpWP2JKpPJs_AFnD7> — Black Hat 2015
+- ✓ <https://youtube.com/playlist?list=PLH15HpR5qRsXm0-rMacuWBxWcB2fmsmEw> — Black Hat 2016

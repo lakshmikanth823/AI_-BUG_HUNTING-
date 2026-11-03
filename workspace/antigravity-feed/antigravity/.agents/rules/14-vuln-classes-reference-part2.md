@@ -1,0 +1,187 @@
+---
+trigger: model_decision
+description: "Per-vulnerability technique docs and payload collections: SQLi, XSS, SSRF, IDOR, SSTI, deserialization, request smuggling, race conditions, auth bypass. Use when constructing or explaining a specific vulnerability class. (part 2/11)"
+---
+
+# Security Research Link Corpus — Vulnerability Class Reference & Payloads
+
+Part 2 of 11. 178 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://openbuckets.io> — OpenBuckets
+- ✓ <https://opnsec.com> — Enguerran Gillier
+- ✓ <https://opnsec.com/2018/03/stored-xss-on-facebook> — Stored XSS on Facebook
+- ✓ <https://optiv.com/blog/escape-and-evasion-egressing-restricted-networks> — Escape and Evasion Egressing Restricted Networks
+- ✓ <https://osandamalith.com> — Blog of Osanda
+- ✓ <https://osandamalith.com/2019/10/12/bypassing-the-webarx-web-application-firewall-waf> — Bypassing All Protections Using A Whitelist String
+- ✓ <https://owasp.com> — @OWASP
+- ✓ <https://pastebin.com> — Pastebin
+- ✓ <https://pastebin.com/i8Ans4d4> — XSS Bypass
+- ✓ <https://pentest-tools.com/blog/author/pentest-cristian> — CRISTIAN CORNEA
+- ✓ <https://pentest-tools.com/blog/exploit-dotnetnuke-cookie-deserialization> — How to exploit the DotNetNuke Cookie Deserialization
+- ✓ <https://peoplefindthor.dk> — peoplefindThor
+- ✓ <https://perimeterx.com/whywasiblocked>
+- ✓ <https://petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types> — GraphQL NoSQL Injection Through JSON Types
+- ✓ <https://petecorey.com/work> — Pete
+- ✓ <https://phonexicum.github.io/infosec/xxe.html> — XXE
+- ✓ <https://phrack.org> — Phrack Magazine
+- ✓ <https://policies.accenture.com>
+- ✓ <https://portswigger.net> — PortSwigger Web Security
+- ✓ <https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c> — Bypass WAF BurpSuite Plugin
+- ✓ <https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures> — Bypassing Web Cache Poisoning Countermeasures
+- ✓ <https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup> — Evading CSP with DOM-based dangling markup
+- ✓ <https://portswigger.net/blog/practical-web-cache-poisoning> — Practical Web Cache Poisoning
+- ✓ <https://portswigger.net/blog/so-you-want-to-be-a-web-security-researcher> — So you want to be a web security researcher?
+- ✓ <https://portswigger.net/blog/xss-in-hidden-input-fields> — XSS in hiden input fields
+- ✓ <https://portswigger.net/blog/xss-without-parentheses-and-semi-colons> — XSS without parentheses and semi-colons
+- ✓ <https://portswigger.net/burp/documentation/desktop/mobile-testing> — Burp Suite Mobile Assistant
+- ✓ <https://portswigger.net/burp/download.html> — Burp Suite
+- ✓ <https://portswigger.net/daily-swig> — The Daily Swig - Web security digest
+- ✓ <https://portswigger.net/research/dom-based-angularjs-sandbox-escapes> — DOM based Angular sandbox escapes
+- ✓ <https://portswigger.net/research/json-hijacking-for-the-modern-web> — JSON hijacking for the modern web
+- ✓ <https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack> — Turbo Intruder
+- ✓ <https://portswigger.net/research/xss-without-html-client-side-template-injection-with-angularjs> — XSS without HTML: Client-Side Template Injection with AngularJS
+- ✓ <https://portswigger.net/web-security/graphql/lab-graphql-csrf-via-graphql-api> — Portswigger's lab
+- ✓ <https://portswigger.net/web-security/xxe> — XML external entity (XXE) injection
+- ✓ <https://pwndizzle.blogspot.jp> — PwnDizzle
+- ✓ <https://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html> — Brute Forcing Your Facebook Email and Phone Number
+- ✓ <https://qualys.com> — Qualys
+- ✓ <https://rafaybaloch.com> — Rafay Baloch
+- ✓ <https://rails-sqli.org> — Rails SQL Injection
+- ✓ <https://reverse.put.as/crackmes> — OSX Crackmes
+- ✓ <https://rubyonrails.org> — Rails team
+- ✓ <https://s0cket7.com> — s0cket7
+- ✓ <https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html> — Stored XSS, and SSRF in Google using the Dataset Publishing Language
+- ✓ <https://scapy.net> — Scapy
+- ✓ <https://seclists.org/fulldisclosure/2018/Jul/3> — XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)
+- ✓ <https://securemonk.io/insights/state-of-tls> — State of TLS on the public web
+- ✓ <https://securitool.js.org> — SecuriTool
+- ✓ <https://selinuxgame.org> — SELinux Game
+- ✓ <https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes> — Hardcoded secrets, unverified tokens, and other common JWT mistakes
+- ✓ <https://shiftordie.de> — Alexander Klink
+- ✓ <https://shiftordie.de/blog/2017/02/18/smtp-over-xxe> — SMTP over XXE − how to send emails using Java's XML parser
+- ✓ <https://sites.google.com/site/bughunteruniversity/behind-the-scenes/presentations/google-vrp-and-unicorns> — Google VRP and Unicorns
+- ✓ <https://sites.google.com/site/testsitehacking> — Ezequiel Pereira
+- ✓ <https://sites.google.com/site/testsitehacking/-7-5k-Google-services-mix-up> — $7.5k Google services mix-up
+- ✓ <https://speakerdeck.com/filedescriptor/the-cookie-monster-in-your-browsers> — The Cookie Monster in Your Browsers
+- ✓ <https://speakerdeck.com/shhnjk/the-world-of-site-isolation-and-compromised-renderer> — The world of Site Isolation and compromised renderer
+- ✓ <https://sploitus.com> — SPLOITUS
+- ✓ <https://sqlchop.chaitin.cn> — sqlchop
+- ✓ <https://sqlwiki.netspi.com> — SQL Injection Wiki
+- ✓ <https://ssllabs.com> — Qualys SSL Labs
+- ✓ <https://ssllabs.com/ssltest> — Qualys SSL Check
+- ✓ <https://status.blackbaud.com>
+- ✓ <https://sucuri.net/privacy-policy>
+- ✓ <https://sunnyhoi.com/reverse-engineer-web-application-firewall-using-regular-expression-reversing> — How To Reverse Engineer A Web Application Firewall Using Regular Expre…
+- ✓ <https://syllab.fr/projets/experiments/xcharsjs/5chars.pipeline.html> — XChars.JS
+- ✓ <https://synacktiv.com/en/publications/how-to-exploit-liferay-cve-2020-7961-quick-journey-to-poc.html> — HOW TO EXPLOIT LIFERAY CVE-2020-7961 : QUICK JOURNEY TO POC
+- ✓ <https://synacktiv.com/ressources/hql2sql_sstic_2015_en.pdf> — HQL : Hyperinsane Query Language (or how to access the whole SQL API w…
+- ✓ <https://sysdig.com/blog/fuzzing-and-bypassing-the-aws-waf> — XSS Bypass
+- ✓ <https://tarlogic.com/en/blog/red-team-tales-0x01> — Red Team Tales 0x01: From MSSQL to RCE
+- ✓ <https://technet.microsoft.com/en-us/sysinternals/bb963902> — Autoruns
+- ✓ <https://technet.microsoft.com/en-us/sysinternals/processexplorer> — Process Explorer
+- ✓ <https://technet.microsoft.com/en-us/sysinternals/processmonitor> — Process Monitor
+- ✓ <https://techvomit.net> — Jayson
+- ✓ <https://techvomit.net/web-application-penetration-testing-notes> — WEB APPLICATION PENETRATION TESTING NOTES
+- ✓ <https://tenable.com/blog/hunting-for-web-shells> — Hunting for Web Shells
+- ✓ <https://tenable.com/profile/jacob-baines> — Jacob Baines
+- ✓ <https://thezdi.com/blog/2019/10/23/cve-2019-1306-are-you-my-index> — CVE-2019-1306: ARE YOU MY INDEX?
+- ✓ <https://trailofbits.com> — Trail of Bits
+- ✓ <https://trailofbits.github.io/ctf> — CTF Field Guide
+- ✓ <https://url-encode-decode.com> — this
+- ✓ <https://vgrsec.com> — VRGSEC
+- ✓ <https://vgrsec.com/post20170219.html> — Unicode Domains are bad and you should feel bad for supporting them
+- ✓ <https://virustotal.com> — Virus Total
+- ✓ <https://virustotal.com/en/documentation/searching> — VirusTotal domain information
+- ✓ <https://waf.ninja> — @WAFNinja
+- ✓ <https://websec.ca/kb/sql_injection> — SQL Injection Pocket Reference
+- ✓ <https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf> — WCTF2019: Gyotaku The Flag
+- ✓ <https://xss-game.appspot.com> — XSS game
+- ✓ <https://xsschop.chaitin.cn> — xsschop
+- ✓ <https://xudongz.com> — Xudong Zheng
+- ✓ <https://xudongz.com/blog/2017/idn-phishing> — Phishing with Unicode Domains
+- ✓ <https://zhchbin.github.io> — zhchbin
+- ✓ <https://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie> — Uber XSS via Cookie
+- ~ <http://blog.didierstevens.com/programs/pdf-tools> — Didier's PDF Tools
+- ~ <http://drgarbage.com/bytecode-visualizer> — Bytecode Visualizer
+- ~ <http://dtrace.org/blogs/brendan/2011/10/10/top-10-dtrace-scripts-for-mac-os-x> — dtrace
+- ~ <http://host.com/?randomparameter=>
+- ~ <http://host.com/?vulnparam=>
+- ~ <http://host.com/?vulnparam=../../../../../etc/passwd&ithemes-sync-request>
+- ~ <http://host.com/?vulnparam=1%20unionselect%20@@version,2--&ithemes-sync-request>
+- ~ <http://host.com/test.asp?file=.%./bla.txt>
+- ~ <http://linux.die.net/man/1/objdump> — objdump
+- ~ <http://moonsols.com/products> — Dumpit
+- ~ <http://processhacker.sourceforge.net> — ProcessHacker
+- ~ <http://sqlmap.sourceforge.net> — @SQLMap Devs
+- ~ <http://woodmann.com/collaborative/tools/index.php/ImpREC> — ImpRec
+- ~ <https://blog.acolyer.org> — The Morning Paper
+- ~ <https://blog.acolyer.org/2018/05/28/large-scale-analysis-of-style-injection-by-relative-path-overwrite> — Large-scale analysis of style injection by relative path overwrite
+- ~ <https://blog.zsec.uk> — Andy
+- ~ <https://blurbiz.io> — Timur Daudpota
+- ~ <https://blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email> — The most complete guide to finding anyone’s email
+- ~ <https://bo0om.ru/author/admin> — Bo0oM
+- ~ <https://bo0om.ru/safari-client-side> — Особенности Safari в client-side атаках
+- ~ <https://book.hacktricks.wiki/en/.github/pull_request_template> — pull_request_template
+- ~ <https://book.hacktricks.wiki/en/.github/research/macos-auto-start-2026> — macos-auto-start-2026
+- ~ <https://book.hacktricks.wiki/en/AGENTS> — AGENTS
+- ~ <https://book.hacktricks.wiki/en/organization-agent> — organization-agent
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-A2A-Protocol> — AI-A2A-Protocol
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Agent-Security-Methodology> — AI-Agent-Security-Methodology
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Assisted-Fuzzing-and-Vulnerability-Discovery> — AI-Assisted-Fuzzing-and-Vulnerability-Discovery
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Assisted-Source-Review-and-Vulnerability-Validation> — AI-Assisted-Source-Review-and-Vulnerability-Validation
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Burp-MCP> — AI-Burp-MCP
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Deep-Learning> — AI-Deep-Learning
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Exposed-Self-Hosted-AI-Services> — AI-Exposed-Self-Hosted-AI-Services
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/0.-basic-llm-concepts> — 0.-basic-llm-concepts
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/1.-tokenizing> — 1.-tokenizing
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/2.-data-sampling> — 2.-data-sampling
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/3.-token-embeddings> — 3.-token-embeddings
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/4.-attention-mechanisms> — 4.-attention-mechanisms
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/5.-llm-architecture> — 5.-llm-architecture
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/6.-pre-training-and-loading-models> — 6.-pre-training-and-loading-models
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/7.0.-lora-improvements-in-fine-tuning> — 7.0.-lora-improvements-in-fine-tuning
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/7.1.-fine-tuning-for-classification> — 7.1.-fine-tuning-for-classification
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/7.2.-fine-tuning-to-follow-instructions> — 7.2.-fine-tuning-to-follow-instructions
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-llm-architecture/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-LLM-Gateway-Security> — AI-LLM-Gateway-Security
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-MCP-Servers> — AI-MCP-Servers
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Mechanistic-Interpretability-Adversarial-Attacks> — AI-Mechanistic-Interpretability-Adversarial-Attacks
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Model-Data-Preparation-and-Evaluation> — AI-Model-Data-Preparation-and-Evaluation
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Model-Tools-and-Platforms> — AI-Model-Tools-and-Platforms
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Models-RCE> — AI-Models-RCE
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Prompts> — AI-Prompts
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Reinforcement-Learning-Algorithms> — AI-Reinforcement-Learning-Algorithms
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Risk-Frameworks> — AI-Risk-Frameworks
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Supervised-Learning-Algorithms> — AI-Supervised-Learning-Algorithms
+- ~ <https://book.hacktricks.wiki/en/src/AI/AI-Unsupervised-Learning-Algorithms> — AI-Unsupervised-Learning-Algorithms
+- ~ <https://book.hacktricks.wiki/en/src/AI/KYC-Bypass-Using-AI> — KYC-Bypass-Using-AI
+- ~ <https://book.hacktricks.wiki/en/src/AI/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/AI/Web-Black-Box-AI-Pentester-Bots> — Web-Black-Box-AI-Pentester-Bots
+- ~ <https://book.hacktricks.wiki/en/src/banners/hacktricks-training> — hacktricks-training
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/arbitrary-write-2-exec/aw2exec-__malloc_hook> — aw2exec-__malloc_hook
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/arbitrary-write-2-exec/aw2exec-__printf_arginfo_table> — aw2exec-__printf_arginfo_table
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/arbitrary-write-2-exec/aw2exec-got-plt> — aw2exec-got-plt
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/arbitrary-write-2-exec/aw2exec-sips-icc-profile> — aw2exec-sips-icc-profile
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/arbitrary-write-2-exec/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/arbitrary-write-2-exec/www2exec-.dtors-and-.fini_array> — www2exec-.dtors-and-.fini_array
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/arbitrary-write-2-exec/www2exec-atexit> — www2exec-atexit
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/array-indexing> — array-indexing
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/basic-stack-binary-exploitation-methodology/elf-tricks> — elf-tricks
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/basic-stack-binary-exploitation-methodology/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/basic-stack-binary-exploitation-methodology/tools/pwntools> — pwntools
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/basic-stack-binary-exploitation-methodology/tools/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/chrome-exploiting> — chrome-exploiting
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/aslr/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/aslr/ret2plt> — ret2plt
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/aslr/ret2ret> — ret2ret
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/cet-and-shadow-stack> — cet-and-shadow-stack
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/libc-protections> — libc-protections
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/memory-tagging-extension-mte> — memory-tagging-extension-mte
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/no-exec-nx> — no-exec-nx
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/pie/bypassing-canary-and-pie> — bypassing-canary-and-pie
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/pie/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/README> — README
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/relro> — relro
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/bf-forked-stack-canaries> — bf-forked-stack-canaries
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/print-stack-canary> — print-stack-canary
+- ~ <https://book.hacktricks.wiki/en/src/binary-exploitation/common-binary-protections-and-bypasses/stack-canaries/README> — README

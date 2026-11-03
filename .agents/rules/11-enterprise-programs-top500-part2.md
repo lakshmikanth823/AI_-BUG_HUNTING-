@@ -1,0 +1,163 @@
+---
+trigger: model_decision
+description: "Direct vulnerability reward / PSIRT / responsible-disclosure pages for big-tech, finance, healthcare, automotive and ICS vendors. Use when researching a specific large company's program or security posture. (part 2/3)"
+---
+
+# Security Research Link Corpus — Enterprise / Fortune-500 Program Pages
+
+Part 2 of 3. 154 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://i.blackhat.com/eu-19/Thursday/eu-19-Yen-Trust-In-Apples-Secret-Garden-Exploring-Reversing-Apples-Continuity-Protocol-3.pdf> — Trust in Apple's Secret Garden: Exploring & Reversing Apple's Continui…
+- ✓ <https://ibm.com/scripts/contact/contact/us/en/security_vulnerabilities> — IBM
+- ✓ <https://ieee-security.org/TC/SP2017/papers/42.pdf> — Skyfire: Data-Driven Seed Generation for Fuzzing, 2017
+- ✓ <https://ieeexplore.ieee.org/abstract/document/5504701> — TaintScope: A checksum-aware directed fuzzing tool for automatic softw…
+- ✓ <https://imperva.com/learn/application-security/clickjacking> — Clickjacking
+- ✓ <https://inventory.raw.pm> — Rawsec's CyberSecurity Inventory
+- ✓ <https://inventory.raw.pm/operating_systems.html> — Security related Operating Systems @ Rawsec
+- ✓ <https://jatindhankhar.in/blog/responsible-disclosure-breaking-out-of-a-sandboxed-editor-to-perform-rce> — Responsible Disclosure breaking out of a sandboxed editor to perform R…
+- ✓ <https://jbxcloud.joesecurity.org/login> — Joebox Cloud
+- ✓ <https://jinone.github.io/bugbounty-a-dom-xss> — Bugbounty a DOM XSS
+- ✓ <https://karmainsecurity.com/dont-call-that-protected-method-vbulletin-rce> — ref
+- ✓ <https://kaspersky.com/enterprise-security/threat-intelligence>
+- ✓ <https://kb.cert.org/vuls> — US-CERT Vulnerability Notes Database
+- ✓ <https://kb.cert.org/vuls/guidance> — this guidance
+- ✓ <https://kontur.ru/.well-known/security.txt> — SKB Kontur
+- ✓ <https://labs.fedoraproject.org/security> — Fedora Security Lab
+- ✓ <https://lebr0nli.github.io/blog/security/fwordCTF2021> — FwordCTF 2021 - Shisui
+- ✓ <https://lebr0nli.github.io/blog/security/nginx-gunicorn-CSAW2021> — CSAW 2021 - gatekeeping
+- ✓ <https://linux.com/news/linux-security-summit-videos> — Linux Security Summit 2016
+- ✓ <https://lynda.com/Android-tutorials/Learning-Android-Security/689762-2.html> — Learning-Android-Security
+- ✓ <https://manifestsecurity.com/android-application-security> — Android Pentesting for Beginners
+- ✓ <https://manifestsecurity.com/appie> — Appie
+- ✓ <https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf> — Apple Platform Security
+- ✓ <https://matatall.com/xss/rce/bugbounty/2015/09/08/xss-to-rce.html> — XSS to RCE
+- ✓ <https://mobilesecuritywiki.com> — Mobile Security Wiki
+- ✓ <https://modernsecurity.io> — Modern Security – AI & Application Security Training Platform
+- ✓ <https://mozilla.org/en-US/security/bug-bounty> — Mozilla
+- ✓ <https://mozilla.org/security/advisories> — Mozilla Foundation Security Advisories
+- ✓ <https://mustafakemalcan.com/asus-rce-vulnerability-on-rma-asus-europe-eu> — ASUS RCE vulnerability on rma.asus-europe.eu
+- ✓ <https://nastystereo.com/security/ruby-3.4-deserialization.html>
+- ✓ <https://naxusai.com> — NaxusAI – AI Powered Security Scanner
+- ✓ <https://ndss-symposium.org/wp-content/uploads/2017/09/ndss201702A-1LeePaper.pdf> — DELTA: A Security Assessment Framework for Software-Defined Networks, …
+- ✓ <https://netnea.com/cms/apache-tutorials> — ModSecurity / OWASP ModSecurity Core Rule Set
+- ✓ <https://netsparker.com/blog/web-security> — Web Application Security Zone by Netsparker
+- ✓ <https://netsparker.com/blog/web-security/buffer-overflow-attacks> — How Buffer Overflow Attacks Work
+- ✓ <https://netsparker.com/blog/web-security/sql-injection-cheat-sheet> — SQL Injection Cheat Sheet
+- ✓ <https://netsparker.com/pricing> — Netsparker Application Security Scanner
+- ✓ <https://nodejs-security.com> — Node.js Secure Coding: Defending Against Command Injection Vulnerabili…
+- ✓ <https://nodejs-security.com/book/path-traversal> — Node.js Secure Coding: Prevention and Exploitation of Path Traversal V…
+- ✓ <https://offensive-security.com> — Offensive Security
+- ✓ <https://omespino.com/write-up-google-bug-bounty-lfi-on-production-servers-in-redacted-google-com-13337-usd> — Google LFI on production servers in redacted.google.com
+- ✓ <https://omespino.com/write-up-private-bug-bounty-usd-rce-as-root-on-marathon-instance> — Used RCE as Root on marathon Instance
+- ✓ <https://opendns.com/home-internet-security> — Open DNS
+- ✓ <https://parrotsec.org> — Parrot Security OS
+- ✓ <https://pcisecuritystandards.org/documents/information_supplement_6.6.pdf> — PCI DSS IS 6.6
+- ✓ <https://pentestpartners.com/security-blog/double-free-rce-in-vlc-a-honggfuzz-how-to> — Double-Free RCE in VLC. A honggfuzz how-to
+- ✓ <https://pentestpartners.com/security-blog/shiva-the-spam-honeypot-tips-and-tricks-for-getting-it-up-and-running> — Shiva The Spam Honeypot Tips And Tricks For Getting It Up And Running
+- ✓ <https://poszo.com/security/nextjs-headers-pitfall> — The Next.js security-headers pitfall
+- ✓ <https://pragmaticwebsecurity.com/courses/introduction-oauth-oidc.html> — Introduction to OAuth 2.0 and OpenID Connect
+- ✓ <https://projectbullrun.org/surveillance/2015/video-2015.html> — Security in Times of Surveillance 2015
+- ✓ <https://pt.coursera.org/learn/usable-security> — Usable Security Course
+- ✓ <https://ptsecurity.com> — Positive Technologies
+- ✓ <https://quixxisecurity.com> — Quixxi
+- ✓ <https://rcesecurity.com/2013/04/paypal-bug-bounty-paypaltech-com-xss> — PaypalTech XSS
+- ✓ <https://rcesecurity.com/2014/04/magix-bug-bounty-magix-com-rce-sqli-and-xara-com-lfi-xss> — Magix Bug Bounty: magix.com (RCE, SQLi) and xara.com (LFI, XSS)
+- ✓ <https://rcesecurity.com/2016/02/ubiquiti-bug-bounty-unifi-v3-2-10-generic-csrf-protection-bypass> — Ubiquiti bugbounty unifi generic CSRF protection Bypass
+- ✓ <https://rcesecurity.com/2019/04/dell-kace-k1000-remote-code-execution-the-story-of-bug-k1-18652> — Dell KACE K1000 Remote Code Execution
+- ✓ <https://rcesecurity.com/2019/06/about-a-sucuri-rce-and-how-not-to-handle-bug-bounty-reports> — About a Sucuri RCE…and How Not to Handle Bug Bounty Reports
+- ✓ <https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=507974> — BFF from CERT
+- ✓ <https://rmll.ubicast.tv/channels> — 2017 RMLL Security Track
+- ✓ <https://robinverton.de/blog/2019/08/25/bug-bounty-bypassing-a-crappy-waf-to-exploit-a-blind-sql-injection> — Bypassing a crappy WAF to exploit a blind SQLI
+- ✓ <https://s0cket7.com/open-redirect-vulnerability> — Open Redirect Vulnerability
+- ✓ <https://securecoding.cert.org/confluence/display/android/Android+Secure+Coding+Standard> — SEI CERT Android Secure Coding Standard
+- ✓ <https://security.csl.toronto.edu/pscout> — PSCout
+- ✓ <https://security.googleblog.com/2017/06/announcing-google-capture-flag-2017.html>
+- ✓ <https://securityhandbook.io> — The Security Engineer Handbook
+- ✓ <https://securitylab.github.com/research/fuzzing-challenges-solutions-1> — Fuzzing software: common challenges and potential solutions (Part 1)
+- ✓ <https://securitylab.github.com/research/fuzzing-sockets-FTP> — Fuzzing sockets, part 1: FTP servers
+- ✓ <https://securitylab.github.com/research/fuzzing-software-2> — Fuzzing software: advanced tricks (Part 2)
+- ✓ <https://securitysd.atlassian.net/servicedesk/customer/portal/2> — Atlassian
+- ✓ <https://sites.google.com/site/bugbountybughunter/home/stored-xss-in-google-image-search> — Stored XSS in Google image search
+- ✓ <https://swarm.ptsecurity.com/source-code-disclosure-in-asp-net-apps> — Source Code Disclosure in ASP.NET apps
+- ✓ <https://synacktiv.com/ressources/synacktiv_drupal_xxe_services.pdf> — Pre-authentication XXE vulnerability in the Services Drupal module
+- ✓ <https://tarlogic.com/en/cybersecurity-blog> — Tarlogic
+- ✓ <https://tataplay.com/bug-bounty-hunter> — Tata Play
+- ✓ <https://technet.microsoft.com/en-us/security/dn458536>
+- ✓ <https://tenable.com/products/nessus-vulnerability-scanner> — Nessus
+- ✓ <https://tracebit.com/blog/the-security-canary-maturity-model> — The Security Canary Maturity Model
+- ✓ <https://trustwave.com> — @SpiderLabs
+- ✓ <https://usenix.org/system/files/conference/usenixsecurity12/sec12-final73.pdf> — Fuzzing with Code Fragments, 2012
+- ✓ <https://usenix.org/system/files/usenixsecurity23-bars.pdf> — Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-chen-xingman.pdf> — MTSan: A Feasible and Practical Memory Sanitizer for Fuzzing COTS Bina…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-cho.pdf> — BoKASAN: Binary-only Kernel Address Sanitizer for Effective Kernel Fuz…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-fu-yu-fu.pdf> — autofz: Automated Fuzzer Composition at Runtime, 2023
+- ✓ <https://usenix.org/system/files/usenixsecurity23-jiang-zu-ming.pdf> — DynSQL: Stateful Fuzzing for Database Management Systems with Complex …
+- ✓ <https://usenix.org/system/files/usenixsecurity23-kim-jiwon.pdf> — Intender: Fuzzing Intent-Based Networking with Intent-State Transition…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-li-wen.pdf> — PolyFuzz: Holistic Greybox Fuzzing of Multi-Language Systems, 2023
+- ✓ <https://usenix.org/system/files/usenixsecurity23-luo-zhengxiong.pdf> — Bleem: Packet Sequence Oriented Fuzzing for Protocol Implementations, …
+- ✓ <https://usenix.org/system/files/usenixsecurity23-lyu.pdf> — MINER: A Hybrid Data-Driven Approach for REST API Fuzzing, 2023
+- ✓ <https://usenix.org/system/files/usenixsecurity23-peng.pdf> — GLeeFuzz: Fuzzing WebGL Through Error Message Guided Mutation, 2023
+- ✓ <https://usenix.org/system/files/usenixsecurity23-seidel.pdf> — Forming Faster Firmware Fuzzers, 2023
+- ✓ <https://usenix.org/system/files/usenixsecurity23-shi-ji.pdf> — AIFORE: Smart Fuzzing Based on Automatic Input Format Reverse Engineer…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-wang-dawei.pdf> — CarpetFuzz: Automatic Program Option Constraint Extraction from Docume…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-wang-junjie.pdf> — FuzzJIT: Oracle-Enhanced Fuzzing for JavaScript Engine JIT Compiler, 2…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-xu-jinyan.pdf> — MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced S…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-yin.pdf> — KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploit…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-yuan-ming.pdf> — DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with …
+- ✓ <https://usenix.org/system/files/usenixsecurity23-zhang-bin.pdf> — Automated Exploitable Heap Layout Generation for Heap Overflows Throug…
+- ✓ <https://usenix.org/system/files/usenixsecurity23-zhang-cen.pdf> — Automata-Guided Control-Flow-Sensitive Fuzz Driver Generation, 2023
+- ✓ <https://usenix.org/system/files/usenixsecurity24-borkar.pdf> — WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulne…
+- ✓ <https://usenix.org/system/files/usenixsecurity24-bulekov.pdf> — HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virt…
+- ✓ <https://usenix.org/system/files/usenixsecurity24-chesser.pdf> — MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware, 2024
+- ✓ <https://usenix.org/system/files/usenixsecurity24-guler.pdf> — Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnera…
+- ✓ <https://usenix.org/system/files/usenixsecurity24-li-penghui.pdf> — SDFuzz: Target States Driven Directed Fuzzing, 2024
+- ✓ <https://usenix.org/system/files/usenixsecurity24-lindenmeier.pdf> — EL3XIR: Fuzzing COTS Secure Monitors, 2024
+- ✓ <https://usenix.org/system/files/usenixsecurity24-mera.pdf> — SHiFT: Semi-hosted Fuzz Testing for Embedded Applications, 2024
+- ✓ <https://usenix.org/system/files/usenixsecurity24-solt.pdf> — Cascade: CPU Fuzzing via Intricate Program Generation, 2024
+- ✓ <https://usenix.org/system/files/usenixsecurity24-xiang-yi.pdf> — Critical Code Guided Directed Greybox Fuzzing for Commits, 2024
+- ✓ <https://usenix.org/system/files/usenixsecurity24-yang-yupeng.pdf> — Towards Generic Database Management System Fuzzing, 2024
+- ✓ <https://usenix.org/system/files/usenixsecurity24-zhang-qifan.pdf> — ResolverFuzz: Automated Discovery of DNS Resolver Vulnerabilities with…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-bao-andrew.pdf> — From Alarms to Real Bugs: Multi-target Multi-step Directed Greybox Fuz…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-bolcskei.pdf> — Encarsia: Evaluating CPU Fuzzers via Automatic Bug Injection, 2025
+- ✓ <https://usenix.org/system/files/usenixsecurity25-chen-yiyang.pdf> — IDFuzz: Intelligent Directed Grey-box Fuzzing, 2025
+- ✓ <https://usenix.org/system/files/usenixsecurity25-deng.pdf> — ChainFuzz: Exploiting Upstream Vulnerabilities in Open-Source Supply C…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-dong-yilu.pdf> — CoreCrisis: Threat-Guided and Context-Aware Iterative Learning and Fuz…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-jiang-yuancheng.pdf> — Fuzzing the PHP Interpreter via Dataflow Fusion, 2025
+- ✓ <https://usenix.org/system/files/usenixsecurity25-lin-zihan.pdf> — Effective Directed Fuzzing with Hierarchical Scheduling for Web Vulner…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-solt.pdf> — Lost in Translation: Enabling Confused Deputy Attacks on EDA Software …
+- ✓ <https://usenix.org/system/files/usenixsecurity25-song-xiangpu.pdf> — MBFuzzer: A Multi-Party Protocol Fuzzer for MQTT Brokers, 2025
+- ✓ <https://usenix.org/system/files/usenixsecurity25-wang-jianqiang.pdf> — AidFuzzer: Adaptive Interrupt-Driven Firmware Fuzzing via Run-Time Sta…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-wu-lichao.pdf> — GenHuzz: An Efficient Generative Hardware Fuzzer, 2025
+- ✓ <https://usenix.org/system/files/usenixsecurity25-xiao-jifan.pdf> — Robust, Efficient, and Widely Available Greybox Fuzzing for COTS Binar…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf> — Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformatio…
+- ✓ <https://usenix.org/system/files/usenixsecurity26-duong.pdf> — FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers, 2…
+- ✓ <https://usenix.org/system/files/usenixsecurity26-marini.pdf> — CombiSan: Unifying Software Sanitizers for Comprehensive Fuzzing, 2026
+- ✓ <https://usenix.org/system/files/usenixsecurity26-peng-jiaqian.pdf> — Bond: Constraint-Directed Fuzzing for Automated Validation of Taint An…
+- ✓ <https://veracode.com/security/buffer-overflow> — WHAT IS A BUFFER OVERFLOW? LEARN ABOUT BUFFER OVERRUN VULNERABILITIES,…
+- ✓ <https://virtuesecurity.com> — VirtueSecurity
+- ✓ <https://virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets> — AWS PENETRATION TESTING PART 1. S3 BUCKETS
+- ✓ <https://virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2> — AWS PENETRATION TESTING PART 2. S3, IAM, EC2
+- ✓ <https://virtuesecurity.com/tale-of-a-wormable-twitter-xss> — Tale of a wormable Twitter XSS
+- ✓ <https://visat.me/security/reflected-xss-in-tokopedia-train-ticket> — Reflected XSS in tokopedia train ticket
+- ✓ <https://vulnerability-lab.com> — Vulnerability Lab
+- ✓ <https://vuls.cert.org/confluence/display/tools/CERT+FOE+-+Failure+Observation+Engine> — Failure Observation Engine (FOE)
+- ✓ <https://wiki.sei.cmu.edu/confluence/display/android/Android+Secure+Coding+Standard> — SEI CERT Android Secure Coding Standard
+- ✓ <https://wildbit.wufoo.com/forms/wildbit-security-response> — Beanstalk
+- ✓ <https://yandex.com/bugbounty/report> — Yandex
+- ~ <http://alphr.com/features/378577/q-a-the-life-of-a-bug-bounty-hunter> — The life of a bug bounty hunter
+- ~ <http://cisco.com/web/about/security/psirt/security_vulnerability_policy.html> — Cisco
+- ~ <http://reddit.com/r/securityctf> — Reddit Security CTF
+- ~ <http://securitysift.com/download/linuxprivchecker.py> — linuxprivchecker.py
+- ~ <https://blog.includesecurity.com/2024/03/discovering-deserialization-gadget-chains-in-rubyland>
+- ~ <https://dl.acm.org/citation.cfm?id=2094081> — SAGE: whitebox fuzzing for security testing, 2012
+- ~ <https://dl.acm.org/doi/10.1145/3576915.3616614> — Lifting Network Protocol Implementation to Precise Format Specificatio…
+- ~ <https://elearnsecurity.com/course/mobile_application_security_and_penetration_testing> — Mobile Application Security and Penetration Testing
+- ~ <https://fidelissecurity.com/resources/fidelis-barncat>
+- ~ <https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability> — What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Applica…
+- ~ <https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish> — Fuzzing workflows; a fuzz job from start to finish
+- ~ <https://hackerinside.me/2018/09/stored-xss-vulnerability-in-h1c-private.html> — Stored XSS vulnerability in h1 private
+- ~ <https://hackerinside.me/2018/09/stored-xss-vulnerability-in-tumblr.html> — Stored XSS vulnerability in tumblr
+- ~ <https://hackerinside.me/2018/11/critical-stored-xss-vulnerability.html> — Critical Stored XSS vulnerability
+- ~ <https://mobile-security.zeef.com> — Mobile Security Reading Room
+- ~ <https://mwrinfosecurity.com/assets/Whitepapers/Threat-Intelligence-Whitepaper.pdf>
+- ~ <https://mwrinfosecurity.com/our-thinking/15-minute-guide-to-fuzzing>

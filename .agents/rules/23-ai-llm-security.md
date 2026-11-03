@@ -1,0 +1,127 @@
+---
+trigger: model_decision
+description: "Prompt injection, jailbreaks, LLM red teaming, OWASP LLM/GenAI Top 10, MITRE ATLAS, AI bug bounties. Use when testing or reasoning about AI-enabled systems."
+---
+
+# Security Research Link Corpus — AI / LLM & Agentic Security
+
+Part 1 of 1. 118 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://anthropic.com/research> — Anthropic - model welfare / red teaming research
+- ✓ <https://gandalf.lakera.ai> — Lakera AI - Gandalf
+- ✓ <https://github.com/corca-ai/awesome-llm-security> — LLM bug bounty writeups collection
+- ✓ <https://github.com/deadbits/vigil-llm> — Vigil - prompt injection scanner
+- ✓ <https://github.com/NVIDIA/garak> — garak - LLM vulnerability scanner
+- ✓ <https://github.com/ottosulin/awesome-ai-security> — ottosulin/awesome-ai-security
+- ✓ <https://github.com/user1342/Awesome-LLM-Red-Teaming> — user1342/Awesome-LLM-Red-Teaming
+- ✓ <https://promptfoo.dev/docs/red-team> — promptfoo - LLM red teaming
+- ✓ <https://risky.biz> — Risky Business podcast
+- ✓ <https://simonwillison.net> — Simon Willison blog
+- ✓ <https://simonwillison.net/tags/prompt-injection> — Simon Willison - prompt injection series
+- ~ <https://openai.com/safety> — OpenAI - safety/red teaming
+- ✓ <http://kalitut.com/2017/01/machine-learning-book.html> — Top Machine learning Books
+- ✓ <http://mdsec.net/wahh/tasks.html> — WAHH Methodology
+- ✓ <https://aayushyadav.hashnode.dev/where-the-llm-stops-deterministic-scoring-in-an-ai-assisted-vapt-pipeline> — Where the LLM Stops: Deterministic Scoring in an AI-Assisted VAPT Pipe…
+- ✓ <https://aboutdfir.com/jailbreaking-checkra1n-configuration> — How to access and traverse a #checkra1n jailbroken iPhone File system …
+- ✓ <https://academy.8ksec.io/course/practical-ai-security> — Practical AI Security: Attacks, Defenses, and Applications
+- ✓ <https://arxiv.org/abs/1711.02807> — Faster Fuzzing: Reinitialization with Deep Neural Models, 2017
+- ✓ <https://arxiv.org/abs/1711.04596> — Not all bytes are equal: Neural byte sieve for fuzzing, 2017
+- ✓ <https://arxiv.org/abs/1807.05620> — NEUZZ: Efficient Fuzzing with Neural Program Learning, 2018
+- ✓ <https://arxiv.org/abs/1807.10875> — TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing, 20…
+- ✓ <https://arxiv.org/abs/1809.01266> — Coverage-Guided Fuzzing for Deep Neural Networks, 2018
+- ✓ <https://blog.mithrilsecurity.io/poisongpt-how-we-hid-a-lobotomized-llm-on-hugging-face-to-spread-fake-news> — PoisonGPT: How we hid a lobotomized LLM on Hugging Face to spread fake…
+- ✓ <https://blog.scrt.ch/2019/01/24/magento-rce-local-file-read-with-low-privilege-admin-rights> — Magento – RCE & Local File Read with low privilege admin rights
+- ✓ <https://canijailbreak.com> — Can I Jailbreak?
+- ✓ <https://checkra.in> — checkra1n jailbreak
+- ✓ <https://computer.org/csdl/proceedings-article/sp/2019/666000a900/19skg5XghG0> — NEUZZ: Efficient Fuzzing with Neural Program Smoothing, 2019
+- ✓ <https://computer.org/csdl/proceedings-article/sp/2024/313000a196/1WPcYnhN15u> — LLMIF: Augmented Large Language Model for Fuzzing IoT Devices, 2024
+- ✓ <https://computer.org/csdl/proceedings-article/sp/2025/223600a336/26hiTETXKow> — Fuzz-Testing Meets LLM-Based Agents: An Automated and Efficient Framew…
+- ✓ <https://covert.io/the-definitive-security-datascience-and-machinelearning-guide> — The Definitive Security Data Science and Machine Learning Guide
+- ✓ <https://csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html> — What is a Side-Channel Attack ?
+- ✓ <https://danielmiessler.com/p/the-ai-attack-surface-map-v1-0> — The AI Attack Surface Map v1.0
+- ✓ <https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection> — Securing LLM Systems Against Prompt Injection
+- ✓ <https://docs.astral.sh/uv/getting-started/installation>
+- ✓ <https://doi.org/10.1109/sp63933.2026.00060> — deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzz…
+- ✓ <https://doi.org/10.1109/sp63933.2026.00124> — StepStone: LLM-Based GPU Kernel Driver Fuzzing via User-Space Librarie…
+- ✓ <https://dorkgpt.com> — DorkGPT
+- ✓ <https://embracethered.com/blog/index.html> — Embrace The Red
+- ✓ <https://embracethered.com/blog/posts/2023/chatgpt-webpilot-data-exfil-via-markdown-injection> — ChatGPT Plugins: Data Exfiltration via Images & Cross Plugin Request F…
+- ✓ <https://gitbook.com/book/adi0x901/iot-pentesting-guide/details> — IOT PenTesting Guide
+- ✓ <https://github.com/ClaudiuGeorgiu/RiskInDroid> — RiskInDroid
+- ✓ <https://github.com/controllability/jailbreak-evaluation> — jailbreak-evaluation
+- ✓ <https://github.com/DeepSpaceHarbor/Awesome-AI-Security> — AI Security
+- ✓ <https://github.com/GenAI-Security-Project/GenAI-LLM-Top10> — `GenAI-Security-Project/GenAI-LLM-Top10`
+- ✓ <https://github.com/GenAI-Security-Project/GenAI-LLM-Top10/issues/new?template=release-errata.yml> — Report a correction to the 2026 release
+- ✓ <https://github.com/GenAI-Security-Project/GenAI-LLM-Top10/issues/new?template=release-feedback.yml> — Submit broader release feedback
+- ✓ <https://github.com/GenAI-Security-Project/GenAI-LLM-Top10/tree/main/2026/final> — Browse the current source
+- ✓ <https://github.com/hellman/libformatstr> — libformatstr
+- ✓ <https://github.com/hellman/xortool> — xortool
+- ✓ <https://github.com/Joe-B-Security/awesome-prompt-injection> — Prompt Injection
+- ✓ <https://github.com/josephmisiti/awesome-machine-learning> — awesome-machine-learning
+- ✓ <https://github.com/joshrendek/hnypots-agent> — hnypots-agent)
+- ✓ <https://github.com/kaitai-io/kaitai_struct> — Kaitai Struct
+- ✓ <https://github.com/laiyer-ai/llm-guard> — LLM Guard
+- ✓ <https://github.com/leondz/garak> — Garak
+- ✓ <https://github.com/liu00222/Open-Prompt-Injection> — Open-Prompt-Injection
+- ✓ <https://github.com/mik0w/pallms> — PALLMs (Payloads for Attacking Large Language Models)
+- ✓ <https://github.com/mlsecproject/combine>
+- ✓ <https://github.com/mlsecproject/tiq-test>
+- ✓ <https://github.com/mnns/LLMFuzzer> — LLMFuzzer
+- ✓ <https://github.com/Nautilus-Institute/quals-2023/tree/main/pawan_gupta> — LLM Security Problems at DEFCON31 Quals
+- ✓ <https://github.com/nxgn-kd01/shai-hulud-scanner> — shai-hulud-scanner
+- ✓ <https://github.com/PowerShellMafia/CimSweep> — CimSweep
+- ✓ <https://github.com/PowerShellMafia/PowerSploit> — PowerSploit
+- ✓ <https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc> — PowerUp
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/azure/aiservices/azure-openai-cmk-not-enabled.yaml> — azure-openai-cmk-not-enabled.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/azure/aiservices/azure-openai-managed-identity-not-used.yaml> — azure-openai-managed-identity-not-used.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/azure/aiservices/azure-openai-private-endpoints-unconfigured.yaml> — azure-openai-private-endpoints-unconfigured.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/azure/aiservices/azure-openai-public-access-disabled.yaml> — azure-openai-public-access-disabled.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-auto-upgrades.yaml> — gcloud-vertexai-auto-upgrades.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-default-vpc.yaml> — gcloud-vertexai-default-vpc.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-external-ip.yaml> — gcloud-vertexai-external-ip.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-idle-shutdown.yaml> — gcloud-vertexai-idle-shutdown.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-integrity.yaml> — gcloud-vertexai-integrity.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-monitoring.yaml> — gcloud-vertexai-monitoring.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-root-access.yaml> — gcloud-vertexai-root-access.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-secure-boot.yaml> — gcloud-vertexai-secure-boot.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/vertexai/gcloud-vertexai-vtpm.yaml> — gcloud-vertexai-vtpm.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/code/privilege-escalation/linux/binary/privesc-ssh-agent.yaml> — privesc-ssh-agent.yaml
+- ✓ <https://github.com/referefref/SMTPLLMPot> — SMTPLLMPot
+- ✓ <https://github.com/rushout09/llm-security-startups> — LLM Security startups
+- ✓ <https://github.com/SecurityRiskAdvisors/sra-taxii2-server>
+- ✓ <https://github.com/splx-ai/agentic-radar> — Agentic Radar
+- ✓ <https://github.com/tillmannw/honeytrap> — honeytrap
+- ✓ <https://github.com/ufrisk/pcileech> — PCILeech
+- ✓ <https://github.com/vz-risk/VCDB>
+- ✓ <https://greshake.github.io> — Indirect Prompt Injection Threats
+- ✓ <https://hackemall.live/index.php/2020/03/31/akamai-web-application-firewall-bypass-journey-exploiting-google-bigquery-sql-injection-vulnerability> — Exploiting “Google BigQuery” SQLI
+- ✓ <https://hackstery.com> — Hackstery
+- ✓ <https://kai-greshake.de> — Kai's Blog
+- ✓ <https://lesswrong.com/posts/KSroBnxCHodGmPPJ8/jailbreaking-gpt-4-s-code-interpreter> — Jailbreaking GPT-4's code interpreter
+- ✓ <https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm> — Adversarial Attacks on LLMs
+- ✓ <https://llmsecurity.net> — LLM Security
+- ✓ <https://modernsecurity.io/courses/ai-security-certification> — AI Security Certification – Modern Security
+- ✓ <https://ndss-symposium.org/wp-content/uploads/2026-f1081-paper.pdf> — An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs i…
+- ✓ <https://ndss-symposium.org/wp-content/uploads/2026-s1943-paper.pdf> — FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware V…
+- ✓ <https://newsletter.danielpaleka.com> — AI safety takes
+- ✓ <https://oedci.uspto.gov/OEDCI> — Patent Attorneys/Agent Search
+- ✓ <https://positive.security/blog/auto-gpt-rce> — Hacking Auto-GPT and escaping its docker container
+- ✓ <https://promptingguide.ai/risks/adversarial> — Adversarial Prompting
+- ✓ <https://prsgroup.com> — PRS Risk Indicators
+- ✓ <https://repello.ai/blog/llm-evaluation-metrics-frameworks-and-checklist> — LLM Evaluation metrics, frmaework, and checklist
+- ✓ <https://riskdiscovery.com/honeydb>
+- ✓ <https://simonwillison.net/2023/Apr/14/worst-that-can-happen> — Prompt injection: What’s the worst that can happen?
+- ✓ <https://sites.google.com/view/promptbounty> — PromptBounty.io
+- ✓ <https://themoonlight.io> — Moonlight
+- ✓ <https://usenix.org/system/files/sec22-zou.pdf> — SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs …
+- ✓ <https://usenix.org/system/files/usenixsecurity24-asmita.pdf> — Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unear…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-gong-xueluan.pdf> — PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for L…
+- ✓ <https://usenix.org/system/files/usenixsecurity25-zhang-kunpeng.pdf> — Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesi…
+- ✓ <https://usenix.org/system/files/usenixsecurity26-jia-zhipeng.pdf> — PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analy…
+- ✓ <https://xmind.net> — XMind
+- ~ <https://dl.acm.org/doi/10.1145/3658644.3670276> — LIFTFUZZ: Validating Binary Lifters through Context-aware Fuzzing with…
+- ~ <https://dl.acm.org/doi/10.1145/3658644.3690231> — ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Optio…
+- ~ <https://kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape> — KAPE
+- ~ <https://rhinosecuritylabs.com/azure/cloud-security-risks-part-1-azure-csv-injection-vulnerability> — Cloud Security Risks (Part 1): Azure CSV Injection Vulnerability
+- ~ <https://seekurity.com/blog/general/reflected-xss-vulnerability-in-simplerisk> — Reflected XSS in Simplerisk
+- ~ <https://usenix.org/conference/usenixsecurity20/presentation/lee-suyoung> — Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzz…

@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "name": "AI Bug Bounty Methodology & Knowledge Base",
+  "description": "Comprehensive structured methodology, checklists, and attack-vector knowledge base for the AI Bug Bounty Research Agent.",
+  "categories": [
+    {
+      "id": "A01_BROKEN_ACCESS_CONTROL",
+      "name": "Broken Access Control (IDOR, BOLA, Privilege Escalation)",
+      "cwe": "CWE-284",
+      "owasp_id": "A01:2021",
+      "checklist_file": "checklists/owasp_top10.json",
+      "rules": [
+        "Test horizontal privilege escalation by swapping numeric, GUID, and string IDs across user accounts",
+        "Test vertical privilege escalation by invoking admin-only endpoints with lower-privileged JWT/tokens",
+        "Inspect hidden HTTP methods (GET vs POST vs PUT vs DELETE vs PATCH) on restricted endpoints",
+        "Check missing authorization in multi-step workflows (skipping payment or approval steps)"
+      ]
+    },
+    {
+      "id": "A02_INJECTION_SQLI",
+      "name": "SQL Injection",
+      "cwe": "CWE-89",
+      "owasp_id": "A03:2021",
+      "checklist_file": "checklists/portswigger_methodology.json",
+      "rules": [
+        "Differentiate syntax errors (500) from true SQL boolean reflection or time delay",
+        "Always verify time-based SQLi with multiple delay intervals (e.g. 5s then 10s) to rule out network latency",
+        "Look for out-of-band (OAST) interactions for blind SQLi in asynchronous logging or secondary queries",
+        "Verify union-based injection column count and compatible data types before extracting data"
+      ]
+    },
+    {
+      "id": "A03_INJECTION_XSS",
+      "name": "Cross-Site Scripting (XSS: Stored, Reflected, DOM)",
+      "cwe": "CWE-79",
+      "owasp_id": "A03:2021",
+      "checklist_file": "checklists/portswigger_methodology.json",
+      "rules": [
+        "Confirm payload renders in executable browser DOM context, not solely escaped in text/HTML attributes",
+        "Verify whether modern browser defenses (HttpOnly, strict CSP, Trusted Types) mitigate practical cookie theft",
+        "For Reflected XSS, prove arbitrary victim execution via link click; verify whether anti-CSRF or POST constraints apply",
+        "For Stored XSS, confirm persistent rendering across multiple sessions and privileges"
+      ]
+    },
+    {
+      "id": "A04_SSRF",
+      "name": "Server-Side Request Forgery (SSRF)",
+      "cwe": "CWE-918",
+      "owasp_id": "A10:2021",
+      "checklist_file": "checklists/portswigger_methodology.json",
+      "rules": [
+        "Distinguish blind DNS-only callbacks from exploitable SSRF with HTTP response body reflection",
+        "Probe cloud metadata endpoints: AWS/GCP (169.254.169.254) with required headers (X-aws-ec2-metadata-token)",
+        "Check bypasses for IP filters: 0.0.0.0, 127.0.0.1, [::], decimal/hex IP representations, DNS rebinding",
+        "Check internal service ports (redis 6379, elasticsearch 9200, kubernetes kubelet 10250)"
+      ]
+    },
+    {
+      "id": "A05_SECURITY_MISCONFIG",
+      "name": "Security Misconfiguration & Information Disclosure",
+      "cwe": "CWE-16",
+      "owasp_id": "A05:2021",
+      "checklist_file": "checklists/owasp_top10.json",
+      "rules": [
+        "Disclose sensitive environment variables, credentials, private keys, or internal API tokens",
+        "Evaluate CORS configuration: Access-Control-Allow-Origin with wildcards or arbitrary reflected origins WITH Access-Control-Allow-Credentials: true",
+        "Audit exposed developer endpoints: /.env, /.git/config, /actuator/env, /swagger.json, /graphql introspection",
+        "Confirm whether exposed source maps actually contain private proprietary code or hardcoded production secrets"
+      ]
+    },
+    {
+      "id": "A06_AUTHENTICATION_BYPASS",
+      "name": "Identification & Authentication Failures",
+      "cwe": "CWE-287",
+      "owasp_id": "A07:2021",
+      "checklist_file": "checklists/owasp_top10.json",
+      "rules": [
+        "Audit password reset flows for Host header injection, predictable tokens, or missing rate limiting",
+        "Analyze JWT tokens: algorithm confusion (RS256 to HS256), weak secret brute-force, 'none' algorithm, missing expiration",
+        "Audit OAuth 2.0 / OIDC implementations: redirect_uri validation bypasses, CSRF in state parameter, token leakage via Referer",
+        "Check session fixation and failure to invalidate tokens upon password change or logout"
+      ]
+    },
+    {
+      "id": "A07_RACE_CONDITIONS",
+      "name": "Race Conditions & Business Logic Flaws",
+      "cwe": "CWE-362",
+      "owasp_id": "A04:2021",
+      "checklist_file": "checklists/portswigger_methodology.json",
+      "rules": [
+        "Target state-sensitive operations: coupon redemption, wallet withdrawals, vote/like counters, invite code claims",
+        "Execute parallel HTTP requests using HTTP/2 single-packet multiplexing to trigger race windows",
+        "Verify negative quantities, rounding truncation, or currency confusion in payment logic",
+        "Confirm business impact: demonstrates financial loss, privilege escalation, or unauthorized asset claim"
+      ]
+    }
+  ]
+}

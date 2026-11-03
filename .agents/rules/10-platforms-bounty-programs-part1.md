@@ -1,0 +1,210 @@
+---
+trigger: model_decision
+description: "HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi program URLs and directories. Use when the task is finding or triaging a bug bounty program, checking scope, or picking a target. (part 1/5)"
+---
+
+# Security Research Link Corpus — Bug Bounty Platforms & Program Directories
+
+Part 1 of 5. 201 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://api.hackerone.com> — HackerOne API docs (GraphQL)
+- ✓ <https://bountyfactory.io> — Bounty Factory
+- ✓ <https://bugcrowd.com> — Bugcrowd - crowdsourced security platform
+- ✓ <https://bugcrowd.com/atlassian> — Atlassian Bug Bounty
+- ✓ <https://bugcrowd.com/blog/category/threat-research> — Bugcrowd research & writeups
+- ✓ <https://bugcrowd.com/bug-bounty-list> — Bugcrowd - bug bounty program list
+- ✓ <https://bugcrowd.com/bug-bounty-list/?type=bug_bounty> — Bugcrowd - open bug bounties
+- ✓ <https://bugcrowd.com/bug-bounty-list/?type=vdp> — Bugcrowd - VDP (disclosure-only) list
+- ✓ <https://bugcrowd.com/hackers/bugcrowd-university> — Bugcrowd University (free researcher training)
+- ✓ <https://bugcrowd.com/okta> — Okta Bug Bounty
+- ✓ <https://bugcrowd.com/tesla> — Tesla Bug Bounty (Bugcrowd)
+- ✓ <https://cobalt.io> — Cobalt - Pentest as a Service
+- ✓ <https://disclose.io> — disclose.io - safe-harbour & program standards
+- ✓ <https://disclose.io/programs> — disclose.io - program directory
+- ✓ <https://firebounty.com> — FireBounty - aggregated bounty program search
+- ✓ <https://hackenproof.com/programs> — HackenProof - bug bounty programs
+- ✓ <https://hacker101.com> — HackerOne Hacker101 - free course
+- ✓ <https://immunefi.com/explore> — Immunefi - Web3/crypto bug bounties (highest payouts)
+- ✓ <https://immunefi.com/explore/?tag=ai> — Immunefi AI programs
+- ✓ <https://intigriti.com> — Intigriti - ethical hacking platform
+- ✓ <https://intigriti.com/programs> — Intigriti - programs
+- ✓ <https://yeswehack.com/programs> — YesWeHack - bug bounty programs
+- ✓ <https://zerocopter.com> — Zerocopter - vulnerability disclosure programs
+- ~ <https://hackerone.com/airbnb> — Airbnb Bug Bounty
+- ~ <https://hackerone.com/cloudflare> — Cloudflare Public Bug Bounty
+- ~ <https://hackerone.com/coinbase> — Coinbase Security / bug bounty
+- ~ <https://hackerone.com/directory/programs> — HackerOne - public program directory
+- ~ <https://hackerone.com/directory/programs?query=ai> — Bug bounty for AI: HackerOne AI programs
+- ~ <https://hackerone.com/disclosure-guidelines> — HackerOne - CVD / disclosure guidelines
+- ~ <https://hackerone.com/dropbox> — Dropbox Bug Bounty
+- ~ <https://hackerone.com/github> — GitHub Bug Bounty (HackerOne)
+- ~ <https://hackerone.com/gitlab> — GitLab Bug Bounty (HackerOne)
+- ~ <https://hackerone.com/hackerone-certified-bug-bounty-hunter> — HackerOne Certified Bug Bounty Hunter
+- ~ <https://hackerone.com/leaderboard> — HackerOne - Hacktivity leaderboard
+- ~ <https://hackerone.com/paypal> — PayPal Bug Bounty
+- ~ <https://hackerone.com/shopify> — Shopify - security / bug bounty
+- ~ <https://hackerone.com/slack> — Slack Bug Bounty
+- ~ <https://hackerone.com/starbucks> — Starbucks Vulnerability Disclosure (HackerOne)
+- ~ <https://hackerone.com/uber> — Uber Bug Bounty (HackerOne)
+- ~ <https://openbugbounty.org> — Open Bug Bounty
+- ~ <https://synack.com/red-team> — Synack Red Team
+- ✓ <https://bugcrowd.com/barracuda> — Barracuda
+- ✓ <https://bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology> — Getting Started - Bug Bounty Hunter Methodology
+- ✓ <https://bugcrowd.com/engagements/accxia-gmbh> — Accxia Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/acorns> — Acorns Grow, Inc.
+- ✓ <https://bugcrowd.com/engagements/aelbox> — Aelbox Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/afterpay> — Afterpay Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/agile-pulse> — AgilePulse Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/agiledoyens-market> — agile doyens
+- ✓ <https://bugcrowd.com/engagements/agilislt> — Agilis LT Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/aiven-mbb-og> — Aiven Managed Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/akeles> — Akeles Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/almarise-market> — Almarise Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/amoeboids> — Amoeboids
+- ✓ <https://bugcrowd.com/engagements/appliger> — AppLiger
+- ✓ <https://bugcrowd.com/engagements/apps-plus2> — AI | Apps+ Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/appsvio> — Appsvio Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/arlo> — Arlo Cash Rewards
+- ✓ <https://bugcrowd.com/engagements/asana> — Asana
+- ✓ <https://bugcrowd.com/engagements/atlassian> — Atlassian
+- ✓ <https://bugcrowd.com/engagements/atlassianapps> — Atlassian-Built Apps
+- ✓ <https://bugcrowd.com/engagements/aurory-mbb-og2> — Aurory Managed Bug Bounty Engagement (Public)
+- ✓ <https://bugcrowd.com/engagements/auth0-okta> — Auth0 by Okta
+- ✓ <https://bugcrowd.com/engagements/automationconsultants> — AppFox
+- ✓ <https://bugcrowd.com/engagements/avisi> — Avisi Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/axis-os-public> — AXIS OS
+- ✓ <https://bugcrowd.com/engagements/backblaze> — Backblaze
+- ✓ <https://bugcrowd.com/engagements/balsamiq> — Balsamiq for Atlassian Products
+- ✓ <https://bugcrowd.com/engagements/barracuda> — Appliances - Barracuda Networks, Inc.
+- ✓ <https://bugcrowd.com/engagements/binance> — Binance
+- ✓ <https://bugcrowd.com/engagements/bitdefender> — Bitdefender
+- ✓ <https://bugcrowd.com/engagements/bitdefenderbox2> — Bitdefender Box v2
+- ✓ <https://bugcrowd.com/engagements/bitgo-mbb-og-public> — BitGo Managed Public Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/bitgo-mobileapps-mbb-og> — BitGo Mobile Apps Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/bitpanda-og-bb> — Bitpanda Ongoing Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/bitso-mbb-og> — Bitso Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/blockchain-dot-com> — Blockchain.com Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/blockopensource> — Block Open Source
+- ✓ <https://bugcrowd.com/engagements/blofin-crypto-mbb-og> — Blofin Crypto Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/bloompeak> — Bloompeak's Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/boja> — BOJA Consulting Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/bolt-og> — Bolt Technology OÜ
+- ✓ <https://bugcrowd.com/engagements/brizoit> — BrizoIT
+- ✓ <https://bugcrowd.com/engagements/brokenbuild> — Broken Build Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/browserstack-market> — BrowserStack Inc. Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/bugcrowd> — Bugcrowd
+- ✓ <https://bugcrowd.com/engagements/bullish> — Bullish.com
+- ✓ <https://bugcrowd.com/engagements/bullish-exchange> — Bullish Exchange
+- ✓ <https://bugcrowd.com/engagements/caelor-group-market> — Caelor Group
+- ✓ <https://bugcrowd.com/engagements/canva> — Canva
+- ✓ <https://bugcrowd.com/engagements/cappsule-sarl> — Cappsule Sarl - Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/carrefour> — Majid Al Futtaim Retail
+- ✓ <https://bugcrowd.com/engagements/cashapp> — Cash App
+- ✓ <https://bugcrowd.com/engagements/catapultlabs> — Catapult Labs Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/CCData-mbb-og> — CoinDesk Data - Data API
+- ✓ <https://bugcrowd.com/engagements/celix-solutions-market> — celix Solutions GmbH Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/cfr> — Council on Foreign Relations
+- ✓ <https://bugcrowd.com/engagements/chime> — Chime Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/chipotle-mbb-og> — Chipotle Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/cisconetworking> — Cisco Networking
+- ✓ <https://bugcrowd.com/engagements/city-of-vienna-mbb-og> — City of Vienna Managed Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/classdojo> — ClassDojo
+- ✓ <https://bugcrowd.com/engagements/clickhouse> — ClickHouse
+- ✓ <https://bugcrowd.com/engagements/cloudinary> — Cloudinary
+- ✓ <https://bugcrowd.com/engagements/cms-bbpublic> — Centers for Medicare & Medicaid Services - Public Bug Bounty Program 2…
+- ✓ <https://bugcrowd.com/engagements/codecentric> — codecentric AG - Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/codeclou> — codeclou GmbH
+- ✓ <https://bugcrowd.com/engagements/codefortynine> — codefortynine
+- ✓ <https://bugcrowd.com/engagements/codeorg> — CodeAI
+- ✓ <https://bugcrowd.com/engagements/coindesk-mbb-og> — CoinDesk.com
+- ✓ <https://bugcrowd.com/engagements/coindesk-mobile-mbb-og> — CoinDesk Mobile
+- ✓ <https://bugcrowd.com/engagements/colined> — Colined
+- ✓ <https://bugcrowd.com/engagements/comcast-mbb> — Comcast Xfinity Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/comcastvdp> — Comcast Xfinity Vulnerability Disclosure Program
+- ✓ <https://bugcrowd.com/engagements/consensus-mbb-og> — Consensus by CoinDesk
+- ✓ <https://bugcrowd.com/engagements/craftcoders> — Craft Coders Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/creativas> — Creativas
+- ✓ <https://bugcrowd.com/engagements/cvent-bb-og> — Cvent Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/decadisag> — Decadis AG
+- ✓ <https://bugcrowd.com/engagements/dell-com> — Dell Technologies Application Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/dell-product> — Dell Technologies' Products Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/devacrobats-market> — DevAcrobats
+- ✓ <https://bugcrowd.com/engagements/deviewstudios-market> — Deview Studios Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/deviniti> — Deviniti
+- ✓ <https://bugcrowd.com/engagements/devsamurai> — DevSamurai
+- ✓ <https://bugcrowd.com/engagements/digitalrose> — Digital Rose's Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/directly> — Directly
+- ✓ <https://bugcrowd.com/engagements/dutch-beginners-market> — Dutch Beginners ZZP Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/easyagile> — Easy Agile
+- ✓ <https://bugcrowd.com/engagements/eazybi> — eazyBI
+- ✓ <https://bugcrowd.com/engagements/elementor> — Elementor: Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/elements> — Elements
+- ✓ <https://bugcrowd.com/engagements/entain-glf-mbb-og> — Entain Game Logic Flaws Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/entain-public-mbb-og> — Entain Public Managed Bug Bounty Engagement 2024
+- ✓ <https://bugcrowd.com/engagements/envision-ehf> — Smart Guess ehf. - Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/epam-mbb-og> — EPAM Systems Managed Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/epicsumup> — APTIS
+- ✓ <https://bugcrowd.com/engagements/etoro-mbb-og> — eToro Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/etsy> — Etsy
+- ✓ <https://bugcrowd.com/engagements/excentia> — Excentia Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/felix-health-mbb-og> — Felix Health Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/fiftyfivedegrees> — 55 Degrees
+- ✓ <https://bugcrowd.com/engagements/financialforce> — Certinia (formerly FinancialForce)
+- ✓ <https://bugcrowd.com/engagements/FindOut-infovis> — FindOut InfoVis AB - Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/fireblocks-mbb-og> — Fireblocks Web Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/fireblocks-mbb-og2> — Fireblocks MPC Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/fis> — FIS
+- ✓ <https://bugcrowd.com/engagements/fivetran-mbb-og> — Fivetran
+- ✓ <https://bugcrowd.com/engagements/flourish> — Flourish
+- ✓ <https://bugcrowd.com/engagements/freedomofpress> — SecureDrop
+- ✓ <https://bugcrowd.com/engagements/gearset-mbb> — Gearset: Managed Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/glassdoor-ogbb> — Glassdoor Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/glean-technologies-public> — Glean Technologies Public Engagement
+- ✓ <https://bugcrowd.com/engagements/gliffy> — Gliffy
+- ✓ <https://bugcrowd.com/engagements/herocoders> — HeroCoders Apps
+- ✓ <https://bugcrowd.com/engagements/hostgator-latam-bb> — HostGator LATAM Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/hpe-networking-product-public> — HPE Networking Product Public Program
+- ✓ <https://bugcrowd.com/engagements/hutgroup-public> — The Hut Group: Public Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/hypixel-studios-mbb-og> — Hypixel Studios Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/ibotta> — Ibotta
+- ✓ <https://bugcrowd.com/engagements/ifood-og> — iFood: Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/immutable> — Immutable Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/imperva-mbb> — Thales Cyber Security Products Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/indeed> — Indeed
+- ✓ <https://bugcrowd.com/engagements/inprowiser> — Inprowiser Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/intercom> — Intercom
+- ✓ <https://bugcrowd.com/engagements/internetbrands-public> — Internet Brands Public
+- ✓ <https://bugcrowd.com/engagements/irobot> — iRobot
+- ✓ <https://bugcrowd.com/engagements/izymes> — Izymes
+- ✓ <https://bugcrowd.com/engagements/j-tricks> — J-Tricks - Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/JaangaInc-mbb-market> — Jaanga Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/jora> — Jora
+- ✓ <https://bugcrowd.com/engagements/justeattakeaway> — Just Eat Takeaway.com
+- ✓ <https://bugcrowd.com/engagements/k15t> — K15t
+- ✓ <https://bugcrowd.com/engagements/kaleido> — Kaleido
+- ✓ <https://bugcrowd.com/engagements/kantega> — Kantega SSO
+- ✓ <https://bugcrowd.com/engagements/keepersecurity> — Keeper Security Public Bounty Program
+- ✓ <https://bugcrowd.com/engagements/kiteworks-public> — Kiteworks
+- ✓ <https://bugcrowd.com/engagements/klaviyo-og> — Klaviyo Managed Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/kohls> — Kohl's
+- ✓ <https://bugcrowd.com/engagements/kucoin> — KuCoin Managed Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/lastpass> — LastPass
+- ✓ <https://bugcrowd.com/engagements/latitude-financial-service-bugbounty> — Latitude Financial Services Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/launchdarkly-mbb-og> — LaunchDarkly Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/legacy-blockchain-mbb-og> — Electroneum Legacy Blockchain: EOL
+- ✓ <https://bugcrowd.com/engagements/lightspeed-hospitality> — Lightspeed Hospitality
+- ✓ <https://bugcrowd.com/engagements/lightspeed-retail> — Lightspeed Retail
+- ✓ <https://bugcrowd.com/engagements/lime> — Lime
+- ✓ <https://bugcrowd.com/engagements/linktree-mbb-og> — Linktree
+- ✓ <https://bugcrowd.com/engagements/litew8> — Litew8 GmbH - Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/lively-apps> — Lively Apps GmbH - marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/lululemon> — lululemon
+- ✓ <https://bugcrowd.com/engagements/maffashion> — Majid Al Futtaim Lifestyle
+- ✓ <https://bugcrowd.com/engagements/magic-apps> — Magic Apps Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/magiclabs-mbb-og> — Magic Labs Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/majidalfuttaim-loyalty> — Majid Al Futtaim Customer Solutions
+- ✓ <https://bugcrowd.com/engagements/mallofemirates> — Majid Al Futtaim Properties
+- ✓ <https://bugcrowd.com/engagements/marketplaceexpert> — Marketplace Expert SL
+- ✓ <https://bugcrowd.com/engagements/marvelutionbv> — Marvelution
+- ✓ <https://bugcrowd.com/engagements/mastercard> — Mastercard Public Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/matlab-online> — MATLAB Online - Ongoing Bug Bounty Engagement

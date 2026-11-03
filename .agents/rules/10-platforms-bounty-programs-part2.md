@@ -1,0 +1,208 @@
+---
+trigger: model_decision
+description: "HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi program URLs and directories. Use when the task is finding or triaging a bug bounty program, checking scope, or picking a target. (part 2/5)"
+---
+
+# Security Research Link Corpus — Bug Bounty Platforms & Program Directories
+
+Part 2 of 5. 199 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://bugcrowd.com/engagements/mattermost-mbb-public> — Mattermost Public Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/meetical> — Meetical
+- ✓ <https://bugcrowd.com/engagements/metainfkft> — META-INF
+- ✓ <https://bugcrowd.com/engagements/mgmmacau-mbb-og> — MGM China Holdings Limited Managed Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/mobilitystream> — MobilityStream Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/monash-mbb> — Monash University Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/moneytreekkog> — Moneytree KK
+- ✓ <https://bugcrowd.com/engagements/moovit-mbb-og> — Moovit Managed Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/motorolamobility-iot> — Motorola Mobility Hardware Engagement
+- ✓ <https://bugcrowd.com/engagements/moveworkforward> — Move Work Forward
+- ✓ <https://bugcrowd.com/engagements/myfitnesspal-mbb> — MyFitnessPal Managed Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/navan> — Navan
+- ✓ <https://bugcrowd.com/engagements/navarambh> — Navarambh
+- ✓ <https://bugcrowd.com/engagements/nemetschek> — Nemetschek
+- ✓ <https://bugcrowd.com/engagements/neohrms> — NEOGOV Public Assets
+- ✓ <https://bugcrowd.com/engagements/newrelic-mbb-og-public> — New Relic Public Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/nextupai> — Nextup.ai
+- ✓ <https://bugcrowd.com/engagements/northwestern-mutual-mbb-og> — Northwestern Mutual - Public Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/nubank> — Nubank Brasil Managed Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/octopus-deploy> — Octopus Deploy
+- ✓ <https://bugcrowd.com/engagements/octopus-og> — Octopus
+- ✓ <https://bugcrowd.com/engagements/odesk> — oDesk
+- ✓ <https://bugcrowd.com/engagements/okapya> — Okapya
+- ✓ <https://bugcrowd.com/engagements/okta> — Okta
+- ✓ <https://bugcrowd.com/engagements/onetrust> — OneTrust
+- ✓ <https://bugcrowd.com/engagements/onward-software-solutions-inc> — Onward Software Solutions Inc. - Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/openai> — OpenAI
+- ✓ <https://bugcrowd.com/engagements/openai-safety> — Safety Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/opensea> — OpenSea Managed Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/opera> — Opera Public Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/opsgenie> — Opsgenie
+- ✓ <https://bugcrowd.com/engagements/optimizely> — Optimizely
+- ✓ <https://bugcrowd.com/engagements/optus-mbb-og> — Optus Managed Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/opus-guard-market> — Opus Guard Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/orderlynetwork-mbb-og> — Orderly Network: Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/orderlynetwork-mbb-og2> — Orderly Network Public Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/originenergy-og1> — Origin Energy
+- ✓ <https://bugcrowd.com/engagements/osl-mbb-og1> — OSL Managed Public Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/ost-consulting-market> — OST Consulting SRL Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/pantheon> — Pantheon
+- ✓ <https://bugcrowd.com/engagements/personalcapital> — Empower Personal Wealth
+- ✓ <https://bugcrowd.com/engagements/pexels> — Pexels
+- ✓ <https://bugcrowd.com/engagements/pinterest> — Pinterest
+- ✓ <https://bugcrowd.com/engagements/pixabay> — Pixabay
+- ✓ <https://bugcrowd.com/engagements/planethosterinc> — PlanetHoster Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/plugin-people> — The Plugin People
+- ✓ <https://bugcrowd.com/engagements/plusgrade-mbb-public> — Plusgrade Loyalty Public Program
+- ✓ <https://bugcrowd.com/engagements/pnimedia-bb> — PNI Media - Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/presago> — Presago Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/programmer-hat-market> — Programmer Hat Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/projectbalm> — ProjectBalm
+- ✓ <https://bugcrowd.com/engagements/prosus-og> — Prosus
+- ✓ <https://bugcrowd.com/engagements/quintoandar> — QuintoAndar Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/quirk-consulting> — Quirk Consulting Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/quizlet> — Quizlet
+- ✓ <https://bugcrowd.com/engagements/radbee> — RadBee Ltd.
+- ✓ <https://bugcrowd.com/engagements/railsware> — Railsware
+- ✓ <https://bugcrowd.com/engagements/raleyapps> — Raley Apps
+- ✓ <https://bugcrowd.com/engagements/rapyd> — Rapyd
+- ✓ <https://bugcrowd.com/engagements/rea-mbb-og> — REA Group | realestate.com.au, realcommercial.com.au, property.com.au
+- ✓ <https://bugcrowd.com/engagements/recorded-future-mbb-og> — Recorded Future Public Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/recroom-og> — Rec Room Video Games
+- ✓ <https://bugcrowd.com/engagements/redmoon> — Redmoon
+- ✓ <https://bugcrowd.com/engagements/refined2> — Refined
+- ✓ <https://bugcrowd.com/engagements/releasemanagement> — Release Management (by Y2 ENGR)
+- ✓ <https://bugcrowd.com/engagements/requirement-yogi> — Requirement Yogi (Bug bounty)
+- ✓ <https://bugcrowd.com/engagements/resolutionde> — Resolution
+- ✓ <https://bugcrowd.com/engagements/revyz> — Revyz - Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/rv-softwares> — RV Softwares Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/saasjet> — SaaSJet
+- ✓ <https://bugcrowd.com/engagements/sap-private-invite> — SAP Invitational Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/savignano> — Savignano Software Solutions Marketplace Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/secureflag-mbb-market> — SecureFlag Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/seek> — SEEK
+- ✓ <https://bugcrowd.com/engagements/seek-com> — Seek.com
+- ✓ <https://bugcrowd.com/engagements/shinetech-software-market> — Shinetech Software Inc Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/shipwire> — Shipwire
+- ✓ <https://bugcrowd.com/engagements/simplisafe> — SimpliSafe Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/skroutz> — Skroutz Public Managed Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/sky-plc-mbb-og> — Sky UK/ROI Vulnerability Disclosure Program
+- ✓ <https://bugcrowd.com/engagements/sky-plc-mbb-og1> — Sky Italy Vulnerability Disclosure Program
+- ✓ <https://bugcrowd.com/engagements/sky-plc-mbb-og2> — Sky DACH Vulnerability Disclosure Program
+- ✓ <https://bugcrowd.com/engagements/skyscanner> — Skyscanner
+- ✓ <https://bugcrowd.com/engagements/smartchain-mbb-og> — Electroneum Smart Chain (ETN-SC) — EVM-Compatible Blockchain
+- ✓ <https://bugcrowd.com/engagements/snapbytes-market> — Snapbytes Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/snapnames> — SnapNames Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/soldevelo> — SolDevelo
+- ✓ <https://bugcrowd.com/engagements/sophos> — Sophos
+- ✓ <https://bugcrowd.com/engagements/soteri> — Soteri Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/soundcloud> — SoundCloud
+- ✓ <https://bugcrowd.com/engagements/spacex> — SpaceX/Starlink
+- ✓ <https://bugcrowd.com/engagements/square> — Square
+- ✓ <https://bugcrowd.com/engagements/stagil> — STAGIL Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/statuspage> — Statuspage
+- ✓ <https://bugcrowd.com/engagements/stiltsoft> — Stiltsoft
+- ✓ <https://bugcrowd.com/engagements/stonikbyte> — StonikByte
+- ✓ <https://bugcrowd.com/engagements/sykora-it-market> — Sykora IT Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/t-mobile> — T-Mobile
+- ✓ <https://bugcrowd.com/engagements/tamedia> — Tamedia
+- ✓ <https://bugcrowd.com/engagements/tempusex-public-mbb-og> — Infinite Athlete
+- ✓ <https://bugcrowd.com/engagements/tesla> — Tesla
+- ✓ <https://bugcrowd.com/engagements/thefork-mbb-og> — TheFork Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/thetradedesk-mbb> — The Trade Desk
+- ✓ <https://bugcrowd.com/engagements/thousandeyes-og> — Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/tidal-bugbounty> — TIDAL
+- ✓ <https://bugcrowd.com/engagements/toolsplus> — ToolsPlus
+- ✓ <https://bugcrowd.com/engagements/trello> — Trello
+- ✓ <https://bugcrowd.com/engagements/tripadvisor-bb-og> — Tripadvisor
+- ✓ <https://bugcrowd.com/engagements/trm-labs-public-mbb> — TRM Labs Public Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/twentyminuten> — 20 Minuten
+- ✓ <https://bugcrowd.com/engagements/tyler-tech-data-insights> — Tyler Technologies Data & Insights – Tyler Data Platform, powered by S…
+- ✓ <https://bugcrowd.com/engagements/ultramobile-ecomm> — Ultra Mobile Public ECOMM 2025 Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/ultramobile-mobile-apps> — Ultra Mobile Mobile Apps Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/ultramobile-public> — Ultra Mobile Public Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/ultramobile-retailer-portal> — Ultra Mobile Retailer Portal Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/underarmour> — Under Armour Product Security
+- ✓ <https://bugcrowd.com/engagements/underarmour-corp> — Under Armour Corporate
+- ✓ <https://bugcrowd.com/engagements/unisys-mbb-og> — Unisys Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/unity> — Unity Technologies
+- ✓ <https://bugcrowd.com/engagements/upwork> — Upwork
+- ✓ <https://bugcrowd.com/engagements/usaa> — USAA
+- ✓ <https://bugcrowd.com/engagements/vectors-marketplace> — Vectors Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/verisign> — Verisign Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/viator> — Viator
+- ✓ <https://bugcrowd.com/engagements/vicosoft> — Vico Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/vinted-uab-mbb> — Vinted Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/volkswagen-og> — Volkswagen
+- ✓ <https://bugcrowd.com/engagements/volkswagen-vwfs-mbb-og> — New Blue Website (NBW) - VWFS Bug Bounty Program
+- ✓ <https://bugcrowd.com/engagements/vox> — Majid Al Futtaim Entertainment
+- ✓ <https://bugcrowd.com/engagements/vr-group-mbb-og1> — VR Public Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/we-weave> — weweave GmbH Marketplace Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/webdotcom> — Web.com Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/wise> — Wise (ex-TransferWise)
+- ✓ <https://bugcrowd.com/engagements/wyze> — Wyze Bug Bounty
+- ✓ <https://bugcrowd.com/engagements/xfinity-home> — Xfinity Home & xFi
+- ✓ <https://bugcrowd.com/engagements/xopero-software-marketplace> — Xopero Software S.A. Marketplace Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/ynab> — YNAB
+- ✓ <https://bugcrowd.com/engagements/zendesk> — Zendesk Managed Bug Bounty Engagement
+- ✓ <https://bugcrowd.com/engagements/zola-mbb-og> — Zola Managed Bug Bounty
+- ✓ <https://bugcrowd.com/indeed> — Indeed
+- ✓ <https://bugcrowd.com/pantheon> — Pantheon
+- ✓ <https://bugcrowd.com/pinterest> — Pinterest
+- ✓ <https://bugcrowd.com/skyscanner> — Skyscanner
+- ✓ <https://cobalt.io/billys-billing> — Billys Billing
+- ✓ <https://cobalt.io/bitgo> — BitGo
+- ✓ <https://cobalt.io/blockchain-info> — Blockchain.info
+- ✓ <https://cobalt.io/changetip> — ChangeTip
+- ✓ <https://cobalt.io/coins-ph> — coins.ph
+- ✓ <https://cobalt.io/coinvoy> — Coinvoy
+- ✓ <https://cobalt.io/crixio> — Crix.io
+- ✓ <https://cobalt.io/nopass> — NoPass
+- ✓ <https://cobalt.io/weebly> — Weebly
+- ✓ <https://hackenproof.com> — HackenProof
+- ✓ <https://hackenproof.com/hacken/hackenproof> — HackenProof
+- ✓ <https://hackenproof.com/kuna/kuna-crypto-exchange> — Kuna
+- ✓ <https://hackenproof.com/vechain/vechainthor> — VeChainThor
+- ✓ <https://hackenproof.com/vechain/vechainthor-wallet> — VeChainThor Wallet
+- ✓ <https://intigriti.com/programs/adac/adacvulnerabilitydisclosureprogram/detail> — ADAC Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/aikido/aikido/detail> — Aikido Security: Bug Bounty Program
+- ✓ <https://intigriti.com/programs/allegro/allegrobugbounty/detail> — Allegro
+- ✓ <https://intigriti.com/programs/anacondainc/anacondavdp/detail> — Anaconda Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/arbonia/arboniavdpprogram/detail> — Arbonia VDP program
+- ✓ <https://intigriti.com/programs/arkane/arkanenetwork/detail> — Venly
+- ✓ <https://intigriti.com/programs/arm/arm/detail> — Arm
+- ✓ <https://intigriti.com/programs/aswatson/iciparisxl/detail> — ICI PARIS XL
+- ✓ <https://intigriti.com/programs/aswatson/kruidvat/detail> — Kruidvat
+- ✓ <https://intigriti.com/programs/aswatson/marionnaud/detail> — Marionnaud
+- ✓ <https://intigriti.com/programs/aswatson/superdrug/detail> — Superdrug
+- ✓ <https://intigriti.com/programs/aswatson/theperfumeshop/detail> — The Perfume Shop
+- ✓ <https://intigriti.com/programs/aswatson/watsons/detail> — Watsons
+- ✓ <https://intigriti.com/programs/atolls/atollsvdp/detail> — Atolls Vulnerability Disclosure Program (VDP)
+- ✓ <https://intigriti.com/programs/attentia/attentiavdp/detail> — Attentia VDP
+- ✓ <https://intigriti.com/programs/axelspringerse/axelspringersevulnerabilitydisclosureprogram/detail> — Axel Springer SE Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/axelspringerse/nmt/detail> — Axel Springer National Media & Tech
+- ✓ <https://intigriti.com/programs/bitvavo/bitvavovdp/detail> — Bitvavo VDP
+- ✓ <https://intigriti.com/programs/bmw/bmwgroup-automotive/detail> — BMW Group Automotive
+- ✓ <https://intigriti.com/programs/bmw/bmwgroup/detail> — BMW Group
+- ✓ <https://intigriti.com/programs/bpost/crossborderfines/detail> — Cross Border Fines
+- ✓ <https://intigriti.com/programs/bpost/dummy/detail> — Bpost
+- ✓ <https://intigriti.com/programs/bpost/e-tracker/detail> — e-tracker
+- ✓ <https://intigriti.com/programs/buhlergroup/buhlergroupvdp/detail> — Bühler Group VDP
+- ✓ <https://intigriti.com/programs/capitalcom/capitalcom/detail> — Capital.com
+- ✓ <https://intigriti.com/programs/citymesh/responsiblevulnerabilitydisclosureprogram/detail> — Citymesh Responsible Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/cmcom/cmcom/detail> — CM.com
+- ✓ <https://intigriti.com/programs/cybersecuritycoalition/cybersecuritycoalition/detail> — Cyber Security Coalition
+- ✓ <https://intigriti.com/programs/dashlane/dashlanevulnerabilitydisclosureprogram/detail> — Dashlane Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/datacamp/datacamp/detail> — DataCamp
+- ✓ <https://intigriti.com/programs/delenprivatebank/privatebankdelen/detail> — Delen Private Bank
+- ✓ <https://intigriti.com/programs/dhlgroup/dhlvdp/detail> — DHL Group Vulnerability Disclosure Program
+- ✓ <https://intigriti.com/programs/digi/digi-vdp/detail> — DIGI Responsible Disclosure Program
+- ✓ <https://intigriti.com/programs/digitalocean/cloudways/detail> — Cloudways by DigitalOcean
+- ✓ <https://intigriti.com/programs/digitalocean/digitalocean/detail> — DigitalOcean
+- ✓ <https://intigriti.com/programs/donorbox/donorboxvdp/detail> — Donorbox Vulnerability Disclosure Project
+- ✓ <https://intigriti.com/programs/dpgm/algemeendagblad/detail> — Algemeen Dagblad
+- ✓ <https://intigriti.com/programs/dpgm/demorgen/detail> — De Morgen
+- ✓ <https://intigriti.com/programs/dpgm/devolkskrant/detail> — De Volkskrant
+- ✓ <https://intigriti.com/programs/dpgm/dpgmedia/detail> — DPG Media
+- ✓ <https://intigriti.com/programs/dpgm/hetlaatstenieuws/detail> — Het Laatste Nieuws
+- ✓ <https://intigriti.com/programs/dpgm/hetparool/detail> — Het Parool

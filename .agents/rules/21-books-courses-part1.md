@@ -1,0 +1,162 @@
+---
+trigger: model_decision
+description: "Canonical reading list and training: No Starch, Wiley, Packt, O'Reilly, OSCP/PNPT/BSCP and free academies. Use when recommending learning material. (part 1/2)"
+---
+
+# Security Research Link Corpus — Books, Courses & Certifications
+
+Part 1 of 2. 153 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://academy.tcm-sec.com> — TCM Security Academy
+- ✓ <https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course> — Cyber Mentor - Practical Ethical Hacking
+- ✓ <https://certifications.tcm-sec.com/pnpt> — TCM Security PNPT
+- ✓ <https://comptia.org/certifications/security> — CompTIA Security+
+- ✓ <https://ctf.hacker101.com> — HackerOne CTF
+- ✓ <https://cybrary.it> — Cybrary
+- ✓ <https://eccouncil.org/programs/certified-ethical-hacker-ceh> — CEH
+- ✓ <https://github.com/six2dez/pentest-book> — six2dez/pentest-book (GitHub)
+- ✓ <https://immersivelabs.com> — Immersive Labs
+- ✓ <https://link.springer.com/book/10.1007/978-1-4842-5391-5> — Bug Bounty Hunting for Web Security (Mohit Kumar) - Apress
+- ✓ <https://link.springer.com/imprint/apress/book-series/APRESSCYBERSECUR> — Apress - security books
+- ✓ <https://manning.com/catalog/security-and-cryptography> — Manning - security books
+- ✓ <https://mheducation.com/highered/product/gray-hat-hacking-ethical-hacker-s-handbook-sixth-edition-england/M9781264268405.html> — Gray Hat Hacking 6E - McGraw Hill
+- ✓ <https://my.ine.com> — INE / eLearnSecurity
+- ✓ <https://nostarch.com/binaryanalysis> — Practical Binary Analysis (Dennis Andriesse) - No Starch
+- ✓ <https://nostarch.com/black-hat-graphql> — Black Hat GraphQL - No Starch
+- ✓ <https://nostarch.com/blackhatgo> — Black Hat Go (Young/Manico/Perry) - No Starch
+- ✓ <https://nostarch.com/bug-bounty-bootcamp> — Bug Bounty Bootcamp (Vickie Li) - No Starch
+- ✓ <https://nostarch.com/bughunter> — A Bug Hunter's Diary (Tobias Klein) - No Starch
+- ✓ <https://nostarch.com/bughunting> — Real-World Bug Hunting (Peter Yaworski) - No Starch
+- ✓ <https://nostarch.com/catalog/security> — No Starch Press - security catalog
+- ✓ <https://nostarch.com/hacking-apis> — Hacking APIs (Corey Ball) - No Starch
+- ✓ <https://nostarch.com/hacking2E> — The Art of Exploitation 2E (Jon Erickson) - No Starch
+- ✓ <https://nostarch.com/malware> — Practical Malware Analysis - No Starch
+- ✓ <https://nostarch.com/metasploit> — Metasploit: The Penetration Tester's Guide by David Kennedy et al., 20…
+- ✓ <https://nostarch.com/pentesting> — Penetration Testing: A Hands-On Introduction to Hacking by Georgia Wei…
+- ✓ <https://nostarch.com/practical-iot-hacking> — Practical IoT Hacking (Fotios Chantzis) - No Starch
+- ✓ <https://nostarch.com/practical-social-engineering> — Practical Social Engineering (Joe Gray) - No Starch
+- ✓ <https://sans.org/cyber-ranges> — SANS NetWars
+- ✓ <https://sans.org/cyber-security-courses> — SANS courses
+- ✓ <https://sans.org/white-papers> — SANS reading room / whitepapers
+- ~ <https://oreilly.com/library/view/the-art-of/0321444426> — The Art of Software Security Testing - Addison Wesley
+- ~ <https://oreilly.com/library/view/the-iot-hackers/9781492078678> — The IoT Hacker's Guide - O'Reilly
+- ~ <https://oreilly.com/search/?q=security&type=*> — O'Reilly security catalog
+- ~ <https://packtpub.com/en-us/security> — Packt - security books
+- ~ <https://packtpub.com/product/bug-bounty-hunting-essentials/9781788626897> — Bug Bounty Hunting Essentials (Carlos/Andre) - Packt
+- ~ <https://packtpub.com/product/hands-on-bug-hunting-for-penetration-testers/9781484240960> — Hands-On Bug Hunting for Penetration Testers (Joseph Marshall)
+- ~ <https://wiley.com/en-us/Practical+Reverse+Engineering%3A+x86%2C+x64%2C+ARM%2C+Windows+Kernel%2C+Reversing+Tools%2C+and+Obfuscation-p-9781118787311> — Practical Reverse Engineering (Dang/Gazet/Bachaalany) - Wiley
+- ~ <https://wiley.com/en-us/The+Browser+Hacker%27s+Handbook-p-9781118662090> — The Browser Hacker's Handbook - Wiley
+- ~ <https://wiley.com/en-us/The+Database+Hacker%27s+Handbook%3A+Defending+Database+Servers-p-9780764578014> — The Database Hacker's Handbook - Wiley
+- ~ <https://wiley.com/en-us/The+Mobile+Application+Hacker%27s+Handbook-p-9781118958506> — The Mobile Application Hacker's Handbook - Wiley
+- ~ <https://wiley.com/en-us/The+Shellcoder%27s+Handbook%3A+Discovering+and+Exploiting+Security+Holes%2C+2nd+Edition-p-9780470080238> — The Shellcoder's Handbook - Wiley
+- ~ <https://wiley.com/en-us/The+Web+Application+Hackers+Handbook%3A+Finding+and+Exploiting+Security+Flaws%2C+2nd+Edition-p-9781118026472> — The Web Application Hacker's Handbook 2E - Wiley
+- ~ <https://wiley.com/en-us/Threat+Modeling%3A+Designing+for+Security-p-9781118809990> — Threat Modeling: Designing for Security (Adam Shostack) - Wiley
+- ✓ <http://amazon.com/Advanced-Persistent-Threat-Hacking-Organization/dp/0071828362> — Advanced Persistent Threat Hacking: The Art and Science of Hacking Any…
+- ✓ <http://amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900> — Black Hat Python: Python Programming for Hackers and Pentesters by Jus…
+- ✓ <http://amazon.com/gp/product/1593275099> — The Practice of Network Security Monitoring: Understanding Incident De…
+- ✓ <http://amazon.com/Hacking-Ethical-Hackers-Handbook-Edition/dp/0071832386> — Gray Hat Hacking The Ethical Hacker's Handbook by Daniel Regalado et a…
+- ✓ <http://amazon.com/Penetration-Testing-Procedures-Methodologies-EC-Council/dp/1435483677> — Penetration Testing: Procedures & Methodologies by EC-Council, 2010
+- ✓ <http://amazon.com/Rtfm-Red-Team-Field-Manual/dp/1494295504> — RTFM: Red Team Field Manual by Ben Clark, 2014
+- ✓ <http://amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/1452241511>
+- ✓ <http://amazon.com/The-Hacker-Playbook-Practical-Penetration/dp/1494932636> — The Hacker Playbook by Peter Kim, 2014
+- ✓ <http://amazon.com/Unauthorised-Access-Physical-Penetration-Security-ebook/dp/B005DIAPKE> — Unauthorised Access: Physical Penetration Testing For IT Security Team…
+- ✓ <http://cybrary.it> — Cybrary
+- ✓ <http://sans.org> — SANS Security Training
+- ✓ <https://amazon.com/Advanced-Penetration-Testing-Hacking-Networks/dp/1119367689> — Advanced Penetration Testing by Wil Allsopp, 2017
+- ✓ <https://amazon.com/Android-Hackers-Handbook-Joshua-Drake/dp/111860864X> — Android Hacker's Handbook
+- ✓ <https://amazon.com/Applied-Incident-Response-Steve-Anson/dp/1119560268> — Applied Incident Response
+- ✓ <https://amazon.com/Art-Memory-Forensics-Detecting-Malware/dp/1118825098> — Art of Memory Forensics
+- ✓ <https://amazon.com/Crafting-InfoSec-Playbook-Security-Monitoring/dp/1491949406> — Crafting the InfoSec Playbook: Security Monitoring and Incident Respon…
+- ✓ <https://amazon.com/Digital-Forensics-Incident-Response-techniques/dp/183864900X> — Digital Forensics and Incident Response: Incident response techniques …
+- ✓ <https://amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119> — Fuzzing: Brute Force Vulnerability Discovery, 1st Edition
+- ✓ <https://amazon.com/Fuzzing-Software-Security-Testing-Assurance/dp/1608078507> — Fuzzing for Software Security Testing and Quality Assurance, 2nd Editi…
+- ✓ <https://amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921> — Gray Hat Python
+- ✓ <https://amazon.com/Hacking-Securing-iOS-Applications-Hijacking/dp/1449318746> — Hacking and Securing iOS Applications: Stealing Data, Hijacking Softwa…
+- ✓ <https://amazon.com/IDA-Pro-Book-2nd-ebook/dp/B005EI84TM> — IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most P…
+- ✓ <https://amazon.com/Incident-Response-Computer-Forensics-Third/dp/0071798684> — Incident Response & Computer Forensics, Third Edition
+- ✓ <https://amazon.com/Incident-Response-Techniques-Ransomware-Attacks/dp/180324044X> — Incident Response Techniques for Ransomware Attacks
+- ✓ <https://amazon.com/Incident-response-Threat-Intelligence-intelligence-based/dp/1801072957> — Incident Response with Threat Intelligence
+- ✓ <https://amazon.com/Intelligence-Driven-Incident-Response-Outwitting-Adversary-ebook-dp-B074ZRN5T7/dp/B074ZRN5T7> — Intelligence-Driven Incident Response
+- ✓ <https://amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123> — iOS Hacker's Handbook - Chapter 1
+- ✓ <https://amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950> — Open Source Fuzzing Tools, 1st Edition
+- ✓ <https://amazon.com/Operator-Handbook-Team-OSINT-Reference/dp/B085RR67H5> — Operator Handbook: Red Team + OSINT + Blue Team Reference
+- ✓ <https://amazon.com/Practical-Memory-Forensics-Jumpstart-effective/dp/1801070334> — Practical Memory Forensics
+- ✓ <https://amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X> — The Shellcoder's Handbook: Discovering and Exploiting Security Holes (…
+- ✓ <https://amazon.com/Structured-Analytic-Techniques-Intelligence-Analysis/dp/1452241511>
+- ✓ <https://github.com/aws-samples/aws-incident-response-runbooks/tree/0d9a1c0f7ad68fb2c1b2d86be8914f2069492e21> — AWS Incident Response Runbook Samples
+- ✓ <https://github.com/cert-ee/peepdf> — peepdf
+- ✓ <https://github.com/cogent/origami-pdf> — Origami
+- ✓ <https://github.com/counteractive/incident-response-plan-template/tree/master/playbooks> — Counteractive Playbooks
+- ✓ <https://github.com/cure53/Publications/blob/master/xfo-clickjacking.pdf?raw=true> — X-Frame-Options: All about Clickjacking?
+- ✓ <https://github.com/dreikanter/ruby-bookmarks> — Ruby Programming by @dreikanter
+- ✓ <https://github.com/EbookFoundation/free-programming-books> — Free Programming Books
+- ✓ <https://github.com/facebook/infer> — Infer – A Static Analysis tool for Java, C, C++ and Objective-C
+- ✓ <https://github.com/facebook/ThreatExchange>
+- ✓ <https://github.com/facebookresearch/PurpleLlama> — PurpleLlama
+- ✓ <https://github.com/gdelugre/origami> — origami-pdf
+- ✓ <https://github.com/google/certificate-transparency> — Certificate Transparency
+- ✓ <https://github.com/google/fuzzing/blob/master/tutorial/libFuzzerTutorial.md> — libFuzzer Tutorial
+- ✓ <https://github.com/guardsight/gsvsoc_cirt-playbook-battle-cards> — GuardSIght Playbook Battle Cards
+- ✓ <https://github.com/Hack-with-Github/Free-Security-eBooks> — here
+- ✓ <https://github.com/HarmJ0y/CheatSheets/blob/master/Empire.pdf> — Empire Cheat Sheet
+- ✓ <https://github.com/HarmJ0y/CheatSheets/blob/master/PowerSploit.pdf> — PowerSploit Cheat Sheet
+- ✓ <https://github.com/HarmJ0y/CheatSheets/blob/master/PowerUp.pdf> — PowerUp Cheat Sheet
+- ✓ <https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf> — Prototype pollution attack in NodeJS application
+- ✓ <https://github.com/iOS-Reverse-Engineering-Dev/Swift-Apps-Reverse-Engineering/blob/master/Reverse%20Engineering%20Swift%20Applications.pdf> — Reverse Engineering Swift Apps
+- ✓ <https://github.com/jesparza/peepdf> — peepdf
+- ✓ <https://github.com/mozilla/pdf.js/tree/master/test/pdfs> — PDF Test Corpus from Mozilla
+- ✓ <https://github.com/narkopolo/fb_friend_list_scraper> — Facebook Friend List Scraper
+- ✓ <https://github.com/OTRF/ThreatHunter-Playbook> — ThreatHunter-Playbook
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_ar.pdf> — OWASP Application Security Verification Standard 5.0.0 Arabic (PDF)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_en.pdf> — OWASP Application Security Verification Standard 5.0.0 English (PDF)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_fa.pdf> — OWASP Application Security Verification Standard 5.0.0 Persian (Farsi)…
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_fr.pdf> — OWASP Application Security Verification Standard 5.0.0 French (PDF)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_id.pdf> — OWASP Application Security Verification Standard 5.0.0 Indonesian (PDF…
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_ko.pdf> — OWASP Application Security Verification Standard 5.0.0 Korean (PDF)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_pl.pdf> — OWASP Application Security Verification Standard 5.0.0 Polish (PDF)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_pt.pdf> — OWASP Application Security Verification Standard 5.0.0 Brazilian Portu…
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_ru.pdf> — OWASP Application Security Verification Standard 5.0.0 Russian (PDF)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_tr.pdf> — OWASP Application Security Verification Standard 5.0.0 Turkish (PDF)
+- ✓ <https://github.com/OWASP/ASVS/raw/v5.0.0/5.0/OWASP_Application_Security_Verification_Standard_5.0.0_zh-cn.pdf> — OWASP Application Security Verification Standard 5.0.0 Simplified Chin…
+- ✓ <https://github.com/phantomcyber/playbooks> — Phantom Community Playbooks
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/aws/cloudfront/cloudfront-custom-certificates.yaml> — cloudfront-custom-certificates.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/azure/keyvault/azure-keyvault-certificate-insufficient-autorenew.yaml> — azure-keyvault-certificate-insufficient-autorenew.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/certificatemanager/gcloud-certificate-validity-exceeded.yaml> — gcloud-certificate-validity-exceeded.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/cloud/gcp/gke/gcloud-gke-client-certificate-enabled.yaml> — gcloud-gke-client-certificate-enabled.yaml
+- ✓ <https://github.com/projectdiscovery/nuclei-templates/blob/main/code/windows/audit/allow-untrusted-certificates.yaml> — allow-untrusted-certificates.yaml
+- ✓ <https://github.com/purseclab/fuzzusb/blob/main/paper/fuzzusb.pdf> — FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks, 2022
+- ✓ <https://github.com/rednaga/training/raw/master/DEFCON23/O%26D%20-%20Android%20Reverse%20Engineering.pdf> — Offensive and Defensive Android Reversing
+- ✓ <https://github.com/RPISEC/Malware> — RPISEC Malware Course
+- ✓ <https://github.com/rshipp/awesome-malware-analysis> — awesome-malware-analysis § Books
+- ✓ <https://github.com/shaykhsiddique/academic-/blob/master/CSE107/Access%20Denied.pdf> — Access Denied
+- ✓ <https://github.com/Swisskyrepo/PayloadsAllTheThings/blob/master/_LEARNING_AND_SOCIALS/BOOKS.md> — BOOKS.md
+- ✓ <https://github.com/ThalesIgnite/afl-training> — Fuzzing with AFL Workshop - a set of challenges on real vulnerabilitie…
+- ✓ <https://github.com/XD-MHLOO/facebook-gql-scraper> — Facebook GraphQL Scraper
+- ✓ <https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf> — Fuzzing the Windows Kernel - OffensiveCon 2020
+- ✓ <https://leanpub.com/IDAPython-Book> — The Beginner's Guide to IDA Python
+- ✓ <https://leanpub.com/web-hacking-101> — Web Hacking 101
+- ✓ <https://leanpub.com/xss> — XSS Cheat Sheet - 2018 Edition
+- ✓ <https://link.springer.com> — Springer
+- ✓ <https://link.springer.com/article/10.1007%2Fs10115-008-0137-3> — vEYE
+- ✓ <https://manning.com/books/api-security-in-action> — API Security in Action
+- ✓ <https://manning.com/books/aws-security> — AWS Security
+- ✓ <https://manning.com/books/azure-security-2> — Azure Security
+- ✓ <https://manning.com/books/cyber-security-career-guide> — Cyber Security Career Guide
+- ✓ <https://manning.com/books/cyber-threat-hunting> — Cyber Threat Hunting
+- ✓ <https://manning.com/books/data-privacy> — Data Privacy
+- ✓ <https://manning.com/books/effective-software-testing> — Effective Software Testing, 2021
+- ✓ <https://manning.com/books/full-stack-python-security> — Full Stack Python Security
+- ✓ <https://manning.com/books/grokking-web-application-security> — Grokking Web Application Security
+- ✓ <https://manning.com/books/making-sense-of-cyber-security> — Making Sense of Cyber Security
+- ✓ <https://manning.com/books/oauth-2-in-action> — OAuth 2 in Action
+- ✓ <https://manning.com/books/real-world-cryptography> — Real World Cryptography
+- ✓ <https://manning.com/books/secret-key-cryptography> — Secret Key Cryptography
+- ✓ <https://manning.com/books/secure-by-design?a_aid=danbjson&a_bid=0b3fac80> — Secure by Design
+- ✓ <https://manning.com/books/securing-devops> — Securing DevOps
+- ✓ <https://manning.com/books/self-sovereign-identity> — Self-Sovereign Identity
+- ✓ <https://manning.com/books/spring-boot-in-practice> — Spring Boot in Practice
+- ✓ <https://manning.com/books/spring-security-in-action-second-edition> — Spring Security in Action, Second Edition
+- ✓ <https://manning.com/books/the-art-of-network-penetration-testing> — The Art of Network Penetration Testing, 2020
+- ✓ <https://manning.com/books/understanding-api-security> — Understanding API Security
+- ✓ <https://mhprofessional.com/9780071818469-usa-social-engineering-in-it-security-tools-tactics-and-techniques-group> — Social Engineering in IT Security: Tools, Tactics, and Techniques by S…
+- ✓ <https://nostarch.com/carhacking> — Car Hacker's Handbook by Craig Smith, 2016

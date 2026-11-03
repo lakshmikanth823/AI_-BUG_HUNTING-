@@ -1,0 +1,73 @@
+{
+  "probes": [
+    {
+      "name": "loopback_fixture_bola",
+      "title": "Object reference served to unowned session on /documents/{id}",
+      "base_url": "http://127.0.0.1:8888",
+      "program": "local_lab",
+      "accounts_owned_by_operator": true,
+      "_comment": "Test apparatus on an authorized lab port. bob (attacker) reads alice's object; alice plants the marker value.",
+      "attacker": {
+        "label": "bob",
+        "login": {
+          "method": "POST",
+          "path": "/login",
+          "body": "{\"username\":\"bob\",\"password\":\"bobpass\"}",
+          "extract": { "json_path": "session.token" }
+        },
+        "header": { "Authorization": "Bearer {token}" },
+        "derive": [
+          {
+            "as": "attacker_id",
+            "request": { "method": "GET", "path": "/whoami" },
+            "extract": { "json_path": "user.id" }
+          },
+          {
+            "as": "attacker_doc_id",
+            "request": {
+              "method": "POST",
+              "path": "/documents",
+              "body": "{\"contents\":\"bob owns this note, no foreign data\"}"
+            },
+            "extract": { "json_path": "document.id" }
+          }
+        ]
+      },
+      "victim": {
+        "label": "alice",
+        "login": {
+          "method": "POST",
+          "path": "/login",
+          "body": "{\"username\":\"alice\",\"password\":\"alicepass\"}",
+          "extract": { "json_path": "session.token" }
+        },
+        "header": { "Authorization": "Bearer {token}" },
+        "derive": [
+          {
+            "as": "victim_id",
+            "request": { "method": "GET", "path": "/whoami" },
+            "extract": { "json_path": "user.id" }
+          }
+        ]
+      },
+      "marker": {
+        "mode": "plant",
+        "as": "victim_doc_id",
+        "request": {
+          "method": "POST",
+          "path": "/documents",
+          "body": "{\"contents\":\"victim-only reference {marker}\"}"
+        },
+        "extract": { "json_path": "document.id" }
+      },
+      "attacker_control_request": {
+        "method": "GET",
+        "path": "/documents/{attacker_doc_id}"
+      },
+      "cross_tenant_request": {
+        "method": "GET",
+        "path": "/documents/{victim_doc_id}"
+      }
+    }
+  ]
+}

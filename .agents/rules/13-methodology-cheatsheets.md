@@ -1,0 +1,117 @@
+---
+trigger: model_decision
+description: "OWASP WSTG/ASVS/Top-10/CheatSheetSeries, PortSwigger Academy, HackTricks, GTFOBins, LOLBAS and hunting methodologies. Use when planning a test, building a checklist, or verifying coverage."
+---
+
+# Security Research Link Corpus — Methodology, Checklists & Cheat Sheets
+
+Part 1 of 1. 108 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://assetnote.io/resources/research> — Recon methodology - assetnote
+- ✓ <https://cheatsheetseries.owasp.org> — OWASP Cheat Sheet Series (site)
+- ✓ <https://github.com/KathanP19/HowToHunt> — HowToHunt - bug bounty methodology & checklists
+- ✓ <https://hacksplaining.com> — Hacksplaining - lessons for developers
+- ✓ <https://nahamsec.com> — NahamSec store/resources
+- ✓ <https://owasp.org/API-Security> — OWASP API Security Project
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0x11-t10> — OWASP API Security Top 10
+- ✓ <https://owasp.org/events> — OWASP Global AppSec
+- ✓ <https://owasp.org/www-community/Threat_Modeling> — OWASP Threat Modeling
+- ✓ <https://owasp.org/www-project-amass> — OWASP Amass docs
+- ✓ <https://owasp.org/www-project-application-security-verification-standard> — OWASP ASVS - Application Security Verification Standard
+- ✓ <https://owasp.org/www-project-dependency-check> — OWASP Dependency Check
+- ✓ <https://owasp.org/www-project-devslop> — OWASP DevSlop
+- ✓ <https://owasp.org/www-project-mobile-top-10> — OWASP Mobile Top 10
+- ✓ <https://owasp.org/www-project-top-ten> — OWASP Top 10 (2021)
+- ✓ <https://owasp.org/www-project-web-security-testing-guide/stable> — OWASP Web Security Testing Guide (WSTG)
+- ✓ <https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/README> — OWASP Vulnerability Verification / WSTG Index
+- ✓ <https://owaspsamm.org/model> — OWASP SAMM
+- ✓ <https://stokfredrik.com> — Stok - bug bounty resources
+- ~ <https://genai.owasp.org> — OWASP - GenAI Security Project
+- ~ <https://genai.owasp.org/ai-threats> — Agentic AI threats & mitigations
+- ~ <https://genai.owasp.org/llm-top-10> — OWASP LLM Top 10
+- ~ <https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations> — OWASP Agentic Security Initiative
+- ✓ <http://anishkashukla.com>
+- ✓ <http://bikramkharal.com.np>
+- ✓ <http://cheatsheetworld.com/programming/unix-linux-cheat-sheet> — Unix / Linux Cheat Sheet
+- ✓ <http://dhruvin.me>
+- ✓ <http://fatinsourav.github.io>
+- ✓ <http://instagram.com/sumitjat>
+- ✓ <http://owasp.org> — OWASP
+- ✓ <http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet> — Reverse Shell Cheat Sheet #1
+- ✓ <http://veshraj.info.np>
+- ✓ <http://xssor.io> — XSS'OR Encoder/Decoder
+- ✓ <https://anmolksachan.github.io>
+- ✓ <https://aptive.co.uk/blog/local-file-inclusion-lfi-testing> — Local File Inclusion (LFI) Cheat Sheet #2
+- ✓ <https://bandism.net>
+- ✓ <https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation> — Basic Linux Privilege Escalation
+- ✓ <https://blog.stmcyber.com> — **https://blog.stmcyber.com**
+- ✓ <https://book.hacktricks.xyz> — book.hacktricks.xyz
+- ✓ <https://cheatsheetseries.owasp.org/bundle.zip> — link
+- ✓ <https://cyberhelmets.com> — Cyber Helmets
+- ✓ <https://cyberhelmets.com/?ref=hacktricks> — **Cyber Helmets**
+- ✓ <https://cyberhelmets.com/courses/?ref=hacktricks> — Cyber Helmets courses
+- ✓ <https://cyberhelmets.com/tailor-made-training/?ref=hacktricks> — **here**
+- ✓ <https://facebook.com/notes/phwd/facebook-bug-bounties/707217202701640> — Facebook Bug Bounties
+- ✓ <https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993> — PowerView 3.0 Tricks
+- ✓ <https://gist.github.com/HarmJ0y/3328d954607d71362e3c> — PowerView 2.0 Tricks
+- ✓ <https://go.intigriti.com/hacktricks> — **https://go.intigriti.com/hacktricks**
+- ✓ <https://hackthebox.eu> — Hack The Box :: Penetration Testing Labs
+- ✓ <https://hackvertor.co.uk> — Hackvertor
+- ✓ <https://instagram.com/ppieranacho> — Nacho Piera (@ppieranacho) on Instagram
+- ✓ <https://k8studio.io> — K8Studio - The Smarter GUI to Manage Kubernetes.
+- ✓ <https://kathan19.gitbook.io> — GitBook
+- ✓ <https://lasttowersolutions.com> — Last Tower Solutions
+- ✓ <https://lasttowersolutions.com/blog> — **blog**
+- ✓ <https://net-hunter121.github.io/Yasser-Khan>
+- ✓ <https://owasp.org> — AppSecUSA 13
+- ✓ <https://owasp.org/API-Security/editions/2019/en/0xa3-excessive-data-exposure>
+- ✓ <https://owasp.org/API-Security/editions/2019/en/0xa6-mass-assignment>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0x00-header>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa3-broken-object-property-level-authorization>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa4-unrestricted-resource-consumption>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa5-broken-function-level-authorization>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa6-unrestricted-access-to-sensitive-business-flows>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa7-server-side-request-forgery>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa8-security-misconfiguration>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xa9-improper-inventory-management>
+- ✓ <https://owasp.org/API-Security/editions/2023/en/0xaa-unsafe-consumption-of-apis>
+- ✓ <https://owasp.org/index.php/Category:OWASP_DirBuster_Project>
+- ✓ <https://owasp.org/index.php/Category:OWASP_Joomla_Vulnerability_Scanner_Project> — joomscan
+- ✓ <https://owasp.org/index.php/IOS_Application_Security_Testing_Cheat_Sheet> — IOS_Application_Security_Testing_Cheat_Sheet
+- ✓ <https://owasp.org/index.php/Main_Page> — Open Web Application Security Project (OWASP)
+- ✓ <https://owasp.org/index.php/Mobile_Top_10_2016-Top_10> — OWASP Mobile Top 10 2016
+- ✓ <https://owasp.org/index.php/OWASP_API_Security_Project> — OWASP API Security Top 10
+- ✓ <https://owasp.org/index.php/OWASP_Juice_Shop_Project> — OWASP Juice Shop
+- ✓ <https://owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide> — OWASP Mobile Security Testing Guide
+- ✓ <https://owasp.org/index.php/OWASP_Mobile_Top_10> — OWASP Mobile Top 10
+- ✓ <https://owasp.org/index.php/OWASP_OWTF> — Offensive Web Testing Framework (OWTF)
+- ✓ <https://owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project> — OWASP ZAP
+- ✓ <https://owasp.org/index.php/Projects/OWASP_Zed_Attack_Proxy_Project> — OWASP ZAP
+- ✓ <https://owasp.org/index.php/SQL_Injection_Bypassing_WAF> — SQL Injection Bypassing WAF
+- ✓ <https://owasp.org/index.php/Testing_Checklist> — OWASP Testing Checklist v4
+- ✓ <https://owasp.org/projects/cheat-sheet-series> — OWASP main website
+- ✓ <https://owasp.org/slack/invite> — invitation link
+- ✓ <https://owasp.org/www-project-top-10-for-large-language-model-applications> — OWASP Top 10 for Large Language Model Applications
+- ✓ <https://owasp.org/www-project-web-security-testing-guide/v42> — online
+- ✓ <https://pen-testing.sans.org/blog/2016/05/25/sans-powershell-cheat-sheet> — PowerShell Cheat Sheet
+- ✓ <https://serpapi.com/blog> — **blog**
+- ✓ <https://serpapi.com/playground> — **playground**
+- ✓ <https://serpapi.com/users/sign_up> — **create a free account**
+- ✓ <https://stmcyber.com> — STM Cyber
+- ✓ <https://tunnelsup.com/metasploit-cheat-sheet> — Metasploit Cheat Sheet
+- ✓ <https://websec.net> — WebSec
+- ✓ <https://websec.net/blog> — **blog**
+- ✓ <https://websec.net/en> — **website**
+- ✓ <https://wiki.owasp.org> — OWASP WIKI
+- ~ <http://powershellempire.com> — Empire
+- ~ <http://zoomeye.org> — ZoomEye
+- ~ <https://genai.owasp.org/contribute> — genai.owasp.org/contribute
+- ~ <https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026> — OWASP GenAI LLM Top 10 2026
+- ~ <https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025> — OWASP Top 10 for LLM Applications 2025
+- ~ <https://highon.coffee/blog/lfi-cheat-sheet> — Local File Inclusion (LFI) Cheat Sheet #1
+- ~ <https://highon.coffee/blog/reverse-shell-cheat-sheet> — Reverse Shell Cheat Sheet #2
+- ~ <https://jsfiddle.net> — JSFiddle
+- ~ <https://jsfiddle.net/xqjpsh65> — Example PoC
+- ~ <https://owasp.slack.com/messages/C073YNUQG> — #cheatsheets channel

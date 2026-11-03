@@ -1,0 +1,61 @@
+version: "3.8"
+
+networks:
+  bounty_lab_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16
+
+services:
+  # 1. OWASP Juice Shop (Port 3000)
+  juiceshop:
+    image: bkimminich/juice-shop:latest
+    container_name: bounty-juiceshop
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      - NODE_ENV=unsafe
+    networks:
+      bounty_lab_net:
+        ipv4_address: 172.28.0.10
+
+  # 2. DVWA (Port 8082 - avoids host Keycloak on 8080)
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: bounty-dvwa
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8082:80"
+    environment:
+      - PHP_IDE_CONFIG=serverName=dvwa
+    networks:
+      bounty_lab_net:
+        ipv4_address: 172.28.0.20
+
+  # 3. OWASP WebGoat (Port 8081; WebWolf on 9099)
+  webgoat:
+    image: webgoat/webgoat:latest
+    container_name: bounty-webgoat
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8081:8080"
+      - "127.0.0.1:9099:9090"
+    environment:
+      - WEBWOLF_PORT=9090
+      - WEBGOAT_PORT=8080
+    networks:
+      bounty_lab_net:
+        ipv4_address: 172.28.0.30
+
+  # 4. OWASP crAPI (API Gateway on port 8888)
+  crapi-web:
+    image: crapi/crapi-web:latest
+    container_name: bounty-crapi-web
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8888:80"
+    networks:
+      bounty_lab_net:
+        ipv4_address: 172.28.0.40

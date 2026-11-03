@@ -1,0 +1,191 @@
+---
+trigger: model_decision
+description: "CTF writeup archives by event/year/challenge plus CTFtime. Use when looking for worked solutions to pwn/web/crypto/rev challenges. (part 1/5)"
+---
+
+# Security Research Link Corpus — CTF Writeups & Archives
+
+Part 1 of 5. 182 links. `✓` = HTTP 200 verified at collection time; `~` = returned an anti-bot 403/429 or 5xx but is normally valid (Cloudflare-protected).
+
+- ✓ <https://blog.cryptohack.org> — CryptoHack writeups
+- ✓ <https://book.hacktricks.wiki/en/generic-methodologies-and-resources/ctf-writeups/index.html> — HackTricks CTF section
+- ✓ <https://ctftime.org/writeups> — Write-Ups for CTF challenges
+- ✓ <https://github.com/apsdehal/awesome-ctf> — Awesome CTF (apsdehal)
+- ✓ <https://github.com/balsn/ctf_writeup> — Balsn CTF writeups
+- ✓ <https://github.com/ctf-wiki/ctf-wiki> — CTF Wiki (GitHub)
+- ✓ <https://github.com/D13David/CTF-writeups> — D13David/CTF-writeups
+- ✓ <https://github.com/facebook/fbctf> — Facebook CTF archive
+- ✓ <https://github.com/google/google-ctf> — Google CTF archive (GitHub)
+- ✓ <https://github.com/o-o-overflow> — DEF CON CTF archive
+- ✓ <https://github.com/perfectblue/ctf-writeups> — perfectblue/ctf-writeups
+- ✓ <https://github.com/pwning/public-writeup> — PlaidCTF archive
+- ✓ <https://github.com/RhinoSecurityLabs/cloudgoat> — CloudGoat - AWS CTF by Rhino Security
+- ✓ <https://github.com/sajjadium/ctf-writeups> — sajjadium/ctf-writeups - massive writeup archive
+- ✓ <https://github.com/w181496/Web-CTF-Cheatsheet> — Web-CTF-Cheatsheet
+- ✓ <https://github.com/zardus/ctf-tools> — ctf-tools (zardus)
+- ✓ <http://blog.portswigger.net/2015/08/server-side-template-injection.html>
+- ✓ <http://ceye.io>
+- ✓ <http://cmd5.com>
+- ✓ <http://evil.com>
+- ✓ <http://github.com/ctfs> — Github CTF Archives
+- ✓ <http://is.gd/oeoFuI>
+- ✓ <http://java.sun.com/JSP/Page>
+- ✓ <http://kaibro.tw>
+- ✓ <http://kaibro.tw/?a=%file>
+- ✓ <http://kaibro.tw/cdata.dtd>
+- ✓ <http://kaibro.tw/xxe.dtd>
+- ✓ <http://monyer.com/demo/monyerjs>
+- ✓ <http://orange.tw/>
+- ✓ <http://pentest-tools.com>
+- ✓ <http://php.net/manual/en/class.simplexmlelement.php>
+- ✓ <http://php.net/xsl>
+- ✓ <http://phpjm.net>
+- ✓ <http://tool.leavesongs.com>
+- ✓ <http://utf-8.jp/public/aaencode.html>
+- ✓ <https://3v4l.org>
+- ✓ <https://3v4l.org/PIUEo>
+- ✓ <https://3v4l.org/sUEMG>
+- ✓ <https://4f-kira.github.io/2018/02/05/HITCTF2018-writeup> — HITCON 2018 - BabyQuery
+- ✓ <https://accounts.google.com/o/oauth2/revoke?callback=alert(1>
+- ✓ <https://adragos.ro/line-ctf-2024> — Line CTF 2024 - zipviewer-version-clown
+- ✓ <https://andresriancho.github.io/nimbostratus>
+- ✓ <https://anquanke.com/post/id/185377> — XNUCA 2019 Qualifier - HardJS
+- ✓ <https://balsn.tw/ctf_writeup/20190323-0ctf_tctf2019quals> — Link
+- ✓ <https://balsn.tw/ctf_writeup/20190406-midnightsunctf> — MidnightSun CTF 2019 - bigspin
+- ✓ <https://balsn.tw/ctf_writeup/20190513-defconctfqual> — DEFCON CTF 2019 Qual - ooops
+- ✓ <https://balsn.tw/ctf_writeup/20190608-0ctf_tctf2019finals> — 0CTF 2019 Final - hotel booking system
+- ✓ <https://balsn.tw/ctf_writeup/20190831-tokyowesternsctf> — TokyoWesterns CTF 2019 - Slack emoji converter Kai
+- ✓ <https://balsn.tw/ctf_writeup/20200208-codegatectf2020quals> — Codegate 2020 - CSP
+- ✓ <https://blog.antoniusblock.net/posts/golfjail> — SeikaiCTF 2023 - Golf Jail
+- ✓ <https://blog.blackfan.ru/2020/03/volgactf-2020-qualifier-writeup.html> — VolgaCTF 2020 Qualifier - User Center
+- ✓ <https://blog.bushwhackers.ru/googlectf-2019-gphotos-writeup> — Google CTF 2019 - GPhotos
+- ✓ <https://blog.huli.tw/2022/02/08/what-i-learned-from-dicectf-2022> — Dice CTF 2022 - no-cookies
+- ✓ <https://blog.huli.tw/2023/03/27/linectf-2023-writeup> — Line CTF 2023 - Momomomomemomemo
+- ✓ <https://blog.huli.tw/2023/09/02/corctf-sekaictf-2023-writeup> — SekaiCTF 2023 - Scanner Service
+- ✓ <https://blog.kaibro.tw/2018/10/24/HITCON-CTF-2018-Web> — HITCON CTF 2018 - One Line PHP Challenge
+- ✓ <https://blog.splitline.tw/hitcon-ctf-2022> — HITCON CTF 2022 - Self Destruct Message
+- ✓ <https://blog.teddykatz.com/2019/11/05/github-oauth-bypass.html> — Bypassing GitHub's OAuth flow
+- ✓ <https://book.hacktricks.xyz/pentesting-web/sql-injection/ms-access-sql-injection>
+- ✓ <https://branah.com/unicode-converter>
+- ✓ <https://brycec.me/posts/corctf_2022_challenges> — corCTF 2022 - sbxcalc
+- ✓ <https://cat-in-136.github.io/2010/12/aadecode-decode-encoded-as-aaencode.html>
+- ✓ <https://chybeta.github.io/2017/08/29/HITB-CTF-2017-Pasty-writeup> — HITB CTF 2017 - Pasty
+- ✓ <https://crackstation.net>
+- ✓ <https://csp-evaluator.withgoogle.com>
+- ✓ <https://cspbypass.com>
+- ✓ <https://ctftime.org/writeup/10912> — TokyoWesterns CTF 2018 - Slack emoji converter
+- ✓ <https://ctftime.org/writeup/12808> — 35c3 - post
+- ✓ <https://ctftime.org/writeup/16201> — RedPwn CTF 2019 - Blueprint
+- ✓ <https://ctftime.org/writeup/38034> — N1CTF 2023 - laravel
+- ✓ <https://cyku.tw/ctf-defcamp-qualification-2018> — DCTF 2018 - Vulture
+- ✓ <https://devcraft.io/2021/01/07/universal-deserialisation-gadget-for-ruby-2-x-3-x.html>
+- ✓ <https://developer.chrome.com/blog/new-in-chrome-80> — New feature in Chrome 80
+- ✓ <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy> — doc
+- ✓ <https://dttw.tech/posts/B19RXWzYL> — Plaid CTF 2020 - Catalog
+- ✓ <https://elttam.com/blog/ruby-deserialization>
+- ✓ <https://gist.github.com/CykuTW/4c0d105df24acf2218e0aedb67661da9> — 0CTF 2022 - hessian-onlyjdk
+- ✓ <https://gist.github.com/ginoah/e723a1babffae01ffa5149121776648c> — Balsn CTF 2022 - 2linenodejs
+- ✓ <https://gist.github.com/LoadLow/90b60bd5535d6c3927bb24d5f9955b80>
+- ✓ <https://gist.github.com/loknop/b27422d355ea1fd0d90d6dbc1e278d4d> — hxp ctf 2021 - includer's revenge
+- ✓ <https://gist.github.com/tomnomnom/14a918f707ef0685fdebd90545580309>
+- ✓ <https://gist.github.com/tyage/e0afc9ff5051c2cc487a8cd9b6a1d7ea> — Line CTF 2024 - Heritage
+- ✓ <https://github.com/0e85dc6eaf/CTF-Writeups> — 0e85dc6eaf
+- ✓ <https://github.com/0x13A0F/CTF_Writeups/tree/master/alles_ctf> — ALLES CTF 2020 - Push
+- ✓ <https://github.com/abdilahrf/CTFWriteupScrapper> — CTFTime Scrapper
+- ✓ <https://github.com/andreafioraldi/motherfucking-ctf> — MotherFucking-CTF
+- ✓ <https://github.com/apsdehal/ctf-tools/blob/master/CONTRIBUTING.md> — contribution guidelines
+- ✓ <https://github.com/B3nac/InjuredAndroid> — Injured Android - CTF
+- ✓ <https://github.com/balsn/ctf_writeup/tree/master/20180914-trendmicroctf> — TrendMicro CTF 2018 Qual - Forensics 300
+- ✓ <https://github.com/bkimminich/juice-shop-ctf> — Juice Shop CTF
+- ✓ <https://github.com/ceclin/0ctf-2021-2rm1-soln> — 0CTF 2021 Qual - 2rm1
+- ✓ <https://github.com/ceclin/0ctf-2022-soln-3rm1> — 0CTF 2022 - 3rm1
+- ✓ <https://github.com/ChrisTheCoolHut/PinCTF> — PinCTF
+- ✓ <https://github.com/CykuTW/My-CTF-Challenges/tree/master/AIS3-EOF-CTF-2019-Quals/echo> — AIS3 EOF 2019 Quals - echo
+- ✓ <https://github.com/docileninja/ctf_import> — ctf_import
+- ✓ <https://github.com/DownUnderCTF/Challenges_2022_Public/blob/main/web/minimal-php/solve/solution.py>
+- ✓ <https://github.com/DownUnderCTF/Challenges_2022_Public/tree/main/web/minimal-php> — DownUnderCTF 2022 - minimal-php
+- ✓ <https://github.com/easyctf/openctf> — OpenCTF
+- ✓ <https://github.com/echoCTF/echoCTF.RED> — echoCTF.RED
+- ✓ <https://github.com/Ganapati/RsaCtfTool> — RsaCtfTool
+- ✓ <https://github.com/HackThisSite/CTF-Writeups> — HackThisSite
+- ✓ <https://github.com/isislab/CTFd> — CTFd
+- ✓ <https://github.com/koczkatamas/gctf19/tree/master/pastetastic> — Google CTF 2019 Qual - pastetastic
+- ✓ <https://github.com/m0xiaoxi/CTF_Web_docker/tree/master/TCTF2019/Wallbreaker_Easy> — Link
+- ✓ <https://github.com/mzfr/ctf-writeups> — Mzfr
+- ✓ <https://github.com/Nu1LCTF/n1ctf-2019/blob/master/WEB/sql_manage/README.md> — N1CTF 2019 - sql_manage
+- ✓ <https://github.com/OpenToAllCTF/Tips> — OpenToAll
+- ✓ <https://github.com/orangetw/My-CTF-Web-Challenges> — HITCON CTF 2017 - Baby^H Master
+- ✓ <https://github.com/orangetw/My-CTF-Web-Challenges/blob/master/README.md> — HITCON 2019 - GoGoPowerSQL
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/.gitignore> — .gitignore
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/.gitmodules> — .gitmodules
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-ctf-2017/another-xor-100/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-ctf-2017/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/almost-200/ctf.py> — ctf.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/almost-200/flag.enc> — flag.enc
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/almost-200/flag.txt> — flag.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/almost-200/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/blind-250/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/call-for-own-20/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/call-for-own-20/solve.py> — solve.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/click-150/bot.py> — bot.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/click-150/flags.txt> — flags.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/click-150/login.txt> — login.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/click-150/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/connection-30/FileTransferPCAP.pcap> — FileTransferPCAP.pcap
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/connection-30/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/copypasta-300/clipboard.txt> — clipboard.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/copypasta-300/clipedited> — clipedited
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/copypasta-300/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme-150/crackme> — crackme
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme-150/flag.txt> — flag.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme-150/solve.py> — solve.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme3000-400/box> — box
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme3000-400/hsf.py> — hsf.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme3000-400/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme3000-400/solns.txt> — solns.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/crackme3000-400/thisisastupidquestion.txt> — thisisastupidquestion.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/exif_exfil-10/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/file-10/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/file-10/whatisthis> — whatisthis
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/freedomboot-100/freedomboot> — freedomboot
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/freedomboot-100/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/gdbtutor-75/flag> — flag
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/gdbtutor-75/gdbtutor> — gdbtutor
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/gdbtutor-75/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-2-250/callforown.html> — callforown.html
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-2-250/clearsoc.html> — clearsoc.html
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-2-250/flag.txt> — flag.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-2-250/index.html> — index.html
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-2-250/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-200/dvcs-ripper/.gitignore> — .gitignore
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-200/dvcs-ripper/callforown.html> — callforown.html
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-200/dvcs-ripper/clearsoc.html> — clearsoc.html
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-200/dvcs-ripper/flag.txt> — flag.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-200/dvcs-ripper/index.html> — index.html
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/git-200/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/grep-10/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hideandseek-35/hideandpeek.pcap> — hideandpeek.pcap
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hideandseek-35/hideandseek.txt> — hideandseek.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hideandseek-35/httpstream> — httpstream
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hideandseek-35/out.png.bak> — out.png.bak
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hideandseek-35/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hideandseek-35/stream> — stream
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hotorcold-50/HotOrCold.class> — HotOrCold.class
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/hotorcold-50/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/kent-200/dank.py> — dank.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/kent-200/kent> — kent
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/kent-200/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/labyrinth-400/labyrinth_final> — labyrinth_final
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/labyrinth-400/out.txt> — out.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/labyrinth-400/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/labyrinth-400/script.py> — script.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/bot.py> — bot.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/clockres.py> — clockres.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/flag.txt> — flag.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/fphack.py> — fphack.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/mt.py> — mt.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/mttest.py> — mttest.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/README.md> — README.md
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/timeseed.py> — timeseed.py
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/lot-350/win.txt> — win.txt
+- ✓ <https://github.com/perfectblue/ctf-writeups/blob/master/2017/csaw-hsf-2017/man-250/diff.txt> — diff.txt

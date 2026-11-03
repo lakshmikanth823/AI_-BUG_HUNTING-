@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "title": "False Positive Prevention & Kill Criteria Protocol",
+  "philosophy": "Can an attacker do this RIGHT NOW against a real user who has taken NO unusual actions, and does it cause real harm (stolen funds, leaked PII, account takeover, code execution)? If NO, KILL immediately.",
+  "seven_question_gate": [
+    {
+      "step": 1,
+      "question": "Does this require unlikely user interaction or attacker-controlled local environment?",
+      "kill_condition": "Requires self-XSS, physical machine access, installed malware, or disabling browser security flags.",
+      "action": "KILL - Mark as Not Exploitable"
+    },
+    {
+      "step": 2,
+      "question": "Is the target asset explicitly verified to be in-scope and owned by the target program?",
+      "kill_condition": "Asset belongs to third-party SaaS without authorization, CDN edge, or out-of-scope domain.",
+      "action": "KILL - Out of Scope"
+    },
+    {
+      "step": 3,
+      "question": "Is the alleged leak already public by design?",
+      "kill_condition": "Data is publicly accessible via normal user web UI without auth (e.g. public username, public store items, public blog).",
+      "action": "KILL - Public / By Design"
+    },
+    {
+      "step": 4,
+      "question": "Is the vulnerability purely theoretical without demonstrated impact?",
+      "kill_condition": "Scanner reported 'Missing security header' (X-Content-Type-Options, Strict-Transport-Security) without exploit chain, or SSL cipher suite warning.",
+      "action": "KILL - Low/No Impact Best Practice"
+    },
+    {
+      "step": 5,
+      "question": "Does SSRF produce actual internal network data exfiltration or cloud metadata?",
+      "kill_condition": "DNS-only pingback without HTTP response body, no internal access, no cloud IAM credentials.",
+      "action": "KILL unless escalation chain is proven"
+    },
+    {
+      "step": 6,
+      "question": "Does CORS misconfiguration allow exfiltration of authenticated victim data?",
+      "kill_condition": "Origin reflects arbitrary domain BUT Access-Control-Allow-Credentials is false or omitted (unauthenticated public data only).",
+      "action": "KILL - Harmless Reflection"
+    },
+    {
+      "step": 7,
+      "question": "Is the vulnerability reproducible with a clean, minimal Proof of Concept (PoC)?",
+      "kill_condition": "Non-deterministic failure, transient 500 error, or only works under artificial race conditions on local mock.",
+      "action": "RETEST or KILL"
+    }
+  ],
+  "instant_kill_patterns": [
+    {
+      "pattern": "Missing rate limit on general public pages (e.g. contact form)",
+      "reason": "Not an Account Takeover or Financial Loss unless OTP/Login bypass is proven"
+    },
+    {
+      "pattern": "Exposed source maps (.js.map) without hardcoded secrets",
+      "reason": "Client-side code exposure alone has zero CVSS impact"
+    },
+    {
+      "pattern": "Open redirect alone without OAuth/ATO chain",
+      "reason": "Most programs classify standalone open redirects as P5/Informative or out-of-scope"
+    },
+    {
+      "pattern": "Software version disclosure banner (e.g. Apache/2.4.41)",
+      "reason": "Informative only; no exploit demonstrated"
+    },
+    {
+      "pattern": "Dead / unreachable code paths",
+      "reason": "Parameter not mapped in active controller route"
+    }
+  ]
+}
