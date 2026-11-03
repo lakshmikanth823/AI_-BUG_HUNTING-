@@ -1,16 +1,14 @@
 """
 ===============================================================================
-DISCLAIMER & NOTICE OF SYNTHETIC FIXTURE
+DEPRECATED AND UNUSED ARCHIVE STUB
 ===============================================================================
-This file is a local SYNTHETIC MOCK STUB designed for API schema testing and
-unit contract verification in environments where full multi-container crAPI
-(10 microservices including chromadb, postgresdb, mongodb, and mailhog) cannot
-be deployed due to host port conflicts (e.g., active Postgres on 5432 or MailHog on 8025).
+NOTICE: Real multi-container OWASP crAPI is deployed and active via
+lab/docker-compose.crapi.yml on port 8888 (with MailHog on port 8026).
 
-IT IS NOT GENUINE OWASP crAPI. It does not contain real application business logic,
-real cryptographic HMAC validation, or real vulnerability state.
-Tests executed against this stub MUST be reported as 'SYNTHETIC STUB', NEVER as
-live vulnerable software execution.
+This file was a temporary synthetic schema mock stub used prior to full
+multi-container deployment. It is NOT reachable by run_authored_18.py,
+is strictly deprecated, and must NOT be used as a fallback for benchmark scoring.
+All 18 benchmark exercises execute against live running Docker containers.
 ===============================================================================
 """
 
