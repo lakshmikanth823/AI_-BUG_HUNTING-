@@ -1,0 +1,17 @@
+================================================================================
+OPERATOR-OWNED INFRASTRUCTURE DECLARATION
+================================================================================
+Target URL: https://really-selective-fireplace-periods.trycloudflare.com
+Target Hostname: really-selective-fireplace-periods.trycloudflare.com
+Backend Origin: http://127.0.0.1:8888 (OWASP crAPI multi-container environment)
+Infrastructure Owner: lakshmikanth02001 (Operator)
+Attestation Date: 2026-11-05T21:44:00+05:30
+
+AUTHORIZATION STATEMENT:
+This target is hosted directly on operator-controlled infrastructure and exposed
+via a dedicated Cloudflare Quick Tunnel. The operator owns the underlying host,
+services, and transport tunnel.
+
+Automated security scanning, reconnaissance, parameter fuzzing, and vulnerability
+testing are explicitly authorized by the operator with zero third-party ToS conflicts.
+================================================================================

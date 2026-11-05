@@ -190,7 +190,9 @@ def cmd_triage(args):
         print(rep)
         print("=" * 70)
         if getattr(args, "output_report", None):
-            with open(args.output_report, "w", encoding="utf-8") as rf:
+            out_p = Path(args.output_report)
+            out_p.parent.mkdir(parents=True, exist_ok=True)
+            with open(out_p, "w", encoding="utf-8") as rf:
                 rf.write(rep)
             print(f"[+] Report saved to {args.output_report}")
 

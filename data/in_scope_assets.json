@@ -44,5 +44,23 @@
     ],
     "rate_limit_rps": 1,
     "max_concurrency": 1
+  },
+  "operator_owned_target": {
+    "program_name": "operator_owned_target",
+    "platform": "OperatorOwnedInfrastructure",
+    "source_url": "https://really-selective-fireplace-periods.trycloudflare.com",
+    "policy_snapshot_path": "data/policies/operator_owned_target_policy_20261105.txt",
+    "status": "OPERATOR_AUTHORIZED",
+    "automated_scanning_permitted": true,
+    "authorized_by": {
+      "operator_handle": "lakshmikanth02001",
+      "timestamp": "2026-11-05T21:44:00+05:30",
+      "operator_quote": "Direct ownership of host and tunnel endpoint. Full automated security testing authorized on self-hosted target."
+    },
+    "in_scope_assets": [
+      "really-selective-fireplace-periods.trycloudflare.com"
+    ],
+    "rate_limit_rps": 5,
+    "max_concurrency": 2
   }
 }
