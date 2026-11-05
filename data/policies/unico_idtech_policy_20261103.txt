@@ -1,0 +1,147 @@
+================================================================================
+POLICY SNAPSHOT: Unico IDTech (HackerOne)
+================================================================================
+Source URL: https://hackerone.com/unico_idtech
+Scope URL: https://hackerone.com/unico_idtech/policy_scopes
+Safe Harbor URL: https://hackerone.com/unico_idtech/safe_harbor
+Fetch Timestamp: 2026-11-03T23:15:59+05:30
+Captured By Operator: lakshmikanth02001
+
+================================================================================
+PROGRAM HIGHLIGHTS & STANDARDS
+================================================================================
+Gold Standard Safe Harbor: Adheres to Gold Standard Safe Harbor.
+Platform Standards: Fully compliant with Platform Standards.
+Top Response Efficiency: Above 90% (Response efficiency: 91%).
+Signal Requirement: 1.0 or higher past-year Signal required.
+Average time to first response: 5 hours
+Average time to triage: 5 days
+Average time to bounty: 2 weeks, 2 days
+
+================================================================================
+REWARDS SUMMARY
+================================================================================
+[Unico] Liveness Bypass:
+  Low: $300
+  Medium: $500 – $2,000
+  High: $4,000 – $6,000
+  Critical: $8,000 – $10,000
+
+All assets:
+  Low: $150
+  Medium: $500
+  High: $1,250 – $1,750
+  Critical: $3,000 – $5,000
+
+================================================================================
+PROGRAM OVERVIEW & APPLICABILITY
+================================================================================
+Unico IDTech Bug Bounty Program:
+Unico IDTech is pioneering the future of biometric authentication through our advanced liveness detection engine. We're inviting security researchers to help protect millions of digital identities by finding novel ways to bypass our state-of-the-art biometric controls.
+
+Applicability:
+The Bug Bounty program is now public and open to all security researchers. The following groups are not eligible:
+- Employees and former employees of Unico IdTech or its subsidiary companies;
+- First-degree relatives of employees of Unico IdTech or its subsidiaries or affiliates;
+- Third parties who have access to the Organization's confidential information.
+
+Disclosure Policy:
+Please do not publicly disclose vulnerabilities until they have been resolved and we have provided explicit consent for disclosure. Follow HackerOne's disclosure guidelines.
+
+Program Rules:
+- Please provide detailed reports with reproducible steps. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
+- Submit one vulnerability per-report, unless you need to chain vulnerabilities to provide impact.
+- When duplicates occur, we only award the first report that was received (provided that it can be fully reproduced).
+- Multiple vulnerabilities caused by one underlying issue will be awarded one bounty.
+- Social engineering (e.g. phishing, vishing, smishing) is prohibited.
+- Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of our service.
+- Ask the program team before submitting vulnerabilities on unscoped subdomains.
+- Only interact with accounts you own or with the explicit permission of the account holder.
+
+================================================================================
+STRUCTURE AND FOCUS
+================================================================================
+Our Bug Bounty program is divided into two distinct scopes: Liveness and Web. Each scope targets specific areas of our systems, with a primary focus on testing the security controls associated with the Liveness scope.
+
+Primary Scope - Liveness:
+Report only if you were able to bypass liveness detection and obtained a live:true status at the end of the transaction.
+Notice: Video and Image Replay submissions are temporarily suspended. Reports submitted during this period will be closed as Informative and will not be eligible for bounty.
+
+Presentation Attack Detection Matrix:
+- Photo Attack: Report if bypass rate >1% over 100 attempts.
+- Video and Image Replay: Suspended.
+- 3D Mask/Model: Report if high-quality mask achieves >5% success rate.
+- Deepfake: Report if real-time bypass achieved with <500ms latency.
+
+Secondary Scope - Web:
+Vulnerabilities: XSS, RCE, SQLi, SSRF, JWT Tokens Vulnerabilities, IDOR, Unrestricted File Upload.
+Guidance:
+- XSS: A simple alert(document.domain) is enough.
+- RCE: Please only run harmless code. Simply printing something or evaluating an expression should be enough to demonstrate the problem.
+- SQLi: Please report it as soon as you experience a SQL error that indicates SQL injection or you are able to disclose the SQL server version number.
+- SSRF: Do not play on any internal networks. Let us know as soon as you believe you have a possible SSRF issue and we will look into it for you.
+- JWT: Injecting self-signed tokens or breaking authorization controls.
+- IDOR: Access confidential information from another user/organization or users with greater privileges.
+
+Session Layer: HTTP Headers:
+Researchers should add headers to requests such as:
+"X-HackerOne-Research: [H1 username]"
+"User-Agent: [H1 username]"
+
+================================================================================
+OUT OF SCOPE VULNERABILITIES
+================================================================================
+- Clickjacking on pages with no sensitive actions
+- Attacks on authentication tokens without impact (e.g., expiration time).
+- Cross-Site Request Forgery (CSRF) on unauthenticated forms or forms without confidential actions.
+- Attacks requiring Man-in-the-Middle (MITM) or physical access to a user's device.
+- Vulnerable libraries previously known without a functional Proof of Concept.
+- File uploads without impact or execution of malicious code.
+- Injection of comma-separated values (CSV) without demonstrating a vulnerability.
+- Lack of best practices in SSL/TLS configuration.
+- Any activity that could lead to disruption of our service (DoS).
+- Content spoofing and text injection issues without showing an attack vector/unable to modify HTML/CSS.
+- Rate limiting or brute force issues on endpoints without authentication.
+- Lack of best practices in Content Security Policy.
+- Missing HttpOnly or Secure flags on cookies.
+- Missing controls (invalid, incomplete, or missing SPF/DKIM/DMARC records, etc.).
+- Vulnerabilities affecting only users of outdated or unpatched browsers.
+- Disclosure of software version/Issues with banner identification/Descriptive error messages or headers (e.g., stack traces, application or server errors).
+- Open redirection - unless an additional security impact can be demonstrated.
+- Issues requiring unlikely user interaction.
+- Self-XSS or DOM XSS without clear impact.
+- Service banner and/or version.
+- Any bug depending on an outdated browser.
+- Exposed credentials that are either no longer valid or do not represent a risk to an asset in scope.
+- Domain/Subdomain takeover.
+- Discrepancies between content stated in privacy policies, terms of use, or institutional pages and the actual application behavior.
+- Broken links, typos, or content issues on static, institutional, or marketing pages.
+
+================================================================================
+IN-SCOPE ASSETS (from https://hackerone.com/unico_idtech/policy_scopes)
+================================================================================
+1.  unico.io (Domain, In scope, Critical, Bounty eligible)
+2.  secure.unico.io (Domain, In scope, Critical, Bounty eligible)
+3.  openfinance.unico.io (Domain, In scope, Critical, Bounty eligible)
+4.  issuer.idpay-uat.unico.io (Domain, In scope, Critical, Bounty eligible)
+5.  idpay-uat.unico.io (Domain, In scope, Critical, Bounty eligible)
+6.  identityhomolog.acesso.io (Domain, In scope, Critical, Bounty eligible)
+7.  idcash-uat.unico.io (Domain, In scope, Critical, Bounty eligible)
+8.  backend-sdk.uat.private.unico.run (Domain, In scope, Critical, Bounty eligible)
+9.  accountshomolog.acesso.io (Domain, In scope, Critical, Bounty eligible)
+10. *.uat.unico.app (Wildcard, In scope, Critical, Bounty eligible)
+11. https://sdk-h1.unico.io/createprocess (URL, In scope, High, Bounty eligible)
+12. devcenter.unico.io (Domain, In scope, Medium, Bounty eligible)
+13. blog.unico.io (Domain, In scope, Medium, Bounty eligible)
+
+EXPLICITLY OUT OF SCOPE ASSETS:
+- uconf.uat.unico.app (Domain, Out of scope)
+- *.cadastro.uat.unico.app (Wildcard, Out of scope)
+
+================================================================================
+AUTOMATED SCANNING CLAUSE ANALYSIS
+================================================================================
+Explicit permission for automated scanning tools: NONE FOUND.
+The published policy does NOT contain any clause granting permission for automated vulnerability scanners, crawlers, fuzzers, or autonomous scanning tools.
+Standard rules apply: "Make a good faith effort to avoid privacy violations, destruction of data, and interruption or degradation of our service" and "Any activity that could lead to disruption of our service (DoS)" is out of scope.
+================================================================================

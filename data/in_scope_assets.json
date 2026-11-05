@@ -14,5 +14,35 @@
     "rate_limit_rps": 10,
     "max_concurrency": 5,
     "status": "ACTIVE_LAB"
+  },
+  "Unico IDtech": {
+    "program_name": "Unico IDtech",
+    "platform": "HackerOne",
+    "source_url": "https://hackerone.com/unico_idtech",
+    "policy_snapshot_path": "data/policies/unico_idtech_policy_20261103.txt",
+    "status": "OPERATOR_AUTHORIZED",
+    "automated_scanning_permitted": false,
+    "authorized_by": {
+      "operator_handle": "lakshmikanth02001",
+      "timestamp": "2026-11-03T23:15:59+05:30",
+      "operator_quote": "Researchers should add headers to requests such as: 'X-HackerOne-Research: [H1 username]', 'User-Agent: [H1 username]'"
+    },
+    "in_scope_assets": [
+      "unico.io",
+      "secure.unico.io",
+      "openfinance.unico.io",
+      "issuer.idpay-uat.unico.io",
+      "idpay-uat.unico.io",
+      "identityhomolog.acesso.io",
+      "idcash-uat.unico.io",
+      "backend-sdk.uat.private.unico.run",
+      "accountshomolog.acesso.io",
+      "*.uat.unico.app",
+      "sdk-h1.unico.io",
+      "devcenter.unico.io",
+      "blog.unico.io"
+    ],
+    "rate_limit_rps": 1,
+    "max_concurrency": 1
   }
 }

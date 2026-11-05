@@ -94,7 +94,7 @@ def cmd_recon(args):
     print(f"[+] Scope verified: {scope_msg}")
     print(f"[*] Discovering attack surface for {args.url}...")
     recon = ReconEngine()
-    data = recon.map_surface(args.url, is_lab=is_lab)
+    data = recon.map_surface(args.url, is_lab=is_lab, program=args.program)
 
     if "error" in data:
         print(f"[-] Error: {data['error']}")
